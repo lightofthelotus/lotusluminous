@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Loading… — Lotus Luminous</title>
+<meta name="description" content="" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+
+<div class="bg-decor" aria-hidden="true">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<header class="post-nav">
+  <a href="index.html" class="brand">Lotus<span>.</span></a>
+  <a href="index.html" class="back-link" id="back-link">← Back</a>
+</header>
+
+<main id="reader-root"></main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Lotus Luminous. All stories and articles are my own.</p>
+</footer>
+
+<script src="../js/markdown.js"></script>
+<script src="../js/site-v2.js"></script>
+<script>
+  SiteV2.initReader({
+    catalogPath: '../content/catalog.json',
+    mount: '#reader-root',
+    backSelector: '#back-link'
+  });
+</script>
+<script src="../script.js"></script>
+</body>
+</html>

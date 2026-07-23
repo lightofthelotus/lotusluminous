@@ -1,0 +1,44 @@
+{
+  "novels": [
+    {
+      "slug": "shadows-of-the-nine",
+      "dir": "blog/literary/novels/shadows-of-the-nine/",
+      "manifest": "content/literary/novels/shadows-of-the-nine/manifest.json"
+    }
+  ],
+  "standalone": [
+    {
+      "slug": "the-cartographers-daughter",
+      "href": "blog/literary/the-cartographers-daughter.html",
+      "md": "content/literary/standalone/the-cartographers-daughter.md"
+    },
+    {
+      "slug": "the-bees-lament",
+      "href": "blog/literary/the-bees-lament.html",
+      "md": "content/literary/standalone/the-bees-lament.md"
+    },
+    {
+      "slug": "the-mirror-of-man",
+      "href": "blog/literary/the-mirror-of-man.html",
+      "md": "content/literary/standalone/the-mirror-of-man.md",
+      "v2Only": true
+    }
+  ],
+  "tech": [
+    {
+      "slug": "designing-apis-that-age-well",
+      "href": "blog/tech/designing-apis-that-age-well.html",
+      "md": "content/tech/designing-apis-that-age-well.md"
+    },
+    {
+      "slug": "the-case-for-boring-technology",
+      "href": "blog/tech/the-case-for-boring-technology.html",
+      "md": "content/tech/the-case-for-boring-technology.md"
+    },
+    {
+      "slug": "spec-driven-development",
+      "href": "blog/tech/spec-driven-development.html",
+      "md": "content/tech/spec-driven-development.md"
+    }
+  ]
+}
