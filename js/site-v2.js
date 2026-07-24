@@ -72,7 +72,7 @@ function monthLabel(dateStr) {
 
 async function initTechHome({ catalogPath, mount }) {
   const root = document.querySelector(mount);
-  const prefix = catalogPath.replace(/content\/catalog\.json$/, '');
+  const prefix = catalogPath.replace(/lotusluminous/content\/catalog\.json$/, '');
   try {
     const catalog = await fetchJSON(catalogPath);
     const entries = await Promise.all(
