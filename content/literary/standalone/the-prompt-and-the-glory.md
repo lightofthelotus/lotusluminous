@@ -9,7 +9,7 @@ linkText: Read the Story →
 ---
 
 ## I
-Disclaimer: This is a completely imaginary story of an imaginary firm - any reference to an actual firm doing this is impurely incidental
+Disclaimer: This story is that of a completely imaginary timeline and firm - any reference to an actual firm doing this is purely coincidental
 
 Ravi and Deepak had been friends for eleven years, which in Indian IT terms meant they had survived four mergers, three "cultural transformation initiatives," two office relocations, and one unforgettable team outing to Mahabalipuram where their manager cried during the trust-fall exercise.
 
