@@ -1,16 +1,16 @@
 {
-  "novels": [
-    {
-      "slug": "shadows-of-the-nine",
-      "dir": "blog/literary/novels/shadows-of-the-nine/",
-      "manifest": "content/literary/novels/shadows-of-the-nine/manifest.json"
-    }
-  ],
   "standalone": [
     {
       "slug": "the-prompt-and-the-glory",
       "href": "blog/literary/the-prompt-and-the-glory.html",
       "md": "content/literary/standalone/the-prompt-and-the-glory.md"
+    }
+  ],
+    "novels": [
+    {
+      "slug": "shadows-of-the-nine",
+      "dir": "blog/literary/novels/shadows-of-the-nine/",
+      "manifest": "content/literary/novels/shadows-of-the-nine/manifest.json"
     }
   ],
   "tech": [
