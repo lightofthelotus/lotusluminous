@@ -11,17 +11,6 @@
       "slug": "the-prompt-and-the-glory",
       "href": "blog/literary/the-prompt-and-the-glory.html",
       "md": "content/literary/standalone/the-prompt-and-the-glory.md"
-    },
-    {
-      "slug": "the-bees-lament",
-      "href": "blog/literary/the-bees-lament.html",
-      "md": "content/literary/standalone/the-bees-lament.md"
-    },
-    {
-      "slug": "the-mirror-of-man",
-      "href": "blog/literary/the-mirror-of-man.html",
-      "md": "content/literary/standalone/the-mirror-of-man.md",
-      "v2Only": true
     }
   ],
   "tech": [
