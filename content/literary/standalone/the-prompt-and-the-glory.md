@@ -33,7 +33,7 @@ A pigeon landed nearby and eyed Deepak's vada with the confidence of someone who
 
 "And they're paying him?"
 
-"More than before. Apparently 'human oversight' commands a premium. He's oversight. His manager is oversight of oversight. There's a VP of Responsible Oversight. It's oversight all the way up, Deepak. Somewhere at the top, I suspect, there is just a mirror."
+"More than before. Apparently 'human oversight' commands a premium. He's oversight. His manager is oversight of oversight. There's now a Senior Director of Responsible Oversight. It's oversight all the way up, Deepak. Somewhere at the top, I suspect, there is just a mirror."
 
 Deepak nodded solemnly. He had his own troubles. His company had introduced an AI tool to measure productivity, which measured keystrokes, which meant the entire floor had discovered a shared, wordless ritual: at 6 PM, forty grown professionals could be seen gently jiggling their mice like they were soothing small electronic infants.
 
