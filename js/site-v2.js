@@ -7,6 +7,7 @@
 window.SiteV2 = (function () {
 
 const { parseFrontmatter, renderMarkdown, renderInline, escapeHtml } = window.MD;
+const { assetPath, catalogPath } = window.SiteConfig;
 
 async function fetchText(path) {
   const res = await fetch(path);
@@ -70,14 +71,13 @@ function monthLabel(dateStr) {
 
 // ---------- Tech home: tiles grouped by publish month ----------
 
-async function initTechHome({ catalogPath, mount }) {
+async function initTechHome({ mount }) {
   const root = document.querySelector(mount);
-  const prefix = catalogPath.replace(/lotusluminous/content\/catalog\.json$/, '');
   try {
     const catalog = await fetchJSON(catalogPath);
     const entries = await Promise.all(
       catalog.tech.map(async (e) => {
-        const raw = await fetchText(prefix + e.md);
+        const raw = await fetchText(assetPath(e.md));
         const { data } = parseFrontmatter(raw);
         return { ...e, data };
       })
@@ -126,15 +126,14 @@ async function initTechHome({ catalogPath, mount }) {
 
 // ---------- Literary home: novels, short stories, poems ----------
 
-async function initLiteraryHome({ catalogPath, mount }) {
+async function initLiteraryHome({ mount }) {
   const root = document.querySelector(mount);
-  const prefix = catalogPath.replace(/lotusluminous/content\/catalog\.json$/, '');
   try {
     const catalog = await fetchJSON(catalogPath);
 
     const novelCards = await Promise.all(
       catalog.novels.map(async (e) => {
-        const manifest = await fetchJSON(prefix + e.manifest);
+        const manifest = await fetchJSON(assetPath(e.manifest));
         return tileHtml({
           tag: 'Novel',
           title: manifest.title,
@@ -146,7 +145,7 @@ async function initLiteraryHome({ catalogPath, mount }) {
 
     const standaloneEntries = await Promise.all(
       catalog.standalone.map(async (e) => {
-        const raw = await fetchText(prefix + e.md);
+        const raw = await fetchText(assetPath(e.md));
         const { data } = parseFrontmatter(raw);
         return { ...e, data };
       })
@@ -191,7 +190,7 @@ function setBack(selector, href, label) {
   }
 }
 
-async function initReader({ catalogPath, mount, backSelector }) {
+async function initReader({ mount, backSelector }) {
   const root = typeof mount === 'string' ? document.querySelector(mount) : mount;
   const params = new URLSearchParams(location.search);
   const type = params.get('type');
@@ -204,8 +203,8 @@ async function initReader({ catalogPath, mount, backSelector }) {
       const entry = catalog.novels.find((n) => n.slug === slug);
       if (!entry) throw new Error(`Unknown novel "${slug}"`);
 
-      const manifest = await fetchJSON('../' + entry.manifest);
-      const contentBase = '../' + entry.manifest.replace(/manifest\.json$/, '');
+      const manifest = await fetchJSON(assetPath(entry.manifest));
+      const contentBase = assetPath(entry.manifest.replace(/manifest\.json$/, ''));
       const chapterParam = params.get('chapter');
       const chapterFile = chapterParam ? `${chapterParam}.md` : manifest.parts[0].file;
       const currentIndex = manifest.parts.findIndex((p) => p.file === chapterFile);
@@ -283,7 +282,7 @@ async function initReader({ catalogPath, mount, backSelector }) {
       const entry = list.find((e) => e.slug === slug);
       if (!entry) throw new Error(`Unknown ${type} "${slug}"`);
 
-      const raw = await fetchText('../' + entry.md);
+      const raw = await fetchText(assetPath(entry.md));
       const { data, body } = parseFrontmatter(raw);
       const isPoem = data.poem === 'true';
       const bodyHtml = renderMarkdown(body, { headings: type === 'tech', poem: isPoem });
