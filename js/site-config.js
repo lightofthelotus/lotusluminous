@@ -1,5 +1,5 @@
 window.SiteConfig = (function () {
-  const projectPath = 'lotusluminous';
+  const projectPath = '';//'lotusluminous';
   const basePath = `/${projectPath}`;
 
   function assetPath(path) {
