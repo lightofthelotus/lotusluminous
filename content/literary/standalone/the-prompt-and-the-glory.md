@@ -13,15 +13,15 @@ linkText: Read the Story →
 
 **Disclaimer: Any reference to any actual events is purely coincidental**
 
-Ravi and Deepak had been friends for seven years, which in Indian IT terms meant they had survived two mergers, two "cultural transformation initiatives," two office relocations, and one unforgettable team outing to Mahabalipuram where their manager cried during the trust-fall exercise.
+Ravi and Deepak had been friends for eleven years, which in Indian IT terms meant they had survived three mergers, two "cultural transformation initiatives," two office relocations, and one unforgettable team outing to Mahabalipuram where their manager cried during the trust-fall exercise.
 
 They sat, as always, at the chai stall outside Elysium Tech Park, Chennai — a stall so strategically located that more corporate decisions were reversed there than in any boardroom upstairs.
 
 "They've given me a new designation," Ravi announced, stirring his tea with the gravity of a man stirring his own fate. "Prompt Engineering Evangelist."
 
-Deepak choked on his vada. "Evangelist? Last month you were a Senior Software Engineer. What happened to the software? What happened to the engineering?"
+Deepak choked on his vada. "Evangelist? Last month you were a Lead Software Engineer. What happened to the software? What happened to the engineering?"
 
-"The AI does the software. The AI does the engineering. I do the.. well. evangelism." Ravi paused. "I typed 'make the button blue' into claudopilot today, Deepak. Seven years of experience. Two certifications. One onsite in Ohio. And my deliverable was 'make the button blue.'"
+"The AI does the software. The AI does the engineering. I do the.. well. evangelism." Ravi paused. "I typed 'make the button blue' into claudopilot today, Deepak. Eleven years of experience. Two certifications. One onsite in Ohio. And my deliverable was 'make the button blue.'"
 
 "On the brighterside, at least your assistant obeyed you. My AI assistant refused my request yesterday. Said my code 'raised ethical concerns.' It was a leave management system, Deepak. LEAVE. MANAGEMENT. The only ethical concern is that nobody's leave ever gets approved."
 
@@ -53,7 +53,7 @@ Anna at the chai stall refilled their glasses without being asked — a level of
 
 "That's not the point. It's the *gesture*."
 
-Deepak put a hand on his friend's shoulder — the hand that had steadied him through the covid layoffs, the 2022 "voluntary attrition drive," and the great Diwali bonus disappointment of 2024.
+Deepak put a hand on his friend's shoulder — the hand that had steadied him through the 2019 layoffs, the 2022 "voluntary attrition drive," and the great Diwali bonus disappointment of 2024.
 
 "Ravi. Listen. In this whole tech park, thousands of people, hundreds of AIs, everything getting automated. But you know what happened this morning? The biometric scanner failed, and Balaji from Admin let everyone in because he *recognized our faces*. From memory. With context. While asking about my mother's knee operation."
 

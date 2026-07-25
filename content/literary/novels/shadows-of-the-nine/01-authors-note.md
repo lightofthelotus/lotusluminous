@@ -4,7 +4,7 @@ eyebrow: Shadows of the Nine
 description: Author's Note for Shadows of the Nine, a mythological fantasy novel.
 ---
 
-I did not grow up thinking of stories as myths. I grew up thinking of them as my company.
+I did not grow up thinking of stories as myths. I grew up thinking of them as my companion.
 
 Long before I understood what many words even meant, I knew the shape of these tales the way you know a familiar room in the dark — by feel, by the sound of a father's or a grandmother's voice slowing down at the parts they loved best, by the particular hush that fell over a room when a story reached the part everyone already knew was coming and waited for anyway. I did not read or listen to them so much as I was handed them, the way you're handed something fragile and told to be careful, and only later understood how much care had already been spent keeping them whole long enough to reach me.
 
