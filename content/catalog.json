@@ -1,4 +1,9 @@
 {
+  "recent": [
+    { "type": "novel", "slug": "shadows-of-the-nine" },
+    { "type": "tech", "slug": "spec-driven-development" },
+    { "type": "standalone", "slug": "the-prompt-and-the-glory" }
+  ],
   "standalone": [
     {
       "slug": "the-prompt-and-the-glory",

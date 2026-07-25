@@ -1,5 +1,6 @@
 ---
 title: The Mirror of Man
+date: 2026-04-18
 eyebrow: Poem · Standalone
 description: A poem on the duality of human nature — the beast and the angel that share every soul.
 readTime: 2 min read

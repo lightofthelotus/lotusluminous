@@ -1,5 +1,6 @@
 ---
 title: What the Ledgers Remember
+date: 2026-06-07
 eyebrow: Shadows of the Nine · Chapter Two
 description: Chapter Two of Shadows of the Nine, a mythological fantasy novel.
 ---

@@ -49,12 +49,13 @@ function fail(mount, err) {
   if (el) el.innerHTML = `<p style="padding:2rem;color:var(--text-muted)">Couldn't load this content: ${escapeHtml(err.message)}</p>`;
 }
 
-function tileHtml({ tag, title, description, href }) {
+function tileHtml({ tag, title, description, href, date }) {
   return `
     <article class="card reveal">
       <div class="card-body">
         <span class="card-tag">${escapeHtml(tag)}</span>
         <h3>${escapeHtml(title)}</h3>
+        ${date ? `<p class="card-date">${escapeHtml(date)}</p>` : ''}
         <p>${escapeHtml(description)}</p>
         <a href="${href}" class="card-link">Read More →</a>
       </div>
@@ -67,6 +68,12 @@ const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June', 'Ju
 function monthLabel(dateStr) {
   const [y, m] = dateStr.split('-').map(Number);
   return `${MONTH_NAMES[m - 1]} ${y}`;
+}
+
+function fullDateLabel(dateStr) {
+  if (!dateStr) return '';
+  const [y, m, d] = dateStr.split('-').map(Number);
+  return `${MONTH_NAMES[m - 1]} ${d}, ${y}`;
 }
 
 // ---------- Tech home: tiles grouped by publish month ----------
@@ -179,6 +186,68 @@ async function initLiteraryHome({ mount }) {
   }
 }
 
+// ---------- Recently Added (homepage, configurable via catalog.json "recent") ----------
+
+async function buildRecentCard(item, catalog) {
+  if (item.type === 'novel') {
+    const entry = catalog.novels.find((n) => n.slug === item.slug);
+    if (!entry) return null;
+
+    const manifest = await fetchJSON(assetPath(entry.manifest));
+    const contentBase = assetPath(entry.manifest.replace(/manifest\.json$/, ''));
+    const part = item.chapter
+      ? manifest.parts.find((p) => p.file.replace(/\.md$/, '') === item.chapter)
+      : manifest.parts[manifest.parts.length - 1];
+    if (!part) return null;
+
+    const raw = await fetchText(contentBase + part.file);
+    const { data } = parseFrontmatter(raw);
+    const chapterSlug = part.file.replace(/\.md$/, '');
+
+    return tileHtml({
+      tag: manifest.tag || 'Novel',
+      title: `${manifest.title}: ${part.footerLabel || part.navLabel}`,
+      description: data.description || manifest.description,
+      href: `read.html?type=novel&slug=${encodeURIComponent(entry.slug)}&chapter=${encodeURIComponent(chapterSlug)}`,
+      date: fullDateLabel(data.date),
+    });
+  }
+
+  if (item.type === 'standalone' || item.type === 'tech') {
+    const list = item.type === 'tech' ? catalog.tech : catalog.standalone;
+    const entry = list.find((e) => e.slug === item.slug);
+    if (!entry) return null;
+
+    const raw = await fetchText(assetPath(entry.md));
+    const { data } = parseFrontmatter(raw);
+    const tag = data.cardTag || (item.type === 'tech' ? 'Tech' : data.poem === 'true' ? 'Poem' : 'Short Story');
+
+    return tileHtml({
+      tag,
+      title: data.title,
+      description: data.description,
+      href: `read.html?type=${item.type}&slug=${encodeURIComponent(entry.slug)}`,
+      date: fullDateLabel(data.date),
+    });
+  }
+
+  return null;
+}
+
+async function initRecentlyAdded({ mount }) {
+  const root = document.querySelector(mount);
+  if (!root) return;
+  try {
+    const catalog = await fetchJSON(catalogPath);
+    const recent = catalog.recent || [];
+    const cards = await Promise.all(recent.map((item) => buildRecentCard(item, catalog)));
+    root.innerHTML = cards.filter(Boolean).join('\n');
+    observeReveal(root);
+  } catch (err) {
+    fail(root, err);
+  }
+}
+
 // ---------- Common reader (novel chapter / standalone / tech) ----------
 
 function setBack(selector, href, label) {
@@ -252,7 +321,7 @@ async function initReader({ mount, backSelector }) {
         <article class="post-article novel-content">
           <p class="eyebrow">${escapeHtml(data.eyebrow || manifest.title)}</p>
           <h1>${escapeHtml(data.title)}</h1>
-          <p class="post-meta">By Lotus Luminous</p>
+          <p class="post-meta">By Lotus Luminous${data.date ? ` · ${escapeHtml(fullDateLabel(data.date))}` : ''}</p>
 
           <div class="post-body">
             ${bodyHtml}
@@ -298,7 +367,7 @@ async function initReader({ mount, backSelector }) {
         <article class="post-article">
           <p class="eyebrow">${escapeHtml(data.eyebrow)}</p>
           <h1>${escapeHtml(data.title)}</h1>
-          <p class="post-meta">By Lotus Luminous${data.readTime ? ` · ${escapeHtml(data.readTime)}` : ''}</p>
+          <p class="post-meta">By Lotus Luminous${data.date ? ` · ${escapeHtml(fullDateLabel(data.date))}` : ''}${data.readTime ? ` · ${escapeHtml(data.readTime)}` : ''}</p>
 
           <div class="post-body">
             <p class="lede">${renderInline(lede)}</p>
@@ -323,6 +392,6 @@ async function initReader({ mount, backSelector }) {
   }
 }
 
-return { initTechHome, initLiteraryHome, initReader };
+return { initTechHome, initLiteraryHome, initReader, initRecentlyAdded };
 
 })();

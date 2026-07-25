@@ -1,5 +1,6 @@
 ---
 title: The Weight of a Name
+date: 2026-06-21
 eyebrow: Shadows of the Nine · Chapter Three
 description: Chapter Three of Shadows of the Nine, a mythological fantasy novel.
 ---

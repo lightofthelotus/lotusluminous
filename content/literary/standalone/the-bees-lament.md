@@ -1,5 +1,6 @@
 ---
 title: The Bee's Lament
+date: 2026-05-02
 eyebrow: Poem · Standalone
 description: A poem on the world's greed, told from the point of view of a honeybee.
 readTime: 3 min read

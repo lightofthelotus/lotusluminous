@@ -1,5 +1,6 @@
 ---
 title: Preamble
+date: 2026-05-10
 eyebrow: Shadows of the Nine
 description: Preamble for Shadows of the Nine, a mythological fantasy novel.
 ---

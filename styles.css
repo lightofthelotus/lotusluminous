@@ -372,7 +372,7 @@ img { max-width: 100%; display: block; }
 }
 
 .card-media {
-  height: 140px;
+  /* height: 140px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -414,6 +414,12 @@ img { max-width: 100%; display: block; }
   color: var(--text-muted);
   font-size: 0.95rem;
   margin-bottom: 1.1rem;
+}
+
+.card-date {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin: -0.3rem 0 0.8rem;
 }
 
 .card-link {

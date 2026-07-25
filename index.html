@@ -44,6 +44,18 @@
     </section>
 
     <section class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">Fresh off the press</p>
+        <h2>Recently Added</h2>
+      </div>
+      <div class="card-grid" id="recently-added"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">Browse the archives</p>
+        <h2>Check Out All the Content</h2>
+      </div>
       <div class="card-grid landing-tiles">
         <article class="card reveal">
           <div class="card-media card-media--literary">Fiction</div>
@@ -73,6 +85,12 @@
     <p>&copy; <span id="year"></span> Lotus Luminous. The ideas are mine — AI just helps me fine tune the words.</p>
   </footer>
 
+  <script src="js/markdown.js"></script>
+  <script src="js/site-config.js"></script>
+  <script src="js/site-v2.js"></script>
+  <script>
+    SiteV2.initRecentlyAdded({ mount: '#recently-added' });
+  </script>
   <script src="script.js"></script>
 </body>
 

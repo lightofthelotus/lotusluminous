@@ -1,5 +1,6 @@
 ---
 title: What Should Not Be Seen
+date: 2026-07-05
 eyebrow: Shadows of the Nine · Chapter Four
 description: Chapter Four of Shadows of the Nine, a mythological fantasy novel.
 ---

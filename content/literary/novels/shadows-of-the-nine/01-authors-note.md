@@ -1,5 +1,6 @@
 ---
 title: Author's Note
+date: 2026-05-10
 eyebrow: Shadows of the Nine
 description: Author's Note for Shadows of the Nine, a mythological fantasy novel.
 ---

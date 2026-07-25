@@ -1,5 +1,6 @@
 ---
 title: The Shadow at the Gate
+date: 2026-05-24
 eyebrow: Shadows of the Nine · Chapter One
 description: Chapter One of Shadows of the Nine, a mythological fantasy novel.
 ---
