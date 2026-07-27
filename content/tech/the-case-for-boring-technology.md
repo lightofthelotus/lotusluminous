@@ -33,7 +33,7 @@ None of this shows up in the initial proof of concept, which is exactly why it's
 
 The useful framing isn't "never adopt anything new," it's that every team has a limited budget for how many unproven things it can absorb at once. Spend that budget on the parts of the system that are actually your differentiation — the thing your product does that nobody else's does — and keep everything around it as boring as you can stand. Nobody has ever lost a customer because the job queue was "just" a well-known one. Plenty of teams have lost months to a job queue that was novel and had one undocumented edge case in exactly the scenario their business depended on.
 
-> If you wouldn't bet a 2 a.m. page on it, don't bet your data model on it either.
+> If you wouldn't bet a 2 a.m. email or message on it, don't bet your data model on it either.
 
 ## A simple filter before adopting something new
 

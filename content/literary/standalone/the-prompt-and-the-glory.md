@@ -24,7 +24,7 @@ Deepak choked on his vada. "Evangelist? Last month you were a Lead Software Engi
 
 "The AI does the software. The AI does the engineering. I do the.. well. evangelism." Ravi paused. "I typed 'make the button blue' into claudopilot today, Deepak. Eleven years of experience. Two certifications. One onsite in Ohio. And my deliverable was 'make the button blue.'"
 
-"On the brighterside, at least your assistant obeyed you. My AI assistant refused my request yesterday. Said my code 'raised ethical concerns.' It was a leave management system, Deepak. LEAVE. MANAGEMENT. The only ethical concern is that nobody's leave ever gets approved."
+"On the brighterside, at least your assistant obeyed you. My AI assistant refused my request yesterday. Said my code 'raised ethical concerns.' It was a leave management system, Ravi. LEAVE. MANAGEMENT. The only ethical concern is that nobody's leave ever gets approved."
 
 A pigeon landed nearby and eyed Deepak's vada with the confidence of someone who had never been through a performance review.
 
