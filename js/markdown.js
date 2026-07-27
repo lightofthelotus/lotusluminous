@@ -1,30 +1,11 @@
 /*
- * Minimal Markdown engine for this site: frontmatter + a small set of block/inline
- * rules (paragraphs, scene breaks, headings, lists, blockquotes, poem stanzas).
- * Not a general-purpose Markdown parser — only what the content actually uses.
+ * Minimal Markdown engine for v2: same small block/inline rule set as the
+ * classic site's renderer (paragraphs, scene breaks, headings, lists,
+ * blockquotes, poem stanzas). Kept as its own copy so v2 has no code
+ * dependency on v1.
  */
 
-window.MD = (function () {
-
-function parseFrontmatter(raw) {
-  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
-  if (!match) return { data: {}, body: raw };
-
-  const data = {};
-  match[1].split('\n').forEach((line) => {
-    if (!line.trim()) return;
-    const idx = line.indexOf(':');
-    if (idx === -1) return;
-    const key = line.slice(0, idx).trim();
-    let value = line.slice(idx + 1).trim();
-    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-      value = value.slice(1, -1);
-    }
-    data[key] = value;
-  });
-
-  return { data, body: raw.slice(match[0].length) };
-}
+window.V2MD = (function () {
 
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -89,6 +70,6 @@ function renderMarkdown(body, opts = {}) {
   return blocks.map((block) => renderBlock(block.trim(), opts)).join('\n      ');
 }
 
-return { parseFrontmatter, renderMarkdown, renderInline, escapeHtml };
+return { renderMarkdown, renderInline, escapeHtml };
 
 })();

@@ -8,36 +8,57 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css?v=5" />
 </head>
 <body>
 
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
 <div class="bg-decor" aria-hidden="true">
-  <div class="blob blob-1"></div>
-  <div class="blob blob-2"></div>
-  <div class="blob blob-3"></div>
+  <div class="blob blob-1" data-depth="0.15"></div>
+  <div class="blob blob-2" data-depth="0.25"></div>
+  <div class="blob blob-3" data-depth="0.1"></div>
 </div>
 
-<header class="post-nav">
-  <a href="index.html" class="brand">Lotus<span>.</span></a>
-  <a href="index.html" class="back-link" id="back-link">← Back</a>
-</header>
+<nav class="quicknav" id="quicknav">
+  <a href="index.html" class="quicknav-brand">Lotus<span>.</span></a>
+  <div class="quicknav-links">
+    <select class="chapter-select" id="chapterSelect" aria-label="Jump to chapter" hidden></select>
+  </div>
+  <a href="index.html" class="quicknav-classic" id="backLink">← Home</a>
+</nav>
 
-<main id="reader-root"></main>
+<main id="mainScroll">
+
+  <div class="scroll-spine scroll-spine--subtle" aria-hidden="true">
+    <svg id="spineSvg" viewBox="0 0 100 1000" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="spineGradient" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" style="stop-color:var(--accent)" />
+          <stop offset="100%" style="stop-color:var(--accent-3)" />
+        </linearGradient>
+      </defs>
+      <path class="spine-path" data-side="left" fill="none" stroke="url(#spineGradient)" stroke-width="0.22" stroke-linecap="round" stroke-linejoin="round" opacity="0.4" />
+      <circle class="spine-dot" data-side="left" r="0.55" fill="var(--accent)" opacity="0" />
+      <path class="spine-path" data-side="right" fill="none" stroke="url(#spineGradient)" stroke-width="0.22" stroke-linecap="round" stroke-linejoin="round" opacity="0.4" />
+      <circle class="spine-dot" data-side="right" r="0.55" fill="var(--accent)" opacity="0" />
+    </svg>
+  </div>
+
+  <article class="reader-article reveal-group" id="articleRoot">
+    <div class="skeleton-row" style="grid-template-columns: 1fr;">
+      <div class="skeleton-card" style="height: 60vh;"></div>
+    </div>
+  </article>
+
+</main>
 
 <footer class="site-footer">
-  <p>&copy; <span id="year"></span> Lotus Luminous. All stories and articles are my own.</p>
+  <p>&copy; <span id="year"></span> Lotus Luminous. The ideas are mine — AI just helps me fine tune the words.</p>
 </footer>
 
-<script src="js/markdown.js"></script>
-<script src="js/site-config.js"></script>
-<script src="js/site-v2.js"></script>
-<script>
-  SiteV2.initReader({
-    mount: '#reader-root',
-    backSelector: '#back-link'
-  });
-</script>
-<script src="script.js"></script>
+<script src="js/common.js?v=4"></script>
+<script src="js/markdown.js?v=1"></script>
+<script src="js/read.js?v=2"></script>
 </body>
 </html>

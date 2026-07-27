@@ -1,97 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lotus Luminous — Writer &amp; Technologist</title>
-  <meta name="description"
-    content="Personal site featuring novels, literary blogs, and technology articles by Lotus Luminous." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lotus Luminous — Writer &amp; Technologist</title>
+<meta name="description" content="Personal site featuring novels, literary blogs, and technology articles by Lotus Luminous." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=5" />
 </head>
-
 <body>
 
-  <div class="bg-decor" aria-hidden="true">
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<div class="bg-decor" aria-hidden="true">
+  <div class="blob blob-1" data-depth="0.15"></div>
+  <div class="blob blob-2" data-depth="0.25"></div>
+  <div class="blob blob-3" data-depth="0.1"></div>
+</div>
+
+<nav class="quicknav" id="quicknav">
+  <a href="#home" class="quicknav-brand">Lotus<span>.</span></a>
+  <div class="quicknav-links">
+    <a href="#home" class="quicknav-link" data-target="home">Home</a>
+    <a href="#recent" class="quicknav-link" data-target="recent">Recent</a>
+    <a href="#literary" class="quicknav-link" data-target="literary">Literary</a>
+    <a href="#tech" class="quicknav-link" data-target="tech">Tech</a>
+  </div>
+</nav>
+
+<main id="mainScroll">
+
+  <div class="scroll-spine" aria-hidden="true">
+    <svg id="spineSvg" viewBox="0 0 100 1000" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="spineGradient" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" style="stop-color:var(--accent)" />
+          <stop offset="50%" style="stop-color:var(--accent-2)" />
+          <stop offset="100%" style="stop-color:var(--accent-3)" />
+        </linearGradient>
+        <filter id="spineGlow" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="1.1" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+      <path class="spine-path" data-side="left" fill="none" stroke="url(#spineGradient)" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#spineGlow)" opacity="0.8" />
+      <circle class="spine-dot" data-side="left" r="1.1" fill="var(--accent-2)" filter="url(#spineGlow)" opacity="0" />
+      <path class="spine-path" data-side="right" fill="none" stroke="url(#spineGradient)" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#spineGlow)" opacity="0.8" />
+      <circle class="spine-dot" data-side="right" r="1.1" fill="var(--accent-2)" filter="url(#spineGlow)" opacity="0" />
+    </svg>
   </div>
 
-  <header class="site-header" id="top">
-    <nav class="navbar">
-      <a href="index.html" class="brand">Lotus Luminous<span>.</span></a>
-    </nav>
-  </header>
-
-  <main>
-
-    <section class="section hero">
-      <div class="hero-inner reveal">
-        <p class="eyebrow">Welcome to my corner of the internet</p>
-        <h1 class="hero-title">Hi, I'm <span class="accent">Lotus Luminous</span></h1>
-        <p class="hero-subtitle">
-          By day I build software that handles edge cases no one saw
-          coming; by night I write fiction with plot twists no one saw coming. 
-          Here, the two finally merge without conflicts.
-        </p>
+  <section class="panel panel-hero" id="home">
+    <div class="panel-inner reveal-group">
+      <p class="eyebrow reveal">Two disciplines, one person, no merge conflicts</p>
+      <h1 class="hero-title reveal"><span class="line">Hi, I'm</span> <span class="line accent">Lotus Luminous</span></h1>
+      <p class="hero-subtitle reveal">
+        A personal site where I write about the software I build and the
+        fiction I make up — technical notes on one side, serialized novels
+        and stories on the other.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#recent" class="btn btn-primary">See what's new</a>
+        <a href="#literary" class="btn btn-ghost">Browse the archives</a>
       </div>
-    </section>
+    </div>
+    <button class="scroll-cue" type="button" data-scroll-to="recent" aria-label="Scroll to next section">
+      <span class="scroll-cue-label">Scroll</span>
+      <span class="scroll-cue-arrow"></span>
+    </button>
+  </section>
 
-    <section class="section">
+  <section class="panel panel-recent" id="recent">
+    <div class="panel-inner">
       <div class="section-head reveal">
         <p class="eyebrow">Fresh off the press</p>
         <h2>Recently Added</h2>
       </div>
-      <div class="card-grid" id="recently-added"></div>
-    </section>
-
-    <section class="section">
-      <div class="section-head reveal">
-        <p class="eyebrow">Browse the archives</p>
-        <h2>Check Out All the Content</h2>
+      <div class="recent-grid reveal-group" id="recentGrid">
+        <div class="skeleton-row">
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
       </div>
-      <div class="card-grid landing-tiles">
-        <article class="card reveal">
-          <div class="card-media card-media--literary">Fiction</div>
-          <div class="card-body">
-            <span class="card-tag">Novels · Stories · Poems</span>
-            <h3>Literary Blog</h3>
-            <p>Serialized novels, short stories, and poems — read one chapter or one sitting at a time.</p>
-            <a href="literary/index.html" class="card-link">Enter the Literary Blog →</a>
-          </div>
-        </article>
+    </div>
+  </section>
 
-        <article class="card reveal">
-          <div class="card-media card-media--tech">Code</div>
-          <div class="card-body">
-            <span class="card-tag">Engineering &amp; Ideas</span>
-            <h3>Tech Blog</h3>
-            <p>Notes on software, tools, and the occasional strong opinion.</p>
-            <a href="tech/index.html" class="card-link">Enter the Tech Blog →</a>
-          </div>
-        </article>
+  <section class="panel panel-category panel-literary" id="literary">
+    <div class="panel-inner category-layout reveal-group">
+      <div class="category-copy">
+        <p class="eyebrow reveal">Fiction &amp; Serialized Novels</p>
+        <h2 class="reveal">Literary Blog</h2>
+        <p class="reveal">
+          Serialized novels, short stories, and poems — read one chapter
+          or one sitting at a time. Follow an ongoing story from the first
+          page, or dip into something that stands alone.
+        </p>
+        <a href="literary/index.html" class="btn btn-primary reveal">Enter the Literary Blog →</a>
       </div>
-    </section>
+      <div class="category-badge category-badge--literary reveal" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 5.5c2-1.2 5-1.2 8 0v13c-3-1.2-6-1.2-8 0z"/>
+          <path d="M20 5.5c-2-1.2-5-1.2-8 0v13c3-1.2 6-1.2 8 0z"/>
+        </svg>
+      </div>
+    </div>
+  </section>
 
-  </main>
+  <section class="panel panel-category panel-tech" id="tech">
+    <div class="panel-inner category-layout category-layout--reverse reveal-group">
+      <div class="category-badge category-badge--tech reveal" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="8 6 3 12 8 18"/>
+          <polyline points="16 6 21 12 16 18"/>
+        </svg>
+      </div>
+      <div class="category-copy">
+        <p class="eyebrow reveal">Engineering &amp; Ideas</p>
+        <h2 class="reveal">Tech Blog</h2>
+        <p class="reveal">
+          Notes on software, tools, and the occasional strong opinion —
+          written for engineers who'd rather read something opinionated
+          than another changelog.
+        </p>
+        <a href="tech/index.html" class="btn btn-primary reveal">Enter the Tech Blog →</a>
+      </div>
+    </div>
+  </section>
 
-  <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Lotus Luminous. The ideas are mine — AI just helps me fine tune the words.</p>
-  </footer>
+</main>
 
-  <script src="js/markdown.js"></script>
-  <script src="js/site-config.js"></script>
-  <script src="js/site-v2.js"></script>
-  <script>
-    SiteV2.initRecentlyAdded({ mount: '#recently-added' });
-  </script>
-  <script src="script.js"></script>
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Lotus Luminous. The ideas are mine — AI just helps me fine tune the words.</p>
+</footer>
+
+<script src="js/common.js?v=4"></script>
+<script src="js/app.js?v=5"></script>
 </body>
-
 </html>

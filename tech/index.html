@@ -8,47 +8,84 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../styles.css" />
+<link rel="stylesheet" href="../styles.css?v=5" />
 </head>
 <body>
 
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
 <div class="bg-decor" aria-hidden="true">
-  <div class="blob blob-1"></div>
-  <div class="blob blob-2"></div>
-  <div class="blob blob-3"></div>
+  <div class="blob blob-1" data-depth="0.15"></div>
+  <div class="blob blob-2" data-depth="0.25"></div>
+  <div class="blob blob-3" data-depth="0.1"></div>
 </div>
 
-<header class="post-nav">
-  <a href="../index.html" class="brand">Lotus Luminous<span>.</span></a>
-  <a href="../index.html" class="back-link">← Back to Home</a>
-</header>
+<nav class="quicknav" id="quicknav">
+  <a href="../index.html" class="quicknav-brand">Lotus<span>.</span></a>
+  <div class="quicknav-links" id="monthLinks"></div>
+  <a href="../index.html" class="quicknav-classic">← Home</a>
+</nav>
 
-<main>
+<main id="mainScroll">
 
-  <section class="section">
-    <div class="section-head reveal">
-      <p class="eyebrow">Engineering &amp; Ideas</p>
-      <h2>Tech Blog</h2>
-      <p class="section-desc">Notes on software, tools, and the occasional strong opinion.</p>
+  <div class="scroll-spine" aria-hidden="true">
+    <svg id="spineSvg" viewBox="0 0 100 1000" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="spineGradient" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" style="stop-color:var(--accent)" />
+          <stop offset="50%" style="stop-color:var(--accent-2)" />
+          <stop offset="100%" style="stop-color:var(--accent-3)" />
+        </linearGradient>
+        <filter id="spineGlow" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="1.1" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+      <path class="spine-path" data-side="left" fill="none" stroke="url(#spineGradient)" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#spineGlow)" opacity="0.8" />
+      <circle class="spine-dot" data-side="left" r="1.1" fill="var(--accent-2)" filter="url(#spineGlow)" opacity="0" />
+      <path class="spine-path" data-side="right" fill="none" stroke="url(#spineGradient)" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#spineGlow)" opacity="0.8" />
+      <circle class="spine-dot" data-side="right" r="1.1" fill="var(--accent-2)" filter="url(#spineGlow)" opacity="0" />
+    </svg>
+  </div>
+
+  <section class="panel panel-intro">
+    <div class="panel-inner reveal-group">
+      <p class="eyebrow reveal">Engineering &amp; Ideas</p>
+      <h1 class="hero-title reveal">Tech <span class="accent">Blog</span></h1>
+      <p class="hero-subtitle reveal">
+        Notes on software, tools, and the occasional strong opinion.
+      </p>
     </div>
+    <button class="scroll-cue" type="button" data-scroll-to="tech-groups" aria-label="Scroll to articles">
+      <span class="scroll-cue-label">Scroll</span>
+      <span class="scroll-cue-arrow"></span>
+    </button>
+  </section>
 
-    <div id="tech-groups"></div>
+  <section class="panel panel-listing" id="tech-groups">
+    <div class="panel-inner">
+      <div id="techGroups">
+        <div class="card-grid reveal-group">
+          <div class="skeleton-row">
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 </main>
 
 <footer class="site-footer">
-  <p>&copy; <span id="year"></span> Lotus Luminous. All stories and articles are my own.</p>
+  <p>&copy; <span id="year"></span> Lotus Luminous. The ideas are mine — AI just helps me fine tune the words.</p>
 </footer>
 
-<script src="../js/markdown.js"></script>
-<script src="../js/site-config.js"></script>
-<script src="../js/site-v2.js"></script>
-<script>
-  SiteV2.initTechHome({
-    mount: '#tech-groups'
-  });
-</script>
-<script src="../script.js"></script>
+<script src="../js/common.js?v=4"></script>
+<script src="../js/tech.js?v=2"></script>
 </body>
 </html>
