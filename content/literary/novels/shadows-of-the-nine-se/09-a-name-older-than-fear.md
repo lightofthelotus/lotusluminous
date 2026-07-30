@@ -1,6 +1,6 @@
 ---
 title: A Name Older Than Fear
-date: 2026-07-26
+date: 2026-07-30
 eyebrow: Shadows of the Nine · Chapter Seven
 description: Chapter Seven of Shadows of the Nine, a mythological fantasy novel.
 ---

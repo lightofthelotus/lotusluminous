@@ -1,6 +1,6 @@
 ---
 title: The Slow Arithmetic
-date: 2026-07-25
+date: 2026-07-28
 eyebrow: Shadows of the Nine · Chapter Six
 description: Chapter Six of Shadows of the Nine, a mythological fantasy novel.
 ---

@@ -1,6 +1,6 @@
 ---
 title: The Fortress of Anaadi
-date: 2026-07-24
+date: 2026-07-26
 eyebrow: Shadows of the Nine · Chapter Five
 description: Chapter Five of Shadows of the Nine, a mythological fantasy novel.
 ---
