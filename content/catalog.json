@@ -1,6 +1,6 @@
 {
   "recent": [
-    { "type": "novel", "slug": "shadows-of-the-nine-se" },
+    { "type": "novel", "slug": "shadows-of-the-nine" },
     { "type": "tech", "slug": "spec-driven-development" },
     { "type": "standalone", "slug": "the-prompt-and-the-glory" }
   ],
@@ -13,12 +13,7 @@
   ],
     "novels": [
     {
-      "slug": "shadows-of-the-nine-full-edition",
-      "dir": "blog/literary/novels/shadows-of-the-nine-fe/",
-      "manifest": "content/literary/novels/shadows-of-the-nine-fe/manifest.json"
-    },
-    {
-      "slug": "shadows-of-the-nine-simpler-edition",
+      "slug": "shadows-of-the-nine",
       "dir": "blog/literary/novels/shadows-of-the-nine-se/",
       "manifest": "content/literary/novels/shadows-of-the-nine-se/manifest.json"
     }

@@ -1,5 +1,5 @@
 {
-  "title": "Shadows of the Nine - Simpler Edition",
+  "title": "Shadows of the Nine",
   "book": "Book One",
   "tag": "Novel · Ongoing",
   "cardMedia": "Chapter 6 Now Live",
@@ -45,6 +45,11 @@
       "file": "08-the-slow-arithmetic.md",
       "navLabel": "Ch. 6 · The Slow Arithmetic",
       "footerLabel": "Chapter Six"
+    },
+    {
+      "file": "09-a-name-older-than-fear.md",
+      "navLabel": "Ch. 7 · A Name Older Than Fear",
+      "footerLabel": "Chapter Seven"
     }
   ]
 }

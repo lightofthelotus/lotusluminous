@@ -103,7 +103,7 @@ Vaanathi did not weep when he showed her the letters. She had expected to, watch
 
 "That is a poor kind of protection, if it ends with him dead and me finding out from a stranger's hidden room."
 
-"It is the kind most people choose anyway," Sancharan said quietly, "when they have decided the fear is theirs to carry, and no one else's." Something in the way he said it made her look at him properly — not the careful, guarded scholar's face he wore for the rest of the court, but something rawer beneath it, briefly unguarded, gone again almost as soon as she'd caught it. "I have known a great many people who made that same choice. It rarely ends well for them. It is, nonetheless, remarkably difficult to argue a person out of, once they have decided the weight is theirs alone to bear."
+"It is the kind most people choose anyway," Sancharan said quietly, "when they have decided the fear is theirs to carry, and no one else's." Something in the way he said it made her look at him properly — not the careful, guarded scholar's face he wore for the rest of the court, but something rawer beneath it, briefly bare, gone again almost as soon as she'd caught it. "I have known a great many people who made that same choice. It rarely ends well for them. It is, nonetheless, remarkably difficult to argue a person out of, once they have decided the weight is theirs alone to bear."
 
 "You say that," Vaanathi said slowly, "like a man with some experience in the matter."
 

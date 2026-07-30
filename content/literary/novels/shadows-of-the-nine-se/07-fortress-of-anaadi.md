@@ -127,7 +127,7 @@ Sancharan did not move for a long moment after they had gone. When he finally tu
 
 "Why?"
 
-He looked at her a long moment. Something in his face, in that strange folding light, was more unguarded than she had ever seen it in the ordinary world above. "Because you are the first thing I have brought into this place in longer than I can comfortably measure," he said, "and I find, rather to my own surprise, that I am not prepared to lose you to it."
+He looked at her a long moment. In that strange folding light, his eyes held none of the caution she had grown used to in the ordinary world above. "Because you are the first thing I have brought into this place in longer than I can comfortably measure," he said, "and I find, rather to my own surprise, that I am not prepared to lose you to it."
 
 She looked past him, once her breathing had steadied, at the towers still holding their slow, patient watch over the hall. She understood, with a certainty that had nothing to do with proof, that this was not a place that had been built so much as a place that had simply always been here — the way a mountain is not built, only found, standing exactly where it has always stood, indifferent to the small brief lives that eventually learn to climb it. Whatever this fortress was, it did not feel young. It felt instead like the oldest thing she had ever stood inside — older than the throne her family had held for generations, older, she suspected, than the generations that had come before them and been quietly forgotten. She understood, with a small cold shiver that had nothing to do with the lingering warding-chill in her bones, that she had been permitted to see something very few mortal eyes had ever been permitted to see at all.
 
@@ -217,7 +217,7 @@ It was not very much. It was, she understood, turning the words over with the sa
 
 "You say that as though you have already decided the ending."
 
-"I have lived through enough endings to recognise the shape of one forming, even when I cannot yet see its face." He looked at her then, something raw and unguarded moving behind his tired eyes before he mastered it again — the old careful stillness settling back over him like a garment he had only briefly set aside. "I would rather warn you honestly than let you arrive at it unprepared. That much, at least, I believe I owe you."
+"I have lived through enough endings to recognise the shape of one forming, even when I cannot yet see its face." He looked at her then, and for a moment his tired eyes gave up their whole history plainly, before he gathered the old careful stillness back over himself like a garment he had only briefly set aside. "I would rather warn you honestly than let you arrive at it unprepared. That much, at least, I believe I owe you."
 
 "I will decide that for myself, when the time comes." Vaanathi held his gaze, steady, though her pulse was doing something considerably less steady beneath her own collected exterior. "I generally do. You may warn me of endings all you like, Sancharan. I find I have grown rather stubborn, of late, about which stories I am willing to let other people finish on my behalf."
 
