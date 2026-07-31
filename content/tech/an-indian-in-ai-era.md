@@ -9,7 +9,7 @@ cardTag: AI
 linkText: Read Article →
 ---
 
-# Three Languages, One Childhood, and a Career in AI
+## Three Languages, One Childhood, and a Career in AI
 
 There's a moment every one of our developer has experienced. You're on a call with your mother, and in a single sentence you've used Tamil for the emotion, English for the technical bits, and a local Chennai Tamil phrase you picked up from someone for the punchline. Nobody blinks. This is just how we talk.
 
@@ -71,4 +71,4 @@ The point isn't that we're chosen. The point is that a set of skills we treated 
 
 Stop apologizing for the accent, metaphorically speaking. The instinct to explain context? That's good prompting. The idea to NOT over-explain to avoid unwanted noise in the room - thats tokenomics. The habit of confirming understanding twice? That's spec verification. The ability to hold a conversation where the requirements change three times before dessert? That's agile, that's iterative development, that's every AI-assisted workflow ever.
 
-And just like always software engineers who are adaptable are the ones in demand. 
+And just like always software engineers who are readily adaptable are the ones in demand. 
