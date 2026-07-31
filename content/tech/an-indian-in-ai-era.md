@@ -71,8 +71,4 @@ The point isn't that we're chosen. The point is that a set of skills we treated 
 
 Stop apologizing for the accent, metaphorically speaking. The instinct to explain context? That's good prompting. The idea to NOT over-explain to avoid unwanted noise in the room - thats tokenomics. The habit of confirming understanding twice? That's spec verification. The ability to hold a conversation where the requirements change three times before dessert? That's agile, that's iterative development, that's every AI-assisted workflow ever.
 
-We spent years being told our strength was that we were affordable. Turns out our strength was that we were *adaptable* — and in a world where the machines write the code, the humans who can talk to machines, clients, grandmothers and notorious 5 year old cousins in the same afternoon and still get the desired outcome win hands down.
-
-They're getting promoted.
-
-Probably to something called "Evangelist." But still.
+And just like always software engineers who are adaptable are the ones in demand. 
