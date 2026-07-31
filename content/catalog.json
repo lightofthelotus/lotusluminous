@@ -1,14 +1,19 @@
 {
   "recent": [
     { "type": "novel", "slug": "shadows-of-the-nine" },
-    { "type": "tech", "slug": "spec-driven-development" },
-    { "type": "standalone", "slug": "the-prompt-and-the-glory" }
+    { "type": "tech", "slug": "an-indian-in-ai-era" },
+    { "type": "standalone", "slug": "last-read-receipt" }
   ],
   "standalone": [
     {
       "slug": "the-prompt-and-the-glory",
       "href": "blog/literary/the-prompt-and-the-glory.html",
       "md": "content/literary/standalone/the-prompt-and-the-glory.md"
+    },
+    {
+      "slug": "last-read-receipt",
+      "href": "blog/literary/last-read-receipt.html",
+      "md": "content/literary/standalone/last-read-receipt.md"
     }
   ],
     "novels": [
@@ -33,6 +38,11 @@
       "slug": "spec-driven-development",
       "href": "blog/tech/spec-driven-development.html",
       "md": "content/tech/spec-driven-development.md"
+    },
+    {
+      "slug": "an-indian-in-ai-era",
+      "href": "blog/tech/an-indian-in-ai-era.html",
+      "md": "content/tech/an-indian-in-ai-era.md"
     }
   ]
 }

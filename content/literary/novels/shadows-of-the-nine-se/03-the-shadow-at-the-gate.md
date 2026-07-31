@@ -169,7 +169,7 @@ He stood a moment in the settling dusk. Iruli drifted back down to his shoulder 
 
 *Well,* she said. *That went extremely well.*
 
-He did not honour this either. He was thinking instead — against every instinct centuries had trained into him — about the exact colour her eyes had gone in the last of the light. Not dark, as he'd expected from across the courtyard, but brown with something warmer underneath, like tea held up to a lamp. And he was thinking about how thoroughly he intended never to mention having noticed this, to anyone, ever — least of all to the very interested crow currently watching him, head cocked at an angle that suggested she had noticed him noticing.
+He did not honour this either. He was thinking instead — against every instinct centuries had trained into him — about the exact colour her eyes had gone in the last of the light. Not dark, as he'd expected from across the courtyard, but brown with something warmer underneath, like a honey drop held up to a lamp. And he was thinking about how thoroughly he intended never to mention having noticed this, to anyone, ever — least of all to the very interested crow currently watching him, head cocked at an angle that suggested she had noticed him noticing.
 
 *Not one word,* he told her.
 
