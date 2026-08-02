@@ -47,7 +47,7 @@ It was not a question. The hall understood that. The murmuring did not stop enti
 
 An hour later, she was given leave to see the chamber herself. The official reason was thin: the keeper's records touched on her own study of the border tributaries, and someone competent should confirm nothing important had been disturbed. She suspected her father had arranged this excuse himself, in his usual quiet, sideways way — a door left unlocked, rather than a door held open, so no one could accuse him of choosing to open it.
 
-The reading chamber smelled of neem oil and old palm-leaf. Underneath that smell was something colder, which she made herself not think about too closely. The body had already been carried away. What remained was the shape of the room around an absence — a chair pushed back at an angle that spoke of haste, not rest. An oil lamp burned down to a hard black wick. Bound leaves of preserved palm, stacked with the same obsessive tidiness that had been Smaran's whole personality, turned into a filing system.
+The reading chamber smelled of neem oil and old palm-leaf. Underneath that smell was something colder, which she made herself not think about too closely. The body had already been carried away. What remained was the shape of the room around an absence — his seating area empty. An oil lamp burned down to a hard black wick. Bound leaves of preserved palm, stacked with the same obsessive tidiness that had been Smaran's whole personality, turned into a filing system.
 
 And the door.
 
