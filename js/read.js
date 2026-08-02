@@ -172,6 +172,12 @@
 
     const manifest = await fetchJSON(assetPath(entry.manifest));
     const contentBase = assetPath(entry.manifest.replace(/manifest\.json$/, ''));
+    // The content directory's own folder name (e.g. "shadows-of-the-nine-se")
+    // can differ from the catalog's URL slug, so derive the illustrations
+    // path from the same directory contentBase already points at rather
+    // than from `slug`.
+    const contentDirName = contentBase.replace(/\/+$/, '').split('/').pop();
+    const illustrationsBase = `/content/illustrations/${contentDirName}/`;
     const chapterParam = params.get('chapter');
     const chapterFile = chapterParam ? `${chapterParam}.md` : manifest.parts[0].file;
     const currentIndex = manifest.parts.findIndex((p) => p.file === chapterFile);
@@ -179,7 +185,7 @@
 
     const raw = await fetchText(contentBase + chapterFile);
     const { data, body } = parseFrontmatter(raw);
-    const bodyHtml = renderMarkdown(body, { headings: false });
+    const bodyHtml = renderMarkdown(body, { headings: false, illustrationsBase });
 
     const prev = currentIndex > 0 ? manifest.parts[currentIndex - 1] : null;
     const next = currentIndex < manifest.parts.length - 1 ? manifest.parts[currentIndex + 1] : null;
@@ -237,7 +243,7 @@
     const raw = await fetchText(assetPath(entry.md));
     const { data, body } = parseFrontmatter(raw);
     const isPoem = data.poem === 'true';
-    const bodyHtml = renderMarkdown(body, { headings: type === 'tech', poem: isPoem });
+    const bodyHtml = renderMarkdown(body, { headings: type === 'tech', poem: isPoem, illustrationsBase: `/content/illustrations/${slug}/` });
     const lede = data.lede || data.description;
     const ledeHtml = lede ? `<p class="lede reveal">${renderInline(lede)}</p>` : '';
 

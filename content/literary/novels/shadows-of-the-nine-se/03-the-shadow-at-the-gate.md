@@ -5,6 +5,8 @@ eyebrow: Shadows of the Nine · Chapter One
 description: Chapter One of Shadows of the Nine, a mythological fantasy novel.
 ---
 
+![Anantapura Palace, seat of the throne](00_01_AnantapuraPalace.jpg "The old palace at Anantapura, where the court still gathers beneath long gold bars of sunlight.")
+
 ## I
 
 The petitioner had been talking for almost an hour. Vaanathi had stopped listening long ago. She lost interest around the part where he compared his flooded fields to a man buried alive.
@@ -31,6 +33,8 @@ He stopped. The hall went very quiet, the way air goes quiet just before thunder
 
 "He is dead," Ratnan said. "In the reading chamber. Alone."
 
+![Ratnan bursts into the court hall with news of Smaran's death](01_01_CourtScene.jpg "The court scene where Ratnan carries the distress message.")
+
 ***
 
 Later, Vaanathi could remember that quarter hour two different ways. One version she could recite without feeling anything at all: the court physician sent for, the great doors closed, the low murmur that her father let run just long enough before he raised a hand for silence. The other version she felt in her body for days afterward — a cold at the back of her neck she could not explain.
@@ -47,7 +51,9 @@ It was not a question. The hall understood that. The murmuring did not stop enti
 
 An hour later, she was given leave to see the chamber herself. The official reason was thin: the keeper's records touched on her own study of the border tributaries, and someone competent should confirm nothing important had been disturbed. She suspected her father had arranged this excuse himself, in his usual quiet, sideways way — a door left unlocked, rather than a door held open, so no one could accuse him of choosing to open it.
 
-The reading chamber smelled of neem oil and old palm-leaf. Underneath that smell was something colder, which she made herself not think about too closely. The body had already been carried away. What remained was the shape of the room around an absence — his seating area empty. An oil lamp burned down to a hard black wick. Bound leaves of preserved palm, stacked with the same obsessive tidiness that had been Smaran's whole personality, turned into a filing system.
+The reading chamber smelled of neem oil and old palm-leaf. Underneath that smell was something colder, which she made herself not think about too closely. He laid there as if he were sleeping but his body said otherwise. An oil lamp burned down to a hard black wick. Bound leaves of preserved palm, stacked with the same obsessive tidiness that had been Smaran's whole personality, turned into a filing system.
+
+![Vaanathi visits Smaran's room](01_02_SmaranDeath.jpg "Vaanathi and few courtiers visit Smaran's room")
 
 And the door.
 
@@ -109,6 +115,8 @@ Vaanathi went very still. "A month ago."
 
 "I haven't decided anything," Vaanathi said. It was, strictly speaking, a lie — and she suspected Nila knew that exactly as well as she did.
 
+![Vaanathi and Nila talk about the evening](01_03_Nila_Vaanathi.jpg "Vaanathi and Nila talk about the events shaping")
+
 ***
 
 ## III
@@ -138,6 +146,8 @@ Heads turned. His, among them, though for a different reason than everyone else'
 It was, in this fashion — a startled mare, a badly behaved crow, and the small chaos of two grooms trying at once to calm a horse and find whatever madman had loosed a bird into the courtyard — that Sancharan stopped being unremarked, after a full watch of careful stillness.
 
 The woman who crossed the courtyard toward the commotion moved like someone used to being watched, and thoroughly tired of it. He clocked this in the space of two strides, the same way he clocked most things about most people before they had spoken a single word to him — a habit older than caring, and considerably harder to break. She wore no obvious mark of rank, only plain court silk and hair bound simply against the evening. And yet every servant in that courtyard adjusted their posture slightly as she passed — the unconscious deference people pay to blood before they've had time to think about paying it.
+
+![Sancharan entering the palace and the drama follows](01_04_SancharanEntry.jpg "Sancharan entering the palace with Iruli")
 
 "That bird," she said, arriving in front of him with the directness of someone who had decided, somewhere between the archway and this exact spot, that directness would save time, "belongs to you."
 
@@ -191,6 +201,8 @@ She almost believed it. She had gotten quite good, over the years, at almost bel
 
 The stables at that hour were mostly empty. The grooms had gone to their supper, and the last light drained slowly from the sky in the orange way it always did over the western wall this time of year. Sancharan found the quiet more restful than he'd like to admit, and sat a while on an overturned feed bucket, his back against sun-warmed stone, letting the day settle.
 
+![Iruli and Sancharan talk](01_05_Sancharan_Iruli.jpg "Iruli and Sancharan have a literal heart to heart talk")
+
 Iruli preened one wing with theatrical unconcern for a good while before she spoke again.
 
 *You liked her,* she said. *You may deny it. I will simply continue to be correct.*
@@ -232,6 +244,8 @@ The reading chamber's door stood closed again, resealed by the palace's own stew
 This was not that.
 
 She held the lamp closer, close enough that the wax caught the light and threw its small shadow up the door's dark wood. The mark pressed into it was careful and precise, clearly made with real skill and no haste at all. It was not the sunburst-and-crown of the Anantha line. It was a narrow ring, broken at one point along its edge by a thin dark wedge — like a circle with a single bite taken cleanly out of it.
+
+![Vaanathi sees the symbol](01_06_Vaanathi_Sees_Seal.jpg "Vaanathi sees the mysterious seal wax sealed to the door ")
 
 She had never, in all her years growing up inside every room this palace had, seen that mark before in her life.
 

@@ -168,6 +168,30 @@ window.V2Paginate = (function () {
     return pages;
   }
 
+  // Splitting measures each block's real rendered height, but an <img> that
+  // hasn't finished loading yet reports zero height — the paginator would
+  // then pack extra text after it, and once the image loads moments later
+  // it pushes past the page's overflow:hidden edge, silently clipping the
+  // image and everything below it. Waiting for images up front (like fonts)
+  // keeps that first measurement accurate.
+  function waitForImages(container) {
+    const imgs = Array.from(container.querySelectorAll('img'));
+    return Promise.all(imgs.map((img) => {
+      // #pagerSource (where this runs) is a permanently hidden staging
+      // container with no layout box, so a loading="lazy" image never
+      // triggers the browser's visibility check and its load event would
+      // never fire. Forcing eager here bypasses that gate; it doesn't
+      // affect the separate classic-scroll DOM, which keeps its own lazy
+      // <img> elements from a different render pass.
+      if (img.loading === 'lazy') img.loading = 'eager';
+      if (img.complete) return Promise.resolve();
+      return new Promise((resolve) => {
+        img.addEventListener('load', resolve, { once: true });
+        img.addEventListener('error', resolve, { once: true });
+      });
+    }));
+  }
+
   async function init({ container, source, track, prevBtn, nextBtn, indicator, onOverflowPrev, onOverflowNext, startAt, onPageChange, isActive }) {
     const allBlocks = Array.from(source.children);
     const active = isActive || (() => true);
@@ -177,6 +201,7 @@ window.V2Paginate = (function () {
     if (document.fonts && document.fonts.ready) {
       try { await document.fonts.ready; } catch (e) { /* ignore */ }
     }
+    try { await waitForImages(source); } catch (e) { /* ignore */ }
 
     function trackWidth() {
       // getBoundingClientRect gives the real sub-pixel width; clientWidth

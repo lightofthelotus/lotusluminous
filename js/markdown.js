@@ -20,9 +20,24 @@ function renderInline(text) {
   return out;
 }
 
+const IMAGE_BLOCK_RE = /^!\[([^\]]*)\]\(\s*(\S+?)(?:\s+"([^"]*)")?\s*\)$/;
+
+function resolveIllustrationSrc(src, base) {
+  if (/^(https?:)?\/\//.test(src) || src.startsWith('/')) return src;
+  return `${base.replace(/\/+$/, '')}/${src}`;
+}
+
 function renderBlock(block, opts) {
   if (block === '***' || block === '---') {
     return '<div class="scene-break">• • •</div>';
+  }
+
+  const imageMatch = block.match(IMAGE_BLOCK_RE);
+  if (imageMatch) {
+    const [, alt, rawSrc, caption] = imageMatch;
+    const src = opts.illustrationsBase ? resolveIllustrationSrc(rawSrc, opts.illustrationsBase) : rawSrc;
+    const figcaption = caption ? `\n        <figcaption>${renderInline(caption)}</figcaption>` : '';
+    return `<figure class="illustration">\n        <img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy">${figcaption}\n      </figure>`;
   }
 
   if (block.startsWith('### ')) {

@@ -57,7 +57,7 @@ It was, she would think later, the nearest her father had ever come to making a 
 
 ## II
 
-The archive, reopened under seal-breaking that Anantaraja himself authorised, smelled the way it always had — neem oil, dry palm-leaf, the particular dry stillness of a room built to outlast the people who used it. Someone had righted Smaran's chair. No one had thought to remove the faint discolouration on the floorboards near the writing table. Vaanathi found she could not quite make herself look at it directly, so she didn't, and set to work instead pretending the room contained nothing but books.
+The archive, reopened under seal-breaking that Anantaraja himself authorised, smelled the way it always had — neem oil, dry palm-leaf, the particular dry stillness of a room built to outlast the people who used it. Someone had righted whatever ittle furnitures were there. No one had thought to remove the faint discolouration on the floorboards near the writing table. Vaanathi found she could not quite make herself look at it directly, so she didn't, and set to work instead pretending the room contained nothing but books.
 
 Sancharan was already there when she arrived — of course he was, she thought, with more irritation than the fact strictly warranted. He sat cross-legged on the floor, three volumes open around him in a neat fan, and the crow perched with proprietary comfort on the shelf above his head, one dark eye tracking Vaanathi's entrance with what could only be described as interest.
 
