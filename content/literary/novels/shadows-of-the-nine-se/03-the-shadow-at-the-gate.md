@@ -247,7 +247,7 @@ She held the lamp closer, close enough that the wax caught the light and threw i
 
 ![Vaanathi sees the symbol](01_06_Vaanathi_Sees_Seal.jpg "Vaanathi sees the mysterious seal wax sealed to the door ")
 
-She had never, in all her years growing up inside every room this palace had, seen that mark before in her life.
+She had never, in all her years growing up inside every roogitm this palace had, seen that mark before in her life.
 
 Vaanathi stood a long moment in the empty corridor, lamp held steady, though her hand, she noticed distantly, was not quite as steady as she would have liked. She understood — with the cold clarity that only arrives once true fear has finished being loud and settled into something quieter and far more lasting — that whatever the court had agreed, that morning, to call an ending, was not one at all.
 
