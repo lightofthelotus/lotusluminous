@@ -1,12 +1,10 @@
 /*
- * Book-style pagination for the v2 reader: splits a block of rendered
- * content into literal per-page <div> elements sized to the reader's
- * viewport, then lets the reader move between them by mouse-wheel/trackpad
- * scroll, swipe, the arrow keys, or a direct page-number jump — never a
- * visible prev/next button, and never a page that itself needs scrolling.
- * Forked from the v1 reader's paginate.js with wheel-driven paging and a
- * richer public API (goTo/next/prev) added for the page-jump box and the
- * bookmark tab.
+ * Book-style pagination: splits a block of rendered content into literal
+ * per-page <div> elements sized to the reader's viewport, then lets the
+ * reader move between them by swipe, arrow buttons, or the left/right
+ * keyboard keys. Building real page elements (rather than guessing a CSS
+ * column width and hoping it matches) keeps the page-turn shift amount
+ * exactly equal to each page's real rendered width — no drift.
  */
 
 window.V2Paginate = (function () {
@@ -119,25 +117,8 @@ window.V2Paginate = (function () {
     const queue = blocks.slice();
     let guard = blocks.length * 20 + 50; // safety net against any pathological loop
 
-    function isIllustration(b) {
-      return b.tagName === 'FIGURE' && b.classList.contains('illustration');
-    }
-
     while (queue.length && guard-- > 0) {
       const block = queue.shift();
-
-      // Illustrations always lead the page they land on. If text has
-      // already been accumulated for the current page, don't strand it as
-      // its own thin page above the image — pull it back off the page and
-      // requeue it right after the image, so it reflows below the image
-      // (or onto the next page, whichever fits) instead.
-      if (isIllustration(block) && currentBlocks.length > 0 && currentBlocks.some((b) => !isIllustration(b))) {
-        queue.unshift(block, ...currentBlocks);
-        currentBlocks = [];
-        measurer.innerHTML = '';
-        continue;
-      }
-
       const clone = block.cloneNode(true);
       measurer.appendChild(clone);
 
@@ -196,6 +177,12 @@ window.V2Paginate = (function () {
   function waitForImages(container) {
     const imgs = Array.from(container.querySelectorAll('img'));
     return Promise.all(imgs.map((img) => {
+      // #pagerSource (where this runs) is a permanently hidden staging
+      // container with no layout box, so a loading="lazy" image never
+      // triggers the browser's visibility check and its load event would
+      // never fire. Forcing eager here bypasses that gate; it doesn't
+      // affect the separate classic-scroll DOM, which keeps its own lazy
+      // <img> elements from a different render pass.
       if (img.loading === 'lazy') img.loading = 'eager';
       if (img.complete) return Promise.resolve();
       return new Promise((resolve) => {
@@ -205,7 +192,7 @@ window.V2Paginate = (function () {
     }));
   }
 
-  async function init({ container, source, track, indicator, onOverflowPrev, onOverflowNext, startAt, onPageChange, isActive }) {
+  async function init({ container, source, track, prevBtn, nextBtn, indicator, onOverflowPrev, onOverflowNext, startAt, onPageChange, isActive }) {
     const allBlocks = Array.from(source.children);
     const active = isActive || (() => true);
     let currentPage = 0;
@@ -245,9 +232,11 @@ window.V2Paginate = (function () {
 
     function render(animate) {
       const shift = trackWidth() * currentPage;
-      track.style.transition = animate ? 'transform 0.45s cubic-bezier(0.22, 0.68, 0.24, 1)' : 'none';
+      track.style.transition = animate ? 'transform 0.4s cubic-bezier(0.2, 0.7, 0.3, 1)' : 'none';
       track.style.transform = `translateX(-${shift}px)`;
-      if (indicator) indicator.textContent = totalPages > 1 ? `${currentPage + 1} / ${totalPages}` : '1 / 1';
+      if (indicator) indicator.textContent = totalPages > 1 ? `${currentPage + 1} / ${totalPages}` : '';
+      if (prevBtn) prevBtn.disabled = currentPage === 0 && !onOverflowPrev;
+      if (nextBtn) nextBtn.disabled = currentPage === totalPages - 1 && !onOverflowNext;
       if (onPageChange) onPageChange(currentPage, totalPages);
     }
 
@@ -266,6 +255,9 @@ window.V2Paginate = (function () {
 
     function next() { if (active()) goTo(currentPage + 1); }
     function prev() { if (active()) goTo(currentPage - 1); }
+
+    if (prevBtn) prevBtn.addEventListener('click', () => prev());
+    if (nextBtn) nextBtn.addEventListener('click', () => next());
 
     function onKeydown(e) {
       if (!active()) return;
@@ -292,22 +284,6 @@ window.V2Paginate = (function () {
       }
     }, { passive: true });
 
-    // Wheel/trackpad scroll turns the page — there is no visible prev/next
-    // button in this reader. A short lock after each turn stops one
-    // physical scroll gesture (which fires many small wheel events) from
-    // flipping several pages at once.
-    let wheelLocked = false;
-    container.addEventListener('wheel', (e) => {
-      if (!active()) return;
-      const delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
-      if (Math.abs(delta) < 10) return;
-      e.preventDefault();
-      if (wheelLocked) return;
-      wheelLocked = true;
-      if (delta > 0) next(); else prev();
-      setTimeout(() => { wheelLocked = false; }, 500);
-    }, { passive: false });
-
     let resizeTimer;
     window.addEventListener('resize', () => {
       clearTimeout(resizeTimer);
@@ -326,10 +302,6 @@ window.V2Paginate = (function () {
     return {
       refresh() { build(); render(false); },
       destroy() { document.removeEventListener('keydown', onKeydown); },
-      next,
-      prev,
-      goTo(page) { goTo(page); },
-      getState() { return { currentPage, totalPages }; },
     };
   }
 

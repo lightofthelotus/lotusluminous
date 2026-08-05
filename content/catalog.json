@@ -1,46 +1,83 @@
 {
+  "author": "Lotus Luminous",
   "recent": [
     { "type": "novel", "slug": "shadows-of-the-nine" },
     { "type": "tech", "slug": "an-indian-in-ai-era" },
     { "type": "standalone", "slug": "last-read-receipt" }
   ],
+  "novels": [
+    {
+      "slug": "shadows-of-the-nine",
+      "title": "Shadows of the Nine",
+      "book": "Book One",
+      "tag": "Novel · Ongoing",
+      "description": "Nine seals hold a balance which ancient forces swore to protect. One has gone missing. One princess is about to find out why.",
+      "readTime": "Chapter 6 now live",
+      "linkText": "Start Reading",
+      "dir": "blog/literary/novels/shadows-of-the-nine-se/",
+      "manifest": "content/literary/novels/shadows-of-the-nine-se/manifest.json"
+    }
+  ],
   "standalone": [
     {
       "slug": "the-prompt-and-the-glory",
+      "title": "The Prompt and the Glory",
+      "tag": "Standalone · Short Story",
+      "description": "A short story about a couple of friends from an imaginary timeline and an imaginary firm.",
+      "readTime": "19 min read",
+      "linkText": "Read the Story",
       "href": "blog/literary/the-prompt-and-the-glory.html",
       "md": "content/literary/standalone/the-prompt-and-the-glory.md"
     },
     {
       "slug": "last-read-receipt",
+      "title": "Last Read Receipt",
+      "tag": "Standalone · Short Story",
+      "description": "She's grieving something society doesn't really have a script for, since we only make space for grieving certain relations.",
+      "readTime": "10 min read",
+      "linkText": "Read the Story",
       "href": "blog/literary/last-read-receipt.html",
       "md": "content/literary/standalone/last-read-receipt.md"
-    }
-  ],
-    "novels": [
-    {
-      "slug": "shadows-of-the-nine",
-      "dir": "blog/literary/novels/shadows-of-the-nine-se/",
-      "manifest": "content/literary/novels/shadows-of-the-nine-se/manifest.json"
     }
   ],
   "tech": [
     {
       "slug": "designing-apis-that-age-well",
+      "title": "Designing APIs That Age Well",
+      "tag": "Architecture",
+      "description": "Lessons learned from versioning, deprecating, and living with API decisions for years.",
+      "readTime": "8 min read",
+      "linkText": "Read Article",
       "href": "blog/tech/designing-apis-that-age-well.html",
       "md": "content/tech/designing-apis-that-age-well.md"
     },
     {
       "slug": "the-case-for-boring-technology",
+      "title": "The Case for Boring Technology",
+      "tag": "Web Dev",
+      "description": "Why the least exciting tool in your stack is often the most valuable one.",
+      "readTime": "6 min read",
+      "linkText": "Read Article",
       "href": "blog/tech/the-case-for-boring-technology.html",
       "md": "content/tech/the-case-for-boring-technology.md"
     },
     {
       "slug": "spec-driven-development",
+      "title": "Spec-Driven Development in the Gen AI–Assisted SDLC",
+      "tag": "Gen AI & SDLC",
+      "description": "Why the spec matters more, not less, now that AI agents can generate code in seconds.",
+      "readTime": "8 min read",
+      "linkText": "Read Article",
       "href": "blog/tech/spec-driven-development.html",
       "md": "content/tech/spec-driven-development.md"
     },
     {
       "slug": "an-indian-in-ai-era",
+      "title": "An Indian Software Engineer in an AI Era",
+      "tag": "AI",
+      "description": "Why the Indian habit of translating everything, for everyone, all the time, is the AI era's most underrated skill.",
+      "readTime": "15 min read",
+      "linkText": "Read Article",
       "href": "blog/tech/an-indian-in-ai-era.html",
       "md": "content/tech/an-indian-in-ai-era.md"
     }

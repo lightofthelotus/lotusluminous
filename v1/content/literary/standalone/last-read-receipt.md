@@ -9,8 +9,7 @@ cardTag: Standalone
 linkText: Read the Story →
 ---
 
-# Read at 11:47 PM.
-
+# Read at 11:47 PM
 Meera still had the chat open. Not the conversation, that had gone quiet months ago, just the window itself, pinned to the top of her phone like a tab she kept meaning to close.
 
 She and Diya used to talk about everything, there was nothing they hadn't covered. That was the whole point of it. Whether the office cafeteria was serving the good sambar or the watery one. A stray dog that had started following Priya home from the metro station. Whether kajal or eyeliner, for the wedding they were both dreading.

@@ -1,0 +1,497 @@
+/*
+ * The v2 immersive reader. Always full-page, no scroll mode toggle, no
+ * visible prev/next arrows — pages turn on wheel scroll, swipe, or the
+ * arrow keys (see js/paginate.js), and a compact top nav carries the page
+ * jump box and the bookmark tab. Reuses bookshelf.css's :root tokens for
+ * the palette so it matches the shelf exactly.
+ */
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body.reader-page {
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  font-family: var(--sans);
+  color: var(--text-light);
+  background:
+    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(var(--accent-rgb), 0.08), transparent 60%),
+    radial-gradient(ellipse 50% 35% at 85% 30%, rgba(var(--sky-rgb), 0.05), transparent 60%),
+    linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
+}
+
+/* ---------- Floating nav ---------- */
+.float-nav {
+  position: fixed;
+  top: 0.9rem;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem;
+  border-radius: 999px;
+  background: var(--panel-bg);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 10px 30px rgba(var(--ink-rgb), 0.4);
+}
+
+.float-nav--left { left: 0.9rem; }
+.float-nav--right { right: 0.9rem; }
+.float-nav[hidden] { display: none; }
+
+.float-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  color: var(--text-light);
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.float-btn:hover { background: var(--glass-faint); }
+.float-btn svg { width: 1rem; height: 1rem; }
+
+.float-btn.is-bookmarked-here svg {
+  fill: var(--accent-2);
+  stroke: var(--accent-2);
+}
+
+.chapter-select {
+  max-width: 170px;
+  background: transparent;
+  color: var(--text-light);
+  border: none;
+  border-radius: 999px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chapter-select[hidden] { display: none; }
+
+/* ---------- Page-number jump ---------- */
+.page-jump {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  padding: 0 0.3rem;
+  white-space: nowrap;
+}
+
+.page-jump[hidden] { display: none; }
+
+.page-jump-input {
+  width: 2.6rem;
+  background: var(--glass-faint);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  color: var(--text-light);
+  text-align: center;
+  font-family: inherit;
+  font-size: 0.82rem;
+  padding: 0.32rem 0.1rem;
+}
+
+.page-jump-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* ---------- Bookmark tab: floating, expands to a small panel ---------- */
+.bookmark-tab {
+  position: relative;
+}
+
+.bookmark-count {
+  position: absolute;
+  top: 0.05rem;
+  right: 0.05rem;
+  min-width: 1rem;
+  height: 1rem;
+  padding: 0 0.25rem;
+  border-radius: 999px;
+  background: var(--accent-2);
+  color: var(--accent-ink);
+  font-size: 0.6rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.bookmark-count[hidden] { display: none; }
+
+.bookmark-panel {
+  position: absolute;
+  top: calc(100% + 0.7rem);
+  right: 0;
+  width: 260px;
+  max-width: calc(100vw - 1.8rem);
+  /* Floats directly over page text here (unlike the shelf's detail panel,
+     which sits over a plain backdrop), so it needs a near-opaque backing —
+     panel-bg's usual 0.6 alpha let the title underneath bleed through the
+     blur and made "Add this page" illegible against it. */
+  background: rgba(var(--panel-rgb), 0.97);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+  box-shadow: 0 20px 50px rgba(var(--ink-rgb), 0.6);
+  padding: 0.8rem;
+  z-index: 110;
+  animation: bookmarkPanelIn 0.2s ease;
+}
+
+.bookmark-panel[hidden] { display: none; }
+
+@keyframes bookmarkPanelIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.bookmark-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.bookmark-panel-head span {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.bookmark-add {
+  appearance: none;
+  border: none;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.3rem 0.55rem;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.bookmark-add:hover:not(:disabled) {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.bookmark-add:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.bookmark-list {
+  list-style: none;
+  margin: 0 0 0.4rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.bookmark-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.bookmark-item-link {
+  flex: 1;
+  display: block;
+  text-align: left;
+  background: var(--glass-faint);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 0.5rem 0.6rem;
+  color: var(--text-light);
+  font-size: 0.78rem;
+  font-family: inherit;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bookmark-item-link:hover { border-color: var(--accent); }
+.bookmark-item-link.is-current { border-color: var(--accent-2); }
+
+.bookmark-item-remove {
+  appearance: none;
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  flex: 0 0 auto;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.bookmark-item-remove:hover {
+  background: rgba(var(--ink-rgb), 0.35);
+  color: var(--text-light);
+}
+
+.bookmark-empty {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 0.5rem 0 0.1rem;
+}
+
+.bookmark-empty[hidden] { display: none; }
+
+/* ---------- Reader viewport: compact fixed header + paginated body ---------- */
+.reader-viewport {
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.reader-fixed-header {
+  flex-shrink: 0;
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: clamp(2.8rem, 8vh, 3.8rem) 1.5rem 0.3rem;
+  text-align: left;
+}
+
+.reader-fixed-header .eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.2rem;
+}
+
+.reader-fixed-header h1 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(1.05rem, 2.6vh, 1.5rem);
+  line-height: 1.2;
+  margin: 0.15rem 0 0.3rem;
+  color: var(--text-light);
+}
+
+.reader-meta {
+  color: var(--text-muted);
+  font-size: 0.76rem;
+  margin: 0 0 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.reader-viewport--poem .reader-fixed-header,
+.reader-viewport--poem .pager {
+  max-width: 640px;
+}
+
+/* ---------- Pager: the paginated, swipe/scroll-turned body ---------- */
+.pager {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.2rem 1.6rem 1.6rem;
+}
+
+.pager-viewport {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.pager-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+.pager-page {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 1.55;
+}
+
+/* ---------- Body typography ---------- */
+.reader-body,
+.pager-page {
+  font-size: 1rem;
+}
+
+.pager-page h2 {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  margin: 0.9rem 0 0.5rem;
+  color: var(--text-light);
+}
+
+.pager-page h3 {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  margin: 0.8rem 0 0.4rem;
+  color: var(--text-light);
+}
+
+.pager-page > h2:first-child,
+.pager-page > h3:first-child {
+  margin-top: 0;
+}
+
+.pager-page p {
+  margin: 0 0 0.85rem;
+  color: var(--text-light);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.pager-page p.lede {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 0.85rem;
+}
+
+.pager-page ul,
+.pager-page ol {
+  margin: 0 0 0.85rem 1.3rem;
+  color: var(--text-light);
+}
+
+.pager-page li {
+  margin-bottom: 0.3rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.pager-page ol li { list-style: decimal; }
+.pager-page ul li { list-style: disc; }
+
+.pager-page blockquote {
+  margin: 1rem 0;
+  padding: 0.8rem 1.1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  border-left: 3px solid var(--accent);
+  background: var(--glass-faint);
+  border-radius: 0 12px 12px 0;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.pager-page .scene-break {
+  text-align: center;
+  color: var(--accent);
+  letter-spacing: 0.3em;
+  margin: 1.2rem 0;
+  font-size: 0.9rem;
+}
+
+.pager-page .poem-stanza {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+  line-height: 1.75;
+}
+
+.pager-page p.voice-aside {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+figure.illustration {
+  margin: 1rem 0;
+}
+
+figure.illustration img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--glass-border);
+  display: block;
+}
+
+figure.illustration figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: center;
+  font-style: italic;
+}
+
+/* Immersive pages have a fixed height, so an illustration can't be allowed
+   to grow past what a lone page can hold — cap it so it's always fittable. */
+.pager-page figure.illustration img {
+  max-height: 55vh;
+  object-fit: contain;
+}
+
+/* ---------- Loading skeleton ---------- */
+.skeleton-card {
+  border-radius: 14px;
+  background: linear-gradient(
+    100deg,
+    var(--glass-faint) 30%,
+    var(--glass-soft) 50%,
+    var(--glass-faint) 70%
+  );
+  background-size: 200% 100%;
+  animation: skeletonShimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes skeletonShimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .float-nav { top: 0.6rem; padding: 0.3rem; gap: 0.25rem; }
+  .float-nav--left { left: 0.6rem; }
+  .float-nav--right { right: 0.6rem; }
+  .float-btn { width: 2rem; height: 2rem; }
+  .chapter-select { max-width: 90px; font-size: 0.72rem; padding: 0.35rem 0.5rem; }
+  .page-jump { font-size: 0.7rem; }
+  .page-jump-input { width: 2.2rem; font-size: 0.75rem; }
+  .reader-fixed-header { padding: 3rem 1rem 0.3rem; }
+  .pager { padding: 0.2rem 1.1rem 1.2rem; }
+  .bookmark-panel { width: 220px; }
+}

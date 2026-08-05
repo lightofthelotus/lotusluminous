@@ -7,107 +7,64 @@
 <meta name="description" content="" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=11" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bookshelf.css" />
+<link rel="stylesheet" href="css/read.css" />
 </head>
-<body class="reader-page mode-immersive" id="readerBody">
+<body class="reader-page" id="readerBody">
 
-<div class="bg-decor" aria-hidden="true">
-  <div class="blob blob-1" data-depth="0.15"></div>
-  <div class="blob blob-2" data-depth="0.25"></div>
-  <div class="blob blob-3" data-depth="0.1"></div>
-</div>
+<nav class="float-nav float-nav--left" id="floatNavLeft">
+  <a href="index.html" class="float-btn" title="Home" aria-label="Home">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+  </a>
+  <a href="index.html" class="float-btn" id="backLink" title="Back" aria-label="Back">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+  </a>
+</nav>
 
-<button type="button" class="mode-toggle" id="viewModeToggle" aria-pressed="true" title="Switch between immersive page-flip and normal scroll view">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C4 4.67 4.67 4 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5v-13Z"/><path d="M20 5.5c0-.83-.67-1.5-1.5-1.5H13v16h5.5c.83 0 1.5-.67 1.5-1.5v-13Z"/></svg>
-  <span id="viewModeLabel">Immersive</span>
-</button>
+<nav class="float-nav float-nav--right" id="floatNavRight">
+  <select class="chapter-select" id="chapterSelect" aria-label="Jump to chapter" hidden></select>
 
-<!-- ===== Immersive view: fixed header + swipeable page-flip body ===== -->
-<div id="immersiveView">
-  <nav class="float-nav float-nav--left" id="floatNavLeft">
-    <a href="index.html" class="float-btn" title="Home" aria-label="Home">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
-    </a>
-    <a href="index.html" class="float-btn" id="backLink" title="Back" aria-label="Back">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-    </a>
-    <button type="button" class="float-btn" id="bookmarkBtn" title="Bookmark this page" aria-label="Bookmark this page">
+  <div class="page-jump" id="pageJump" hidden>
+    <input type="number" class="page-jump-input" id="pageJumpInput" min="1" value="1" aria-label="Jump to page" />
+    <span class="page-jump-total" id="pageJumpTotal">/ 1</span>
+  </div>
+
+  <div class="bookmark-tab" id="bookmarkTab">
+    <button type="button" class="float-btn" id="bookmarkToggle" aria-label="Bookmarks" aria-expanded="false" title="Bookmarks">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1Z"/></svg>
+      <span class="bookmark-count" id="bookmarkCount" hidden>0</span>
     </button>
-  </nav>
 
-  <nav class="float-nav float-nav--right" id="floatNavRight" hidden>
-    <select class="chapter-select" id="chapterSelect" aria-label="Jump to chapter" hidden></select>
-  </nav>
-
-  <main class="reader-viewport" id="readerViewport">
-    <div class="reader-fixed-header reveal-group" id="readerHeader">
-      <div class="skeleton-row" style="grid-template-columns: 1fr;">
-        <div class="skeleton-card" style="height: 30vh;"></div>
+    <div class="bookmark-panel" id="bookmarkPanel" hidden>
+      <div class="bookmark-panel-head">
+        <span>Bookmarks</span>
+        <button type="button" class="bookmark-add" id="bookmarkAdd">+ Add this page</button>
       </div>
+      <ul class="bookmark-list" id="bookmarkList"></ul>
+      <p class="bookmark-empty" id="bookmarkEmpty">No bookmarks yet — up to 5 per book.</p>
     </div>
+  </div>
+</nav>
 
-    <div class="pager" id="pager">
-      <div class="pager-viewport" id="pagerViewport">
-        <div class="pager-track" id="pagerTrack"></div>
-      </div>
-      <div class="reader-body" id="pagerSource" hidden></div>
-
-      <button type="button" class="pager-arrow pager-arrow--prev" id="pagerPrevBtn" aria-label="Previous page" disabled>‹</button>
-      <button type="button" class="pager-arrow pager-arrow--next" id="pagerNextBtn" aria-label="Next page" disabled>›</button>
-
-      <div class="pager-indicator" id="pagerIndicator"></div>
+<main class="reader-viewport" id="readerViewport">
+  <div class="reader-fixed-header" id="readerHeader">
+    <div class="skeleton-row" style="grid-template-columns: 1fr;">
+      <div class="skeleton-card" style="height: 14vh;"></div>
     </div>
-  </main>
-</div>
+  </div>
 
-<!-- ===== Normal view: classic scrolling article ===== -->
-<div id="normalView" hidden>
-  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
-
-  <nav class="quicknav" id="quicknav">
-    <a href="index.html" class="quicknav-brand">Lotus<span>.</span></a>
-    <div class="quicknav-links">
-      <select class="chapter-select" id="chapterSelectClassic" aria-label="Jump to chapter" hidden></select>
+  <div class="pager" id="pager">
+    <div class="pager-viewport" id="pagerViewport">
+      <div class="pager-track" id="pagerTrack"></div>
     </div>
-    <button type="button" class="float-btn" id="bookmarkBtnClassic" title="Bookmark this page" aria-label="Bookmark this page">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1Z"/></svg>
-    </button>
-    <a href="index.html" class="quicknav-classic" id="backLinkClassic">← Home</a>
-  </nav>
+    <div class="reader-body" id="pagerSource" hidden></div>
+  </div>
+</main>
 
-  <main id="mainScrollClassic">
-    <div class="scroll-spine scroll-spine--subtle" aria-hidden="true">
-      <svg viewBox="0 0 100 1000" preserveAspectRatio="none">
-        <defs>
-          <linearGradient id="spineGradient" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" style="stop-color:var(--accent)" />
-            <stop offset="100%" style="stop-color:var(--accent-3)" />
-          </linearGradient>
-        </defs>
-        <path class="spine-path" data-side="left" fill="none" stroke="url(#spineGradient)" stroke-width="0.22" stroke-linecap="round" stroke-linejoin="round" opacity="0.4" />
-        <circle class="spine-dot" data-side="left" r="0.55" fill="var(--accent)" opacity="0" />
-        <path class="spine-path" data-side="right" fill="none" stroke="url(#spineGradient)" stroke-width="0.22" stroke-linecap="round" stroke-linejoin="round" opacity="0.4" />
-        <circle class="spine-dot" data-side="right" r="0.55" fill="var(--accent)" opacity="0" />
-      </svg>
-    </div>
-
-    <article class="reader-article reveal-group" id="articleRootClassic">
-      <div class="skeleton-row" style="grid-template-columns: 1fr;">
-        <div class="skeleton-card" style="height: 60vh;"></div>
-      </div>
-    </article>
-  </main>
-
-  <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Lotus Luminous. Ideas and creative direction are mine — built with AI as collaborator.</p>
-  </footer>
-</div>
-
-<script src="js/common.js?v=4"></script>
-<script src="js/markdown.js?v=1"></script>
-<script src="js/paginate.js?v=7"></script>
-<script src="js/read.js?v=7"></script>
+<script src="js/common.js"></script>
+<script src="js/markdown.js"></script>
+<script src="js/paginate.js"></script>
+<script src="js/read.js"></script>
 </body>
 </html>

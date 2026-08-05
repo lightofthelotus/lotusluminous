@@ -1,67 +1,42 @@
 /*
- * v5 reader: renders a novel chapter, standalone story/poem, or tech
- * article into two parallel views — an immersive swipeable page-flip
- * view (paginate.js) and a classic scrolling view (common.js chrome) —
- * lets the reader toggle between them, and lets them bookmark a single
- * spot (one bookmark total) to jump back to later.
+ * v2 reader: always-immersive, no-scroll, page-turn reader for novels,
+ * standalone stories, and tech articles. Uses v2's own local fetch/markdown
+ * helpers (window.V2 / window.V2MD, content-agnostic) and resolves every
+ * content path relative to v2/, so this page never reaches outside its own
+ * folder. Pagination is v2's own fork (js/paginate.js) with wheel-driven
+ * page turns and page-jump/bookmark support built in.
  */
 
 (function () {
-  const { fetchText, fetchJSON, parseFrontmatter, escapeHtml, fullDateLabel, fail, setHead, initChrome, CATALOG_PATH, assetPath } = window.V2;
+  const { fetchText, fetchJSON, parseFrontmatter, escapeHtml, fullDateLabel, fail, setHead } = window.V2;
   const { renderMarkdown, renderInline } = window.V2MD;
 
-  const MODE_KEY = 'readerViewMode';
-  const BOOKMARK_KEY = 'readerBookmark';
+  const CATALOG_PATH = 'content/catalog.json';
+  const BOOKMARKS_PREFIX = 'v2:bookmarks:';
+  const MAX_BOOKMARKS = 5;
+
   let pagerController = null;
-  let currentImmersivePage = 0;
+  let pageState = { currentPage: 0, totalPages: 1 };
+  let currentCtx = null; // { type, slug, chapterFile, chapterLabel, itemLabel }
 
-  function getStoredMode() {
-    return localStorage.getItem(MODE_KEY) === 'normal' ? 'normal' : 'immersive';
+  function assetPath(path) {
+    return String(path).replace(/^\/+/, '');
   }
 
-  function applyMode(mode) {
-    document.body.classList.toggle('mode-normal', mode === 'normal');
-    document.body.classList.toggle('mode-immersive', mode === 'immersive');
-    document.getElementById('immersiveView').hidden = mode !== 'immersive';
-    document.getElementById('normalView').hidden = mode !== 'normal';
-    const label = document.getElementById('viewModeLabel');
-    const toggle = document.getElementById('viewModeToggle');
-    if (label) label.textContent = mode === 'immersive' ? 'Immersive' : 'Scroll';
-    if (toggle) toggle.setAttribute('aria-pressed', String(mode === 'immersive'));
-    localStorage.setItem(MODE_KEY, mode);
-    if (mode === 'immersive' && pagerController) pagerController.refresh();
+  function setLink(id, href, label) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.setAttribute('href', href);
+    el.setAttribute('aria-label', label);
+    el.setAttribute('title', label);
   }
 
-  function initModeToggle() {
-    const toggle = document.getElementById('viewModeToggle');
-    if (!toggle) return;
-    toggle.addEventListener('click', () => {
-      applyMode(getStoredMode() === 'immersive' ? 'normal' : 'immersive');
-    });
-    applyMode(getStoredMode());
-  }
-
-  function setLinks(href, label) {
-    ['backLink', 'backLinkClassic'].forEach((id) => {
-      const el = document.getElementById(id);
-      if (!el) return;
-      el.setAttribute('href', href);
-      if (id === 'backLink') {
-        el.setAttribute('aria-label', label);
-        el.setAttribute('title', label);
-      } else {
-        el.textContent = label;
-      }
-    });
-  }
-
-  function wireChapterSelect(select, wrap, parts, currentFile, onChange) {
+  function wireChapterSelect(parts, currentFile, onChange) {
+    const select = document.getElementById('chapterSelect');
     if (!parts) {
-      if (wrap) wrap.hidden = true;
       select.hidden = true;
       return;
     }
-    if (wrap) wrap.hidden = false;
     select.hidden = false;
     select.innerHTML = parts
       .map((p) => `<option value="${escapeHtml(p.file.replace(/\.md$/, ''))}"${p.file === currentFile ? ' selected' : ''}>${escapeHtml(p.navLabel)}</option>`)
@@ -69,100 +44,181 @@
     select.onchange = () => onChange(select.value);
   }
 
-  function setChapterSelects(parts, currentFile, onChange) {
-    wireChapterSelect(document.getElementById('chapterSelect'), document.getElementById('floatNavRight'), parts, currentFile, onChange);
-    wireChapterSelect(document.getElementById('chapterSelectClassic'), null, parts, currentFile, onChange);
+  // ---------- Page-number jump ----------
+  function initPageJump() {
+    const wrap = document.getElementById('pageJump');
+    const input = document.getElementById('pageJumpInput');
+    const total = document.getElementById('pageJumpTotal');
+
+    function commit() {
+      const n = parseInt(input.value, 10);
+      if (!pagerController || !Number.isFinite(n)) return;
+      const clamped = Math.min(Math.max(n, 1), pageState.totalPages);
+      input.value = String(clamped);
+      pagerController.goTo(clamped - 1);
+    }
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { commit(); input.blur(); }
+    });
+    input.addEventListener('blur', commit);
+
+    return {
+      show() { wrap.hidden = false; },
+      update(page, totalPages) {
+        input.max = String(totalPages);
+        if (document.activeElement !== input) input.value = String(page + 1);
+        total.textContent = `/ ${totalPages}`;
+      },
+    };
   }
 
-  // ---------- Bookmark (one global bookmark, jump back to it any time) ----------
+  // ---------- Bookmarks: up to 5 per book, floating expandable tab ----------
+  function bookmarkKey(type, slug) {
+    return `${BOOKMARKS_PREFIX}${type}:${slug}`;
+  }
 
-  function loadBookmark() {
+  function loadBookmarks(type, slug) {
     try {
-      const raw = localStorage.getItem(BOOKMARK_KEY);
-      return raw ? JSON.parse(raw) : null;
+      const raw = localStorage.getItem(bookmarkKey(type, slug));
+      const list = raw ? JSON.parse(raw) : [];
+      return Array.isArray(list) ? list.slice(0, MAX_BOOKMARKS) : [];
     } catch (e) {
-      return null;
+      return [];
     }
   }
 
-  function saveBookmark(bookmark) {
-    try { localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmark)); } catch (e) { /* storage unavailable */ }
+  function saveBookmarks(type, slug, list) {
+    try { localStorage.setItem(bookmarkKey(type, slug), JSON.stringify(list.slice(0, MAX_BOOKMARKS))); } catch (e) { /* storage unavailable */ }
   }
 
-  function clearBookmark() {
-    try { localStorage.removeItem(BOOKMARK_KEY); } catch (e) { /* storage unavailable */ }
-  }
-
-  function sameContent(bookmark, ctx) {
-    return !!bookmark && bookmark.type === ctx.type && bookmark.slug === ctx.slug && (bookmark.chapterFile || null) === (ctx.chapterFile || null);
-  }
-
-  function hrefForBookmark(bookmark) {
-    const base = bookmark.type === 'novel'
-      ? `read.html?type=novel&slug=${encodeURIComponent(bookmark.slug)}&chapter=${encodeURIComponent(bookmark.chapterFile.replace(/\.md$/, ''))}`
-      : `read.html?type=${encodeURIComponent(bookmark.type)}&slug=${encodeURIComponent(bookmark.slug)}`;
+  function bookmarkHref(type, slug, bookmark) {
+    const base = bookmark.chapterFile
+      ? `read.html?type=${encodeURIComponent(type)}&slug=${encodeURIComponent(slug)}&chapter=${encodeURIComponent(bookmark.chapterFile.replace(/\.md$/, ''))}`
+      : `read.html?type=${encodeURIComponent(type)}&slug=${encodeURIComponent(slug)}`;
     return `${base}&p=${bookmark.page}`;
   }
 
-  function initBookmark(ctx) {
-    const buttons = ['bookmarkBtn', 'bookmarkBtnClassic'].map((id) => document.getElementById(id)).filter(Boolean);
-    if (!buttons.length) return;
+  function initBookmarks(ctx) {
+    const tab = document.getElementById('bookmarkTab');
+    const toggle = document.getElementById('bookmarkToggle');
+    const countEl = document.getElementById('bookmarkCount');
+    const panel = document.getElementById('bookmarkPanel');
+    const list = document.getElementById('bookmarkList');
+    const empty = document.getElementById('bookmarkEmpty');
+    const addBtn = document.getElementById('bookmarkAdd');
 
-    function refresh() {
-      const bookmark = loadBookmark();
-      const here = bookmark && sameContent(bookmark, ctx) && bookmark.page === currentImmersivePage;
-      const elsewhere = bookmark && !here;
-      buttons.forEach((btn) => {
-        btn.classList.toggle('is-bookmarked-here', !!here);
-        btn.classList.toggle('is-bookmarked-elsewhere', !!elsewhere);
-        const label = here
-          ? 'Remove bookmark'
-          : elsewhere
-            ? `Go to your bookmark: ${bookmark.label}`
-            : 'Bookmark this page';
-        btn.setAttribute('title', label);
-        btn.setAttribute('aria-label', label);
+    function sameSpot(b) {
+      return (b.chapterFile || null) === (ctx.chapterFile || null) && b.page === pageState.currentPage;
+    }
+
+    function render() {
+      const bookmarks = loadBookmarks(ctx.type, ctx.slug);
+
+      countEl.hidden = bookmarks.length === 0;
+      countEl.textContent = String(bookmarks.length);
+      addBtn.disabled = bookmarks.length >= MAX_BOOKMARKS || bookmarks.some(sameSpot);
+      addBtn.textContent = bookmarks.some(sameSpot) ? 'Already bookmarked' : bookmarks.length >= MAX_BOOKMARKS ? 'Max 5 bookmarks' : '+ Add this page';
+
+      empty.hidden = bookmarks.length > 0;
+      list.innerHTML = '';
+      bookmarks.forEach((b, i) => {
+        const li = document.createElement('li');
+        li.className = 'bookmark-item';
+
+        const link = document.createElement('button');
+        link.type = 'button';
+        link.className = 'bookmark-item-link' + (sameSpot(b) ? ' is-current' : '');
+        link.textContent = b.label;
+        link.addEventListener('click', () => {
+          const here = (b.chapterFile || null) === (ctx.chapterFile || null);
+          if (here && pagerController) {
+            pagerController.goTo(b.page);
+            closePanel();
+          } else {
+            window.location.href = bookmarkHref(ctx.type, ctx.slug, b);
+          }
+        });
+
+        const remove = document.createElement('button');
+        remove.type = 'button';
+        remove.className = 'bookmark-item-remove';
+        remove.setAttribute('aria-label', `Remove bookmark: ${b.label}`);
+        remove.innerHTML = '&times;';
+        remove.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const updated = loadBookmarks(ctx.type, ctx.slug);
+          updated.splice(i, 1);
+          saveBookmarks(ctx.type, ctx.slug, updated);
+          render();
+        });
+
+        li.appendChild(link);
+        li.appendChild(remove);
+        list.appendChild(li);
       });
     }
 
-    function onClick() {
-      const bookmark = loadBookmark();
-      const here = bookmark && sameContent(bookmark, ctx) && bookmark.page === currentImmersivePage;
-      if (bookmark && !here) {
-        window.location.href = hrefForBookmark(bookmark);
-        return;
-      }
-      if (here) {
-        clearBookmark();
-      } else {
-        saveBookmark({ type: ctx.type, slug: ctx.slug, chapterFile: ctx.chapterFile || null, page: currentImmersivePage, label: ctx.label });
-      }
-      refresh();
+    function openPanel() {
+      panel.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+      render();
+    }
+    function closePanel() {
+      panel.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+    function togglePanel() {
+      if (panel.hidden) openPanel(); else closePanel();
     }
 
-    buttons.forEach((btn) => btn.addEventListener('click', onClick));
-    refresh();
-    return refresh;
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      togglePanel();
+    });
+    addBtn.addEventListener('click', () => {
+      const bookmarks = loadBookmarks(ctx.type, ctx.slug);
+      if (bookmarks.length >= MAX_BOOKMARKS || bookmarks.some(sameSpot)) return;
+      bookmarks.push({
+        chapterFile: ctx.chapterFile || null,
+        page: pageState.currentPage,
+        label: ctx.chapterLabel
+          ? `${ctx.chapterLabel} · Page ${pageState.currentPage + 1}`
+          : `Page ${pageState.currentPage + 1}`,
+      });
+      saveBookmarks(ctx.type, ctx.slug, bookmarks);
+      render();
+    });
+    document.addEventListener('click', (e) => {
+      if (!tab.contains(e.target)) closePanel();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closePanel();
+    });
+
+    render();
+    return render;
   }
 
-  async function startPager({ onOverflowPrev, onOverflowNext, startAt, onBookmarkRefresh }) {
+  // ---------- Pager bootstrap ----------
+  async function startPager({ onOverflowPrev, onOverflowNext, startAt, onNavigate }) {
+    const pageJump = initPageJump();
+    pageJump.show();
+
     pagerController = await window.V2Paginate.init({
       container: document.getElementById('pager'),
       source: document.getElementById('pagerSource'),
       track: document.getElementById('pagerTrack'),
-      prevBtn: document.getElementById('pagerPrevBtn'),
-      nextBtn: document.getElementById('pagerNextBtn'),
-      indicator: document.getElementById('pagerIndicator'),
       onOverflowPrev,
       onOverflowNext,
       startAt,
-      onPageChange: (page) => {
-        currentImmersivePage = page;
-        if (onBookmarkRefresh) onBookmarkRefresh();
+      onPageChange: (page, totalPages) => {
+        pageState = { currentPage: page, totalPages };
+        pageJump.update(page, totalPages);
+        if (onNavigate) onNavigate();
       },
-      isActive: () => document.body.classList.contains('mode-immersive'),
+      isActive: () => true,
     });
-    if (document.body.classList.contains('mode-immersive')) pagerController.refresh();
   }
 
   async function renderNovel(params, slug) {
@@ -172,12 +228,8 @@
 
     const manifest = await fetchJSON(assetPath(entry.manifest));
     const contentBase = assetPath(entry.manifest.replace(/manifest\.json$/, ''));
-    // The content directory's own folder name (e.g. "shadows-of-the-nine-se")
-    // can differ from the catalog's URL slug, so derive the illustrations
-    // path from the same directory contentBase already points at rather
-    // than from `slug`.
     const contentDirName = contentBase.replace(/\/+$/, '').split('/').pop();
-    const illustrationsBase = `/content/illustrations/${contentDirName}/`;
+    const illustrationsBase = `content/illustrations/${contentDirName}/`;
     const chapterParam = params.get('chapter');
     const chapterFile = chapterParam ? `${chapterParam}.md` : manifest.parts[0].file;
     const currentIndex = manifest.parts.findIndex((p) => p.file === chapterFile);
@@ -189,48 +241,36 @@
 
     const prev = currentIndex > 0 ? manifest.parts[currentIndex - 1] : null;
     const next = currentIndex < manifest.parts.length - 1 ? manifest.parts[currentIndex + 1] : null;
-    const chapterHref = (file) => `read.html?type=novel&slug=${encodeURIComponent(slug)}&chapter=${encodeURIComponent(file.replace(/\.md$/, ''))}`;
+    const chapterHref = (file, extra) => `read.html?type=novel&slug=${encodeURIComponent(slug)}&chapter=${encodeURIComponent(file.replace(/\.md$/, ''))}${extra || ''}`;
 
-    const headerHtml = `
-      <p class="eyebrow reveal">${escapeHtml(data.eyebrow || manifest.title)}</p>
-      <h1 class="reveal">${escapeHtml(data.title)}</h1>
-      <p class="reader-meta reveal">By Lotus Luminous${data.date ? ` · ${escapeHtml(fullDateLabel(data.date))}` : ''}</p>
+    document.getElementById('readerHeader').innerHTML = `
+      <p class="eyebrow">${escapeHtml(data.eyebrow || manifest.title)}</p>
+      <h1>${escapeHtml(data.title)}</h1>
+      <p class="reader-meta">By Lotus Luminous${data.date ? ` · ${escapeHtml(fullDateLabel(data.date))}` : ''}</p>
     `;
-    document.getElementById('readerHeader').innerHTML = headerHtml;
     document.getElementById('pagerSource').innerHTML = bodyHtml;
 
-    const prevLink = prev
-      ? `<a href="${chapterHref(prev.file)}" class="btn btn-ghost">← ${escapeHtml(prev.footerLabel)}</a>`
-      : '<span></span>';
-    const nextLink = next
-      ? `<a href="${chapterHref(next.file)}" class="btn btn-primary">Next: ${escapeHtml(next.footerLabel)} →</a>`
-      : '<a href="literary/index.html" class="btn btn-primary">More chapters coming soon →</a>';
-    document.getElementById('articleRootClassic').innerHTML = `
-      ${headerHtml}
-      <div class="reader-body">${bodyHtml}</div>
-      <div class="reader-footer-nav reveal">${prevLink}${nextLink}</div>
-    `;
-
-    setChapterSelects(manifest.parts, chapterFile, (value) => {
+    wireChapterSelect(manifest.parts, chapterFile, (value) => {
       window.location.href = chapterHref(`${value}.md`);
     });
 
-    setLinks('literary/index.html', '← Literary Blog');
+    setLink('backLink', 'index.html', '← The Shelf');
     setHead(`${data.title} — ${manifest.title} — Lotus Luminous`, data.description || manifest.description);
 
-    const pageParam = parseInt(params.get('p'), 10);
-    const onBookmarkRefresh = initBookmark({
+    currentCtx = {
       type: 'novel',
       slug,
       chapterFile,
-      label: `${manifest.title} — ${data.title}`,
-    });
+      chapterLabel: manifest.parts[currentIndex].navLabel || data.title,
+    };
+    const refreshBookmarks = initBookmarks(currentCtx);
 
+    const pageParam = parseInt(params.get('p'), 10);
     await startPager({
-      onOverflowPrev: prev ? () => { window.location.href = `${chapterHref(prev.file)}#last`; } : null,
+      onOverflowPrev: prev ? () => { window.location.href = chapterHref(prev.file, '#last'); } : null,
       onOverflowNext: next ? () => { window.location.href = chapterHref(next.file); } : null,
       startAt: location.hash === '#last' ? 'end' : (Number.isFinite(pageParam) && pageParam >= 0 ? pageParam : 0),
-      onBookmarkRefresh,
+      onNavigate: refreshBookmarks,
     });
   }
 
@@ -243,48 +283,33 @@
     const raw = await fetchText(assetPath(entry.md));
     const { data, body } = parseFrontmatter(raw);
     const isPoem = data.poem === 'true';
-    const bodyHtml = renderMarkdown(body, { headings: type === 'tech', poem: isPoem, illustrationsBase: `/content/illustrations/${slug}/` });
+    const bodyHtml = renderMarkdown(body, { headings: type === 'tech', poem: isPoem, illustrationsBase: `content/illustrations/${slug}/` });
     const lede = data.lede || data.description;
-    const ledeHtml = lede ? `<p class="lede reveal">${renderInline(lede)}</p>` : '';
+    const ledeHtml = lede ? `<p class="lede">${renderInline(lede)}</p>` : '';
 
-    const backHref = type === 'tech' ? 'tech/index.html' : 'literary/index.html';
-    const backLabel = type === 'tech' ? '← Tech Blog' : '← Literary Blog';
+    const backHref = 'index.html';
+    const backLabel = '← The Shelf';
 
     document.getElementById('readerViewport').classList.toggle('reader-viewport--poem', isPoem);
-    document.getElementById('articleRootClassic').classList.toggle('reader-article--poem', isPoem);
 
-    const headerHtml = `
-      <p class="eyebrow reveal">${escapeHtml(data.eyebrow || '')}</p>
-      <h1 class="reveal">${escapeHtml(data.title)}</h1>
-      <p class="reader-meta reveal">By Lotus Luminous${data.readTime ? ` · ${escapeHtml(data.readTime)}` : ''}</p>
+    document.getElementById('readerHeader').innerHTML = `
+      <p class="eyebrow">${escapeHtml(data.eyebrow || '')}</p>
+      <h1>${escapeHtml(data.title)}</h1>
+      <p class="reader-meta">By Lotus Luminous${data.readTime ? ` · ${escapeHtml(data.readTime)}` : ''}</p>
     `;
-    document.getElementById('readerHeader').innerHTML = headerHtml;
-    // The lede rides as the first page of the pager rather than the fixed
-    // header, so the immersive header stays compact and leaves more room
-    // for the swipeable body.
     document.getElementById('pagerSource').innerHTML = ledeHtml + bodyHtml;
 
-    document.getElementById('articleRootClassic').innerHTML = `
-      ${headerHtml}
-      <div class="reader-body">
-        ${ledeHtml}
-        ${bodyHtml}
-      </div>
-      <div class="reader-footer-nav reveal">
-        <a href="${backHref}" class="btn btn-primary">${backLabel}</a>
-      </div>
-    `;
-
-    setChapterSelects(null);
-    setLinks(backHref, backLabel);
+    wireChapterSelect(null);
+    setLink('backLink', backHref, backLabel);
     setHead(`${data.title} — Lotus Luminous`, data.description);
 
-    const pageParam = parseInt(new URLSearchParams(location.search).get('p'), 10);
-    const onBookmarkRefresh = initBookmark({ type, slug, chapterFile: null, label: data.title });
+    currentCtx = { type, slug, chapterFile: null, chapterLabel: null };
+    const refreshBookmarks = initBookmarks(currentCtx);
 
+    const pageParam = parseInt(new URLSearchParams(location.search).get('p'), 10);
     await startPager({
       startAt: Number.isFinite(pageParam) && pageParam >= 0 ? pageParam : 0,
-      onBookmarkRefresh,
+      onNavigate: refreshBookmarks,
     });
   }
 
@@ -303,11 +328,7 @@
       }
     } catch (err) {
       fail(document.getElementById('pagerTrack'), err);
-      fail(document.getElementById('articleRootClassic'), err);
     }
-
-    initModeToggle();
-    initChrome();
   }
 
   document.addEventListener('DOMContentLoaded', init);

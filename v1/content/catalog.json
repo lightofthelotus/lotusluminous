@@ -1,0 +1,48 @@
+{
+  "recent": [
+    { "type": "novel", "slug": "shadows-of-the-nine" },
+    { "type": "tech", "slug": "an-indian-in-ai-era" },
+    { "type": "standalone", "slug": "last-read-receipt" }
+  ],
+  "standalone": [
+    {
+      "slug": "the-prompt-and-the-glory",
+      "href": "blog/literary/the-prompt-and-the-glory.html",
+      "md": "content/literary/standalone/the-prompt-and-the-glory.md"
+    },
+    {
+      "slug": "last-read-receipt",
+      "href": "blog/literary/last-read-receipt.html",
+      "md": "content/literary/standalone/last-read-receipt.md"
+    }
+  ],
+    "novels": [
+    {
+      "slug": "shadows-of-the-nine",
+      "dir": "blog/literary/novels/shadows-of-the-nine-se/",
+      "manifest": "content/literary/novels/shadows-of-the-nine-se/manifest.json"
+    }
+  ],
+  "tech": [
+    {
+      "slug": "designing-apis-that-age-well",
+      "href": "blog/tech/designing-apis-that-age-well.html",
+      "md": "content/tech/designing-apis-that-age-well.md"
+    },
+    {
+      "slug": "the-case-for-boring-technology",
+      "href": "blog/tech/the-case-for-boring-technology.html",
+      "md": "content/tech/the-case-for-boring-technology.md"
+    },
+    {
+      "slug": "spec-driven-development",
+      "href": "blog/tech/spec-driven-development.html",
+      "md": "content/tech/spec-driven-development.md"
+    },
+    {
+      "slug": "an-indian-in-ai-era",
+      "href": "blog/tech/an-indian-in-ai-era.html",
+      "md": "content/tech/an-indian-in-ai-era.md"
+    }
+  ]
+}
