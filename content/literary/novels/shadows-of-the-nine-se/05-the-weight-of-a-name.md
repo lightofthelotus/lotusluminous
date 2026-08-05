@@ -11,6 +11,9 @@ Charudatta had a particular way of raising a subject he had already decided the 
 
 "The southern scholar has been given generous latitude," he said, three mornings after the treasury. He addressed Anantaraja in the unhurried tone of a man discussing the weather, not a man laying groundwork. "The archive, unsupervised hours, and — if the stewards' gossip is to be trusted — a great deal of the princess's own time besides." He did not look at Vaanathi as he said it. She understood, with the cold clarity court had taught her, that this was entirely deliberate. A man who wished to needle you looked away as he did it, so you could not object to a glance that had never technically landed on you.
 
+![Charudata Meets King](03_01_Charudata_Meets_King.jpg)
+
+
 "The princess oversees the work at my instruction," Anantaraja said, without heat, without hurry, like a man closing a door so gently the hinges made no sound at all. "If you have a concern about the archive's cataloguing, Minister, I would hear it plainly, rather than hear it dressed as concern for my daughter's time."
 
 "I have no concern about ledgers, Your Grace." Charudatta inclined his head, the very picture of a man conceding gracefully. It fooled no one in the room. "Only a minister's ordinary caution — that a stranger newly arrived on the same night as a death should not find himself so thoroughly woven into the household's confidence so quickly. Court talks, Your Grace. It talked before I was old enough to understand what it was saying, and it will talk long after I am dust. I would rather it talk about embankments than about the princess."
@@ -48,6 +51,8 @@ She found Nila in the western gallery an hour later. She did not need to say a w
 "Nothing, if you ask him to repeat it. Everything, if you were in the room." Vaanathi pressed the heels of her hands briefly against her eyes. "He as good as told my father I have compromised myself with a stranger. In language so careful my father could not even properly reprimand him for saying it."
 
 "And has he said anything," Nila asked, with the particular gentleness that meant she already suspected the answer and wanted the courtesy of hearing it confirmed rather than assumed, "that isn't, in some narrow and infuriating way, true?"
+
+![Vaanathi Meets Nila](03_01_Vanathi_Meets_Nila.jpg)
 
 Vaanathi did not answer that immediately, which she supposed was answer enough.
 
@@ -97,6 +102,9 @@ Sancharan sat a long while in the shuttered dark, the bundle of leaves loose in 
 
 Vaanathi did not weep when he showed her the letters. She had expected to, watching her own hands hold Smaran's last hurried handwriting — had braced for it the way she braced for most things now, quietly, privately, so that no one else would have to manage the sight of it. But what came instead was something harder and more useful. A kind of clean, cold anger settled into her chest and stayed there.
 
+![The Palm Leaf Secret Room](03_03_SecretRoom.jpg)
+
+
 "He was frightened," she said, "and he told no one. Not my father. Not me." Her voice did not shake, though she felt, distantly, that it had earned the right to. "I sat in that archive a hundred afternoons of my childhood, and he never once let me see that he was afraid of anything."
 
 "He was protecting you," Sancharan said, "the only way he knew how to. By making certain you never had reason to be afraid of the same thing."
@@ -136,6 +144,8 @@ Something that might almost have been admiration crossed Sancharan's face again 
 ***
 
 ## IV
+
+![Walk By The Sky Tower](03_04_NortherWallWalk.jpg)
 
 They left separately and met at the old stable gate an hour past the changing of the night watch. Vaanathi had timed it with the same precision she brought to court. Sancharan had matched it without needing to be told the schedule, which she noted, and did not yet know what to make of.
 
@@ -193,17 +203,19 @@ The lower storeys held little beyond dust and the husks of old instruments too b
 
 The tower's upper chamber had once been an observatory. That much was still legible in the bones of the place — a stone table at its centre scored with old sighting-lines, half-effaced by weather; niches in the wall that must once have held instruments long since removed or stolen. Vaanathi trailed her fingers along the sighting-table's worn grooves, trying to imagine the astronomers who had once stood here charting a sky that had, in some sense she was only beginning to understand, been charting them back. At the chamber's far side, cut into the stone itself where the old astronomers' sighting-table met the wall, half-hidden beneath a fall of creeping vine that someone had clearly, repeatedly, cleared away and let grow back as camouflage —
 
-A narrow ring. Broken, at one point along its circumference, by a thin dark wedge.
+This one was a clear circle with spokes than a ring . Broken, at one point along its circumference, by a thin dark wedge.
 
-Larger here than either of the others. Deliberate, unhurried, cut by a hand that had known exactly what it was making. This hand had not needed to hide the making of it, the way a door's wax seal or a bell's collar had hidden theirs. This one had been carved to be found by someone who already knew to look, and to be overlooked by everyone else.
+Larger here than either of the others. Deliberate, unhurried, cut by a hand that had known exactly what it was making. This one had been carved to be found by someone who already knew to look, and to be overlooked by everyone else.
 
-Vaanathi stood before it a long moment, lamp raised, feeling the same cold settle along her spine that had found her twice already this week. This time it deepened into something that was not quite fear and not quite excitement, sitting somewhere uncomfortably between the two. Iruli landed on the sighting-table's edge and went still, wings folded, watching the mark with an attention that carried none of her usual restlessness.
+Vaanathi stood before it a long moment, with the light of the torch raised by Sancharan, feeling the same cold settle along her spine that had found her twice already this week. This time it deepened into something that was not quite fear and not quite excitement, sitting somewhere uncomfortably between the two. Iruli landed on the sighting-table's edge and went still, wings folded, watching the mark with an attention that carried none of her usual restlessness.
 
 "Three marks," Vaanathi said quietly. "A door. A bell. Now a tower no one admits still stands. Whatever this is, scholar, it is not confined to one dead man's grief. And it is not confined to my father's house."
 
 "No," Sancharan agreed, studying the carved ring with an expression she could not entirely read — something between recognition and dread. She suspected, not for the first time, that whatever he was not telling her went back rather further than a single lifetime could easily account for. "I do not believe it is confined to very much at all."
 
 He reached out, almost without meaning to, and let his fingers rest just beside the carved mark — not touching it, the way he had not touched her hand over the high shelf, the same careful, deliberate distance. Vaanathi, watching him, understood with sudden and unwelcome clarity that whatever this mark meant to him, it was not merely scholarship. It was something closer to memory. Something closer to grief.
+
+![The Symbol on the Sky Tower](03_05_SkyTower.jpg)
 
 "Sancharan," she said quietly, using his name for the first time without the armour of *scholar* wrapped around it. "What is this to you?"
 
@@ -223,7 +235,7 @@ Viyamban climbed the sky-tower's stair three nights later, alone, as he had clim
 
 It was nothing so obvious as a footprint, though there was one of those too, half-erased in the dust near the threshold. It was the vine. He had trained it himself, patiently, season after season, to grow precisely thick enough across the sighting-chamber's far wall to hide what lay beneath it from any eye that did not already know to look. Vines, like most living things a man tends with sufficient care, learn to grow the way they are guided. This one had been disturbed. Pulled aside and allowed to fall back, not quite in its old pattern. A careless hand undoing a careful man's work in a single evening.
 
-He stood before the mark a long while, lamp in hand, feeling something colder than the night settle into his chest.
+He stood before the mark a long while, fire torch in hand, feeling something colder than the night settle into his chest.
 
 *Someone has been here.*
 
@@ -236,6 +248,8 @@ He thought of his father, old and diminished, still climbing this same stair on 
 Viyamban had buried his father believing he understood those words. It had taken him another twenty years, and the slow accumulation of every small humiliation a dismissed office collects, to understand that patience, unused, was no virtue at all. It was only a longer, quieter kind of surrender — and sometimes, he was only now beginning to admit to himself, a kind of torture.
 
 The archivist had come too close, and so the archivist had stopped coming anywhere at all. That had bought him time. It had not, he now understood, bought him enough.
+
+![The Symbol on the Sky Tower Viyamban](03_06_Viyamban_Skytower.jpg)
 
 He knelt before the mark and drew from beneath his robe the small bundle he had carried up this stair a hundred times before, and never yet had cause to use in full. It was an old palm-leaf, brittle with age, covered in a hand three centuries older than his own. It listed, in patient, meticulous detail, the location of eight seals his ancestors had once been sworn to help protect. Eight, not nine — because the ninth, the one whose ring this chamber's wall had worn into stone since before the dynasty existed, had never needed listing. It had never left this tower. Not truly. Only its meaning had been buried, the way his family's name had been buried, beneath centuries of a throne's convenient forgetting.
 

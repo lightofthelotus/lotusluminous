@@ -7,6 +7,8 @@ description: Chapter Two of Shadows of the Nine, a mythological fantasy novel.
 
 ## I
 
+![Smaran's Memorial](02_01_SmaranMemorial.jpg)
+
 They held the tribute at midmorning, when the light in the great courtyard was clean and unshadowed. It gave nothing away.
 
 There was no pyre lit for show, no procession of grief performed for an audience. Anantaraja had never had patience for mourning as spectacle, and Vaanathi had inherited enough of that impatience to be grateful for it now. What there was instead was simple — and simple enough to nearly undo her anyway. Smaran's writing table had been carried out from the archive and set beneath the old banyan at the courtyard's heart. His brushes lay across it in the order he had always kept them. Above it burned a plain brass lamp, left to burn down on its own. He had once told her, years ago, half joking, that a scholar's proper memorial was not incense but ink that kept being used after he was gone.
@@ -26,6 +28,9 @@ It was, she thought, the truest thing she had said all week. It cost her more th
 She was still turning that thought over, watching the light thin toward midday, when she noticed her father crossing the courtyard toward her. He walked with the unhurried, deliberate gait he used only when he had already decided exactly what he meant to say.
 
 ***
+
+![Anantaraja and Vaanathi Meet](02_02_KingVaanathiMeet.jpg)
+
 
 It was her father who found her afterward, in the shade at the courtyard's edge. She was surprised enough that she nearly missed the first half of what he said.
 
@@ -56,6 +61,8 @@ It was, she would think later, the nearest her father had ever come to making a 
 ***
 
 ## II
+
+![Vaanathi Enters Archive Room](02_03_ArchiveRoom_Entry.jpg)
 
 The archive, reopened under seal-breaking that Anantaraja himself authorised, smelled the way it always had — neem oil, dry palm-leaf, the particular dry stillness of a room built to outlast the people who used it. Someone had righted whatever ittle furnitures were there. No one had thought to remove the faint discolouration on the floorboards near the writing table. Vaanathi found she could not quite make herself look at it directly, so she didn't, and set to work instead pretending the room contained nothing but books.
 
@@ -113,6 +120,8 @@ The genealogical volumes sat highest, on the shelf Smaran alone had ever needed 
 
 Their hands did not touch. They came close enough that not touching required a small, deliberate adjustment from both of them — a fraction of a second where each simply stopped. In that fraction, Vaanathi was unhelpfully, thoroughly aware of the warmth radiating off his skin, though nothing had actually met. She noticed, too, that he had gone very still, in a way that was different from his usual stillness — not guarded, for once, just briefly, entirely undefended.
 
+![A Moment Shared in the Archive Room](02_04_Archiveroom_Accident.jpg)
+
 "You first," he said, and withdrew his hand. His voice came out rougher than the moment strictly required.
 
 "Thank you," Vaanathi said, and heard her own voice do something similarly unhelpful. She took the volume down with considerably more concentration than the act deserved.
@@ -134,6 +143,9 @@ She went very still. Beside her, close enough that he could not have missed her 
 She did not press. Not yet. She filed it instead, the way she had learned to file everything that mattered, in the quiet locked room of her own mind where she kept the things she intended to return to.
 
 "Then I will simply have to find my own answer," she said, closing the volume with more care than her frustration wanted to allow.
+
+![The Symbol on the Manuscript](02_05_SymbolManuscript.jpg)
+
 
 "I imagine you will," Sancharan said. Beneath the caution was something that might almost have been admiration, and Vaanathi found she did not entirely hate hearing it.
 
@@ -246,3 +258,5 @@ Vaanathi lowered the lamp slowly, watching the mark fall back into shadow, watch
 "I would not dream of taking that from you," Sancharan said. There was nothing careful in it at all — only something that, in a gentler world, in a different week, she might almost have called relief, at being, for once, permitted to simply tell the truth to someone who had asked for it plainly.
 
 They stood a while longer in the darkening treasury, the two marks — one fresh in memory, one worn smooth by a century of quiet — pulling, she was beginning to understand, toward the same unfinished question. For once, neither of them was in any hurry to be the first to leave the room.
+
+![The Symbol on the Treasurey Bell](02_06_TreasuryBell_Symbol.jpg)
