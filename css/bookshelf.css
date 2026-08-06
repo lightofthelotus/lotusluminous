@@ -36,9 +36,11 @@
   --glass-soft: rgba(var(--glass-rgb), 0.14);
   --glass-faint: rgba(var(--glass-rgb), 0.08);
 
-  /* ---- fonts: exactly two families — a display serif for every heading/
-     title, and a sans for body copy, labels, and UI chrome. ---- */
+  /* ---- fonts: a display serif for headings, a bolder display serif for
+     book/story/blog titles (they need to hold up bold+uppercase at small
+     sizes), and a sans for body copy, labels, and UI chrome. ---- */
   --serif: "Cormorant Garamond", Georgia, serif;
+  --serif-title: "Playfair Display", Georgia, serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -413,10 +415,10 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 3px 7px 7px 3px;
-  padding: 0.85rem 0.7rem 0.85rem 1.2rem;
+  padding: 0.4rem 0.7rem 0.85rem 1.2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   color: var(--text-light);
   position: relative;
   overflow: hidden;
@@ -467,13 +469,23 @@ body {
   box-shadow: 4px 0 0 rgba(var(--glass-rgb), 0.08), 7px 0 0 rgba(var(--glass-rgb), 0.05);
 }
 
-.book-title {
-  font-family: var(--serif);
+/* Every title (book spine, newspaper headline, notepad title) shares one
+   font size and style so the shelf reads as one system, not three. Each
+   selector below only keeps the display/clamp mechanics it needs. */
+.book-title,
+.newspaper-headline,
+.notepad-title {
+  font-family: var(--serif-title);
   font-weight: 700;
-  font-size: clamp(0.95rem, 2.3vh, 1.35rem);
+  font-style: italic;
+  font-size: clamp(0.95rem, 2.2vh, 1.3rem);
   line-height: 1.2;
-  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  text-align: center;
   text-shadow: 0 1px 3px rgba(var(--ink-rgb), 0.4);
+}
+
+.book-title {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
@@ -518,7 +530,7 @@ body {
   -webkit-backdrop-filter: blur(6px) saturate(140%);
   border: 1px solid rgba(var(--glass-rgb), 0.16);
   color: var(--text-light);
-  padding: 0.55rem 0.6rem 0.7rem;
+  padding: 0.3rem 0.6rem 0.7rem;
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
@@ -534,16 +546,9 @@ body {
 .newspaper-headline {
   flex: 1.6 1 0;
   min-height: 0;
-  font-family: var(--serif);
-  font-weight: 700;
-  font-size: clamp(0.9rem, 2vh, 1.2rem);
-  line-height: 1.15;
-  text-transform: uppercase;
-  letter-spacing: -0.2px;
-  text-shadow: 0 1px 3px rgba(var(--ink-rgb), 0.4);
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-box-pack: center;
+  -webkit-box-pack: start;
   -webkit-line-clamp: 5;
   line-clamp: 5;
   overflow: hidden;
@@ -601,9 +606,10 @@ body {
   background-position: 0 0, 0 6px;
   border-radius: 3px 3px 9px 9px;
   border: 1px solid rgba(var(--mist-rgb), 0.18);
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0.65rem 1rem 1rem 1rem;
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   position: relative;
   transform: rotate(var(--tilt));
   box-shadow:
@@ -651,13 +657,8 @@ body {
 }
 
 .notepad-title {
-  font-family: var(--serif);
-  font-style: italic;
-  font-weight: 700;
-  font-size: clamp(0.95rem, 2.1vh, 1.3rem);
-  line-height: 1.3;
+  width: 100%;
   color: var(--text-light);
-  transform: rotate(-1.2deg);
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
@@ -768,8 +769,9 @@ body {
 }
 
 .detail-title {
-  font-family: var(--serif);
+  font-family: var(--serif-title);
   font-weight: 700;
+  font-style: italic;
   font-size: clamp(1.4rem, 3.4vh, 2.1rem);
   line-height: 1.15;
   margin: 0 0 0.9rem;

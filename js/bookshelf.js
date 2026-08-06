@@ -163,56 +163,6 @@
     return section;
   }
 
-  // Card sizes come from the row's height (aspect-ratio + flex stretch), not
-  // from the title — so a long title and a short one get the same box on
-  // the same screen. The CSS clamp() on each title font-size only accounts
-  // for viewport size, not title length, so a long title at that size can
-  // need more vertical room than the box has and gets cropped mid-line.
-  // This measures the box each title actually has to work with and shrinks
-  // the font, in 1px steps, until the full title fits inside it — reusing
-  // the CSS clamp() value as the starting point/ceiling, so short titles on
-  // a big screen still get to render at the larger, more readable size.
-  function fitTitle(el, availablePx, minPx) {
-    if (!el || !availablePx || availablePx <= 1) return;
-    el.style.fontSize = "";
-    let size = parseFloat(getComputedStyle(el).fontSize);
-    let guard = 60;
-    while (el.scrollHeight > availablePx + 1 && size > minPx && guard-- > 0) {
-      size -= 1;
-      el.style.fontSize = `${size}px`;
-    }
-  }
-
-  function fitAllTitles() {
-    document.querySelectorAll(".book-spine").forEach((spine) => {
-      const title = spine.querySelector(".book-title");
-      const cs = getComputedStyle(spine);
-      const available = spine.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
-      fitTitle(title, available, 11);
-    });
-
-    document.querySelectorAll(".notepad").forEach((pad) => {
-      const title = pad.querySelector(".notepad-title");
-      const cs = getComputedStyle(pad);
-      const available = pad.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
-      fitTitle(title, available, 11);
-    });
-
-    // The headline's own clientHeight is its flex-allocated share of the
-    // newspaper (flex-basis: 0, min-height: 0 in the CSS), fixed
-    // regardless of its font-size or content — safe to use directly as
-    // the available budget.
-    document.querySelectorAll(".newspaper-headline").forEach((headline) => {
-      fitTitle(headline, headline.clientHeight, 10);
-    });
-  }
-
-  let fitTitlesTimer;
-  function scheduleFitTitles() {
-    clearTimeout(fitTitlesTimer);
-    fitTitlesTimer = setTimeout(fitAllTitles, 80);
-  }
-
   function renderLibrary(catalog) {
     const container = document.getElementById("library");
     container.innerHTML = "";
@@ -225,12 +175,6 @@
           container.appendChild(buildShelf(category, items));
         }
       });
-
-    requestAnimationFrame(fitAllTitles);
-    if (document.fonts && document.fonts.ready) {
-      document.fonts.ready.then(fitAllTitles).catch(() => {});
-    }
-    window.addEventListener("resize", scheduleFitTitles);
   }
 
   // ---------- Detail panel: docked pane on desktop, popup card on mobile ----------

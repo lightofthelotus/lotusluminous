@@ -299,8 +299,9 @@ body.reader-page {
 }
 
 .reader-fixed-header h1 {
-  font-family: var(--serif);
+  font-family: var(--serif-title);
   font-weight: 700;
+  font-style: italic;
   font-size: clamp(1.05rem, 2.6vh, 1.5rem);
   line-height: 1.2;
   margin: 0.15rem 0 0.3rem;
