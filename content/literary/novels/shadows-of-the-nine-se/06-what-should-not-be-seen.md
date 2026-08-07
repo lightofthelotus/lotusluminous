@@ -17,6 +17,8 @@ description: Chapter Four of Shadows of the Nine, a mythological fantasy novel.
 
 Vaanathi did not answer immediately. Nila correctly read that as *no, not alone* — and Vaanathi herself was only beginning to admit it meant precisely what it sounded like.
 
+![Vaanathi Meets Nila](04-01-vaanathi-nila.jpg)
+
 "You are going to take the scholar," Nila said. It was not quite a question. She watched Vaanathi's face with the knowing patience of someone who had known her too long to be fooled by a carefully neutral expression.
 
 "He knows how to ask a question without frightening the answer out of a man before it can be given," Vaanathi said. "That is a rarer skill than you might think."
@@ -97,6 +99,8 @@ She understood what he intended a half-second before he did it. There was no tim
 
 He turned, put his back to the corridor, and drew her in against him. Nothing about it was rough — but it had the swift, economical certainty of a man who had done difficult things quickly before, and trusted his own hands to do them correctly. Vaanathi found herself with her back against the cold stone of the alcove's rear wall, Sancharan's chest a bare handspan from her own. His shoulders filled the recess's narrow mouth entirely. His height and the breadth of him built a wall between her and the corridor that no passing lamplight would think to look behind.
 
+![Vaanathi Sancharan at the Alcove](04-02-vaanathi-alcove.jpg)
+
 She had not, in all her years of careful court distance, ever stood quite this close to anyone who was not family.
 
 "Do not move," he breathed, barely more than shaped air against her ear, "and do not, whatever you hear, laugh."
@@ -148,6 +152,8 @@ He ushered them into his small, tidy quarters — a single room, a narrow cot, a
 "Forgive the state of things," he said, gesturing vaguely at a room that held nothing whatsoever out of place. "I do not often receive visitors of any standing, let alone at this hour, let alone—" He stopped himself, colour rising, plainly aware he had been about to say something about the company she kept that was not his place to remark on.
 
 "You may speak plainly, Ratnan," Vaanathi said, settling herself on the room's single stool with as much easy grace as though it were a throne. "I did not come here for ceremony."
+
+![At Ratnan's Room](04-03-ratnan-room.jpg)
 
 "I have thought of little else, these past days, than that night," he admitted, once they were seated, once Vaanathi had explained, as gently as the truth allowed, what had brought them to his door at this hour. "I keep turning it over. The lamp still lit when we broke the door — he had not gone to sleep, though it was well past his usual hour. Ledgers stacked as though he had been reading through the night. I have served this palace nine years, Your Highness, and I have never once seen a man look so entirely at peace and so entirely wrong in the same moment. I did not understand, then, what unsettled me about it. I believe I understand a little better now."
 

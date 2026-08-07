@@ -564,7 +564,10 @@ body {
 /* faux justified body-copy columns */
 .newspaper-columns {
   flex: 0.7 1 0;
-  min-height: 0;
+  /* Needs real px, not 0 — the repeating-gradient "lines" pattern has a 9px
+     period, so on short mobile cards a flex-shrunk sliver here renders as
+     nothing at all instead of a couple of faint lines. */
+  min-height: 18px;
   display: flex;
   gap: 6px;
 }
