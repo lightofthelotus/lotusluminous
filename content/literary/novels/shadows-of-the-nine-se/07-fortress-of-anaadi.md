@@ -27,6 +27,8 @@ What they found, cresting the last rise before the light failed entirely, was a 
 
 "No one built this to be forgotten," Vaanathi said, looking down into it. "Look at the stonework. This was not some border village's water tank. This was made by people who understood exactly what they were making."
 
+![Amuthakulam](05-02-stepwell-descent.jpg)
+
 "Yes," Sancharan agreed, and did not elaborate. She had grown accustomed enough to that particular silence, these past days, to let it stand without pressing.
 
 Iruli went ahead of them down the first tier, wings folded tight against the narrow stone, calling back the ordinary small warnings — a loose step here, a crumbling ledge there — with nothing in her voice to suggest this descent was different from any other they had made together. Vaanathi followed two steps behind Sancharan, one hand trailing the cool stone wall, counting tiers the way she had once counted the sky-tower's landings. She did not yet understand that she was walking toward the last ordinary hour she would have for some while.
@@ -53,6 +55,8 @@ And then the black water below them was rising up to meet her, or she was fallin
 
 Sancharan caught her before the fourth tier. It was not fast enough. He knew it was not fast enough in the same instant his arms closed around her, because whatever had taken hold of her was not the kind of harm that stopped simply because the falling had.
 
+![Vaanathi falling](05-02-stepwell-portal.jpg)
+
 Her skin had gone cold in a way no living body cooled on its own. Her pulse, beneath his hand at her throat, came slow, and grew slower still — an unhurried, terrible arithmetic he had watched play out in exactly this fashion more times, across more centuries, than he allowed himself to count on ordinary days. Not poison. Not a wound. Something older and colder than either — an old warding-law reacting to a mortal trespass the way law reacts to anything: without malice, without mercy, entirely without interest in the particular person currently dying beneath its judgment.
 
 *She has perhaps an hour,* Iruli said, landing hard on the stair beside him, her voice stripped of every ordinary edge of wit it usually carried. *Perhaps less. This is old work, Sancharan. Older than the tower. I do not know a mortal physician alive who would recognise it, let alone treat it.*
@@ -70,6 +74,8 @@ There was only the vast, patient dark of a place that had never once, in all its
 He carried her through before he allowed himself to consider, even once, what it would mean that she had seen him do it.
 
 ## III
+
+![Vaanathi recovering](05-04-vaanathi-recovering.jpg)
 
 Vaanathi woke to a sky that was wrong.
 
@@ -162,6 +168,9 @@ She slept, eventually, in the strange roomless way the fortress seemed to accomm
 "I have had a very long time to grow unaccustomed to needing to," he said. "It seemed a poor evening to relearn the habit."
 
 She pushed herself upright, slower than she meant to, and felt his hand come to her shoulder before she had finished deciding whether she needed it — steadying, not presumptuous, gone again the instant she had settled. Yet in the small space before he withdrew it, she found herself acutely aware of exactly how warm it had been.
+
+![Anaadikottai](05-03-AnaadiKottai.jpg)
+
 
 "Anaadikottai," he said, before she could ask again, offering the word the way one offers a single coin from a much larger fortune, testing whether it would be enough. "That is the nearest name I have for this place, in a tongue that still exists anywhere mortals speak it. I will not pretend it explains very much."
 
