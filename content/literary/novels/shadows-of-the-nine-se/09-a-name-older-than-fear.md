@@ -19,6 +19,8 @@ She did not scream. To her considerable credit, Sancharan thought afterward, she
 
 Sancharan did not answer that directly. By now, that was answer enough for both of them.
 
+![The Third Bench Aged](07-01-third-bench.jpg)
+
 He found, turning it over in the quiet after she had gone, that he could no longer entirely locate the version of himself who had believed, three weeks ago, that this could be managed at all. That version of himself had believed a scholar's borrowed name and a careful week's patience would be enough to keep the two halves of his life from ever touching. He suspected that version of himself had not accounted for the cost. It had not counted the price of keeping something so large hidden from someone he had come to care for so plainly, so quickly, against every long-practised instinct he owned.
 
 The truth was one he had not yet found the words to give even Iruli in full. The debt was not merely growing. It was widening. What had begun as small, private disturbances tied to his own body, his own tired hands, had begun leaking outward into the world around him. It was the way a held breath eventually has to become a breath taken, whether or not the one holding it has decided they are ready.
@@ -97,6 +99,8 @@ She did not remember calling out. She would learn later that she had. Nila had h
 
 He was there before she finished falling.
 
+![Vaanathi Poisoned](07-02-vaanathi-faint.jpg)
+
 His hands found her, and where they touched her the terrible cold did not retreat so much as it *paused*. It was held at bay the way a held breath holds back a wave. Dimly, from somewhere very far outside her own failing body, Vaanathi became aware that the room had gone strange around her. The candle flame stood motionless, a single unmoving tongue of gold. Dust hung suspended in the air, caught mid-fall, glittering and still. Nila, in the doorway, had gone to stone, one foot lifted, mouth open on the beginning of a word that would not finish arriving for a very long time.
 
 Only Sancharan moved. Only Sancharan, and, distantly, some small failing part of herself he was refusing to let go.
@@ -114,6 +118,8 @@ She did not understand him, not with the ordinary understanding of a mind still 
 The rings closed the last small distance and settled around her. Not around her wrists, not around her throat, nowhere so crude as a binding, but around the whole shape of her, the way water closes around a stone dropped gently rather than thrown. And where they closed, the world came apart at its seams.
 
 She did not fall. She did not float. She simply *stopped being only where her body was*, and found herself, in the same breath, everywhere the rings had ever turned.
+
+![Sanacharans Attempt](07-03-sancharan-rings.jpg)
 
 She saw, or felt, or remembered, though none of those words sat quite correctly over what was happening to her, a vastness she had no training to hold steady in her mind. Wheels within wheels, turning at paces too different from one another to belong to the same single moment. And yet somehow all of them were the same moment, folded over each other the way a river folds over its own eddies without ever ceasing to be one river. She understood, in that strange instant, that what mortals called *an hour* was not one thing at all, but a compromise, a single agreed-upon average, smoothed flat across a thousand quicker or slower hours that never quite matched each other. It was the way a court smooths a thousand small disagreements into a single official record. She saw, without quite seeing anything so simple as a picture, the particular hour a mountain keeps, running always a fraction ahead of the hour kept in the valley beneath it. She saw a swifter hour still, thin and bright, belonging to something that moved too fast for any mortal foot to have earned it. And she saw, at the centre of all of it, patient beyond any word she owned for patience, the hour Sancharan himself kept. It was vast and slow, gathering weight the way a held breath gathers stillness, an hour that had been turning since before there were rivers to fold, before there were valleys to lie beneath any mountain at all.
 
