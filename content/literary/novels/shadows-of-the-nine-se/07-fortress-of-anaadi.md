@@ -27,11 +27,11 @@ What they found, cresting the last rise before the light failed entirely, was a 
 
 "No one built this to be forgotten," Vaanathi said, looking down into it. "Look at the stonework. This was not some border village's water tank. This was made by people who understood exactly what they were making."
 
-![Amuthakulam](05-02-stepwell-descent.jpg)
-
 "Yes," Sancharan agreed, and did not elaborate. She had grown accustomed enough to that particular silence, these past days, to let it stand without pressing.
 
 Iruli went ahead of them down the first tier, wings folded tight against the narrow stone, calling back the ordinary small warnings, a loose step here, a crumbling ledge there, with nothing in her voice to suggest this descent was different from any other they had made together. Vaanathi followed two steps behind Sancharan, one hand trailing the cool stone wall, counting tiers the way she had once counted the sky-tower's landings. She did not yet understand that she was walking toward the last ordinary hour she would have for some while.
+
+![Amuthakulam](05-01-stepwell-descent.jpg)
 
 ***
 
@@ -121,7 +121,7 @@ Vaanathi felt the word land in her chest like something physical, a judgment ren
 
 The rings turned a while longer, weighing something Vaanathi could not follow, close enough now that she could feel, faintly, a pressure against her skin like the moment before a struck bell finds its note. Then, one by one, they drew back into the vast dark beyond the towers, folding themselves away as though they had never been more than a trick of strange light to begin with. The low hum went with them, fading by degrees, until her own heartbeat, once it was finally allowed to keep its own ordinary time again, felt almost too fast by comparison, as though it were hurrying now to make up for the pace it had briefly been made to borrow.
 
-![The Ring Sentinels](05-07-ring-sentinels.jpg)
+![The Ring Sentinels](05-03-ring-sentinels.jpg)
 
 Sancharan did not move for a long moment after they had gone. When he finally turned back to her, whatever had spoken through him a moment ago had receded again behind his own tired, familiar face. She saw, with a small shock that cut through even the larger one still lodged in her chest, that his hands were not quite steady.
 
@@ -175,7 +175,7 @@ She pushed herself upright, slower than she meant to, and felt his hand come to 
 
 "It is beautiful," Vaanathi said, and found, examining the admission, that she meant it entirely. "I did not expect that. I do not know what I expected. Not this."
 
-![Anaadikottai](05-03-AnaadiKottai.jpg)
+![Anaadikottai](05-05-AnaadiKottai.jpg)
 
 "Few do." Something almost like a smile touched his mouth, tired and real. "Most who glimpse it, glimpse it as you did, through fear, through injury, through some door that should not have opened for them at all. I do not think I have ever had the pleasure of hearing someone call it beautiful and mean it as plainly as you clearly do."
 

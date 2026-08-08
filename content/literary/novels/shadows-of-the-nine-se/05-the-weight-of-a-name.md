@@ -52,7 +52,7 @@ She found Nila in the western gallery an hour later. She did not need to say a w
 
 "And has he said anything," Nila asked, with the particular gentleness that meant she already suspected the answer and wanted the courtesy of hearing it confirmed rather than assumed, "that isn't, in some narrow and infuriating way, true?"
 
-![Vaanathi Meets Nila](03_01_Vanathi_Meets_Nila.jpg)
+![Vaanathi Meets Nila](03_02_Vanathi_Meets_Nila.jpg)
 
 Vaanathi did not answer that immediately, which she supposed was answer enough.
 
