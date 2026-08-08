@@ -79,6 +79,12 @@ body.reader-page {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  color-scheme: dark;
+}
+
+.chapter-select option {
+  background: var(--bg-deep);
+  color: var(--text-light);
 }
 
 .chapter-select[hidden] { display: none; }
