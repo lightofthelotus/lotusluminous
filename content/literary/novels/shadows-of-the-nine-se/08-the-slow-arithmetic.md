@@ -23,7 +23,7 @@ Vaanathi looked at him a long moment. This man had spent her whole life protecti
 
 "It is the only one I have to offer tonight."
 
-Anantaraja was quiet a long while, weighing her the way he weighed everything. She watched something in his face settle — not satisfaction, but a kind of grave, reluctant patience. She recognised it as love, wearing the only shape her father had ever fully trusted himself to give it.
+Anantaraja was quiet a long while, weighing her the way he weighed everything. She watched something in his face settle, not satisfaction, but a kind of grave, reluctant patience. She recognised it as love, wearing the only shape her father had ever fully trusted himself to give it.
 
 "Charudatta will not extend you the same patience I am extending," he said finally. "Nor will the court, if this becomes the sort of story that grows in the telling. You have a little time, Vaanathi. Not a great deal of it. Use it wisely, and use it soon."
 
@@ -35,7 +35,7 @@ Her mother was waiting in the corridor beyond, which did not surprise Vaanathi n
 
 "He asked me to trust him. I could not give him what he asked for."
 
-"No," Manasa agreed, mild and unhurried. "I will not ask you what it is. I raised you, in part, to know when a door is not yet ready to be opened, and I trust that judgment in you rather more than I trust my own curiosity." She paused at the corridor's end, the evening light falling soft through the high windows. "Whatever this is, Vaanathi — whoever this is — I would only ask that you remember you are not required to carry it entirely alone simply because you cannot yet share the whole of its weight."
+"No," Manasa agreed, mild and unhurried. "I will not ask you what it is. I raised you, in part, to know when a door is not yet ready to be opened, and I trust that judgment in you rather more than I trust my own curiosity." She paused at the corridor's end, the evening light falling soft through the high windows. "Whatever this is, Vaanathi, whoever this is, I would only ask that you remember you are not required to carry it entirely alone simply because you cannot yet share the whole of its weight."
 
 ***
 
@@ -43,7 +43,7 @@ She found Sancharan in the scribes' courtyard afterward, seated on the low stone
 
 The bench he sat on had aged.
 
-Not dramatically. She would not, an hour from now, be entirely certain she had seen it at all. But for the length of three heartbeats, the pale, well-kept stone beneath him had gone the deep, weathered grey of something left two hundred years to the weather. Its edges crumbled faintly at the corners. Moss crept into seams that had not existed a moment before. Then, as quickly as it had come, the bench was simply a bench again — ordinary and unremarkable. Sancharan was rubbing his temple with the weary irritation of a man who has stubbed the same toe on the same table for the third time that week.
+Not dramatically. She would not, an hour from now, be entirely certain she had seen it at all. But for the length of three heartbeats, the pale, well-kept stone beneath him had gone the deep, weathered grey of something left two hundred years to the weather. Its edges crumbled faintly at the corners. Moss crept into seams that had not existed a moment before. Then, as quickly as it had come, the bench was simply a bench again, ordinary and unremarkable. Sancharan was rubbing his temple with the weary irritation of a man who has stubbed the same toe on the same table for the third time that week.
 
 "Did you see that," Vaanathi said, "or have I finally lost my mind entirely."
 
@@ -69,17 +69,17 @@ Not dramatically. She would not, an hour from now, be entirely certain she had s
 
 ## II
 
-Iruli, it should be said, had not intended to become entangled in the kitchens' business that morning. She had gone in search of nothing more ambitious than a stolen sweetmeat — a small and entirely reasonable ambition for a crow of her particular refinement. Instead she found herself perched on a rafter above a conversation that struck her, within the first several words, as considerably more interesting than any sweetmeat had a right to be.
+Iruli, it should be said, had not intended to become entangled in the kitchens' business that morning. She had gone in search of nothing more ambitious than a stolen sweetmeat, a small and entirely reasonable ambition for a crow of her particular refinement. Instead she found herself perched on a rafter above a conversation that struck her, within the first several words, as considerably more interesting than any sweetmeat had a right to be.
 
-"—altered the whole patrol schedule again, and told the captain it was for the treasury audit, which is a lie, because I do the treasury's accounts myself and there has been no audit called this season," one kitchen steward was saying to another, low and scandalised, in the register servants reserved for gossip they knew perfectly well they should not be sharing. "My cousin stands the north gate. He says the minister has had him watching the scholar's comings and goings for a fortnight now. Writes it all down himself, apparently. Every hour."
+",altered the whole patrol schedule again, and told the captain it was for the treasury audit, which is a lie, because I do the treasury's accounts myself and there has been no audit called this season," one kitchen steward was saying to another, low and scandalised, in the register servants reserved for gossip they knew perfectly well they should not be sharing. "My cousin stands the north gate. He says the minister has had him watching the scholar's comings and goings for a fortnight now. Writes it all down himself, apparently. Every hour."
 
 *Well,* Iruli thought, with some satisfaction, *that is rather more useful than a sweetmeat.*
 
-She might have left it there — tucked the information away for Sancharan's benefit and slipped out the high window the way she had come in. But a large orange palace cat chose that exact moment to notice her.
+She might have left it there, tucked the information away for Sancharan's benefit and slipped out the high window the way she had come in. But a large orange palace cat chose that exact moment to notice her.
 
-The cat's name, as Iruli would later learn from the aggrieved stewards discussing the incident, was Modhagam — a name she found personally insulting given the animal's evident temperament. Its opening salvo, a low, proprietary growl from atop a flour sack, gave her rather less warning than good manners generally demanded before a declaration of war.
+The cat's name, as Iruli would later learn from the aggrieved stewards discussing the incident, was Modhagam, a name she found personally insulting given the animal's evident temperament. Its opening salvo, a low, proprietary growl from atop a flour sack, gave her rather less warning than good manners generally demanded before a declaration of war.
 
-What followed was, by Iruli's own later and firmly held account, an unprovoked assault by a creature four times her weight and considerably fewer times her intelligence. What followed, by the account of every steward in that kitchen, was rather more dramatic. A black bird descended shrieking from the rafters. It upended a tray of fresh flatbread. It startled a cook so badly she dropped an entire pot of lentils. It knocked over a stack of brass tiffins that rolled clattering across the floor in every direction. Then it departed through the same high window in a spray of feathers and flour, the cat in undignified pursuit. Three stewards, a very confused goat that had wandered in from the courtyard, and a junior cook — who had been in the middle of proposing marriage to a fellow servant when the chaos began — all stood amid the wreckage, trying to decide whether they had just witnessed an omen, a very bad morning, or possibly both at once.
+What followed was, by Iruli's own later and firmly held account, an unprovoked assault by a creature four times her weight and considerably fewer times her intelligence. What followed, by the account of every steward in that kitchen, was rather more dramatic. A black bird descended shrieking from the rafters. It upended a tray of fresh flatbread. It startled a cook so badly she dropped an entire pot of lentils. It knocked over a stack of brass tiffins that rolled clattering across the floor in every direction. Then it departed through the same high window in a spray of feathers and flour, the cat in undignified pursuit. Three stewards, a very confused goat that had wandered in from the courtyard, and a junior cook, who had been in the middle of proposing marriage to a fellow servant when the chaos began, all stood amid the wreckage, trying to decide whether they had just witnessed an omen, a very bad morning, or possibly both at once.
 
 The junior cook, it was reported afterward, did not finish his proposal. The object of his affections, however, reportedly found the whole incident so thoroughly ridiculous that she said yes to him anyway, on the grounds that any man who could keep his composure through a flour explosion and an escaped goat deserved some reward for the effort.
 
@@ -91,7 +91,7 @@ The junior cook, it was reported afterward, did not finish his proposal. The obj
 
 "I am listening."
 
-*Charudatta has had you watched for a fortnight. Written accounts, kept hourly, by a guard at the north gate who reports directly to him and to no one else.* She shook flour from one wing with visible affront. *I would also like it formally recorded that I obtained this information at considerable personal cost to my dignity, that a sweetmeat was, in the end, denied me entirely, and that somewhere in that kitchen a goat is currently being blamed for the entire incident — which I consider a small but satisfying victory.*
+*Charudatta has had you watched for a fortnight. Written accounts, kept hourly, by a guard at the north gate who reports directly to him and to no one else.* She shook flour from one wing with visible affront. *I would also like it formally recorded that I obtained this information at considerable personal cost to my dignity, that a sweetmeat was, in the end, denied me entirely, and that somewhere in that kitchen a goat is currently being blamed for the entire incident, which I consider a small but satisfying victory.*
 
 "Duly recorded," Sancharan said, and found, despite everything, that he was smiling for the first time all day. "Charudatta watching my movements is not, I confess, entirely a surprise. Written hourly is rather more thorough than I expected of him."
 
@@ -117,13 +117,13 @@ The junior cook, it was reported afterward, did not finish his proposal. The obj
 
 *Good,* Iruli said. *Because I would rather not discover the full shape of this particular debt at the exact moment it decides to introduce itself to the entire court over supper.*
 
-Despite himself, Sancharan laughed — short, surprised, entirely real. "You have a gift," he said, "for making even my own slow unravelling sound like an inconvenience to your evening plans."
+Despite himself, Sancharan laughed, short, surprised, entirely real. "You have a gift," he said, "for making even my own slow unravelling sound like an inconvenience to your evening plans."
 
 *Everything is an inconvenience to my evening plans, old friend. You have simply been my particular favourite inconvenience for rather longer than either of us likes to admit.* She fixed him with one dark, unimpressed eye. *I would also remind you that the last time you kept a debt of this nature to yourself, rather than telling the person it concerned, the results were not, by your own admission, entirely happy ones. I do not say this to wound you. I say it because someone in this fortress-adjacent friendship needs to be the one who remembers the previous chapter, and you have made it abundantly clear it will not be you.*
 
 "You are not going to let that comparison rest, are you."
 
-*No,* Iruli said, with immense satisfaction. *I find it far too useful. Consider it the price of my continued companionship — considerably cheaper, I would point out, than whatever Anaadi is currently charging you.*
+*No,* Iruli said, with immense satisfaction. *I find it far too useful. Consider it the price of my continued companionship, considerably cheaper, I would point out, than whatever Anaadi is currently charging you.*
 
 "That," Sancharan said, "is not a comparison I find remotely comforting."
 
@@ -137,7 +137,7 @@ Ratnan answered the door with less of his usual grateful pleasure than the last 
 
 "I find myself unable to sleep, of late," Viyamban said, settling into the room's single chair. "I wonder whether you sleep any better, since that terrible night."
 
-"Well enough," Ratnan said. Something in his posture had changed since the last visit — a careful stillness that had not been there before. The particular wariness of a man who has begun, belatedly, to notice a pattern in his own good fortune. "The princess came again. And the scholar. They asked after the lamp a second time."
+"Well enough," Ratnan said. Something in his posture had changed since the last visit, a careful stillness that had not been there before. The particular wariness of a man who has begun, belatedly, to notice a pattern in his own good fortune. "The princess came again. And the scholar. They asked after the lamp a second time."
 
 "Did they." Viyamban's hands, folded in his lap, did not so much as tighten. "How thorough."
 
@@ -149,13 +149,13 @@ Ratnan answered the door with less of his usual grateful pleasure than the last 
 
 Viyamban held very still. "Families lose track of old friendships, in nine years. It happens more often than young men realise."
 
-"It does," Ratnan agreed, mild as ever. "I have been keeping a record, actually. Of our conversations. Since the first visit. Smaran taught me that much, at least, in nine years — that a careful man writes things down, particularly things he does not yet understand the importance of. I gave a copy to the princess this morning, as it happens. For safekeeping. I thought it only sensible, given how many questions everyone seems to have about a man I cannot recall my own father ever naming."
+"It does," Ratnan agreed, mild as ever. "I have been keeping a record, actually. Of our conversations. Since the first visit. Smaran taught me that much, at least, in nine years, that a careful man writes things down, particularly things he does not yet understand the importance of. I gave a copy to the princess this morning, as it happens. For safekeeping. I thought it only sensible, given how many questions everyone seems to have about a man I cannot recall my own father ever naming."
 
-The silence that followed held longer than any silence Viyamban had permitted himself in decades. He had accounted, across a great many careful years, for a great many kinds of danger — court intrigue, ambitious ministers, princesses with too much curiosity and too little fear. He had not accounted for an under-steward's quiet, methodical thoroughness, learned secondhand from the very man Viyamban had already been forced to silence.
+The silence that followed held longer than any silence Viyamban had permitted himself in decades. He had accounted, across a great many careful years, for a great many kinds of danger, court intrigue, ambitious ministers, princesses with too much curiosity and too little fear. He had not accounted for an under-steward's quiet, methodical thoroughness, learned secondhand from the very man Viyamban had already been forced to silence.
 
 "That was," he said finally, with the particular care of a man recalculating a great many things at once, "very thorough of you."
 
-"Smaran was a good teacher," Ratnan said, and did not look away — though Viyamban did not fail to notice the faint tremor in the hand that reached, a moment later, to steady itself against the doorframe. Whatever courage the boy had summoned for this conversation, it had plainly cost him something to hold.
+"Smaran was a good teacher," Ratnan said, and did not look away, though Viyamban did not fail to notice the faint tremor in the hand that reached, a moment later, to steady itself against the doorframe. Whatever courage the boy had summoned for this conversation, it had plainly cost him something to hold.
 
 Viyamban rose, unhurried, betraying nothing beyond the faint tightening at the corner of one eye. "I will not trouble your sleep again for some while, I think," he said, and left without finishing the sentence he had arrived intending to say. He walked back through the greying dawn considerably less certain of his own patient timeline than he had been an hour before.
 
@@ -169,11 +169,11 @@ Viyamban paused at the threshold, and for one unguarded moment something almost 
 
 ***
 
-Vaanathi found Sancharan again that evening, and told him about the record Ratnan had sent. She watched something complicated move across his face — pride, and worry, and something that looked almost like hope.
+Vaanathi found Sancharan again that evening, and told him about the record Ratnan had sent. She watched something complicated move across his face, pride, and worry, and something that looked almost like hope.
 
 "He surprised me," Sancharan admitted. "I confess I had already begun thinking of him as someone to be protected, rather than someone capable of protecting himself. I suspect I owe him an apology for the assumption."
 
-"You are not the only one who underestimated him." Vaanathi settled beside him on the bench — solid, ordinary stone, holding admirably steady. "Iruli returned covered in lentils today, by the way. I feel that detail deserves mention before the evening grows any more serious than it already intends to."
+"You are not the only one who underestimated him." Vaanathi settled beside him on the bench, solid, ordinary stone, holding admirably steady. "Iruli returned covered in lentils today, by the way. I feel that detail deserves mention before the evening grows any more serious than it already intends to."
 
 "She has not stopped reminding me of it for a single hour. I am given to understand a cat named Modhagam is now the second most reviled name in her personal history, after several she has declined to share with me."
 
@@ -197,7 +197,7 @@ Vaanathi found Sancharan again that evening, and told him about the record Ratna
 
 "The prince reigned twelve years and was, by every surviving account, thoroughly disliked. The elephant's memory endures rather more fondly."
 
-Vaanathi laughed — a real laugh, surprised out of her, the kind she had not allowed herself in days. "I begin to think you save these stories deliberately, for exactly the evenings that need them most."
+Vaanathi laughed, a real laugh, surprised out of her, the kind she had not allowed herself in days. "I begin to think you save these stories deliberately, for exactly the evenings that need them most."
 
 "I have had a very long time to collect them," Sancharan admitted, "and rather fewer people, of late, willing to sit still long enough to hear them told properly. It is, on reflection, a rather better proposal story than most of this court will manage, goat included. I find I am glad to have finally found an evening worth spending one on."
 

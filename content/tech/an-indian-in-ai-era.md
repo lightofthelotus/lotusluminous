@@ -29,17 +29,17 @@ The average Indian professional performs live translation all day, and I don't m
 
 The way you explain a production outage to your tech lead is not the way you explain it to the client, which is not the way you explain it to the sales guy, which is definitely not the way you explain to your parents or spouse why you were on your laptop at 2 AM. Same event. Four completely different narratives. Zero information lost.
 
-That's prompt engineering. That's *literally* prompt engineering. Knowing your audience, adjusting vocabulary, instantly knowing how much is toomuch, deciding what context to include and what to omit, sensing when the listener has misunderstood and rephrasing before things go off the rails. We've been doing few-shot prompting at dinner tables since childhood — "explain it like you'd explain to your grandmother or a notorious 5 year old niece" is an instruction Indians did not need an AI textbook to understand.
+That's prompt engineering. That's *literally* prompt engineering. Knowing your audience, adjusting vocabulary, instantly knowing how much is toomuch, deciding what context to include and what to omit, sensing when the listener has misunderstood and rephrasing before things go off the rails. We've been doing few-shot prompting at dinner tables since childhood, "explain it like you'd explain to your grandmother or a notorious 5 year old niece" is an instruction Indians did not need an AI textbook to understand.
 
-Multilingual brains are also trained in something subtle: the awareness that *meaning survives translation but nuance needs escorting*. When you know that a joke in Tamil dies a quiet death in English, you develop an instinct for what gets lost between representations. Anyone who has that instinct already understands the core problem of working with AI — the model heard your words, but did it catch your *meaning*? Multilingual people check for this reflexively. It's a habit, not a technique.
+Multilingual brains are also trained in something subtle: the awareness that *meaning survives translation but nuance needs escorting*. When you know that a joke in Tamil dies a quiet death in English, you develop an instinct for what gets lost between representations. Anyone who has that instinct already understands the core problem of working with AI, the model heard your words, but did it catch your *meaning*? Multilingual people check for this reflexively. It's a habit, not a technique.
 
 ## Vague instructions? We grew up on them
 
-Indian English itself is a masterclass in this. "I'll do the needful." "Kindly revert." "It will be done by EOD" (which EOD, whose EOD — these are advanced philosophical questions). We operate daily in environments where instructions are incomplete, requirements shift mid-sentence, and half the actual specification lives in what *wasn't* said. And things still ship.
+Indian English itself is a masterclass in this. "I'll do the needful." "Kindly revert." "It will be done by EOD" (which EOD, whose EOD, these are advanced philosophical questions). We operate daily in environments where instructions are incomplete, requirements shift mid-sentence, and half the actual specification lives in what *wasn't* said. And things still ship.
 
 AI-generated software development is exactly this environment. The AI gives you code that is 65% right and 100% confident. Requirements evolve as stakeholders see outputs. Nothing is fully specified, ever. Some engineers find this maddening when they're used to complete, unambiguous specs. We find this ... acceptance.
 
-There's a related skill: **graceful verification**. When your uncle confidently gives you directions in a city he left in 1997, you don't argue — you nod, thank him, and quietly open Google Maps. That exact composure — respecting the confident output, but verifying it independently, and not making it a confrontation — is precisely what I treat AI-generated code with. Trust, but `git diff`.
+There's a related skill: **graceful verification**. When your uncle confidently gives you directions in a city he left in 1997, you don't argue, you nod, thank him, and quietly open Google Maps. That exact composure, respecting the confident output, but verifying it independently, and not making it a confrontation, is precisely what I treat AI-generated code with. Trust, but `git diff`.
 
 ## We've reinvented ourselves before
 
@@ -51,21 +51,21 @@ This constant reinvention built an adaptation muscle that is suddenly the most r
 
 Here's the part we don't say out loud on client calls.
 
-For years, plenty of us sat in meetings where our suggestions got a polite nod and nothing else. Then someone louder, or more senior, or just better positioned in the room said the same thing minutes later, and suddenly it was "great insight." We knew the architecture was wrong. We said so, once, softly. Nobody acted on it. So we did what we usually do — went quiet, built it their way, kept our fix ready in a branch, and waited.
+For years, plenty of us sat in meetings where our suggestions got a polite nod and nothing else. Then someone louder, or more senior, or just better positioned in the room said the same thing minutes later, and suddenly it was "great insight." We knew the architecture was wrong. We said so, once, softly. Nobody acted on it. So we did what we usually do, went quiet, built it their way, kept our fix ready in a branch, and waited.
 
 Three months later, production broke exactly where we said it would. And did we say "I told you so"? Of course not. We said "no problem, we'll handle it," fixed it overnight, and got a thank-you email that called us "resourceful." Resourceful. We were right. But "right" was never the role we were hired to play. "Reliable" was.
 
-That habit — not confronting, not arguing, just quietly proving it with work — gets read as passivity, or worse, invisibility. It isn't. It's patience with a receipt.
+That habit, not confronting, not arguing, just quietly proving it with work, gets read as passivity, or worse, invisibility. It isn't. It's patience with a receipt.
 
-That discipline — verify quietly, fix without fanfare, let the results argue for you — turned out to be exactly what this new era demands.
+That discipline, verify quietly, fix without fanfare, let the results argue for you, turned out to be exactly what this new era demands.
 
 Winning arguments were never the intent. Learning the long game was. There's a difference, and it compounds.
 
 ## Let me be honest though
 
-Now — before this turns into a LinkedIn post with an overmotivated lion or elephant emoji — a confession: none of this is genetic, and none of it is exclusive. Multilingual, adaptive, ambiguity-tolerant people exist everywhere. And plenty of us also carry habits that *don't* serve the AI era: over-deference to authority (an AI's confident tone triggers our "senior said so" reflex, which is dangerous), the tendency to say yes before scoping, and jugaad-ing a prototype so convincingly that it accidentally goes to production for six years.
+Now, before this turns into a LinkedIn post with an overmotivated lion or elephant emoji, a confession: none of this is genetic, and none of it is exclusive. Multilingual, adaptive, ambiguity-tolerant people exist everywhere. And plenty of us also carry habits that *don't* serve the AI era: over-deference to authority (an AI's confident tone triggers our "senior said so" reflex, which is dangerous), the tendency to say yes before scoping, and jugaad-ing a prototype so convincingly that it accidentally goes to production for six years.
 
-The point isn't that we're chosen. The point is that a set of skills we treated as mundane — switching contexts, translating between worlds, functioning in beautiful chaos — turned out to be load-bearing. The industry rearranged itself, and things we did for free are suddenly on the invoice.
+The point isn't that we're chosen. The point is that a set of skills we treated as mundane, switching contexts, translating between worlds, functioning in beautiful chaos, turned out to be load-bearing. The industry rearranged itself, and things we did for free are suddenly on the invoice.
 
 ## So what now?
 
