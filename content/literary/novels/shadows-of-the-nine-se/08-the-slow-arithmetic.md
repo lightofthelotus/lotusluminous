@@ -69,8 +69,6 @@ Not dramatically. She would not, an hour from now, be entirely certain she had s
 
 "Infuriatingly," Vaanathi admitted, "yes."
 
-![Vaanathi Sancharan](06-02-vaanathi-sancharan.jpg)
-
 ## II
 
 Iruli, it should be said, had not intended to become entangled in the kitchens' business that morning. She had gone in search of nothing more ambitious than a stolen sweetmeat, a small and entirely reasonable ambition for a crow of her particular refinement. Instead she found herself perched on a rafter above a conversation that struck her, within the first several words, as considerably more interesting than any sweetmeat had a right to be.
@@ -216,3 +214,5 @@ Vaanathi laughed, a real laugh, surprised out of her, the kind she had not allow
 "Neither," Vaanathi said, softer now, "do I."
 
 They sat together as the light went. If the bench beneath them held its ordinary shape the whole evening through, neither of them troubled to remark on how carefully they were both, without quite admitting it, watching to make sure it did. Nor on how easily, somewhere in the course of an evening that had begun with aging stone and ended in nothing graver than shared laughter, the small distance between their two shoulders had quietly ceased to exist at all.
+
+![Vaanathi Sancharan](06-02-vaanathi-sancharan.jpg)
