@@ -31,6 +31,8 @@ Anantaraja was quiet a long while, weighing her the way he weighed everything. S
 
 Her mother was waiting in the corridor beyond, which did not surprise Vaanathi nearly as much as it perhaps should have.
 
+![Vaanathi Parents](06-01-vaanathi-parents.jpg)
+
 "He did not shout," Manasa observed, falling into step beside her. "That is either a very good sign or a very troubling one, with your father."
 
 "He asked me to trust him. I could not give him what he asked for."
@@ -67,6 +69,8 @@ Not dramatically. She would not, an hour from now, be entirely certain she had s
 
 "Infuriatingly," Vaanathi admitted, "yes."
 
+![Vaanathi Sancharan](06-02-vaanathi-sancharan.jpg)
+
 ## II
 
 Iruli, it should be said, had not intended to become entangled in the kitchens' business that morning. She had gone in search of nothing more ambitious than a stolen sweetmeat, a small and entirely reasonable ambition for a crow of her particular refinement. Instead she found herself perched on a rafter above a conversation that struck her, within the first several words, as considerably more interesting than any sweetmeat had a right to be.
@@ -82,6 +86,8 @@ The cat's name, as Iruli would later learn from the aggrieved stewards discussin
 What followed was, by Iruli's own later and firmly held account, an unprovoked assault by a creature four times her weight and considerably fewer times her intelligence. What followed, by the account of every steward in that kitchen, was rather more dramatic. A black bird descended shrieking from the rafters. It upended a tray of fresh flatbread. It startled a cook so badly she dropped an entire pot of lentils. It knocked over a stack of brass tiffins that rolled clattering across the floor in every direction. Then it departed through the same high window in a spray of feathers and flour, the cat in undignified pursuit. Three stewards, a very confused goat that had wandered in from the courtyard, and a junior cook, who had been in the middle of proposing marriage to a fellow servant when the chaos began, all stood amid the wreckage, trying to decide whether they had just witnessed an omen, a very bad morning, or possibly both at once.
 
 The junior cook, it was reported afterward, did not finish his proposal. The object of his affections, however, reportedly found the whole incident so thoroughly ridiculous that she said yes to him anyway, on the grounds that any man who could keep his composure through a flour explosion and an escaped goat deserved some reward for the effort.
+
+![Iruli chased](06-03-iruli-chased.jpg)
 
 *In my defence,* Iruli reported to Sancharan a short while later, settling onto his shoulder with as much dignity as a bird liberally dusted in flour could manage, *the cat began it.*
 
@@ -154,6 +160,8 @@ Viyamban held very still. "Families lose track of old friendships, in nine years
 The silence that followed held longer than any silence Viyamban had permitted himself in decades. He had accounted, across a great many careful years, for a great many kinds of danger, court intrigue, ambitious ministers, princesses with too much curiosity and too little fear. He had not accounted for an under-steward's quiet, methodical thoroughness, learned secondhand from the very man Viyamban had already been forced to silence.
 
 "That was," he said finally, with the particular care of a man recalculating a great many things at once, "very thorough of you."
+
+![Viyamban At Ratnan's Place](06-04-viyamban-at-ratnans.jpg)
 
 "Smaran was a good teacher," Ratnan said, and did not look away, though Viyamban did not fail to notice the faint tremor in the hand that reached, a moment later, to steady itself against the doorframe. Whatever courage the boy had summoned for this conversation, it had plainly cost him something to hold.
 
