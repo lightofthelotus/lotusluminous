@@ -55,8 +55,6 @@ And then the black water below them was rising up to meet her, or she was fallin
 
 Sancharan caught her before the fourth tier. It was not fast enough. He knew it was not fast enough in the same instant his arms closed around her, because whatever had taken hold of her was not the kind of harm that stopped simply because the falling had.
 
-![Vaanathi falling](05-02-stepwell-portal.jpg)
-
 Her skin had gone cold in a way no living body cooled on its own. Her pulse, beneath his hand at her throat, came slow, and grew slower still, an unhurried, terrible arithmetic he had watched play out in exactly this fashion more times, across more centuries, than he allowed himself to count on ordinary days. Not poison. Not a wound. Something older and colder than either, an old warding-law reacting to a mortal trespass the way law reacts to anything: without malice, without mercy, entirely without interest in the particular person currently dying beneath its judgment.
 
 *She has perhaps an hour,* Iruli said, landing hard on the stair beside him, her voice stripped of every ordinary edge of wit it usually carried. *Perhaps less. This is old work, Sancharan. Older than the tower. I do not know a mortal physician alive who would recognise it, let alone treat it.*
@@ -73,9 +71,9 @@ There was only the vast, patient dark of a place that had never once, in all its
 
 He carried her through before he allowed himself to consider, even once, what it would mean that she had seen him do it.
 
-## III
+![Vaanathi falling](05-02-stepwell-portal.jpg)
 
-![Vaanathi recovering](05-04-vaanathi-recovering.jpg)
+## III
 
 Vaanathi woke to a sky that was wrong.
 
@@ -123,6 +121,8 @@ Vaanathi felt the word land in her chest like something physical, a judgment ren
 
 The rings turned a while longer, weighing something Vaanathi could not follow, close enough now that she could feel, faintly, a pressure against her skin like the moment before a struck bell finds its note. Then, one by one, they drew back into the vast dark beyond the towers, folding themselves away as though they had never been more than a trick of strange light to begin with. The low hum went with them, fading by degrees, until her own heartbeat, once it was finally allowed to keep its own ordinary time again, felt almost too fast by comparison, as though it were hurrying now to make up for the pace it had briefly been made to borrow.
 
+![The Ring Sentinels](05-07-ring-sentinels.jpg)
+
 Sancharan did not move for a long moment after they had gone. When he finally turned back to her, whatever had spoken through him a moment ago had receded again behind his own tired, familiar face. She saw, with a small shock that cut through even the larger one still lodged in her chest, that his hands were not quite steady.
 
 "They will not trouble you again," he said. "I have seen to that. No one here will know you were ever within these walls, if I have any say in the matter, and I intend to have a great deal of say in the matter."
@@ -163,18 +163,19 @@ She considered the question with more care than she had given anything in days. 
 
 She slept, eventually, in the strange roomless way the fortress seemed to accommodate. When she woke, the cold was gone from her entirely, replaced by a warmth she could not immediately place, until she understood that Sancharan had not moved from beside her the whole while, close enough that some of it was simply his. He was watching her with the particular exhausted stillness of a man who had not slept at all, and had not, she suspected, intended to be caught at it.
 
+![Vaanathi Recovering](05-04-vaanathi-recovering.jpg)
+
 "You did not rest," she said, her voice still thick with sleep, and found she did not much mind the roughness of it, tonight, in front of him.
 
 "I have had a very long time to grow unaccustomed to needing to," he said. "It seemed a poor evening to relearn the habit."
 
 She pushed herself upright, slower than she meant to, and felt his hand come to her shoulder before she had finished deciding whether she needed it, steadying, not presumptuous, gone again the instant she had settled. Yet in the small space before he withdrew it, she found herself acutely aware of exactly how warm it had been.
 
-![Anaadikottai](05-03-AnaadiKottai.jpg)
-
-
 "Anaadikottai," he said, before she could ask again, offering the word the way one offers a single coin from a much larger fortune, testing whether it would be enough. "That is the nearest name I have for this place, in a tongue that still exists anywhere mortals speak it. I will not pretend it explains very much."
 
 "It is beautiful," Vaanathi said, and found, examining the admission, that she meant it entirely. "I did not expect that. I do not know what I expected. Not this."
+
+![Anaadikottai](05-03-AnaadiKottai.jpg)
 
 "Few do." Something almost like a smile touched his mouth, tired and real. "Most who glimpse it, glimpse it as you did, through fear, through injury, through some door that should not have opened for them at all. I do not think I have ever had the pleasure of hearing someone call it beautiful and mean it as plainly as you clearly do."
 
@@ -184,7 +185,7 @@ She pushed herself upright, slower than she meant to, and felt his hand come to 
 
 "It is time I returned you to a world that will have noticed your absence rather more than either of us would like to explain," he said, and made to rise. It was only then, watching him gather himself to stand, that she understood how badly she did not want this strange, roomless hour to end quite yet.
 
-"Wait." She caught his sleeve before he could rise, surprising them both with the suddenness of it, her fingers closing around the fabric with more urgency than she had given herself permission to feel. "Before we go back, before I have to be a princess again, and you have to be a scholar, and we both have to pretend this night fits into the shape of an ordinary week, tell me one true thing. Not everything. One thing."
+"Wait." She caught his palm before he could rise, surprising them both with the suddenness of it, her fingers closing around the him with more urgency than she had given herself permission to feel. "Before we go back, before I have to be a princess again, and you have to be a scholar, and we both have to pretend this night fits into the shape of an ordinary week, tell me one true thing. Not everything. One thing."
 
 He looked down at her hand where it held him, and did not pull away. For a moment neither of them moved, the small point of contact between them holding more weight than either seemed prepared to acknowledge aloud.
 
@@ -217,9 +218,6 @@ Something in her chest went very still at that. For a moment neither of them spo
 He considered her a long moment, weighing something she could not name behind his tired eyes. When he finally spoke, his voice had dropped low enough that she had to lean fractionally closer simply to catch it, close enough that she could feel his breath against her cheek in the cool, strange air.
 
 "The rings," he said finally, quietly, "answer to me because they are, in some sense I do not know how to make smaller for you, a part of me. Not tools. Not servants, though they would not thank me for saying so aloud. A part of me, in the way your own hand is a part of you, closer than that, if I am honest, and I find I am rarely honest about this particular thing, even in the privacy of my own thoughts. I do not fully understand it myself, some days. I have had a very long time to stop asking."
-
-![The Ring Sentinels](05-07-ring-sentinels.jpg)
-
 
 It was not very much. It was, she understood, turning the words over with the same care she gave everything now, considerably more than he had ever offered her before. She found she was grateful for it in a way that surprised her with its intensity, grateful, and also, beneath the gratitude, aware of him in a manner that had nothing at all to do with truth-telling. The particular awareness of a body sitting close enough to another body that every small movement carried weight neither of them was troubling to name.
 
