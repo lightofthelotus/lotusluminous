@@ -218,6 +218,9 @@ He considered her a long moment, weighing something she could not name behind hi
 
 "The rings," he said finally, quietly, "answer to me because they are, in some sense I do not know how to make smaller for you, a part of me. Not tools. Not servants, though they would not thank me for saying so aloud. A part of me, in the way your own hand is a part of you, closer than that, if I am honest, and I find I am rarely honest about this particular thing, even in the privacy of my own thoughts. I do not fully understand it myself, some days. I have had a very long time to stop asking."
 
+![The Ring Sentinels](05-07-ring-sentinels.jpg)
+
+
 It was not very much. It was, she understood, turning the words over with the same care she gave everything now, considerably more than he had ever offered her before. She found she was grateful for it in a way that surprised her with its intensity, grateful, and also, beneath the gratitude, aware of him in a manner that had nothing at all to do with truth-telling. The particular awareness of a body sitting close enough to another body that every small movement carried weight neither of them was troubling to name.
 
 "Thank you," she said simply, and did not trust herself, just then, to say anything longer.
