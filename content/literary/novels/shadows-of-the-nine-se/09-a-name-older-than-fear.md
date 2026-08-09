@@ -83,6 +83,8 @@ It was, he reflected, turning the cloth once more in the lamplight to be certain
 
 He did not enjoy this part of the work. He had never enjoyed it, not with Smaran, and he did not expect to enjoy it now. But the record existed beyond his reach. The princess was the one person in this palace with both the authority and the recklessness to keep chasing this thread all the way to its end. And Viyamban had spent decades learning that patience, unused past its hour, was only ever a slower way of losing.
 
+![Viyambans Scheme](07-02-viyambans-scroll.jpg)
+
 *Forgive me,* he thought, sealing the cloth into its plain, unremarkable fold, in a voice he did not allow himself to speak aloud even alone. *I do not do this for cruelty. I do it because I have already buried my name once, and I find, in the end, I am not brave enough to bury it twice.*
 
 ## IV
@@ -99,7 +101,7 @@ She did not remember calling out. She would learn later that she had. Nila had h
 
 He was there before she finished falling.
 
-![Vaanathi Poisoned](07-02-vaanathi-faint.jpg)
+![Vaanathi Poisoned](07-03-vaanathi-faint.jpg)
 
 His hands found her, and where they touched her the terrible cold did not retreat so much as it *paused*. It was held at bay the way a held breath holds back a wave. Dimly, from somewhere very far outside her own failing body, Vaanathi became aware that the room had gone strange around her. The candle flame stood motionless, a single unmoving tongue of gold. Dust hung suspended in the air, caught mid-fall, glittering and still. Nila, in the doorway, had gone to stone, one foot lifted, mouth open on the beginning of a word that would not finish arriving for a very long time.
 
@@ -139,7 +141,7 @@ It was not a touch of skin. It was nearer than skin had ever let two people be. 
 
 *You do not have to carry that alone either,* she thought back at him, with whatever was left of her that could still be called thinking. She felt something in the vast turning rings around her shift, not slow, exactly, because slowness had stopped meaning anything sensible in this place, but *settle*, the way a held breath finally settles into an ordinary one.
 
-![Sanacharan Taking Vaanathi to Cure](07-04-cosmic-time.jpg)
+![Closeup Shot](07-05-cloesup-cosmic-time.jpg)
 
 She saw, in the last of it, before the rings began drawing back toward the shape of an ordinary room, a glimpse, brief and searing and gone before she could hold it properly, of a shore she did not recognise. Waves the wrong colour broke under a sky full of the same patient, knowing lights she had seen scattered through Anaadi's dark. She saw, or thought she saw, a figure standing at that shore's edge, indistinct, turning as if to look back over an ocean too vast for any mortal vessel. Then it was gone, folded back into the turning rings before she could ask whose memory she had just been permitted to borrow.
 
@@ -169,7 +171,7 @@ He looked at her a long moment. Whatever old, careful stillness he had worn ever
 
 Vaanathi lay very still on the floor of her own chambers, the last of the cold finally, fully gone from her chest, and looked up at him. At this man. At this vast old patient thing wearing a man's tired face. Beneath the shock, beneath the enormous impossible size of what he had just handed her, she felt something that surprised her considerably more than the revelation itself.
 
-![Sanacharans Attempt](07-03-sancharan-rings.jpg)
+![Sanacharans Attempt](07-05-sancharan-rings.jpg)
 
 She felt, absurdly, relieved.
 

@@ -69,6 +69,9 @@ Vaanathi stood very still. She felt the whole shape of the season rearrange itse
 
 "You could have told me," she said, not quite an accusation.
 
+![The Bell Handed Over to Vaanathi](08-01-bell-handed.jpg)
+
+
 "I could have," Anantaraja agreed. "I chose not to, for the same reason you have chosen not to tell me everything tonight. Some truths are only truly held once a person has walked far enough into them to have earned the holding." He rose, and this time it was toward the old cabinet against the far wall, a piece of furniture Vaanathi had known her entire life and had never once seen him open. He unlocked it with a small brass key. She now realised he kept it on a cord beneath his own robes, close enough to his heart that she had simply never thought to wonder what it opened.
 
 From within, wrapped in cloth gone soft and dark with age, he drew a small bell. It was no larger than a closed fist, its bronze worn smooth and dull by generations of careful handling. It bore no seal, no mark, nothing to distinguish it from a hundred ordinary temple bells, save the particular weight of it in her father's open palm.
@@ -93,6 +96,8 @@ Her mother crossed the room then and embraced her fiercely, briefly, in the part
 
 They left before dawn on borrowed horses, Iruli a dark shape wheeling ahead against a sky still holding its last stars. They rode south through country that grew stranger the further they went. The gentle green of Anantapura's own province gave way, by the second hour, to something harder and redder underfoot, laterite stone breaking through the soil in long rust-coloured scars, as though the earth itself had been scraped raw and left to heal badly.
 
+![The Ride](08-02-ride-to-sevvar.jpg)
+
 "The soil changes," Vaanathi observed, watching the colour deepen from ordinary brown to something closer to dried blood. "I did not think we had ridden far enough for that."
 
 "You have not," Sancharan said. "This is his doing, or near enough to it. Where his influence runs strongest, the land remembers him in small ways, the colour of the stone, the temper of the weather, the particular restlessness that settles over cattle and men alike on certain nights. It is not magic exactly. It is closer to a long habit the world has fallen into, the way a river cuts the same channel for so many centuries that the water no longer remembers choosing that path."
@@ -110,6 +115,8 @@ Iruli landed on a sun-warmed boulder and shook out her feathers with visible une
 *I notice everything you refuse to,* Iruli said. *That is, near as I can tell, the whole of my function in this partnership.*
 
 Vaanathi crouched at the water's edge and let it run over her fingers, warm, warmer than a mountain-fed river had any right to be. "Tell me what to expect," she said. "You did not, entirely, this morning."
+
+![Sevvaaru Inspected By Vaanathi](08-03-testing-sevvaar.jpg)
 
 "Not what you are picturing," Sancharan said, watching her with something careful in his expression. "You have seen what I am, in Anaadi, in your own chambers three nights past, the rings, the vastness none of us can properly hold in words. That is not what walks toward you here. What you meet here will look, near enough, like an ordinary man standing on an ordinary riverbank, the same way I have spent this whole season looking, near enough, like an ordinary scholar." He paused. "None of us ever truly leaves our own sky, Vaanathi. What sits in that far turning dark is the whole of what we are, vast beyond a mortal word for vast, and no more capable of walking this riverbank than your own shadow is capable of walking away from your feet. What you meet is an anchor's echo. A shape we are permitted to wear here, tethered to the stone that keeps it fixed. It is real. It simply is not the whole of him, any more than the man who greeted you across a startled mare was ever the whole of me."
 
@@ -133,6 +140,8 @@ He was, as Sancharan had promised, unremarkable to look at in the way only somet
 
 Something went very still in Sancharan beside her, not the careful stillness she had learned to read as guardedness, but something closer to a wound freshly touched. "That is not why we have come," he said, and his voice had gone tight in a way she had never once heard it go, not in the tower, not in the treasury, not even in the fortress beyond the world. "I have come because your anchor may share the same trouble mine has begun to show. I would know whether you have felt it too."
 
+![Lohitan's Frist Sight](08-04-Lohitan-first-sight.jpg)
+
 Lohitan's restless eyes narrowed, considering. "Felt it. Yes. Three moons past, and worse since. Something has been testing the ground near my own stone, careful, patient, the work of a hand that knows precisely what it is disturbing and disturbs it anyway. I assumed, given your own long habit of minding your business and no one else's, that you had not noticed a thing."
 
 "I have noticed a great deal, of late," Sancharan said. "More than I have known what to do with."
@@ -150,6 +159,8 @@ Something that might, in a kinder light, have been called a laugh escaped him, s
 ## V
 
 The stone, when Lohitan led them to it, was a slab of the same rust-red rock set into the gorge wall behind a curtain of hanging root. It was marked, unmistakably, with the same narrow ring and thin dark wedge Vaanathi had traced with her own fingers on a treasury bell, a sky-tower wall, a stepwell's threshold stone. It bore a fresh scar along one edge. Not old wear, not centuries of patient weather. A recent scrape, deliberate, careful, the work of something that had wanted to test the stone's give without cracking it outright.
+
+![The Symbol Again](08-06-symbol-again.jpg)
 
 "He is testing all of them," Vaanathi said quietly, tracing the scar without quite touching it, some old caution from the stepwell still governing her hands. "Not searching. Testing. Learning which give and which hold."
 
