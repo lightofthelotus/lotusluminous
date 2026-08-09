@@ -33,6 +33,10 @@ That, finally, won her something close to a real smile. "No," he admitted. "I ha
 
 Sancharan considered this a moment, weighing how much of the truth would serve as preparation and how much would simply frighten her uselessly before she had cause to be frightened at all. "He is old," he said finally. "Older than I am, by some measure, though we do not keep our years the way mortals keep theirs, so the comparison means less than it sounds. He governs conflict, the kind between armies, and the smaller, meaner kind between neighbours who have forgotten why they first began quarrelling. He is quick to anger and slow to forgive, and he has never once, in all the centuries I have known him, apologised for either quality."
 
+"Does he have a truer name? The way you did."
+
+"He is also called Sevvaayan (Mars)," Sancharan said. "if you prefer the word your own court astrologers borrow. Your calendar already carries his mark, though no one thinks much of it anymore, the same way no one troubles to ask why an hour is called an hour. Sevvai, the day named for him, falls every week without anyone remembering to wonder why. The old accords give him rule over courage, over land and its disputes, over blood and the body's own heat, and over the kind of swiftness that turns to violence if it is never given anywhere honest to spend itself. I do not tell you this to frighten you. I tell you so you understand what you are about to meet is not simply a bad temper. It is an old, precise force, governing exactly this, since before either of our thrones existed."
+
 "He sounds delightful."
 
 "He is, in his fashion. I have simply never found his fashion an easy one to stand close to for very long." Something flickered behind his eyes, brief and old. "We have history, he and I. Not all of it comfortable. I will tell you the whole of it eventually. Today is not the day for it, and he will likely tell you a version of it himself before I have finished deciding how to."
@@ -70,7 +74,6 @@ Vaanathi stood very still. She felt the whole shape of the season rearrange itse
 "You could have told me," she said, not quite an accusation.
 
 ![The Bell Handed Over to Vaanathi](08-01-bell-handed.jpg)
-
 
 "I could have," Anantaraja agreed. "I chose not to, for the same reason you have chosen not to tell me everything tonight. Some truths are only truly held once a person has walked far enough into them to have earned the holding." He rose, and this time it was toward the old cabinet against the far wall, a piece of furniture Vaanathi had known her entire life and had never once seen him open. He unlocked it with a small brass key. She now realised he kept it on a cord beneath his own robes, close enough to his heart that she had simply never thought to wonder what it opened.
 
