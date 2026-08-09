@@ -12,6 +12,17 @@
     default: `mailto:${EMAIL}?subject=${encodeURIComponent(SUBJECT)}&body=${encodeURIComponent(BODY)}`,
   };
 
+  // On phones/tablets, tapping a mail.google.com / outlook.live.com link
+  // gets intercepted by the installed app itself (Android App Links / iOS
+  // Universal Links) before it ever reaches the compose page, so the app
+  // just opens to the inbox and drops the to/subject/body params. mailto:
+  // isn't hijacked that way — the OS routes it straight to the default
+  // mail app (or a chooser) fully prefilled — so skip the picker on touch
+  // devices and fire mailto: directly.
+  const isMobile =
+    matchMedia("(pointer: coarse)").matches ||
+    /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
   document.addEventListener("DOMContentLoaded", () => {
     const menu = document.getElementById("mailMenu");
     const toggle = document.getElementById("mailToggle");
@@ -22,6 +33,14 @@
       const url = PROVIDERS[link.dataset.provider];
       if (url) link.href = url;
     });
+
+    if (isMobile) {
+      toggle.addEventListener("click", (e) => {
+        e.preventDefault();
+        window.location.href = PROVIDERS.default;
+      });
+      return;
+    }
 
     function open() {
       panel.hidden = false;
