@@ -1,8 +1,8 @@
 /*
- * Minimal Markdown engine for v2: same small block/inline rule set as the
- * classic site's renderer (paragraphs, scene breaks, headings, lists,
- * blockquotes, poem stanzas). Kept as its own copy so v2 has no code
- * dependency on v1.
+ * Minimal Markdown engine for the v2 reader: same small block/inline rule
+ * set as the main site's renderer, forked into v2 so it can be tuned here
+ * (e.g. the leading "# " heading fix below) without touching the live
+ * site's copy at /js/markdown.js.
  */
 
 window.V2MD = (function () {
@@ -20,9 +20,23 @@ function renderInline(text) {
   return out;
 }
 
+const IMAGE_BLOCK_RE = /^!\[([^\]]*)\]\(\s*(\S+?)(?:\s+"([^"]*)")?\s*\)$/;
+
+function resolveIllustrationSrc(src, base) {
+  if (/^(https?:)?\/\//.test(src) || src.startsWith('/')) return src;
+  return `${base.replace(/\/+$/, '')}/${src}`;
+}
+
 function renderBlock(block, opts) {
   if (block === '***' || block === '---') {
     return '<div class="scene-break">• • •</div>';
+  }
+
+  const imageMatch = block.match(IMAGE_BLOCK_RE);
+  if (imageMatch) {
+    const [, alt, rawSrc] = imageMatch;
+    const src = opts.illustrationsBase ? resolveIllustrationSrc(rawSrc, opts.illustrationsBase) : rawSrc;
+    return `<figure class="illustration">\n        <img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy">\n      </figure>`;
   }
 
   if (block.startsWith('### ')) {
@@ -32,6 +46,11 @@ function renderBlock(block, opts) {
 
   if (block.startsWith('## ')) {
     const text = block.slice(3).trim();
+    return opts.headings ? `<h2>${renderInline(text)}</h2>` : `<div class="scene-break">${renderInline(text)}</div>`;
+  }
+
+  if (block.startsWith('# ')) {
+    const text = block.slice(2).trim();
     return opts.headings ? `<h2>${renderInline(text)}</h2>` : `<div class="scene-break">${renderInline(text)}</div>`;
   }
 

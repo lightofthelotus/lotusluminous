@@ -27,5 +27,5 @@ Restores the song of harmony.
 
 Greed may devour, but love can sow,
 The world decides which way to grow.
-I buzz, I warn, I plead, I sing—
+I buzz, I warn, I plead, I sing,
 Choose kindness over everything.

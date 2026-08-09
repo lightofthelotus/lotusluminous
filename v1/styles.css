@@ -531,18 +531,173 @@ main {
 }
 
 /* ---------- Reader (novel chapter / story / article) ---------- */
-.chapter-select {
-  max-width: 220px;
-  background: var(--surface);
-  color: var(--text);
+body.reader-page {
+  overflow: hidden;
+  height: 100vh;
+  height: 100dvh;
+}
+
+/* ---------- Floating nav bars ---------- */
+.float-nav {
+  position: fixed;
+  top: 1.1rem;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  backdrop-filter: blur(14px);
   border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.float-nav--left { left: 1.1rem; }
+.float-nav--right { right: 1.1rem; }
+.float-nav[hidden] { display: none; }
+
+.float-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  color: var(--text);
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.float-btn:hover { background: var(--surface-2); }
+.float-btn svg { width: 1.05rem; height: 1.05rem; }
+
+.float-btn.is-bookmarked-here svg {
+  fill: var(--accent);
+  stroke: var(--accent);
+}
+
+.float-btn.is-bookmarked-elsewhere::after {
+  content: '';
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--accent-2);
+  box-shadow: 0 0 0 2px var(--bg);
+}
+
+.chapter-select {
+  max-width: 200px;
+  background: transparent;
+  color: var(--text);
+  border: none;
   border-radius: 999px;
   padding: 0.45rem 0.9rem;
   font-size: 0.85rem;
   font-family: inherit;
   cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+.chapter-select[hidden] { display: none; }
+
+.quicknav-links .chapter-select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+/* ---------- View mode toggle (persistent, top-center) ---------- */
+.mode-toggle {
+  position: fixed;
+  top: 0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 110;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: top 0.3s ease, background 0.2s ease;
+}
+
+.mode-toggle:hover { background: var(--surface-2); }
+.mode-toggle svg { width: 1rem; height: 1rem; flex-shrink: 0; }
+
+body.mode-normal .mode-toggle { top: 4.75rem; }
+
+/* ---------- View switching ---------- */
+body.mode-normal #immersiveView { display: none; }
+body.mode-immersive #normalView { display: none; }
+
+body.reader-page.mode-normal {
+  overflow: visible;
+  height: auto;
+}
+
+/* ---------- Reader viewport (fixed header + paginated body) ---------- */
+.reader-viewport {
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.reader-fixed-header {
+  flex-shrink: 0;
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3.75rem 1.5rem 0.4rem;
+  text-align: left;
+}
+
+.reader-fixed-header .eyebrow {
+  margin-bottom: 0.3rem;
+}
+
+.reader-fixed-header h1 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  margin: 0.25rem 0 0.4rem;
+}
+
+.reader-meta {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.reader-fixed-header .reader-meta {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.reader-viewport--poem .reader-fixed-header,
+.reader-viewport--poem .pager {
+  max-width: 640px;
+}
+
+/* ---------- Classic scrolling article (normal view) ---------- */
 .reader-article {
   max-width: 720px;
   margin: 0 auto;
@@ -554,12 +709,107 @@ main {
   margin: 0.5rem 0 1rem;
 }
 
-.reader-meta {
+.reader-article--poem {
+  max-width: 640px;
+}
+
+.reader-footer-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ---------- Pager (swipeable pages) ---------- */
+.pager {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem 3.4rem 2.75rem;
+}
+
+.pager-viewport {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.pager-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+.pager-page {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.pager-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  backdrop-filter: blur(10px);
+  color: var(--text);
+  font-size: 1.4rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.2s ease, background 0.2s ease;
+  z-index: 20;
+}
+
+.pager-arrow--prev { left: 0.5rem; }
+.pager-arrow--next { right: 0.5rem; }
+.pager-arrow:disabled { opacity: 0.25; cursor: default; }
+.pager-arrow:not(:disabled):hover { background: var(--surface-2); }
+
+.pager-indicator {
+  position: absolute;
+  bottom: 0.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.78rem;
   color: var(--text-muted);
-  font-size: 0.9rem;
-  margin-bottom: 2.5rem;
-  padding-bottom: 2.5rem;
-  border-bottom: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .float-nav { top: 0.75rem; padding: 0.3rem; }
+  .float-nav--left { left: 0.75rem; }
+  .float-nav--right { right: 0.75rem; }
+  .float-btn { width: 2.1rem; height: 2.1rem; }
+  .chapter-select { max-width: 130px; font-size: 0.78rem; padding: 0.4rem 0.6rem; }
+  .reader-fixed-header { padding: 3.4rem 1.1rem 0.4rem; }
+  .pager { padding: 0.5rem 2.5rem 2.5rem; }
+  .pager-arrow { width: 2rem; height: 2rem; font-size: 1.15rem; }
+  .pager-arrow--prev { left: 0.3rem; }
+  .pager-arrow--next { right: 0.3rem; }
+  .mode-toggle { font-size: 0.72rem; padding: 0.4rem 0.75rem; }
+  .mode-toggle span { display: none; }
+  body.mode-normal .mode-toggle { top: 4.25rem; }
 }
 
 .reader-body h2 {
@@ -595,6 +845,65 @@ main {
   list-style: disc;
 }
 
+/* Immersive pages are short on vertical room, so trim heading/paragraph
+   spacing there without touching the classic scrolling view. */
+.pager-page {
+  line-height: 1.5;
+}
+
+.pager-page h2 {
+  font-size: 1.3rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.pager-page h3 {
+  font-size: 1.08rem;
+  margin: 0.85rem 0 0.4rem;
+}
+
+.pager-page > h2:first-child,
+.pager-page > h3:first-child {
+  margin-top: 0;
+}
+
+.pager-page p {
+  margin-bottom: 0.85rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.pager-page li,
+.pager-page blockquote {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.pager-page p.lede {
+  margin-bottom: 0.85rem;
+}
+
+.pager-page ul,
+.pager-page ol {
+  margin-bottom: 0.85rem;
+}
+
+.pager-page li {
+  margin-bottom: 0.3rem;
+}
+
+.pager-page blockquote {
+  margin: 1.2rem 0;
+  padding: 0.9rem 1.25rem;
+}
+
+.pager-page .scene-break {
+  margin: 1.4rem 0;
+}
+
+.pager-page .poem-stanza {
+  margin-bottom: 1rem;
+}
+
 .reader-body ol li {
   list-style: decimal;
 }
@@ -607,10 +916,6 @@ main {
   border-radius: 0 12px 12px 0;
   font-style: italic;
   color: var(--text-muted);
-}
-
-.reader-article--poem {
-  max-width: 640px;
 }
 
 .reader-body .poem-stanza {
@@ -633,12 +938,30 @@ main {
   font-size: 1rem;
 }
 
-.reader-footer-nav {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 3.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border);
+figure.illustration {
+  margin: 1.8rem 0;
 }
+
+figure.illustration img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+figure.illustration figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+  font-style: italic;
+}
+
+/* Immersive pages have a fixed height, so an illustration can't be allowed
+   to grow past what a lone page can hold — that would make it "not fit even
+   alone", which the paginator accepts as unavoidable overflow instead of
+   moving it. Capping the image height keeps it always fittable. */
+.pager-page figure.illustration img {
+  max-height: 60vh;
+  object-fit: contain;
+}
+

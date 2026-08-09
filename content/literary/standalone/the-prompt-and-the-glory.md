@@ -16,7 +16,7 @@ linkText: Read the Story →
 
 Ravi and Deepak had been friends for eleven years, which in Indian IT terms meant they had survived three mergers, two "cultural transformation initiatives," two office relocations, and one unforgettable team outing to Mahabalipuram where their manager cried during the trust-fall exercise.
 
-They sat, as always, at the chai stall outside Elysium Tech Park, Chennai — a stall so strategically located that more corporate decisions were reversed there than in any boardroom upstairs.
+They sat, as always, at the chai stall outside Elysium Tech Park, Chennai, a stall so strategically located that more corporate decisions were reversed there than in any boardroom upstairs.
 
 "They've given me a new designation," Ravi announced, stirring his tea with the gravity of a man stirring his own fate. "Prompt Engineering Evangelist."
 
@@ -32,7 +32,7 @@ A pigeon landed nearby and eyed Deepak's vada with the confidence of someone who
 
 "Which Kumar? Testing Kumar, Payroll Kumar, or Kumar-who-replies-all?"
 
-"Testing Kumar. They made him 'AI Quality Whisperer.' His entire job now is checking whether the AI's test cases are wrong. But here's the thing —" Ravi leaned in, "— the AI writes the tests, then a second AI reviews the tests, and Kumar reviews the second AI. He says he's essentially a grandfather now. He doesn't do anything, but everyone needs him for approval."
+"Testing Kumar. They made him 'AI Quality Whisperer.' His entire job now is checking whether the AI's test cases are wrong. But here's the thing," Ravi leaned in, ", the AI writes the tests, then a second AI reviews the tests, and Kumar reviews the second AI. He says he's essentially a grandfather now. He doesn't do anything, but everyone needs him for approval."
 
 "And they're paying him?"
 
@@ -46,21 +46,21 @@ Deepak nodded solemnly. He had his own troubles. His company had introduced an A
 
 "HR flagged it. Then our AI screening tool flagged the flag and they had a meeting about this. Tomorrow there's a meeting about that meeting. I've been invited as an 'impacted stakeholder.'"
 
-Anna at the chai stall refilled their glasses without being asked — a level of predictive intelligence, both men agreed, that no model had yet achieved.
+Anna at the chai stall refilled their glasses without being asked, a level of predictive intelligence, both men agreed, that no model had yet achieved.
 
-"Sometimes I worry," Ravi admitted, in the quieter tone reserved for chai number two. "My son asked me what I do. I said I talk to computers and they build things. He said, 'So you're the computer's manager?' And I said yes, because it was easier. But Deepak — the computer got promoted last quarter. They gave it more GPUs. Nobody gave me more GPUs."
+"Sometimes I worry," Ravi admitted, in the quieter tone reserved for chai number two. "My son asked me what I do. I said I talk to computers and they build things. He said, 'So you're the computer's manager?' And I said yes, because it was easier. But Deepak, the computer got promoted last quarter. They gave it more GPUs. Nobody gave me more GPUs."
 
 "What will you even do with GPUs?"
 
 "That's not the point. It's the *gesture*."
 
-Deepak put a hand on his friend's shoulder — the hand that had steadied him through the 2019 layoffs, the 2022 "voluntary attrition drive," and the great Diwali bonus disappointment of 2024.
+Deepak put a hand on his friend's shoulder, the hand that had steadied him through the 2019 layoffs, the 2022 "voluntary attrition drive," and the great Diwali bonus disappointment of 2024.
 
 "Ravi. Listen. In this whole tech park, thousands of people, hundreds of AIs, everything getting automated. But you know what happened this morning? The biometric scanner failed, and Balaji from Admin let everyone in because he *recognized our faces*. From memory. With context. While asking about my mother's knee operation."
 
 "Balaji is a good man."
 
-"Balaji is irreplaceable. And so are we — not because we type faster than a machine, but because when the server crashed during the client demo last month, who distracted the client with twenty minutes of stories about Chennai traffic while you fixed it?"
+"Balaji is irreplaceable. And so are we, not because we type faster than a machine, but because when the server crashed during the client demo last month, who distracted the client with twenty minutes of stories about Chennai traffic while you fixed it?"
 
 "You did."
 
@@ -70,7 +70,7 @@ Ravi laughed, properly this time. The pigeon, sensing joy, made its move on the 
 
 "See?" he said. "Real-time threat detection. Zero latency. No subscription fee."
 
-They finished their chai as the tech park lights flickered on behind them — a thousand windows, a thousand dashboards, countless AIs diligently generating reports that other AIs would diligently summarize.
+They finished their chai as the tech park lights flickered on behind them, a thousand windows, a thousand dashboards, countless AIs diligently generating reports that other AIs would diligently summarize.
 
 And at the chai stall below, two friends did the one thing no machine had learned to do properly:
 
