@@ -35,7 +35,7 @@ Sancharan considered this a moment, weighing how much of the truth would serve a
 
 "Does he have a truer name? The way you did."
 
-"He is also called Sevvaayan (Mars)," Sancharan said. "if you prefer the word your own court astrologers borrow. Your calendar already carries his mark, though no one thinks much of it anymore, the same way no one troubles to ask why an hour is called an hour. Sevvai, the day named for him, falls every week without anyone remembering to wonder why. The old accords give him rule over courage, over land and its disputes, over blood and the body's own heat, and over the kind of swiftness that turns to violence if it is never given anywhere honest to spend itself. I do not tell you this to frighten you. I tell you so you understand what you are about to meet is not simply a bad temper. It is an old, precise force, governing exactly this, since before either of our thrones existed."
+"He is also called Sevvaayan (Mars)," Sancharan said, "if you prefer the word your own court astrologers borrow. Your calendar already carries his mark, though no one thinks much of it anymore, the same way no one troubles to ask why an hour is called an hour. Sevvai, the day named for him, falls every week without anyone remembering to wonder why. The old accords give him rule over courage, over land and its disputes, over blood and the body's own heat, and over the kind of swiftness that turns to violence if it is never given anywhere honest to spend itself. I do not tell you this to frighten you. I tell you so you understand what you are about to meet is not simply a bad temper. It is an old, precise force, governing exactly this, since before either of our thrones existed."
 
 "He sounds delightful."
 
@@ -215,4 +215,5 @@ Something in him eased at that, not a smile, not quite, but a loosening around t
 
 He reached for her hand again, and this time, when their fingers found each other across the small distance between their horses, neither of them let go for the whole of the long ride home.
 
-(To be continued...)
+
+(Wait for the next chapter ! To be continued soon ...)
