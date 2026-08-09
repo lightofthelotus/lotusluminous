@@ -56,6 +56,35 @@ function renderBlock(block, opts) {
 
   const lines = block.split('\n').map((l) => l.trim()).filter(Boolean);
 
+  const TABLE_ROW_RE = /^\|.*\|$/;
+  const TABLE_SEP_RE = /^\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)+\|?$/;
+
+  if (lines.length >= 2 && lines[0].match(TABLE_ROW_RE) && lines[1].match(TABLE_SEP_RE)) {
+    const splitRow = (row) => row.replace(/^\|/, '').replace(/\|$/, '').split('|').map((c) => c.trim());
+    const aligns = splitRow(lines[1]).map((cell) => {
+      const left = cell.startsWith(':');
+      const right = cell.endsWith(':');
+      if (left && right) return 'center';
+      if (right) return 'right';
+      if (left) return 'left';
+      return null;
+    });
+    const alignAttr = (i) => (aligns[i] ? ` style="text-align: ${aligns[i]}"` : '');
+    const headCells = splitRow(lines[0])
+      .map((cell, i) => `<th${alignAttr(i)}>${renderInline(cell)}</th>`)
+      .join('');
+    const bodyRows = lines
+      .slice(2)
+      .map((row) => {
+        const cells = splitRow(row)
+          .map((cell, i) => `<td${alignAttr(i)}>${renderInline(cell)}</td>`)
+          .join('');
+        return `<tr>${cells}</tr>`;
+      })
+      .join('\n        ');
+    return `<table>\n      <thead>\n        <tr>${headCells}</tr>\n      </thead>\n      <tbody>\n        ${bodyRows}\n      </tbody>\n    </table>`;
+  }
+
   if (lines.length >= 3 && lines[0] === '^' && lines[lines.length - 1] === '^') {
     const text = lines.slice(1, -1).join(' ');
     return `<p class="voice-aside">${renderInline(text)}</p>`;

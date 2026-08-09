@@ -295,7 +295,7 @@
     document.getElementById('readerHeader').innerHTML = `
       <p class="eyebrow">${escapeHtml(data.eyebrow || '')}</p>
       <h1>${escapeHtml(data.title)}</h1>
-      <p class="reader-meta">By Lotus Luminous${data.readTime ? ` · ${escapeHtml(data.readTime)}` : ''}</p>
+      <p class="reader-meta">By Lotus Luminous${data.date ? ` · ${escapeHtml(fullDateLabel(data.date))}` : ''}${data.readTime ? ` · ${escapeHtml(data.readTime)}` : ''}</p>
     `;
     document.getElementById('pagerSource').innerHTML = ledeHtml + bodyHtml;
 

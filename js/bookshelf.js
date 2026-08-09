@@ -23,6 +23,14 @@
   // Small alternating tilt so stacked newspapers don't look perfectly uniform.
   const TILTS = ["-1.5deg", "1deg", "-0.5deg", "1.8deg"];
 
+  const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+  function fullDateLabel(dateStr) {
+    if (!dateStr) return "";
+    const [y, m, d] = dateStr.split("-").map(Number);
+    return `${MONTH_NAMES[m - 1]} ${d}, ${y}`;
+  }
+
   function formatTitle(slug) {
     return slug
       .split("-")
@@ -195,10 +203,17 @@
     const title = item.title || formatTitle(item.slug);
     const meta = CATEGORY_META[category] || {};
 
+    const metaParts = [];
+    if (category === "tech" || category === "standalone") {
+      const dateLabel = fullDateLabel(item.date);
+      if (dateLabel) metaParts.push(dateLabel);
+    }
+    if (item.readTime) metaParts.push(item.readTime);
+
     elTag.textContent = item.tag || meta.label || "";
     elTitle.textContent = title;
-    elMeta.textContent = item.readTime || "";
-    elMeta.style.display = item.readTime ? "" : "none";
+    elMeta.textContent = metaParts.join(" · ");
+    elMeta.style.display = metaParts.length ? "" : "none";
     elDescription.textContent = item.description || "";
     elLink.textContent = (item.linkText || "Read") + " →";
     elLink.href = targetUrl(item, category);

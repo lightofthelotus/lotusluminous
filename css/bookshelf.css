@@ -76,6 +76,7 @@ body {
 
 /* ---------- Header: centered site name + bookshelf heading ---------- */
 .site-header {
+  position: relative;
   flex: 0 0 auto;
   width: 100%;
   text-align: center;
@@ -141,6 +142,98 @@ body {
   outline: none;
   border-color: var(--accent);
   box-shadow: 0 0 0 2px var(--bg-base), 0 0 0 4px var(--accent);
+}
+
+/* ---------- Mail me: header widget offering a choice of webmail ---------- */
+.mail-menu {
+  position: absolute;
+  top: clamp(0.6rem, 2vh, 1.2rem);
+  right: clamp(0.8rem, 3vw, 1.6rem);
+  z-index: 40;
+}
+
+.mail-toggle {
+  appearance: none;
+  border: 1px solid var(--glass-border);
+  background: var(--glass-faint);
+  color: var(--text-light);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mail-toggle svg {
+  width: 15px;
+  height: 15px;
+}
+
+.mail-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.mail-toggle:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--bg-base), 0 0 0 4px var(--accent);
+}
+
+.mail-menu.is-open .mail-toggle {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.mail-panel {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  width: max-content;
+  min-width: 168px;
+  padding: 0.6rem;
+  border-radius: 14px;
+  border: 1px solid var(--glass-border);
+  background: var(--bg-base);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  box-shadow: 0 12px 28px rgba(var(--ink-rgb), 0.45);
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.mail-panel[hidden] {
+  display: none;
+}
+
+.mail-panel-title {
+  margin: 0.1rem 0.4rem 0.4rem;
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.mail-option {
+  display: block;
+  padding: 0.45rem 0.6rem;
+  border-radius: 8px;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--text-light);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.mail-option:hover,
+.mail-option:focus-visible {
+  background: var(--glass-faint);
+  color: var(--accent);
+  outline: none;
 }
 
 .shelf-heading {
@@ -843,15 +936,30 @@ body {
 /* ---------- Mobile / device: full-screen shelf, popup detail card ---------- */
 @media (max-width: 860px) {
   .site-header {
-    padding: 0.5rem 1rem 0.4rem;
+    padding: 0.5rem 2.6rem 0.4rem 1rem;
   }
 
   .site-title {
-    font-size: 1.5rem;
+    font-size: clamp(1.1rem, 6.5vw, 1.5rem);
   }
 
   .info-toggle {
     display: flex;
+  }
+
+  .mail-menu {
+    top: 0.5rem;
+    right: 0.6rem;
+  }
+
+  .mail-toggle {
+    width: 28px;
+    height: 28px;
+  }
+
+  .mail-panel {
+    right: -0.4rem;
+    min-width: 152px;
   }
 
   .shelf-heading {

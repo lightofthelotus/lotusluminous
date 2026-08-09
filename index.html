@@ -19,6 +19,19 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="11" x2="12" y2="16"/><line x1="12" y1="7.5" x2="12" y2="7.5"/></svg>
     </button>
   </div>
+
+  <div class="mail-menu" id="mailMenu">
+    <button class="mail-toggle" id="mailToggle" aria-label="Email me" aria-haspopup="menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+    </button>
+    <div class="mail-panel" id="mailPanel" role="menu" aria-label="Choose your mail app" hidden>
+      <p class="mail-panel-title">Write to me</p>
+      <a class="mail-option" role="menuitem" data-provider="gmail" target="_blank" rel="noopener">Gmail</a>
+      <a class="mail-option" role="menuitem" data-provider="yahoo" target="_blank" rel="noopener">Yahoo Mail</a>
+      <a class="mail-option" role="menuitem" data-provider="outlook" target="_blank" rel="noopener">Outlook</a>
+      <a class="mail-option" role="menuitem" data-provider="default">Default mail app</a>
+    </div>
+  </div>
   <h2 class="shelf-heading">Browse My Collection</h2>
 </header>
 
@@ -34,7 +47,7 @@
     <div class="detail-inner" id="detailInner">
       <div class="detail-placeholder" id="detailPlaceholder">
         <h2 class="detail-title">Hi, I'm Lotus Luminous</h2>
-        <p class="detail-description">This is my personal site where I write about the software I build and the fiction I make up — Browse the bookshelf which contains my original thoughts and words !!</p>
+        <p class="detail-description">This is my personal site where I write my deep-dives on my everyday learnings from software industry and dream up my own fiction but original stories. Step into my bookshelf to browse my latest thoughts and worlds.</p>
       </div>
       <div class="detail-content" id="detailContent" hidden>
         <p class="detail-tag" id="detailTag"></p>
@@ -51,6 +64,7 @@
 
 <p class="site-footer">&copy; <span id="year"></span> Lotus Luminous.</p>
 
+<script src="js/mail.js"></script>
 <script src="js/bookshelf.js"></script>
 </body>
 </html>

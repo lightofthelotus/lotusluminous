@@ -119,6 +119,25 @@ body.reader-page {
   border-color: var(--accent);
 }
 
+/* ---------- Mail tab: floating, expands to the mail-me menu ---------- */
+.mail-tab {
+  position: relative;
+}
+
+.mail-tab.is-open .float-btn {
+  background: var(--glass-faint);
+  color: var(--accent);
+}
+
+/* .mail-panel itself is styled in bookshelf.css (shared with index.html);
+   this only repositions it to hang off the reader's nav pill instead of
+   the shelf header. */
+.mail-tab .mail-panel {
+  top: calc(100% + 0.7rem);
+  left: 0;
+  right: auto;
+}
+
 /* ---------- Bookmark tab: floating, expands to a small panel ---------- */
 .bookmark-tab {
   position: relative;
@@ -424,6 +443,27 @@ body.reader-page {
   border-radius: 0 12px 12px 0;
   font-style: italic;
   color: var(--text-muted);
+}
+
+.pager-page table {
+  width: 100%;
+  margin: 1rem 0;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.pager-page th,
+.pager-page td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--glass-border);
+  color: var(--text-light);
+}
+
+.pager-page th {
+  color: var(--text-muted);
+  font-weight: 600;
+  border-bottom: 2px solid var(--accent);
 }
 
 .pager-page .scene-break {
