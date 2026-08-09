@@ -141,7 +141,7 @@ It was not a touch of skin. It was nearer than skin had ever let two people be. 
 
 *You do not have to carry that alone either,* she thought back at him, with whatever was left of her that could still be called thinking. She felt something in the vast turning rings around her shift, not slow, exactly, because slowness had stopped meaning anything sensible in this place, but *settle*, the way a held breath finally settles into an ordinary one.
 
-![Closeup Shot](07-05-cloesup-cosmic-time.jpg)
+![Closeup Shot](07-05-closeup-cosmic-time.jpg)
 
 She saw, in the last of it, before the rings began drawing back toward the shape of an ordinary room, a glimpse, brief and searing and gone before she could hold it properly, of a shore she did not recognise. Waves the wrong colour broke under a sky full of the same patient, knowing lights she had seen scattered through Anaadi's dark. She saw, or thought she saw, a figure standing at that shore's edge, indistinct, turning as if to look back over an ocean too vast for any mortal vessel. Then it was gone, folded back into the turning rings before she could ask whose memory she had just been permitted to borrow.
 
@@ -171,7 +171,7 @@ He looked at her a long moment. Whatever old, careful stillness he had worn ever
 
 Vaanathi lay very still on the floor of her own chambers, the last of the cold finally, fully gone from her chest, and looked up at him. At this man. At this vast old patient thing wearing a man's tired face. Beneath the shock, beneath the enormous impossible size of what he had just handed her, she felt something that surprised her considerably more than the revelation itself.
 
-![Sanacharans Attempt](07-05-sancharan-rings.jpg)
+![Sanacharans Attempt](07-06-sancharan-rings.jpg)
 
 She felt, absurdly, relieved.
 

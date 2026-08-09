@@ -4,7 +4,7 @@
   const CATEGORY_META = {
     novels: { label: "Novels", order: 1 },
     standalone: { label: "Short Stories", order: 2 },
-    tech: { label: "Tech Blog", order: 3 },
+    tech: { label: "Tech Blogs", order: 3 },
   };
 
   // Cycle of dark, translucent glass tints for novel spines, so every cover

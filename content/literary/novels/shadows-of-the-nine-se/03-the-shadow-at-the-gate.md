@@ -61,7 +61,7 @@ Two guards still stood beside it, talking in low voices about how strange it all
 
 She found nothing so dramatic as a clue that hour. What she found was smaller and stranger, and it lodged itself somewhere behind her ribs and stayed there the rest of the day. On the shelf nearest the keeper's writing table sat the great genealogical ledger of the royal line. She knew that shelf as well as she knew her own room. She had spent a hundred idle afternoons tracing the ink of ancestors eight generations gone. Now there was a gap.
 
-Not a missing book. A missing *page*, torn close enough to the spine that only someone who had run a finger down that exact binding a hundred times would notice. The binding sat wrong, a hair too thin, where the tear had been smoothed flat and the book reshelved as if nothing were amiss.
+Not a missing bundle. A missing *leaflet*, torn close enough to the spine that only someone who had run a finger down that exact bundle a hundred times would notice. The binding thread sat still, but the volume itsels lost a width, where the tear had been smoothed flat and the bundle reshelved as if nothing were amiss.
 
 Someone had taken something. And whoever it was had wanted very badly for no one to notice.
 
@@ -75,11 +75,11 @@ Vaanathi said nothing about it to the guards. She was not yet sure why.
 
 Vaanathi's chambers looked over the western gardens, where the last light of day turned the tamarind leaves the colour of old brass. She had changed out of her court silks into something looser and was pacing in it. She knew this made her look exactly as unsettled as she felt. She had decided she did not have the discipline to care.
 
-"A page is missing from the royal ledger," she said. "The genealogical volume. Torn out, and the binding smoothed over to hide it. On the same night the only man in this palace who would have noticed a stray thread on that shelf turned up dead behind a door bolted from the inside."
+"A leaflet is missing from the royal ledger," she said. "The genealogical volume. Torn out, and the binding smoothed over to hide it. On the same night the only man in this palace who would have noticed a stray thread on that shelf turned up dead behind a door bolted from the inside."
 
 Nila sat up. "You told your father this?"
 
-"I told my father nothing. My father has already decided this is grief, and coincidence, and an old man's tired heart. The moment I mention a missing page, Charudatta will find some clever reason it doesn't matter. And I will have wasted my one useful observation of the week for nothing." Vaanathi stopped pacing and dropped into the chair opposite Nila, less gracefully than a princess of the Anantha line was supposed to arrange herself. "For once, I would like to know something before I am required to prove I am allowed to know it."
+"I told my father nothing. My father has already decided this is grief, and coincidence, and an old man's tired heart. The moment I mention a missing leaflet, Charudatta will find some clever reason it doesn't matter. And I will have wasted my one useful observation of the week for nothing." Vaanathi stopped pacing and dropped into the chair opposite Nila, less gracefully than a princess of the Anantha line was supposed to arrange herself. "For once, I would like to know something before I am required to prove I am allowed to know it."
 
 "That," Nila said, "sounds like a fine ambition for a woman with no actual authority to investigate anything."
 
@@ -87,7 +87,7 @@ Nila sat up. "You told your father this?"
 
 Nila had been at her side since they were children. She was the daughter of a minor court astronomer, and she had been folded so completely into the palace's inner rooms that Vaanathi sometimes forgot there had been a time before her, the way one forgets there was ever a time before knowing how to walk. Nila had a gift for saying the unhelpful true thing at exactly the moment Vaanathi least wanted to hear it. Vaanathi had long ago decided that was the whole purpose of a good friend.
 
-"You understand," Nila said, more gently now, "that half this court would say the missing page, the death, and the season are all the same story. That there's a name for what they'd say did this."
+"You understand," Nila said, more gently now, "that half this court would say the missing leaflet, the death, and the season are all the same story. That there's a name for what they'd say did this. The wrong star alignment - Gandam !"
 
 Vaanathi made a small, unimpressed sound in her throat. "Don't."
 
@@ -105,7 +105,7 @@ Vaanathi went very still. "A month ago."
 
 "Before Smaran died. I know what you're thinking, and I'd think it too. But a month is a very long time to plan a murder around a man you had no way of knowing would still be alive to murder."
 
-"Or it's a very long time to plan something that only needed a dead archivist and a missing page to finish," Vaanathi said. She did not enjoy how steady her own voice sounded saying it. "When does he arrive?"
+"Or it's a very long time to plan something that only needed a dead archivist and a missing leaflet to finish," Vaanathi said. She did not enjoy how steady her own voice sounded saying it. "When does he arrive?"
 
 "Tonight, I'm told. Perhaps he's here already." Nila's mouth curved, not unkindly. "You have that look again."
 

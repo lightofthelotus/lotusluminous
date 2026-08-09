@@ -160,7 +160,7 @@ Something that might, in a kinder light, have been called a laugh escaped him, s
 
 The stone, when Lohitan led them to it, was a slab of the same rust-red rock set into the gorge wall behind a curtain of hanging root. It was marked, unmistakably, with the same narrow ring and thin dark wedge Vaanathi had traced with her own fingers on a treasury bell, a sky-tower wall, a stepwell's threshold stone. It bore a fresh scar along one edge. Not old wear, not centuries of patient weather. A recent scrape, deliberate, careful, the work of something that had wanted to test the stone's give without cracking it outright.
 
-![The Symbol Again](08-06-symbol-again.jpg)
+![The Symbol Again](08-05-symbol-again.jpg)
 
 "He is testing all of them," Vaanathi said quietly, tracing the scar without quite touching it, some old caution from the stepwell still governing her hands. "Not searching. Testing. Learning which give and which hold."
 
