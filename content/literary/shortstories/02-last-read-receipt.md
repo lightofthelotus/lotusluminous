@@ -37,9 +37,9 @@ Two weeks before the wedding, Meera saw the invite on a story, a group photo fro
 
 She could have ignored it. She could have scrolled past like she'd been doing for months. But somewhere around that point, she stopped and thought: *I'm tired of this*. Not of the loss, that wasn't going away, but of being passive about it. Of letting things just happen to her.
 
-So she decided to go.
+So she decided to go the reception - the night before the wedding.
 
-She showed up to the salon where Diya was getting ready, because that's what old friends did, and because sometimes you have to walk into a room knowing it won't feel the way it used to.
+She showed up to the bridal salon room in the wedding hall where Diya would be getting ready, because that's what old friends did, and because sometimes you have to walk into a room knowing it won't feel the way it used to.
 
 Diya's face when she saw her was strange, surprise, then something like relief, then a flicker of guilt that she tried to cover. They hugged, and it was stiff, and Meera could feel the distance in it, the way two people hug when they're not sure if they're allowed to anymore.
 
@@ -57,7 +57,7 @@ When she finished, Diya turned around and looked at her in the mirror.
 
 "Yeah," Meera said. "Me too."
 
-She went to the wedding. She sat in the back. She clapped when she was supposed to, and she didn't stay for the reception. On the drive home, she finally did what she'd been putting off.
+She went to the reception. She sat in the back. She clapped when she was supposed to, and she didn't stay for the wedding. On the drive home, she finally did what she'd been putting off.
 
 She opened the chat and scrolled to the pinned message. It was from their third year of college, 3:14 AM, during exam season. Meera had typed: *i just realized i don't know what i want to do with my life.* And Diya had replied: *good. that means you're not boring. boring people always know.*
 
