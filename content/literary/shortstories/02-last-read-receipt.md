@@ -1,11 +1,11 @@
 ---
 title: Last Read Receipt
 date: 2026-07-31
-eyebrow: Standalone
+eyebrow: Short Story
 description: She's grieving something society doesn't really have a script for, since we only make space for grieving certail relations 
 readTime: 10 min read
 cardMedia: Short Story
-cardTag: Standalone
+cardTag: Short Story
 linkText: Read the Story →
 ---
 

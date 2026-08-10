@@ -1,11 +1,11 @@
 ---
 title: Beyond the Blue Gel Pen
 date: 2026-08-09
-eyebrow: Standalone
+eyebrow: Short Story
 description: A short story about a poor boy whose mind went blank amidst a Science exam
 readTime: 8 min read
 cardMedia: Short Story
-cardTag: Standalone
+cardTag: Short Story
 linkText: Read the Story →
 ---
 
