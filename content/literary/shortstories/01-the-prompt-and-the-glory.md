@@ -1,11 +1,11 @@
 ---
 title: The Prompt and the Glory
 date: 2026-07-22
-eyebrow: Standalone
+eyebrow: Sorty Story
 description: A short story about a couple of friends from an imaginary timeline and an imaginary firm
 readTime: 19 min read
 cardMedia: Short Story
-cardTag: Standalone
+cardTag: Sorty Story
 linkText: Read the Story →
 ---
 

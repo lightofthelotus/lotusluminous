@@ -3,7 +3,7 @@
 
   const CATEGORY_META = {
     novels: { label: "Novels", order: 1 },
-    standalone: { label: "Short Stories", order: 2 },
+    shortstories: { label: "Short Stories", order: 2 },
     tech: { label: "Tech Blogs", order: 3 },
   };
 
@@ -42,7 +42,7 @@
   }
 
   const READER = "read.html";
-  const READER_TYPE = { novels: "novel", standalone: "standalone", tech: "tech" };
+  const READER_TYPE = { novels: "novel", shortstories: "shortstories", tech: "tech" };
 
   // v2 has its own immersive reader now (read.html) — self-contained, no
   // dependency on the hosted main site's reader.
@@ -69,7 +69,7 @@
           <span class="newspaper-columns" aria-hidden="true"></span>
         </span>
       `;
-    } else if (category === "standalone") {
+    } else if (category === "shortstories") {
       const tilt = TILTS[index % TILTS.length];
       book.innerHTML = `
         <span class="notepad" style="--tilt: ${tilt}">
@@ -204,7 +204,7 @@
     const meta = CATEGORY_META[category] || {};
 
     const metaParts = [];
-    if (category === "tech" || category === "standalone") {
+    if (category === "tech" || category === "shortstories") {
       const dateLabel = fullDateLabel(item.date);
       if (dateLabel) metaParts.push(dateLabel);
     }

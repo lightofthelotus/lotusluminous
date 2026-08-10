@@ -610,7 +610,7 @@ body {
   border-left: 4px solid rgba(var(--ink-rgb), 0.35);
 }
 
-.shelf[data-category="standalone"] .book {
+.shelf[data-category="shortstories"] .book {
   --spine-ratio: 0.78;
 }
 

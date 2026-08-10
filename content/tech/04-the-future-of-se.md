@@ -27,6 +27,7 @@ This doesn't mean developers are disappearing. It means software is becoming the
 In the coming years, building software will look much less like writing code and much more like writing specifications.
 
 Instead of spending hours on framework details or boilerplate, developers will spend their time:
+
 - **Setting clear constraints:** Writing tight, unambiguous requirements that machine tools can process.
 - **Domain modeling:** Figuring out business rules, data schemas, and edge cases before anything runs.
 - **Verification:** Building test suites and safety checks to verify that generated systems actually work.

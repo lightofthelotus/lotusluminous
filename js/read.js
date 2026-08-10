@@ -1,6 +1,6 @@
 /*
  * v2 reader: always-immersive, no-scroll, page-turn reader for novels,
- * standalone stories, and tech articles. Uses v2's own local fetch/markdown
+ * shortstories , and tech articles. Uses v2's own local fetch/markdown
  * helpers (window.V2 / window.V2MD, content-agnostic) and resolves every
  * content path relative to v2/, so this page never reaches outside its own
  * folder. Pagination is v2's own fork (js/paginate.js) with wheel-driven
@@ -274,9 +274,9 @@
     });
   }
 
-  async function renderStandalone(type, slug) {
+  async function rendershortstories(type, slug) {
     const catalog = await fetchJSON(CATALOG_PATH);
-    const list = type === 'tech' ? catalog.tech : catalog.standalone;
+    const list = type === 'tech' ? catalog.tech : catalog.shortstories;
     const entry = list.find((e) => e.slug === slug);
     if (!entry) throw new Error(`Unknown ${type} "${slug}"`);
 
@@ -321,8 +321,8 @@
     try {
       if (type === 'novel') {
         await renderNovel(params, slug);
-      } else if (type === 'standalone' || type === 'tech') {
-        await renderStandalone(type, slug);
+      } else if (type === 'shortstories' || type === 'tech') {
+        await rendershortstories(type, slug);
       } else {
         throw new Error(`Unknown content type "${type}"`);
       }

@@ -13,39 +13,39 @@
       "manifest": "content/literary/novels/shadows-of-the-nine-se/manifest.json"
     }
   ],
-  "standalone": [
+  "shortstories": [
     {
       "slug": "beyond-the-blue-gel-pen",
       "title": "Beyond the Blue Gel Pen",
-      "tag": "Standalone · Short Story",
+      "tag": "shortstories · Short Story",
       "description": "A poor boy whose mind went blank amdist a Science exam.",
       "date": "2026-07-31",
       "readTime": "10 min read",
       "linkText": "Read the Story",
-      "href": "blog/literary/beyond-the-blue-gel-pen.html",
-      "md": "content/literary/standalone/beyond-the-blue-gel-pen.md"
+      "href": "content/literary/shortstories/03-beyond-the-blue-gel-pen.html",
+      "md": "content/literary/shortstories/03-beyond-the-blue-gel-pen.md"
     },
     {
       "slug": "last-read-receipt",
       "title": "Last Read Receipt",
-      "tag": "Standalone · Short Story",
+      "tag": "shortstories · Short Story",
       "description": "She's grieving something society doesn't really have a script for, since we only make space for grieving certain relations.",
       "date": "2026-07-31",
       "readTime": "10 min read",
       "linkText": "Read the Story",
-      "href": "blog/literary/last-read-receipt.html",
-      "md": "content/literary/standalone/last-read-receipt.md"
+      "href": "content/literary/shortstories/02-last-read-receipt.html",
+      "md": "content/literary/shortstories/02-last-read-receipt.md"
     },
     {
       "slug": "the-prompt-and-the-glory",
       "title": "The Prompt and the Glory",
-      "tag": "Standalone · Short Story",
+      "tag": "shortstories · Short Story",
       "description": "A short story about a couple of friends from an imaginary timeline and an imaginary firm.",
       "date": "2026-07-22",
       "readTime": "19 min read",
       "linkText": "Read the Story",
-      "href": "blog/literary/the-prompt-and-the-glory.html",
-      "md": "content/literary/standalone/the-prompt-and-the-glory.md"
+      "href": "content/literary/01-the-prompt-and-the-glory.html",
+      "md": "content/literary/shortstories/01-the-prompt-and-the-glory.md"
     }
   ],
   "tech": [
@@ -57,8 +57,8 @@
       "date": "2026-08-09",
       "readTime": "15 min read",
       "linkText": "Read Article",
-      "href": "blog/tech/the-future-of-se.html",
-      "md": "content/tech/the-future-of-se.md"
+      "href": "content/tech/04-the-future-of-se.html",
+      "md": "content/tech/04-the-future-of-se.md"
     },
     {
       "slug": "spec-driven-development",
@@ -68,8 +68,8 @@
       "date": "2026-07-15",
       "readTime": "8 min read",
       "linkText": "Read Article",
-      "href": "blog/tech/spec-driven-development.html",
-      "md": "content/tech/spec-driven-development.md"
+      "href": "content/tech/03-spec-driven-development.html",
+      "md": "content/tech/03-spec-driven-development.md"
     },
     {
       "slug": "the-case-for-boring-technology",
@@ -79,8 +79,8 @@
       "date": "2026-06-12",
       "readTime": "6 min read",
       "linkText": "Read Article",
-      "href": "blog/tech/the-case-for-boring-technology.html",
-      "md": "content/tech/the-case-for-boring-technology.md"
+      "href": "content/tech/02-the-case-for-boring-technology.html",
+      "md": "content/tech/02-the-case-for-boring-technology.md"
     },
     {
       "slug": "designing-apis-that-age-well",
@@ -90,8 +90,8 @@
       "date": "2026-05-04",
       "readTime": "8 min read",
       "linkText": "Read Article",
-      "href": "blog/tech/designing-apis-that-age-well.html",
-      "md": "content/tech/designing-apis-that-age-well.md"
+      "href": "content/tech/01-designing-apis-that-age-well.html",
+      "md": "content/tech/01-designing-apis-that-age-well.md"
     }
   ]
 }
