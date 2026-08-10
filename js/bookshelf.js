@@ -264,7 +264,17 @@
   });
 
   const infoToggle = document.getElementById("infoToggle");
-  if (infoToggle) infoToggle.addEventListener("click", openIntro);
+  if (infoToggle) {
+    const INTRO_SEEN_KEY = "introSeen";
+    if (!localStorage.getItem(INTRO_SEEN_KEY)) {
+      infoToggle.classList.add("is-pulsing");
+    }
+    infoToggle.addEventListener("click", () => {
+      infoToggle.classList.remove("is-pulsing");
+      localStorage.setItem(INTRO_SEEN_KEY, "1");
+      openIntro();
+    });
+  }
 
   document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("year").textContent = new Date().getFullYear();

@@ -2,7 +2,7 @@
 // reader's own webmail (or default desktop client) with the fields prefilled.
 (function () {
   const EMAIL = "thelotusluminous@gmail.com";
-  const SUBJECT = "Hello from your site";
+  const SUBJECT = "Here is what I think about thelotusluminous.in";
   const BODY = "";
 
   const PROVIDERS = {
@@ -19,9 +19,10 @@
   // isn't hijacked that way — the OS routes it straight to the default
   // mail app (or a chooser) fully prefilled — so skip the picker on touch
   // devices and fire mailto: directly.
-  const isMobile =
-    matchMedia("(pointer: coarse)").matches ||
-    /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  // UA-only check (not pointer:coarse): touchscreen laptops also report a
+  // coarse pointer, which wrongly sent them down the mailto-only path and
+  // broke the dropdown for anyone without a desktop mail client configured.
+  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
   document.addEventListener("DOMContentLoaded", () => {
     const menu = document.getElementById("mailMenu");
