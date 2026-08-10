@@ -39,7 +39,7 @@ She could have ignored it. She could have scrolled past like she'd been doing fo
 
 So she decided to go the reception - the night before the wedding.
 
-She showed up to the bridal salon room in the wedding hall where Diya would be getting ready, because that's what old friends did, and because sometimes you have to walk into a room knowing it won't feel the way it used to.
+She showed up to the bridal salon room in the wedding hall where Diya would be getting ready, because that's what old friends did! Because sometimes you have to walk into a room knowing it won't feel the way it used to.
 
 Diya's face when she saw her was strange, surprise, then something like relief, then a flicker of guilt that she tried to cover. They hugged, and it was stiff, and Meera could feel the distance in it, the way two people hug when they're not sure if they're allowed to anymore.
 
