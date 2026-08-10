@@ -49,10 +49,41 @@ window.V2 = (function () {
     return `${MONTH_NAMES[m - 1]} ${d}, ${y}`;
   }
 
+  function setMeta(selector, attr, value) {
+    let el = document.querySelector(selector);
+    if (!el) {
+      el = document.createElement('meta');
+      const [, name] = selector.match(/\[(?:name|property)="([^"]+)"\]/) || [];
+      if (!name) return;
+      el.setAttribute(selector.startsWith('meta[property') ? 'property' : 'name', name);
+      document.head.appendChild(el);
+    }
+    el.setAttribute(attr, value);
+  }
+
   function setHead(title, description) {
     document.title = title;
     const meta = document.querySelector('meta[name="description"]');
     if (meta && description) meta.setAttribute('content', description);
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', location.href);
+
+    setMeta('meta[property="og:title"]', 'content', title);
+    setMeta('meta[property="og:type"]', 'content', 'article');
+    setMeta('meta[property="og:url"]', 'content', location.href);
+    setMeta('meta[property="og:site_name"]', 'content', 'The Lotus Luminous');
+    setMeta('meta[name="twitter:card"]', 'content', 'summary');
+    setMeta('meta[name="twitter:title"]', 'content', title);
+    if (description) {
+      setMeta('meta[property="og:description"]', 'content', description);
+      setMeta('meta[name="twitter:description"]', 'content', description);
+    }
   }
 
   function fail(mount, err) {
