@@ -14,7 +14,7 @@ linkText: Read the Story →
 
 **Disclaimer: Any reference to any actual events is purely coincidental**
 
-Ravi and Deepak had been friends for eleven years, which in Indian IT terms meant they had survived three mergers, two "cultural transformation initiatives," two office relocations, and one unforgettable team outing to Mahabalipuram where their manager cried during the trust-fall exercise.
+Ravi and Deepak had been friends for eleven years, which in Indian IT terms meant they had survived four transformation initiatives, three office relocations, two mergers, and one unforgettable team outing to Mahabalipuram where their manager cried during the trust-fall exercise.
 
 They sat, as always, at the chai stall outside Elysium Tech Park, Chennai, a stall so strategically located that more corporate decisions were reversed there than in any boardroom upstairs.
 
