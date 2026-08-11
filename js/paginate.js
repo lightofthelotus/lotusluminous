@@ -94,6 +94,37 @@ window.V2Paginate = (function () {
     return { partA, partB };
   }
 
+  // Splits a <ul>/<ol> between <li> boundaries — never mid-item — so a list
+  // that doesn't fit in the remaining page space can still start on the
+  // current page instead of the whole list (and everything before it that
+  // did fit) getting shoved to the next one.
+  function splitListToFit(listClone, measurerTop, maxHeight) {
+    const items = Array.from(listClone.children).filter((el) => el.tagName === 'LI');
+    if (items.length <= 1) return null;
+
+    let splitIndex = -1;
+    for (let i = 0; i < items.length; i++) {
+      const rect = items[i].getBoundingClientRect();
+      if (rect.bottom - measurerTop <= maxHeight) splitIndex = i;
+      else break;
+    }
+
+    // Same rounding-hair disagreement as the paragraph case: trust the
+    // per-item measurement over the caller's coarser box check.
+    if (splitIndex === items.length - 1) return { fits: true };
+    if (splitIndex < 0) return null;
+
+    const partA = document.createElement(listClone.tagName);
+    partA.className = listClone.className;
+    for (let i = 0; i <= splitIndex; i++) partA.appendChild(items[i].cloneNode(true));
+
+    const partB = document.createElement(listClone.tagName);
+    partB.className = listClone.className;
+    for (let i = splitIndex + 1; i < items.length; i++) partB.appendChild(items[i].cloneNode(true));
+
+    return { partA, partB };
+  }
+
   function splitIntoPages(blocks, width, height) {
     if (!blocks.length) return [[]];
 
@@ -146,10 +177,14 @@ window.V2Paginate = (function () {
         continue;
       }
 
-      // Only plain paragraphs are safe to cut mid-block — headings, lists,
-      // blockquotes, and poem stanzas stay atomic and move whole.
-      const canSplit = block.tagName === 'P' && !block.classList.contains('poem-stanza');
-      const split = canSplit ? splitParagraphToFit(clone, measurer.getBoundingClientRect().top, height) : null;
+      // Plain paragraphs split mid-text at word boundaries; lists split
+      // between <li> items. Headings, blockquotes, and poem stanzas stay
+      // atomic and move whole.
+      const isList = block.tagName === 'UL' || block.tagName === 'OL';
+      const canSplit = (block.tagName === 'P' && !block.classList.contains('poem-stanza')) || isList;
+      const split = !canSplit ? null
+        : isList ? splitListToFit(clone, measurer.getBoundingClientRect().top, height)
+        : splitParagraphToFit(clone, measurer.getBoundingClientRect().top, height);
 
       if (split && split.fits) {
         // Precise measurement says it fits after all — keep the clone in

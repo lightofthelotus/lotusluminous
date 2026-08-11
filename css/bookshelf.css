@@ -290,6 +290,7 @@ body {
   flex-direction: column;
   padding: 0.5rem clamp(1rem, 3vw, 2.5rem) 1.6rem;
   overflow: hidden;
+  transition: flex-basis 0.4s ease, width 0.4s ease;
 }
 
 /* ---------- Library / Shelves ---------- */
@@ -800,6 +801,31 @@ body {
   box-shadow: 0 20px 60px rgba(var(--ink-rgb), 0.45);
   overflow-y: auto;
   position: relative;
+  transition: flex-basis 0.4s ease, width 0.4s ease, opacity 0.3s ease;
+}
+
+/* Desktop: the panel is normally always docked (see .stage), but once the
+   about intro itself has been closed there's nothing to keep it open for —
+   collapse it and let the shelf take the full width, until the info icon
+   (see .info-toggle below) brings it back. */
+@media (min-width: 861px) {
+  body.panel-closed .shelf-pane {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  body.panel-closed .detail-panel {
+    flex-basis: 0;
+    width: 0;
+    opacity: 0;
+    padding: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  body.panel-closed .info-toggle {
+    display: flex;
+  }
 }
 
 .detail-inner {
@@ -816,9 +842,36 @@ body {
 .detail-placeholder {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
   animation: detailFadeIn 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.detail-placeholder .detail-title {
+  text-align: center;
+  align-self: center;
+}
+
+.detail-email {
+  color: var(--accent-2);
+  text-decoration-color: rgba(var(--accent-2-rgb), 0.5);
+  text-underline-offset: 2px;
+}
+
+.detail-email:hover,
+.detail-email:focus-visible {
+  color: var(--accent-hover);
+}
+
+/* Stray empty .detail-meta elements used to render this rule with nothing
+   above it; put it on the disclaimer itself instead so it only ever shows
+   up when there's real content to divide from. */
+.detail-disclaimer {
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(var(--glass-rgb), 0.12);
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .detail-placeholder[hidden],

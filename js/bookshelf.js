@@ -198,8 +198,10 @@
   const elLink = document.getElementById("detailLink");
 
   let activeBook = null;
+  const isDesktop = () => window.matchMedia("(min-width: 861px)").matches;
 
   function openDetail(item, category, bookEl) {
+    document.body.classList.remove("panel-closed");
     const title = item.title || formatTitle(item.slug);
     const meta = CATEGORY_META[category] || {};
 
@@ -233,6 +235,22 @@
   }
 
   function closeDetail() {
+    // On desktop the panel is normally always docked, showing either a
+    // book's detail or, by default, the about intro. Closing a book detail
+    // should still just fall back to the intro — but if the intro itself is
+    // what's showing (nothing left to "go back" to), collapse the panel
+    // entirely so the X has something real to do, same as it already does
+    // on mobile where closing hides the popup outright.
+    if (isDesktop() && !placeholder.hidden) {
+      document.body.classList.add("panel-closed");
+      overlay.classList.remove("is-visible");
+      if (activeBook) {
+        activeBook.classList.remove("is-active");
+        activeBook = null;
+      }
+      return;
+    }
+
     panel.classList.remove("is-open");
     overlay.classList.remove("is-visible");
     content.hidden = true;
@@ -245,8 +263,11 @@
 
   // Mobile-only: the info icon next to the "Lotus Luminous" header opens the
   // same popup used for book details, but showing the site intro instead —
-  // the panel is already docked and visible by default on desktop.
+  // the panel is already docked and visible by default on desktop. On
+  // desktop, the same icon appears once the panel has been closed, as the
+  // way to bring it back.
   function openIntro() {
+    document.body.classList.remove("panel-closed");
     content.hidden = true;
     placeholder.hidden = false;
     panel.classList.add("is-open");
