@@ -214,6 +214,3 @@ Something in him eased at that, not a smile, not quite, but a loosening around t
 "That," Sancharan said, "is a considerably more generous way of putting it than I deserve, and I intend to accept it without argument, before you reconsider."
 
 He reached for her hand again, and this time, when their fingers found each other across the small distance between their horses, neither of them let go for the whole of the long ride home.
-
-
-(Wait for the next chapter ! To be continued soon ...)

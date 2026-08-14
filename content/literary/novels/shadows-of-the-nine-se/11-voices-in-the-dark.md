@@ -268,3 +268,5 @@ He understood now, walking alone through a garden gone cold and quiet around him
 He would need to be more careful. He would need to understand what had intervened, before he risked reaching for her a second time. And he would need, he thought, walking on into the dark with the particular grim patience that had carried his family's duty across three erased generations, to remember that patience, however sorely it was tested, remained the only inheritance he had left that had never once betrayed him.
 
 *Forgive me,* he thought again, to no one, to the cold garden, to the memory of a father long dead who had handed him a duty with both hands and neither comfort nor a strategy besides. *I am not finished yet.*
+
+(Wait for the next chapter ! To be continued soon ...)
