@@ -116,10 +116,18 @@ window.V2Paginate = (function () {
 
     const partA = document.createElement(listClone.tagName);
     partA.className = listClone.className;
+    if (listClone.hasAttribute('start')) partA.setAttribute('start', listClone.getAttribute('start'));
     for (let i = 0; i <= splitIndex; i++) partA.appendChild(items[i].cloneNode(true));
 
     const partB = document.createElement(listClone.tagName);
     partB.className = listClone.className;
+    // <ol> numbering would otherwise restart at 1 on the carried-over part —
+    // pick up from the original start (its own, or a prior split's) plus
+    // however many items partA just took.
+    if (listClone.tagName === 'OL') {
+      const originalStart = parseInt(listClone.getAttribute('start'), 10) || 1;
+      partB.setAttribute('start', originalStart + splitIndex + 1);
+    }
     for (let i = splitIndex + 1; i < items.length; i++) partB.appendChild(items[i].cloneNode(true));
 
     return { partA, partB };
