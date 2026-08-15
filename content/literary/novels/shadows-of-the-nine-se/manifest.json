@@ -2,7 +2,7 @@
   "title": "Shadows of the Nine",
   "book": "Book One",
   "tag": "Novel · Ongoing",
-  "cardMedia": "Chapter 9 Now Live",
+  "cardMedia": "Chapter 10 Now Live",
   "description": "Nine seals hold a balance which ancient forces swore to protect. One has gone missing. One princess is about to find out why.",
   "linkText": "Start Reading →",
   "parts": [
@@ -60,6 +60,11 @@
       "file": "11-voices-in-the-dark.md",
       "navLabel": "Ch. 9 · Voices in the Dark",
       "footerLabel": "Chapter Nine"
+    },
+    {
+      "file": "12-what-the-rings-remember.md",
+      "navLabel": "Ch. 10 · What the Rings Remember",
+      "footerLabel": "Chapter Ten"
     }
   ]
 }
