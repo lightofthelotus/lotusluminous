@@ -76,19 +76,25 @@
             Step into my bookshelf to browse my latest thoughts and worlds.</p>
 
           <p class="detail-description">Have feedback, or just want to say hello? Use the mail icon above, or
-            write to me directly at <a class="detail-email" href="mailto:thelotusluminous@gmail.com">thelotusluminous@gmail.com</a>.
+            write to me directly at <a class="detail-email"
+              href="mailto:thelotusluminous@gmail.com">thelotusluminous@gmail.com</a>.
           </p>
 
-          <p class="detail-meta detail-disclaimer"><i>Every content written here is my own thought and idea. I make AI assist me in
-              grammar checks, rephrasing certain unconvincingly bland language and ofcourse making illustrations of my
-              imaginations.</i></p>
+          <p class="detail-meta detail-disclaimer"><i>Every theme, storyline, plot, character, and creative decision in
+              this site and all its contents are my own. I worked with AI (Claude and Gemini) as a drafting and editing
+              tool, turning my detailed ideas, themes and directions into detailed prose, refining language, and 
+              generating illustrations where needed, under my creative and continuous direction and review. </i></p>
         </div>
         <div class="detail-content" id="detailContent" hidden>
           <p class="detail-tag" id="detailTag"></p>
           <h2 class="detail-title" id="detailTitle"></h2>
           <p class="detail-meta" id="detailMeta"></p>
           <p class="detail-description" id="detailDescription"></p>
-          <a class="detail-link" id="detailLink" href="#">Read →</a>
+          <div class="detail-actions">
+            <a class="detail-link" id="detailLink" href="#">Read →</a>
+            <button type="button" class="detail-link detail-link--secondary" id="detailExportDocx" hidden>Export to
+              Document</button>
+          </div>
         </div>
       </div>
     </aside>
@@ -100,6 +106,7 @@
 
   <script src="js/mail.js"></script>
   <script src="js/bookshelf.js"></script>
+  <script src="js/export-docx.js"></script>
 </body>
 
 </html>

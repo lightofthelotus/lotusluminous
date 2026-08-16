@@ -989,6 +989,42 @@ body {
   box-shadow: 0 0 0 3px var(--bg-base), 0 0 0 5px var(--accent-2);
 }
 
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* Local-dev-only export button: unstyled/inert until js/export-docx.js
+   confirms the page is running on localhost and un-hides it. */
+.detail-link--secondary {
+  background: transparent;
+  color: var(--text-muted);
+  border-color: rgba(var(--glass-rgb), 0.28);
+}
+
+.detail-link--secondary:hover,
+.detail-link--secondary:focus-visible {
+  background: rgba(var(--glass-rgb), 0.14);
+  color: var(--text-light);
+  border-color: rgba(var(--glass-rgb), 0.4);
+}
+
+.detail-link--secondary:focus-visible {
+  box-shadow: 0 0 0 3px var(--bg-base), 0 0 0 5px rgba(var(--glass-rgb), 0.4);
+}
+
+.detail-link--secondary:disabled {
+  opacity: 0.6;
+  cursor: default;
+  transform: none;
+}
+
+.detail-link--secondary[hidden] {
+  display: none;
+}
+
 .detail-overlay {
   position: fixed;
   inset: 0;

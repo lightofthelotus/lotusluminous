@@ -19,13 +19,31 @@ body.reader-page {
     radial-gradient(ellipse 60% 40% at 50% 0%, rgba(var(--accent-rgb), 0.08), transparent 60%),
     radial-gradient(ellipse 50% 35% at 85% 30%, rgba(var(--sky-rgb), 0.05), transparent 60%),
     linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
+  /* Page-body text size, picked from the FAB's text-size menu (js/fontsize.js)
+     and persisted in localStorage. "Large" deliberately jumps by more than
+     a single step so the option is worth picking. */
+  --reader-font-size: 1rem;
+}
+
+body.reader-page.font-size-large {
+  --reader-font-size: 1.3rem;
 }
 
 /* ---------- Floating nav ---------- */
-.float-nav {
+/* Both nav clusters live together at top-right, the FAB sitting right
+   before the chapter/page navigator, so the top-left corner stays clear
+   and nothing competes with the chapter dropdown for space. */
+.reader-topbar {
   position: fixed;
   top: 0.9rem;
+  right: 0.9rem;
   z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.float-nav {
   display: flex;
   align-items: center;
   gap: 0.35rem;
@@ -36,11 +54,92 @@ body.reader-page {
   -webkit-backdrop-filter: blur(14px) saturate(140%);
   border: 1px solid var(--glass-border);
   box-shadow: 0 10px 30px rgba(var(--ink-rgb), 0.4);
+  /* Stops an oversized intrinsic width from a child (see .chapter-select)
+     from bubbling up through this nested flex context too. */
+  min-width: 0;
 }
 
-.float-nav--left { left: 0.9rem; }
-.float-nav--right { right: 0.9rem; }
 .float-nav[hidden] { display: none; }
+
+/* ---------- FAB speed dial (home + contact, expandable) ----------
+   A single rounded compass FAB replaces two always-on buttons. Tapping it
+   expands a row of actions to its left, using the open space toward the
+   center of the page rather than stacking under the button. Add future
+   actions inside #fabActions and they'll fall in line automatically. */
+.fab-nav {
+  gap: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.fab-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: 1px solid var(--glass-border);
+  background: var(--panel-bg);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  box-shadow: 0 10px 30px rgba(var(--ink-rgb), 0.4);
+  color: var(--text-light);
+  font-family: inherit;
+  cursor: pointer;
+  flex: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.fab-main:hover { background: var(--glass-faint); }
+
+.fab-icon { width: 1.15rem; height: 1.15rem; transition: transform 0.3s ease; }
+
+.fab-nav.is-open .fab-main {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: transparent;
+}
+
+.fab-nav.is-open .fab-icon { transform: rotate(45deg); }
+
+.fab-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  max-width: 0;
+  margin-right: 0.5rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--panel-bg);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid transparent;
+  box-shadow: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: max-width 0.28s ease, opacity 0.2s ease, padding 0.28s ease,
+    border-color 0.28s ease, box-shadow 0.28s ease;
+}
+
+.fab-nav.is-open .fab-actions {
+  max-width: 12rem;
+  opacity: 1;
+  padding: 0.35rem;
+  border-color: var(--glass-border);
+  box-shadow: 0 10px 30px rgba(var(--ink-rgb), 0.4);
+  pointer-events: auto;
+  /* Once expanded, let the mail/font-size dropdown panels (position:
+     absolute children of buttons in here) render outside this row instead
+     of being clipped by the overflow:hidden used for the collapse animation. */
+  overflow: visible;
+}
+
+.fab-action { flex: none; }
 
 .float-btn {
   position: relative;
@@ -67,7 +166,15 @@ body.reader-page {
 }
 
 .chapter-select {
-  max-width: 170px;
+  /* A fixed width, not max-width: browsers size a <select>'s intrinsic
+     width off its widest *option* text, ignoring this element's own
+     overflow/ellipsis — so a long chapter title silently demanded more
+     layout space than it ever visibly showed, pushing the nav to wrap.
+     min-width: 0 overrides the flex-item default (min-width: auto),
+     which otherwise floors the box back at that same intrinsic size. */
+  width: 170px;
+  min-width: 0;
+  flex-shrink: 0;
   background: transparent;
   color: var(--text-light);
   border: none;
@@ -136,6 +243,42 @@ body.reader-page {
   top: calc(100% + 0.7rem);
   left: 0;
   right: auto;
+}
+
+/* ---------- Text-size tab: floating, expands to the font-size menu ----------
+   Reuses .mail-panel/.mail-option's look (shared in bookshelf.css) so it
+   reads as the same kind of menu as the contact picker beside it. */
+.fontsize-tab {
+  position: relative;
+}
+
+.fontsize-tab.is-open .float-btn {
+  background: var(--glass-faint);
+  color: var(--accent);
+}
+
+.fontsize-tab .mail-panel {
+  top: calc(100% + 0.7rem);
+  left: 0;
+  right: auto;
+  min-width: 140px;
+}
+
+.fontsize-icon { width: 1.2rem; height: 1.2rem; }
+
+.fontsize-option {
+  appearance: none;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  font-family: var(--sans);
+  cursor: pointer;
+}
+
+.fontsize-option[aria-checked="true"] {
+  color: var(--accent);
+  font-weight: 600;
 }
 
 /* ---------- Bookmark tab: floating, expands to a small panel ---------- */
@@ -380,22 +523,27 @@ body.reader-page {
   line-height: 1.55;
 }
 
-/* ---------- Body typography ---------- */
+/* ---------- Body typography ----------
+   Sized off --reader-font-size (set by js/fontsize.js from the FAB's text-size
+   picker) rather than a fixed rem, so every rule below that sizes itself in
+   em inherits the chosen scale. Headings/lede/table/scene-break font-sizes
+   are em (not rem) for the same reason — they need to track this element's
+   own computed size, not the page root's. */
 .reader-body,
 .pager-page {
-  font-size: 1rem;
+  font-size: var(--reader-font-size, 1rem);
 }
 
 .pager-page h2 {
   font-family: var(--serif);
-  font-size: 1.25rem;
+  font-size: 1.25em;
   margin: 0.9rem 0 0.5rem;
   color: var(--text-light);
 }
 
 .pager-page h3 {
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: 1.05em;
   margin: 0.8rem 0 0.4rem;
   color: var(--text-light);
 }
@@ -413,7 +561,7 @@ body.reader-page {
 }
 
 .pager-page p.lede {
-  font-size: 1.1rem;
+  font-size: 1.1em;
   color: var(--text-muted);
   margin-bottom: 0.85rem;
 }
@@ -449,7 +597,7 @@ body.reader-page {
   width: 100%;
   margin: 1rem 0;
   border-collapse: collapse;
-  font-size: 0.92rem;
+  font-size: 0.92em;
 }
 
 .pager-page th,
@@ -471,7 +619,7 @@ body.reader-page {
   color: var(--accent);
   letter-spacing: 0.3em;
   margin: 1.2rem 0;
-  font-size: 0.9rem;
+  font-size: 0.9em;
 }
 
 .pager-page .poem-stanza {
@@ -531,11 +679,14 @@ figure.illustration figcaption {
 
 /* ---------- Responsive ---------- */
 @media (max-width: 640px) {
-  .float-nav { top: 0.6rem; padding: 0.3rem; gap: 0.25rem; }
-  .float-nav--left { left: 0.6rem; }
-  .float-nav--right { right: 0.6rem; }
+  .reader-topbar { top: 0.6rem; right: 0.6rem; gap: 0.35rem; }
+  .float-nav { padding: 0.3rem; gap: 0.25rem; }
   .float-btn { width: 2rem; height: 2rem; }
-  .chapter-select { max-width: 90px; font-size: 0.72rem; padding: 0.35rem 0.5rem; }
+  .fab-nav { padding: 0; }
+  .fab-main { width: 2.3rem; height: 2.3rem; }
+  .fab-actions { margin-right: 0.35rem; }
+  .fab-nav.is-open .fab-actions { max-width: 9rem; }
+  .chapter-select { width: 90px; font-size: 0.72rem; padding: 0.35rem 0.5rem; }
   .page-jump { font-size: 0.7rem; }
   .page-jump-input { width: 2.2rem; font-size: 0.75rem; }
   .reader-fixed-header { padding: 3rem 1rem 0.3rem; }

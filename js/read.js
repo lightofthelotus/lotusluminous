@@ -19,6 +19,12 @@
   let pageState = { currentPage: 0, totalPages: 1 };
   let currentCtx = null; // { type, slug, chapterFile, chapterLabel, itemLabel }
 
+  // Body text resized via the FAB's text-size menu (js/fontsize.js) changes
+  // how much text fits per page, so re-split into pages at the new size.
+  document.addEventListener('v2:fontsizechange', () => {
+    if (pagerController) pagerController.refresh();
+  });
+
   function assetPath(path) {
     return String(path).replace(/^\/+/, '');
   }

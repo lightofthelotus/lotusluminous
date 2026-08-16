@@ -81,10 +81,12 @@ window.V2Paginate = (function () {
 
     const partA = document.createElement(paragraphClone.tagName);
     partA.className = paragraphClone.className;
+    partA.dataset.pageBlockIndex = paragraphClone.dataset.pageBlockIndex;
     partA.appendChild(fragA);
 
     const partB = document.createElement(paragraphClone.tagName);
     partB.className = paragraphClone.className;
+    partB.dataset.pageBlockIndex = paragraphClone.dataset.pageBlockIndex;
     partB.appendChild(fragB);
     if (partB.firstChild && partB.firstChild.nodeType === Node.TEXT_NODE) {
       partB.firstChild.data = partB.firstChild.data.replace(/^\s+/, '');
@@ -116,11 +118,13 @@ window.V2Paginate = (function () {
 
     const partA = document.createElement(listClone.tagName);
     partA.className = listClone.className;
+    partA.dataset.pageBlockIndex = listClone.dataset.pageBlockIndex;
     if (listClone.hasAttribute('start')) partA.setAttribute('start', listClone.getAttribute('start'));
     for (let i = 0; i <= splitIndex; i++) partA.appendChild(items[i].cloneNode(true));
 
     const partB = document.createElement(listClone.tagName);
     partB.className = listClone.className;
+    partB.dataset.pageBlockIndex = listClone.dataset.pageBlockIndex;
     // <ol> numbering would otherwise restart at 1 on the carried-over part —
     // pick up from the original start (its own, or a prior split's) plus
     // however many items partA just took.
@@ -250,6 +254,11 @@ window.V2Paginate = (function () {
 
   async function init({ container, source, track, indicator, onOverflowPrev, onOverflowNext, startAt, onPageChange, isActive }) {
     const allBlocks = Array.from(source.children);
+    // Stamped once so a block (or a part it gets split into — see
+    // splitParagraphToFit/splitListToFit) can still be found after a
+    // rebuild, letting refresh() re-anchor the reader on a font-size change
+    // instead of leaving them on whatever page number happens to fall at.
+    allBlocks.forEach((el, i) => { el.dataset.pageBlockIndex = String(i); });
     const active = isActive || (() => true);
     let currentPage = 0;
     let totalPages = 1;
@@ -356,10 +365,37 @@ window.V2Paginate = (function () {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(() => {
         if (!active()) return;
-        build();
-        render(false);
+        rebuildPreservingPosition();
       }, 150);
     });
+
+    // The reader's actual anchor for "where they are" is whatever block
+    // leads the page they're looking at — not the page number, which shifts
+    // as soon as a font-size change reflows how much text fits per page.
+    function leadingBlockIndex() {
+      const pageEl = track.children[currentPage];
+      const first = pageEl && pageEl.firstElementChild;
+      return first ? first.dataset.pageBlockIndex : null;
+    }
+
+    function pageIndexForBlockIndex(blockIndex) {
+      for (let i = 0; i < track.children.length; i++) {
+        const match = Array.from(track.children[i].children)
+          .some((el) => el.dataset.pageBlockIndex === blockIndex);
+        if (match) return i;
+      }
+      return null;
+    }
+
+    function rebuildPreservingPosition() {
+      const anchor = leadingBlockIndex();
+      build();
+      if (anchor != null) {
+        const anchoredPage = pageIndexForBlockIndex(anchor);
+        if (anchoredPage != null) currentPage = anchoredPage;
+      }
+      render(false);
+    }
 
     build();
     if (startAt === 'end') currentPage = totalPages - 1;
@@ -367,7 +403,7 @@ window.V2Paginate = (function () {
     render(false);
 
     return {
-      refresh() { build(); render(false); },
+      refresh() { rebuildPreservingPosition(); },
       destroy() { document.removeEventListener('keydown', onKeydown); },
       next,
       prev,

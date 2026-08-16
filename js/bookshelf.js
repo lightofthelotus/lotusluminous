@@ -196,6 +196,7 @@
   const elMeta = document.getElementById("detailMeta");
   const elDescription = document.getElementById("detailDescription");
   const elLink = document.getElementById("detailLink");
+  const elExportDocx = document.getElementById("detailExportDocx");
 
   let activeBook = null;
   const isDesktop = () => window.matchMedia("(min-width: 861px)").matches;
@@ -219,6 +220,12 @@
     elDescription.textContent = item.description || "";
     elLink.textContent = (item.linkText || "Read") + " →";
     elLink.href = targetUrl(item, category);
+
+    if (elExportDocx) {
+      elExportDocx.dataset.type = READER_TYPE[category] || category;
+      elExportDocx.dataset.slug = item.slug;
+      elExportDocx.dataset.title = title;
+    }
 
     placeholder.hidden = true;
     // Re-trigger the fade/slide-in animation on every selection, not just the first.

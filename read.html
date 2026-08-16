@@ -17,61 +17,90 @@
 
 <body class="reader-page" id="readerBody">
 
-  <nav class="float-nav float-nav--left" id="floatNavLeft">
-    <a href="index.html" class="float-btn" title="Home" aria-label="Home">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-        stroke-linejoin="round">
-        <path d="M3 11l9-8 9 8" />
-        <path d="M5 10v10h14V10" />
-      </svg>
-    </a>
-    <div class="mail-tab" id="mailMenu">
-      <button type="button" class="float-btn" id="mailToggle" aria-label="Email me" aria-haspopup="menu"
-        aria-expanded="false" title="Email me">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-          stroke-linejoin="round">
-          <rect x="3" y="5" width="18" height="14" rx="2" />
-          <path d="m3.5 6 8.5 7 8.5-7" />
-        </svg>
-      </button>
-      <div class="mail-panel" id="mailPanel" role="menu" aria-label="Choose your mail app" hidden>
-        <p class="mail-panel-title">Write to me</p>
-        <a class="mail-option" role="menuitem" data-provider="gmail" target="_blank" rel="noopener">Gmail</a>
-        <a class="mail-option" role="menuitem" data-provider="yahoo" target="_blank" rel="noopener">Yahoo Mail</a>
-        <a class="mail-option" role="menuitem" data-provider="outlook" target="_blank" rel="noopener">Outlook</a>
-        <a class="mail-option" role="menuitem" data-provider="default">Default mail app</a>
-      </div>
-    </div>
-  </nav>
-
-  <nav class="float-nav float-nav--right" id="floatNavRight">
-    <select class="chapter-select" id="chapterSelect" aria-label="Jump to chapter" hidden></select>
-
-    <div class="page-jump" id="pageJump" hidden>
-      <input type="number" class="page-jump-input" id="pageJumpInput" min="1" value="1" aria-label="Jump to page" />
-      <span class="page-jump-total" id="pageJumpTotal">/ 1</span>
-    </div>
-
-    <div class="bookmark-tab" id="bookmarkTab">
-      <button type="button" class="float-btn" id="bookmarkToggle" aria-label="Bookmarks" aria-expanded="false"
-        title="Bookmarks">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-          stroke-linejoin="round">
-          <path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1Z" />
-        </svg>
-        <span class="bookmark-count" id="bookmarkCount" hidden>0</span>
-      </button>
-
-      <div class="bookmark-panel" id="bookmarkPanel" hidden>
-        <div class="bookmark-panel-head">
-          <span>Bookmarks</span>
-          <button type="button" class="bookmark-add" id="bookmarkAdd">+ Add this page</button>
+  <div class="reader-topbar" id="readerTopbar">
+    <nav class="float-nav fab-nav" id="floatNavLeft">
+      <div class="fab-actions" id="fabActions">
+        <a href="index.html" class="float-btn fab-action" title="Home" aria-label="Home">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M3 11l9-8 9 8" />
+            <path d="M5 10v10h14V10" />
+          </svg>
+        </a>
+        <div class="mail-tab" id="mailMenu">
+          <button type="button" class="float-btn fab-action" id="mailToggle" aria-label="Email me"
+            aria-haspopup="menu" aria-expanded="false" title="Email me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path d="m3.5 6 8.5 7 8.5-7" />
+            </svg>
+          </button>
+          <div class="mail-panel" id="mailPanel" role="menu" aria-label="Choose your mail app" hidden>
+            <p class="mail-panel-title">Write to me</p>
+            <a class="mail-option" role="menuitem" data-provider="gmail" target="_blank" rel="noopener">Gmail</a>
+            <a class="mail-option" role="menuitem" data-provider="yahoo" target="_blank" rel="noopener">Yahoo Mail</a>
+            <a class="mail-option" role="menuitem" data-provider="outlook" target="_blank" rel="noopener">Outlook</a>
+            <a class="mail-option" role="menuitem" data-provider="default">Default mail app</a>
+          </div>
         </div>
-        <ul class="bookmark-list" id="bookmarkList"></ul>
-        <p class="bookmark-empty" id="bookmarkEmpty">No bookmarks yet — up to 5 per book.</p>
+        <div class="fontsize-tab" id="fontSizeMenu">
+          <button type="button" class="float-btn fab-action" id="fontSizeToggle" aria-label="Text size"
+            aria-haspopup="menu" aria-expanded="false" title="Text size">
+            <svg class="fontsize-icon" viewBox="0 0 24 24">
+              <text x="1" y="16" font-size="10" fill="currentColor">A</text>
+              <text x="10" y="19" font-size="16" fill="currentColor">A</text>
+            </svg>
+          </button>
+          <div class="mail-panel" id="fontSizePanel" role="menu" aria-label="Choose text size" hidden>
+            <p class="mail-panel-title">Text size</p>
+            <button type="button" class="mail-option fontsize-option" role="menuitemradio" data-size="normal"
+              aria-checked="true">Normal</button>
+            <button type="button" class="mail-option fontsize-option" role="menuitemradio" data-size="large"
+              aria-checked="false">Large</button>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
+
+      <button type="button" class="fab-main" id="fabToggle" aria-haspopup="true" aria-expanded="false"
+        aria-controls="fabActions" aria-label="More actions" title="Menu">
+        <svg class="fab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="9" />
+          <polygon points="14.8 9.2 13 13 9.2 14.8 11 11 14.8 9.2" />
+        </svg>
+      </button>
+    </nav>
+
+    <nav class="float-nav float-nav--right" id="floatNavRight">
+      <select class="chapter-select" id="chapterSelect" aria-label="Jump to chapter" hidden></select>
+
+      <div class="page-jump" id="pageJump" hidden>
+        <input type="number" class="page-jump-input" id="pageJumpInput" min="1" value="1" aria-label="Jump to page" />
+        <span class="page-jump-total" id="pageJumpTotal">/ 1</span>
+      </div>
+
+      <div class="bookmark-tab" id="bookmarkTab">
+        <button type="button" class="float-btn" id="bookmarkToggle" aria-label="Bookmarks" aria-expanded="false"
+          title="Bookmarks">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1Z" />
+          </svg>
+          <span class="bookmark-count" id="bookmarkCount" hidden>0</span>
+        </button>
+
+        <div class="bookmark-panel" id="bookmarkPanel" hidden>
+          <div class="bookmark-panel-head">
+            <span>Bookmarks</span>
+            <button type="button" class="bookmark-add" id="bookmarkAdd">+ Add this page</button>
+          </div>
+          <ul class="bookmark-list" id="bookmarkList"></ul>
+          <p class="bookmark-empty" id="bookmarkEmpty">No bookmarks yet — up to 5 per book.</p>
+        </div>
+      </div>
+    </nav>
+  </div>
 
   <main class="reader-viewport" id="readerViewport">
     <div class="reader-fixed-header" id="readerHeader">
@@ -89,6 +118,8 @@
   </main>
 
   <script src="js/mail.js"></script>
+  <script src="js/fontsize.js"></script>
+  <script src="js/fab.js"></script>
   <script src="js/common.js"></script>
   <script src="js/markdown.js"></script>
   <script src="js/paginate.js"></script>

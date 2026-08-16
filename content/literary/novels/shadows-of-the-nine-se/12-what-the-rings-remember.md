@@ -183,8 +183,7 @@ He came to her gently, the way patience always came to her, a traveller passing 
 
 "What mercy."
 
-![Andhankan Meeting](12-04-evening-andhakan.jpg)
-
+![Andhakan Meeting](12-04-evening-andhakan.jpg)
 
 "A way to make him ordinary," the stranger said. "Fully mortal. Fully human. A man who could never again be asked to weigh your whole world against anything at all. A man who could simply love you, the way you clearly wish to be loved, without the owing, without the fear, without the terrible arithmetic he currently carries in his place of a heart." He let that sit a moment, patient as ever. "You would be free of the guilt of loving something so much larger than yourself. And he would be free of a burden I do not believe, in his most honest hours, he entirely wants to keep carrying."
 
@@ -200,7 +199,11 @@ They all led to the same name, eventually.
 
 Andhakan.
 
-He found him at last on a hillside at the very edge of the province, waiting, unmasked, as though he had known precisely how long the tracing would take and had simply grown tired of waiting for Sancharan to finish it.
+He had not needed to tell her the shape of what he truly was, in the weeks since the festival. She had watched him carry the weight of it in her own presence instead, in the way lesser griefs seemed to bend around him without quite touching, in the way even his silences had a kind of gravity to them that no ordinary man's silences carried. She had begun, on her own, without a single word of confirmation from him, to understand that whatever he was, he was not merely powerful among his own kind. He was something closer to first among them. Whatever the other eight anchors answered to, in whatever quiet order such things were kept, she had come to suspect that his answered to fewer masters still than any of theirs.
+
+She had never told him she suspected this. She would carry that suspicion, and the guilt of never once speaking it aloud to him, all the way to the end of what little time remained to her.
+
+He found Andhakan at last on a hillside at the very edge of the province, waiting, unmasked, as though he had known precisely how long the tracing would take and had simply grown tired of waiting for Sancharan to finish it.
 
 "You have been slower than I expected," Andhakan said, by way of greeting.
 
@@ -220,27 +223,51 @@ Neither of them noticed Amudha, who had followed Sancharan at a careful distance
 
 She understood, hearing it all laid bare in both men's own voices, precisely what she had agreed to become a part of. The regret arrived in her all at once, entire, with nowhere left to put itself down.
 
+It was not only regret for what she had done. It was regret, sharper still, for what she now understood herself to have been while doing it. She had suspected, on her own, exactly how vast a thing she loved. And she had still let a sweet-tongued stranger's patient kindness walk her, one gentle conversation at a time, into becoming the very door he needed. Not out of malice. She could forgive herself malice, perhaps, in time. She did not know if she could forgive herself the plainer, uglier truth of it: that her own blind love had made a fool of her, exactly the way a fool is made, one comforting lie at a time, by someone who had understood her heart's hunger far better than she had ever understood it herself.
+
 ## VII
 
 Andhakan did not wait for her regret to matter.
 
-He came for the anchor directly, two nights after that encounter, while Sancharan's guard was still turned toward the hillside conversation rather than toward whatever Andhakan had already set in motion behind him. The attack, when it came, came all at once, an unravelling aimed not at his body this time, the way the poisoned blade had been, but at the anchor itself, reaching through him the way a hand reaches through an open door left carelessly unwatched.
+He came for the anchor directly, two nights after that encounter, while Sancharan's guard was still turned toward the hillside conversation rather than toward whatever Andhakan had already set in motion behind him. He carried with him, when he came, something Sancharan had not seen in the whole of the confrontation two nights past. A shard, small enough to close inside one fist, of a substance that held no colour at all, not black, not clear, simply absent, as though a piece of the world's own darkness had been cut free and sharpened into something a hand could carry. It was old. Older, Sancharan understood in the single instant he glimpsed it, than the accord itself. A fragment of whatever had existed before the Nine had ever agreed to hold anything in balance at all, kept safe across ages precisely because nothing it touched was ever permitted to remain what it had been.
 
-The rings answered before Sancharan's own mind had finished understanding there was anything left to answer. They closed around the anchor and around him both, drawing the whole unravelling force into themselves rather than let it finish tearing him from Bhumi outright, and the light of that closing was the last ordinary light Sancharan properly remembered before everything became too bright, too loud, too much for any single sense to hold whole.
+Andhakan closed his hand around the shard and drove it, without ceremony, into the sky-tower's own stone.
+
+The fire that answered was not the colour of any fire Sancharan had ever stood near. Blue at its heart, white at its furious edge, it did not consume the way ordinary flame consumed. It unmade. Wherever it touched, matter did not burn so much as it simply forgot, for a moment, that it had ever agreed to exist in that particular shape at all. The attack, when it came, came all at once, an unravelling aimed not at his body this time, the way the poisoned blade had been, but at the anchor itself, reaching through him the way a hand reaches through an open door left carelessly unwatched.
+
+The rings answered before Sancharan's own mind had finished understanding there was anything left to answer. They closed around the anchor and around him both, drawing the whole unmaking fire into themselves rather than let it finish tearing him from Bhumi outright, and the blue-white light of that closing was the last ordinary sight Sancharan properly remembered before everything became too bright, too loud, too much for any single sense to hold whole.
 
 Amudha ran toward it anyway.
 
-He did not see her do it. He would spend centuries afterward reconstructing the shape of that instant from fragments too broken to trust fully, but the rings, which had been closer to her in that final moment than he had, understood, even in their own overwhelmed unravelling, that a second presence had thrown itself into the light alongside his. Not to save the anchor. To save him, specifically, the small mortal shape of him she had loved before she had ever learned what larger shape it was wrapped around.
+She had understood, in the days since overhearing the hillside conversation, more than either man had ever meant for her to understand. She had watched Sancharan move through the world like something the world itself made careful room for, and had come, on her own, to a private accounting of what that likely meant among his own kind. She understood, watching the rings close around him now, exactly what she was looking at. Sancharan guarded the anchor. The rings guarded Sancharan. And in this one terrible instant, with the unmaking fire pouring itself into them faster than anything should have been asked to hold, she understood that the rings themselves had nothing left standing between them and whatever came after they, too, finally gave way.
 
-The light closed. The unravelling stopped, held, then folded, the same desperate half-failure that would leave the anchor forever after fused into the rings rather than restored cleanly to its old place.
-
-When the light finally receded, Andhakan was gone. The hillside was empty. And Amudha was nowhere Sancharan's frantic searching could find her, not that night, not for three more days after it, until word finally reached him, secondhand and unbearable, of what had been found at the edge of that same hillside once the light had long since finished fading.
-
-The rings understood what he did not, in that first raw hour of grief. They had felt her there, inside the light, in the last instant before it closed. They had felt her decision arrive, whole and certain, faster than any warning Sancharan could have shouted in time to stop it. They understood, turning the memory over in their own slow, aching way across the centuries that followed, that she had not merely been caught in the crossfire of a battle that was never hers to fight.
+Someone had to stand in that last place. She had time only to decide it should be her.
 
 ![Amudhas Run](12-06-amudhas-run.jpg)
 
-She had made herself part of it, on purpose, in the only moment she had left to choose anything at all.
+He did not see her do it. He would spend centuries afterward reconstructing the shape of that instant from fragments too broken to trust fully, but the rings, which had been closer to her in that final moment than he had, understood, even in their own overwhelmed unravelling, that a second presence had thrown itself into the fire alongside his. Not merely to save him. To buy the rings themselves one more held breath of strength, one mortal body's worth of extra shielding, in the single narrow moment they most needed it and had nothing further left to spend.
+
+The fire closed. The unmaking stopped, held, then folded, the same desperate half-failure that would leave the anchor forever after fused into the rings rather than restored cleanly to its old place.
+
+When the blue-white light finally receded, Andhakan was gone. The hillside was empty. And Amudha was nowhere Sancharan's frantic searching could find her, not that night, not for three more days after it.
+
+***
+
+They found her on the third day, at the far edge of the same hillside, in a hollow the search had already passed twice without seeing.
+
+What the fire had done to her was not what fire ordinarily does. There was no true burning to speak of, no wound a physician could have named plainly. Her hair had gone entirely white, every strand of it, though she had been a young woman still. Her skin, where the searchers gently touched it, had the particular fine-cracked look of old pottery left too long in a kiln, as though whatever had passed through her that night had aged some part of her decades in the space of a single breath. Her face held no mark of agony. It held, instead, a strange and terrible stillness, the calm of someone who had made her choice cleanly and had not been given time enough afterward to regret the choosing.
+
+Her right hand was closed around something.
+
+Sancharan had to work her fingers open one at a time, gently, the way one opens a fist that has held onto its grip for far longer than any living hand should have managed. What lay inside was small, dark, and wrong to look at directly, the eye sliding off it the same way it had slid off the shard in Andhakan's own hand two nights before he ever brought it to the tower. He understood, holding it, that this was no mere fragment of the same attack. It was the thing itself, or some essential working part of it, the true mechanism Andhakan had meant to use to finish what the fire alone had not managed to complete. How it was meant to work, what precise ruin it had been built to visit upon an anchor once triggered fully, Sancharan did not know. He understood only that Amudha had reached it somehow, in that last chaos, and had held on to it rather than let it finish its purpose, and that whatever it had cost her to hold it so tightly for so long, she had never once, in that final hour, let it go.
+
+He did not study it. He did not trust his own grief-clouded judgment, that week or for a great many weeks after it, to safely examine something that had very nearly unmade an anchor of the Nine. He carried it instead to Anaadikottai, once his mourning had quieted enough to let him think in anything resembling a straight line again, and buried it deep within the fortress's own ancient ground, in a place even Iruli was not shown the exact location of. He resolved, setting it into that patient earth, to return to it only once he trusted his own wisdom enough to handle whatever it truly was without grief or anger deciding the handling for him.
+
+He had not yet returned to it. Not in all the centuries since.
+
+Sancharan carried her back himself, the second time in her short life he had carried her this way, and this time there was no long anxious night of waiting for her to wake.
+
+He did not weep in front of the searchers. He did not weep in front of Iruli, not that day. He simply held her, in the quiet privacy the rings arranged around them both without being asked, and understood, in a way that would never again fully leave him across all the centuries that followed, exactly what it had cost to let himself be loved by something so gladly, so foolishly, so completely mortal.
 
 ## VIII
 
@@ -257,6 +284,14 @@ He came back to himself on the floor of Anaadikottai's wide chamber, Iruli's win
 *Amudha.*
 
 "Amudha." He said the name carefully, the way one sets down something that has just been carried a very long distance. "She did not merely die because she loved something too large to hold safely, Iruli. She died choosing to stand inside the very danger she had once helped invite in, because by the end, whatever else she had become confused about, she had never once stopped loving me honestly enough to spend herself trying to undo it." He looked at his own open hands, turning them slowly in the strange light. "The rings understood that before I did. They have carried the whole shape of it since, the fear and the grief and the guilt all folded together, and I have spent centuries mistaking their flinching for a simple wariness of mortals in general, rather than what it actually is."
+
+*She understood something else too, before either of us gave her the courtesy of explaining it,* Iruli said, quieter than her usual register. *The rings are not merely yours, Sancharan. They are not some borrowed instrument, or some clever trick you learned to wear. What walks this earth in that pale turning light is the true rings themselves, manifest, not an echo or a lesser shadow of them. And their whole purpose, since long before Amudha, since long before any of this, has been singular. To guard you. Only you. Because whatever quiet order the Nine keep among themselves, you have never been merely one voice among nine equal ones. You are the weight the rest of us turn around, whether you have ever permitted yourself to say so plainly or not.*
+
+"I have never claimed that."
+
+*No,* Iruli agreed. *You have spent centuries very carefully not claiming it, which is its own kind of claim, if one troubles to notice the shape of the silence.* Her voice softened. *Amudha noticed. She told no one, not even you, but she carried that knowledge with her to the very last, and I believe it is precisely why she understood what she was truly protecting, in that final hour. Not merely a man she loved. The one thing standing between the rest of this world and whatever comes for it, if the weight you carry is ever finally allowed to fall.*
+
+Sancharan said nothing to that for a long moment, the old, uncomfortable truth of it settling over him the way it always did, unwelcome and unrefusable in equal measure.
 
 *Which is?*
 
