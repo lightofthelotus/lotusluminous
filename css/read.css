@@ -127,7 +127,7 @@ body.reader-page.font-size-large {
 }
 
 .fab-nav.is-open .fab-actions {
-  max-width: 12rem;
+  max-width: 8rem;
   opacity: 1;
   padding: 0.35rem;
   border-color: var(--glass-border);
@@ -245,40 +245,19 @@ body.reader-page.font-size-large {
   right: auto;
 }
 
-/* ---------- Text-size tab: floating, expands to the font-size menu ----------
-   Reuses .mail-panel/.mail-option's look (shared in bookshelf.css) so it
-   reads as the same kind of menu as the contact picker beside it. */
-.fontsize-tab {
-  position: relative;
+/* ---------- Zoom controls: two plain buttons next to the bookmark tab ----------
+   Same normal/large text-size toggle js/fontsize.js always had, just
+   triggered directly instead of picked from a dropdown menu. */
+.zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
 }
 
-.fontsize-tab.is-open .float-btn {
-  background: var(--glass-faint);
-  color: var(--accent);
-}
-
-.fontsize-tab .mail-panel {
-  top: calc(100% + 0.7rem);
-  left: 0;
-  right: auto;
-  min-width: 140px;
-}
-
-.fontsize-icon { width: 1.2rem; height: 1.2rem; }
-
-.fontsize-option {
-  appearance: none;
-  width: 100%;
-  text-align: left;
-  border: none;
-  background: none;
-  font-family: var(--sans);
-  cursor: pointer;
-}
-
-.fontsize-option[aria-checked="true"] {
-  color: var(--accent);
-  font-weight: 600;
+.zoom-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+  pointer-events: none;
 }
 
 /* ---------- Bookmark tab: floating, expands to a small panel ---------- */
@@ -685,11 +664,13 @@ figure.illustration figcaption {
   .fab-nav { padding: 0; }
   .fab-main { width: 2.3rem; height: 2.3rem; }
   .fab-actions { margin-right: 0.35rem; }
-  .fab-nav.is-open .fab-actions { max-width: 9rem; }
+  .fab-nav.is-open .fab-actions { max-width: 6rem; }
   .chapter-select { width: 90px; font-size: 0.72rem; padding: 0.35rem 0.5rem; }
   .page-jump { font-size: 0.7rem; }
   .page-jump-input { width: 2.2rem; font-size: 0.75rem; }
-  .reader-fixed-header { padding: 3rem 1rem 0.3rem; }
+  /* Clears the floating nav pill (0.6rem top offset + ~2.6rem pill height)
+     with a visible gap instead of the title crowding right under it. */
+  .reader-fixed-header { padding: 3.6rem 1rem 0.3rem; }
   .pager { padding: 0.2rem 1.1rem 1.2rem; }
   .bookmark-panel { width: 220px; }
 }
