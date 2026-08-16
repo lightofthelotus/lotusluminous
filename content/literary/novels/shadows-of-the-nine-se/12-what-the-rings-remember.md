@@ -21,6 +21,8 @@ He could not steady this.
 
 The chamber around him folded away like a page turning, and Sancharan fell, not through space, but through time he had spent centuries trying not to revisit.
 
+![The Rings Turn](12-01-the-rings-turn.jpg)
+
 ## II
 
 The first thing that returned to him was her laugh.
@@ -37,6 +39,8 @@ She had not let him end it there. She rarely let him end anything there, across 
 
 The first proof of that came three days later, when she found him again at the same stall, still not buying anything.
 
+![Market Encounter](12-02-market-encounter.jpg)
+
 "You are still here," she said, pressing a small twist of something dark and sweet into his hand before he could refuse it. "I have decided this means you are either very lonely, or very patient. I have brought you a bribe either way."
 
 "I did not ask for a bribe."
@@ -50,8 +54,6 @@ The first proof of that came three days later, when she found him again at the s
 He did not answer her. She let him not answer, that day. She did not let him not answer for very much longer after that.
 
 ***
-
-![Market Encounter](12-01-market-encounter.jpg)
 
 She asked him, some weeks later, where he had learned so many languages. He answered with a very long, very boring account of a scholar's ordinary education, offered with a fluency so practised that she began to suspect, halfway through it, she was listening to a lie he had told so many times he no longer noticed it was one.
 
@@ -76,6 +78,9 @@ Once, watching him stare too long at the night sky, she asked, half joking, whet
 "I do not pine."
 
 "You are, at this exact moment, pining at the sky. I am witnessing it happen."
+
+![Starry Night](12-03-starry-night.jpg)
+
 
 He did not correct her. He let her believe, for the length of that whole conversation, that she had made up an absurd story rather than accidentally described his entire existence. He went home afterward turning over, for the first time in longer than he cared to admit, how easy it had become to let this particular mortal stand close enough to guess.
 
@@ -123,11 +128,11 @@ The wooden-legged horse dancers, the poikkal kuthirai, arrived at dusk, a full d
 
 Amudha had insisted, with her usual fearless certainty, that he come and stand beside her for it.
 
+![Festival Dance](12-04-festival-dance.jpg)
+
 He watched eleven of the twelve dancers move as one, joyful and practised, carrying the season's fortune through the crowd the way the dance had always been meant to carry it, the silk kerchiefs in their hands catching the light of the bonfires and the lamp-posts strung all the way to the water tank. It was custom, at the dance's peak, for each rider to snap his kerchief high overhead in a single sharp flourish, scattering the season's ill luck out over the crowd like water shaken from wet cloth.
 
 The twelfth moved differently.
-
-![Festival Threat](12-02-festival-threat.jpg)
 
 Sancharan felt it before he understood it, a cold certainty settling somewhere behind his ribs. The twelfth horse-dancer's frame was the same as the others, bright and ordinary, but a mask sat beneath its painted horse-head that none of the others wore, wood dark with age rather than fresh paint. And when this dancer's turn came to snap his kerchief overhead, something did not simply flutter loose from the cloth. Something caught the torchlight wrong. A thread, slender as a reed and near invisible in the shifting fire-glow, uncoiled from the kerchief's folds with a flexible, deliberate whip of the wrist that no ordinary flourish required.
 
@@ -140,6 +145,8 @@ The first strike caught him across the forearm before he had finished raising it
 The masked dancer drew back for a third.
 
 Amudha did not stagger back the way the rest of the crowd finally began to. She stepped in front of him instead, some fierce and foolish instinct overriding every ounce of sense she owned, and the slender poisoned thread meant for Sancharan's throat caught her across the shoulder instead, a deep, ugly wound that dropped her to the ground gasping.
+
+![Festival Threat](12-05-festival-threat-amudha.jpg)
 
 The masked dancer was gone before the crowd had finished screaming, the eleven true dancers still prancing on, joyful and oblivious, for several long moments before the drums finally stumbled into silence around them.
 
@@ -163,7 +170,7 @@ She did not fight to stay conscious long enough to hear the rest. Some restless,
 
 She did not entirely believe herself. She would spend the following weeks trying to.
 
-![Chambers](12-03-chambers.jpg)
+![Chambers](12-06-chambers.jpg)
 
 ## V
 
@@ -183,7 +190,7 @@ He came to her gently, the way patience always came to her, a traveller passing 
 
 "What mercy."
 
-![Andhakan Meeting](12-04-evening-andhakan.jpg)
+![Andhakan Meeting](12-07-evening-andhakan.jpg)
 
 "A way to make him ordinary," the stranger said. "Fully mortal. Fully human. A man who could never again be asked to weigh your whole world against anything at all. A man who could simply love you, the way you clearly wish to be loved, without the owing, without the fear, without the terrible arithmetic he currently carries in his place of a heart." He let that sit a moment, patient as ever. "You would be free of the guilt of loving something so much larger than yourself. And he would be free of a burden I do not believe, in his most honest hours, he entirely wants to keep carrying."
 
@@ -219,7 +226,7 @@ They spoke a long while longer, heated in places, precise in others, and truths 
 
 Neither of them noticed Amudha, who had followed Sancharan at a careful distance out of a fear she could not yet name, listening from behind a stand of trees to every word of it.
 
-![Sancharan Andhakan](12-05-sancharan-andhankan.jpg)
+![Sancharan Andhakan](12-09-sancharan-andhankan.jpg)
 
 She understood, hearing it all laid bare in both men's own voices, precisely what she had agreed to become a part of. The regret arrived in her all at once, entire, with nowhere left to put itself down.
 
@@ -227,11 +234,13 @@ It was not only regret for what she had done. It was regret, sharper still, for 
 
 ## VII
 
-Andhakan did not wait for her regret to matter.
+Andhakan did not wait for her regret to matter. He came for the anchor directly, two nights after that encounter, while Sancharan's guard was still turned toward the hillside conversation rather than toward whatever Andhakan had already set in motion behind him. 
 
-He came for the anchor directly, two nights after that encounter, while Sancharan's guard was still turned toward the hillside conversation rather than toward whatever Andhakan had already set in motion behind him. He carried with him, when he came, something Sancharan had not seen in the whole of the confrontation two nights past. A shard, small enough to close inside one fist, of a substance that held no colour at all, not black, not clear, simply absent, as though a piece of the world's own darkness had been cut free and sharpened into something a hand could carry. It was old. Older, Sancharan understood in the single instant he glimpsed it, than the accord itself. A fragment of whatever had existed before the Nine had ever agreed to hold anything in balance at all, kept safe across ages precisely because nothing it touched was ever permitted to remain what it had been.
+Ever since the hillside encounter, Sancharan guarded the anchor as if it were the only thing that mattered to him. Not Amudha, not his own rings, not even Iruli were near him these days. 
 
-Andhakan closed his hand around the shard and drove it, without ceremony, into the sky-tower's own stone.
+But the third night that Andhakan came, he carried with him, something Sancharan had not seen in the whole of the confrontation two nights past. A shard, small enough to close inside one fist, of a substance that held no colour at all, not black, not clear, simply absent, as though a piece of the world's own darkness had been cut free and sharpened into something a hand could carry. It was old. Older, Sancharan understood in the single instant he glimpsed it, than the accord itself. A fragment of whatever had existed before the Nine had ever agreed to hold anything in balance at all, kept safe across ages precisely because nothing it touched was ever permitted to remain what it had been.
+
+Andhakan closed his hand around the shard and drove it, without ceremony, right at his anchor.
 
 The fire that answered was not the colour of any fire Sancharan had ever stood near. Blue at its heart, white at its furious edge, it did not consume the way ordinary flame consumed. It unmade. Wherever it touched, matter did not burn so much as it simply forgot, for a moment, that it had ever agreed to exist in that particular shape at all. The attack, when it came, came all at once, an unravelling aimed not at his body this time, the way the poisoned blade had been, but at the anchor itself, reaching through him the way a hand reaches through an open door left carelessly unwatched.
 
@@ -243,7 +252,7 @@ She had understood, in the days since overhearing the hillside conversation, mor
 
 Someone had to stand in that last place. She had time only to decide it should be her.
 
-![Amudhas Run](12-06-amudhas-run.jpg)
+![Amudhas Run](12-08-amudhas-run.jpg)
 
 He did not see her do it. He would spend centuries afterward reconstructing the shape of that instant from fragments too broken to trust fully, but the rings, which had been closer to her in that final moment than he had, understood, even in their own overwhelmed unravelling, that a second presence had thrown itself into the fire alongside his. Not merely to save him. To buy the rings themselves one more held breath of strength, one mortal body's worth of extra shielding, in the single narrow moment they most needed it and had nothing further left to spend.
 
@@ -258,6 +267,8 @@ They found her on the third day, at the far edge of the same hillside, in a holl
 What the fire had done to her was not what fire ordinarily does. There was no true burning to speak of, no wound a physician could have named plainly. Her hair had gone entirely white, every strand of it, though she had been a young woman still. Her skin, where the searchers gently touched it, had the particular fine-cracked look of old pottery left too long in a kiln, as though whatever had passed through her that night had aged some part of her decades in the space of a single breath. Her face held no mark of agony. It held, instead, a strange and terrible stillness, the calm of someone who had made her choice cleanly and had not been given time enough afterward to regret the choosing.
 
 Her right hand was closed around something.
+
+![Sancharan Grieving](12-10-sancharan-grieving.jpg)
 
 Sancharan had to work her fingers open one at a time, gently, the way one opens a fist that has held onto its grip for far longer than any living hand should have managed. What lay inside was small, dark, and wrong to look at directly, the eye sliding off it the same way it had slid off the shard in Andhakan's own hand two nights before he ever brought it to the tower. He understood, holding it, that this was no mere fragment of the same attack. It was the thing itself, or some essential working part of it, the true mechanism Andhakan had meant to use to finish what the fire alone had not managed to complete. How it was meant to work, what precise ruin it had been built to visit upon an anchor once triggered fully, Sancharan did not know. He understood only that Amudha had reached it somehow, in that last chaos, and had held on to it rather than let it finish its purpose, and that whatever it had cost her to hold it so tightly for so long, she had never once, in that final hour, let it go.
 
@@ -296,6 +307,8 @@ Sancharan said nothing to that for a long moment, the old, uncomfortable truth o
 *Which is?*
 
 "A fear that the next one they let close might also, in some unguarded hour, be turned against me by someone patient enough to wait for the opening." His voice had gone very quiet. "Vaanathi is not the first mortal woman they have judged a threat. She is only the first I have loved enough, since Amudha, to make that old fear matter again."
+
+![Iruli Counsel](12-11-iruli-counsel.jpg)
 
 Iruli was silent a long moment, watching him with an attention that held none of her usual dry humour.
 
