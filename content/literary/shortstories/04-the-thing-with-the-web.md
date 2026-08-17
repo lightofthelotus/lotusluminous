@@ -2,91 +2,75 @@
 title: The Thing With the Web
 date: 2026-08-17
 eyebrow: Short Story
-description: A father wants his son to watch the Spider-Man that made his own childhood, and keeps getting told no.
-readTime: 9 min read
+description: Her parents just want her to watch the Spider-Man that made their childhood. She has other plans, and so, eventually, will she.
+readTime: 8 min read
 cardMedia: Short Story
 cardTag: Short Story
 linkText: Read the Story →
 ---
 
-# Not now, Appa.
+# Not that. I can't watch that.
 
-Arjun heard those three words so often that they had stopped sounding like a sentence and started sounding like a single word, the way a song you've heard too many times stops sounding like music.
+That was Suji's whole answer, delivered flat and immediate, before her father had even finished the sentence. He'd barely gotten past "there's a new movie running at the mall, thought we could—" when she cut him off from the sofa without looking up from her tablet.
 
-"Just the first one," he said, again, standing in the doorway of Kavin's room with his phone in his hand, the DVD case in his other hand for reasons he couldn't fully explain even to himself, since nothing in the house still played a DVD. "Two thousand and two. Tobey Maguire. You've never even seen it."
+"Just hear the plan first," Deepak said. "Saturday evening show. We get popcorn, the big screen, the whole—"
 
-Kavin didn't look up from his laptop, where something with a countdown timer and a squad of five other players was happening at a volume Arjun could feel in his chest. "I know the plot, Appa. He gets bitten by a spider. He gets powers. Uncle dies. With great power comes great whatever."
+"Appa. I said no."
 
-"That's not the same as seeing it."
+"You haven't even heard which one."
 
-"It's basically the same as seeing it." A grenade went off in the game, or something like a grenade. Kavin's thumbs didn't stop moving. "Fifteen minutes, I promise, after this round."
+"I know which one." Suji finally looked up, thirteen years old and entirely unimpressed. "It's the new Spider-Man movie. The one you keep talking about. The newest of the many movies you watched when you were a kid." She said the word *kid* the way other people said a foreign currency, something whose value she couldn't quite convert into anything she used. "That's so your generation. I'm not watching a movie in a theatre that's older than you."
 
-The round did not end in fifteen minutes. It ended in fifty, and by then Arjun had gone back downstairs and put the DVD case back on the shelf where it had sat for three years, ever since he found it in a discount bin and bought it the way you'd buy back a small piece of your own childhood at forty rupees off.
+"The movie is not older than me. The name is. It is a fresh one in all gen Z friendly aspects."
 
-He tried again the following Saturday. And the one after. He got good, over that year, at finding the angle. He tried the origin-story angle — *don't you want to see where it all started, before all the multiverse stuff you actually watch?* He tried the nostalgia-adjacent angle, mentioning that the man who made the film also made the vampire movies Kavin actually liked. He tried, once, the slightly desperate angle of simply putting it on in the living room and hoping Kavin would wander through and get snagged by it the way a fish gets snagged by a hook it didn't know was baited. Kavin wandered through, said "oh is this the old one," and kept walking, toward the kitchen, toward a bag of chips, toward anywhere that was not the sofa.
+"Exactly. It is just an old story fitted to make us like it."
 
-It wasn't that Kavin was unkind about it. That was the part Arjun found hardest to hold on to as a grievance, because a grievance needs a villain, and his son wasn't playing one. Kavin was fifteen and busy and polite in the specific, slightly maddening way that teenagers are polite when they've decided a request isn't worth a real fight, just a soft and endless deferral. *Not now. Maybe this weekend. I have practice. I have a thing with Dev. It's kind of long, no?*
+Prabha, from the kitchen doorway, decided to try the softer route, the one she and Deepak had discussed in low voices the night before like generals revising a losing strategy. "Okay, forget the theatre. What if we watch it at home. The first part of it, not even a big commitment. It's on the OTT already. We pause whenever you want, you finish it over a week if you like, no pressure, no big popcorn moment."
 
-It was kind of long. That was true. Arjun had checked, once, in a private and slightly humiliating act of research, whether the runtime was the actual obstacle, and it was a hundred and twenty-one minutes, which was shorter than most things Kavin watched in a single sitting on his phone.
+"I don't want to watch it in pieces over a week either."
 
-So it wasn't the length. Arjun knew, if he was honest with himself in the specific hour of the night when honesty comes looking for you whether you invited it or not, that it wasn't really about the film at all. It was about the fact that this was the one thing that had made ten-year-old Arjun feel like the world had a place built specifically for him in it. He had gone to a cinema in Chennai with his own father, in a shirt he still remembered the collar of, and watched a boy no older than a college student turn into somebody enormous, and had walked out of that theatre a slightly different person than he'd walked in, buzzing, certain, for the length of the auto ride home, that something in him had been rearranged for the better.
+"You watch everything in pieces over a week," Prabha said, not unkindly. "You've been watching the same twelve-episode series for a year now."
 
-He wanted, badly, to hand that feeling to his son the way you'd hand someone a coat against weather you already knew was coming. And his son kept, gently, declining the coat.
+"That's different."
 
-"You're making it a whole thing," his wife Meena told him one evening, not unkindly, folding laundry with the particular efficiency of someone who had opinions and intended to deliver them while staying productive. "He's not rejecting you. He's rejecting a movie. Those are different things, even if they don't feel different to you right now."
+"How is 'that' different?"
 
-"It's not just a movie."
+Suji considered this with the seriousness of someone being cross-examined and finding the question, for once, worth answering honestly. "Because I actually like and want to watch 'that' one. I'm not going to sit through a movie just because it is made newly from a movie which made you guys go crazy with your parents when you were little. I have my own things."
 
-"I know it's not just a movie. To you." She set down a shirt, folded, and looked at him properly, which was somehow worse than if she'd kept folding. "But you're fifteen exactly once, Arjun, and you spend that one time deciding what belongs to you. Not what belonged to your father. That's not him rejecting you. That's just him being fifteen. You did the same to your own Appa, I'd bet, with something."
+Deepak opened his mouth, found nothing useful in it, and closed it again. It wasn't a cruel thing she'd said. That was what made it land the way it did — she hadn't even raised her voice. She'd said it the way you'd point out that the milk had gone off. A fact, delivered without malice, that happened to curdle something in the room anyway.
 
-Arjun opened his mouth to argue and then, unhelpfully, remembered his father trying for two years to get him to sit through a black-and-white film about a train, a film his father had seen forty times and could quote the way other men quote cricket scores, and Arjun always finding a reason, and his father eventually stopping asking, in a way that Arjun, at the time, had felt only as relief.
+They let it go that night. They let it go for a few weeks after they used the two out of three tickets bought, wasting the one bought for her. It just became an unspoken joke between them, the kind of joke married people develop instead of arguments.
 
-He closed his mouth.
+It was on a Tuesday, over dinner, that they found out what Suji did want.
 
-He didn't stop trying, exactly, but he stopped announcing it. The DVD case stayed on the shelf. Occasionally, on a Sunday with nothing else claiming the television, he'd put it on for himself, half volume, and let it run in the background while he did something else, the way you keep an old friend on speakerphone even when you're both mostly just doing chores in companionable silence at either end of the line.
+She was talking to her friend Dhriti on a video call propped against the water bottle, the volume too low for either parent to make out words, just Suji's half of it, animated in the particular way she never was during a family conversation. Prabha caught fragments while serving rice. *Oh my God if they actually make it a movie I will literally go crazy in the theatre. No I mean it. I've been watching this show since I was NINE, Dhriti, nine.* A pause, listening. *I don't care if it's a cartoon, it's not "just a cartoon," it's basically raised me at this point, don't be rude.*
 
-It was on one of those Sundays, six months later, that Kavin walked in during the warehouse fight, the one with the mirror shards, and instead of walking through, he stopped.
+Deepak caught Prabha's eye across the table. Neither of them said anything until Suji had hung up and pulled her plate toward her, still faintly lit up from the conversation the way a room stays warm a while after someone's left it.
 
-He didn't say anything. He sat down on the arm of the sofa, not properly sitting, the way you sit when you're keeping one foot ready to leave, and watched for a minute, then another minute, and then, without appearing to notice he'd done it, sat down properly.
+"So," Deepak said, carefully, the way you'd approach a bird that might startle. "This cartoon. If they make it into a movie, you'd want to watch it. In the theatre."
 
-Arjun said nothing. He had learned, from years of a different kind of parenting, that the fastest way to end a fragile moment was to name it out loud.
+Suji, midway through a mouthful, nodded like it was the most obvious thing in the world. "Thats so obs appa. FDFS. I've literally been waiting for this since I was nine."
 
-They watched the rest of it together, mostly quiet, Kavin occasionally saying something like "wait, this is so early two-thousands" in a tone that wasn't mockery so much as archaeology, a kid examining an artifact and finding it stranger and more charming than expected. At the end, when the flag rippled and the theme swelled and Peter Parker webbed off into a New York that no longer entirely exists, Kavin sat for a second in the particular silence of the credits.
+"Interesting," Prabha said, and something in the syllables of it made Suji look up properly, the way a person looks up at a word that's carrying more weight than its size suggests it should.
 
-"Okay," he said. "That was actually kind of good."
+"What?"
 
-Something in Arjun's chest did something it hadn't done in months.
+"Nothing!" Prabha went back to her rice, and it was, in fact, not nothing, and everyone at the table knew it wasn't nothing, and for a moment the three of them sat in a silence that had a meaning to it.
 
-"I don't know why I kept saying no," Kavin went on, almost to himself, still looking at the screen. "It's not even that long."
+Deepak said it. He was, of the two of them, always the one who said the right thing, the right way.
 
-"It's not," Arjun agreed, carefully, the way you agree with a wild animal you don't want to startle back into the trees.
+"You know that's going to be you one day. Sitting exactly where I'm sitting. One kid of yours on the sofa, and you're going to come to them all excited, *there's a new movie running, let's go, Saturday evening, the big screen,* and she is going to look up from whatever they would be watching in their generation and go, 'that's so your generation, Amma, I'm not watching a movie in a theatre older than me.' And you're going to feel exactly what we felt for the spiderman movie. Exactly."
 
-"I think I just—" Kavin stopped, frowned, the frown of someone reaching for a thought a little ahead of where his vocabulary currently lived. "I think I didn't want it to be your thing that I had to like. You know? Like, if I watched it and I didn't love it, that would've been weird. And if I watched it and I did love it, that's also weird, because then it's like — it's not mine, it's yours, and I just borrowed it."
+Suji didn't say anything.
 
-Arjun looked at his son for a long moment. It was, he thought, a more precise thing than he himself had managed to articulate in a year of trying.
+"And when that day comes," Deepak went on, quieter now, not really joking anymore even though his voice still carried the shape of a joke, "when your cartoon gets its big movie and you take your kid, or you try to, call us. If we're still around. If we're still healthy enough to sit through two hours in a theatre seat, we'll come. We'll sit next to you and your kid who thinks we're both ancient, and we'll watch your thing, gladly, because it'll matter to you, and that used to be enough of a reason for us."
 
-"That's exactly it," he said. "That's exactly what it was."
+The table went quiet in a different way than before. Prabha hadn't meant for it to land quite that heavy — she could see, from the way Suji's fork had stopped moving, that it had. There was a version of this conversation that stayed light, that ended in someone laughing and someone else throwing a balled-up napkin, and this was not quite that version. Deepak had said *if we're still around* out loud, plainly, at a Tuesday dinner table, and the sentence sat there now with nowhere to go.
 
-"What do you mean?"
+Suji looked down at her plate. She didn't say *that won't happen* or *don't say that* or any of the things a script might have given her. She just went quiet, the particular quiet of a twleve-year-old encountering, for perhaps the first time in a way that actually reached her, the fact that her parents were people moving through time at the same rate she was, only further along it, and that the joke about generations had a floor underneath it that wasn't a joke at all.
 
-"I mean when I was your age, this—" he gestured at the paused screen, Peter Parker frozen mid-swing— "this was mine. Genuinely mine. Not my father's. He tried, for years, to get me to watch some old train film he loved, and I kept saying not now, kept finding reasons, and eventually he just... stopped asking. And I was relieved. Because I didn't want the train film. I wanted this. I wanted something that was only mine, that didn't come handed down from anybody."
+"Okay," she said, eventually, very small. "I will. I'll call you."
 
-Kavin turned to look at him properly now. "So this movie is basically your train film."
+"Good," Deepak said, and reached for the rice like nothing had happened, because that was also a thing you learned, eventually, how to do.
 
-"Apparently."
-
-"That's kind of sad, actually." But he was smiling when he said it, not unkindly.
-
-"It's not sad. It's just how it works, I think. You get a thing that's yours. Eventually you have a kid, and you want so badly for your thing to also be their thing, because it felt so enormous to you that it seems impossible it wouldn't feel enormous to anyone. And they say not now, not now, not now, and you don't understand it's not really about the film. And then—" he shrugged, "one day, if you're lucky, they sit down anyway, mostly by accident, and you get maybe two hours out of it. And that has to be enough. Because in fifteen years you'll be doing the same thing to them, with whatever your version of this is by then, and they'll be saying not now to you, and it'll drive you a little bit mad, and it won't be about you at all."
-
-Kavin was quiet for a second. Then, "What's my train film going to be? Like, what am I gonna beg my kid to watch and they're gonna say no to?"
-
-"No idea. Could be this game you're always playing. Could be some show you haven't even found yet."
-
-"That's so weird to think about." Kavin picked up the remote, turned it over once in his hands, not pressing anything. "That there's a version of me thirty years from now, going 'just watch the first fifteen minutes,' and some kid going 'not now, Appa,' and it's this exact same conversation, just with different stuff in it."
-
-"Word for word, probably."
-
-Kavin laughed, short and real, and pressed play on the trailer for the sequel that had queued itself up, unasked, the way these things do. "Alright. Put on the next one. But if it's bad I'm blaming you specifically."
-
-"Deal," Arjun said, and did not mention that this was, itself, precisely how it had gone for him too, the second time, in a cinema in Chennai, in a shirt he still remembered the collar of.
+Prabha caught his eye again, and this time there was something apologetic in it, a silent *did we need to go there,* and he gave her back a small, tired shrug that meant, as clearly as a shrug can mean anything, *probably not, but it needed saying, and now it's said, and I'm glad it's out of my chest and sitting on the table instead.*
