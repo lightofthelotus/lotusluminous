@@ -123,17 +123,17 @@ She had come missing one man. She left missing two of the men she had cared for 
 
 ## III
 
-The passage home gave no warning. It never did. The dark opened, unhurried, and set him down in the same narrow lane behind the scribes' quarter it had taken him from, and the seam closed behind him with the soundless finality of a wind done hushing. To Sancharan, one day had passed. A single day, spent on the floor of his own fortress, being made to remember what he had spent centuries arranging not to.
+The passage home gave no warning. It never did. The dark opened, unhurried, and set him down in the same narrow lane behind the scribes' quarter it had taken him from, and the seam closed behind him with the soundless finality of a page turned. To Sancharan, one day had passed. A single day, spent on the floor of his own fortress, being made to remember what he had spent centuries arranging not to.
 
 He knew before his second breath that the world disagreed with him.
 
-He had grown to learn over centuries to observe the time passing in earth when he spent in anaadi. He can feel how long into the future he had been, just like a human who knows how far they already treaded in a known passage, provided they have walked the same complete path numerous times. The air was different now. It carried the green, mineral weight of a land that had been rained on, and rained on again, the smell of laterite drinking deep, of stone gone dark and moss remembering itself in the courtyard joints. When he had left, the gardens were still holding their breath for the monsoon. Now the monsoon was simply here, settled in, familiar, an occupation already past its ceremonies.
+He had grown, across centuries, to carry his own count of the world's time whenever he stood inside Anaadi. He could feel how far forward he had travelled, the way a man who has walked one passage a thousand times knows, even in the dark, exactly how far along it he stands. That inner count told him one day. One day, and no more. But the air told him otherwise. It carried the green, mineral weight of a land that had been rained on, and rained on again, the smell of laterite drinking deep, of stone gone dark and moss remembering itself in the courtyard joints. When he had left, the gardens were still holding their breath for the monsoon. Now the monsoon was simply here, settled in, familiar, an occupation already past its ceremonies.
 
-He looked up. It was habit older than any of his names, the first thing he did on arriving anywhere, the way other men check their bundle or their footing. And the sky, his oldest and most literal text, the one thing in any age he had never once needed to question, told him plainly that it was eleven nights later than it had any right to be. The stars that move an inch only once in ten days, had moved an inch. The stars that move far enough even in a day had moved ten times enough.
+He looked up. It was habit older than any of his names, the first thing he did on arriving anywhere, the way other men check their bundle or their footing. And the sky, his oldest and most literal text, the one thing in any age he had never once needed to question, told him plainly that it was eleven nights later than it had any right to be. The stars that shift only a finger's width in ten nights had shifted their finger's width. And the wanderers among them, the ones that move far enough in a single night, had moved ten nights' worth and more.
 
 Sancharan stood very still in the wet lane and read it twice.
 
-And then, there was the moon itself. The moon, that does not lie. It only gets hidden in cloudy nights just like this one. But Sancharan knew to look past the clouds. Whatever else in creation bends, dissembles, forgets itself, the moon keeps its ledger to the earth in full view of anyone patient enough to read it. He read it now, the phase, the height, the company it kept, and the accounting came back the same both times. Eleven days. He had spent one day inside Anaadikottai and the world had aged eleven days without him.
+And then there was the moon. The moon does not lie. It only hides, on cloud-heavy nights like this one, and Sancharan had always known how to look past clouds. Whatever else in creation bends, dissembles, forgets itself, the moon keeps its ledger to the earth in full view of anyone patient enough to read it. He read it now, the phase, the height, the company it kept, and the accounting came back the same both times. Eleven days. He had spent one day inside Anaadikottai and the world had aged eleven days without him.
 
 *That is not possible,* Iruli said, from his shoulder. Her voice had gone flat in the particular way it went when she was refusing, on principle, to be frightened. *Say it is not possible, so that I can argue with you about something.*
 
@@ -149,7 +149,7 @@ The rings sat quiet at his hands, dull as river stones. Spent, or sulking, or gr
 
 *Stay here,* Iruli said, lifting off before he could answer. *Do not walk into that palace until I know what the palace believes happened to you. Eleven days is long enough for a court to bury a stranger twice over, and I would rather we knew which grave they dug you before you contradict it.*
 
-She was gone the better part of two hours. He waited in the lane's deep shadow, listening to the rain begin again on the tiles above. He found, with a kind of distant clinical interest, that he could not make himself feel the urgency the situation plainly deserved. The feeling was there, somewhere, the way a sick body feels the need to move desperately to reach out to a yearning child, yet it could not because it just could not. He could observe it. He could not quite reach it. His pain deepened with every moment. Anaadi had emptied him the way a fever empties a man, and what was left was moving him around out of long practice.
+She was gone the better part of two hours. He waited in the lane's deep shadow, listening to the rain begin again on the tiles above. He found, with a kind of distant clinical interest, that he could not make himself feel the urgency the situation plainly deserved. The feeling was there, somewhere, the way a fevered man hears his own child calling from the next room and cannot make his limbs rise to answer. He could observe it. He could not reach it. And the knowing of that was its own slow ache, deepening with every hour. Anaadi had emptied him the way a fever empties a man, and what was left was moving him around out of long practice.
 
 Iruli returned wet and thoughtful, and delivered her accounting from the lintel above his head, which he had learned across centuries meant the news required her to look down at him while giving it.
 
@@ -159,7 +159,7 @@ Sancharan closed his eyes.
 
 "She lied for me."
 
-*She lied for you eleven days running, in a court that has spent a season sharpening itself on strangers. She is, by every servant's account, thinner, sleepless, and short with everyone except the people she is lying to.* Iruli let that sit precisely as long as it needed to. *You will also want to know that you cannot walk in through the front gate tonight looking rested and clean. You have been on southern roads for a fortnight. Arrive like it. You are wearing a story another person wrote for you, old friend! And the least of what you owe her is to wear it convincingly.*
+*She lied for you eleven days running, in a court that has spent a season sharpening itself on strangers. She is, by every servant's account, thinner, sleepless, and short with everyone except the people she is lying to.* Iruli let that sit precisely as long as it needed to. *You will also want to know that you cannot walk in through the front gate tonight looking rested and clean. You have been on southern roads for a fortnight. Arrive like it. You are wearing a story another person wrote for you, old friend. And the least of what you owe her is to wear it convincingly.*
 
 He looked down at his own hands, clean, unweathered, one day tired. Then he knelt, without a word, and pressed his palms into the lane's wet red mud, and began, with the methodical care of a man performing a penance he had assigned himself, to make his borrowed name look as though it had earned its journey.
 
@@ -183,7 +183,7 @@ He could not name the question yet. That was the worst of it. He, who had names 
 
 *You are frightened,* she said, not unkindly. *I have seen you tired. Tired makes you dull. This is making you quiet in the wrong key.* She turned her head, one eye catching the faint light from the window. *She waited eleven days for you. Whatever it is you think you lost on that floor, I would not make her wait an eleventh night to learn you are alive. The rest of it, whatever the rest of it is, can be carried later. Announcing you are alive cannot.*
 
-"And when she asks me where I was?" He said it evenly, to the dark. "When she asks me, and she will ask me before she asks me anything else, what am I to give her? The truth is a story I have never told anyone in a mortal age. And tonight I do not trust myself to tell it in a way it already is," he paused, and the pause went on too long, "true enough. She deserves it whole. I am not whole. Those two facts have never sat in the same room before, and I find I do not know how to seat them."
+"And when she asks me where I was?" He said it evenly, to the dark. "When she asks me, and she will ask me before she asks me anything else, what am I to give her? The truth is a story I have never told anyone in a mortal age. And tonight I do not trust myself to tell it in a way that is," he paused, and the pause went on too long, "true enough. She deserves it whole. I am not whole. Those two facts have never sat in the same room before, and I find I do not know how to seat them."
 
 Iruli was silent for a while. When she spoke again, the sarcasm had been set down entirely, which happened seldom enough that he turned to look at her.
 
@@ -201,13 +201,15 @@ She made herself wait until evening. It was the hardest discipline she had kept 
 
 He was already there.
 
-He rose when he saw her. The lamplight found him and her prepared sentences scattered like startled birds, just because of how he looked. Not travel-worn, though he wore that too, the road dust and the weathering, all of it correct and all of it, she understood with the strange double sight she had been developing all season, arranged. Underneath the arrangement he looked the way the archive had looked the week after Smaran died. A room with everything in its place and the person missing from it. The one thing that he could not hide was his handsomeness and compsure. She admired him for that and just when she was forgetting her anger for a split second, he turned.
+He rose when he saw her. The lamplight found him and her prepared sentences scattered like startled birds, because he looked wrong. Not travel-worn, though he wore that too, the road dust and the weathering, all of it correct and all of it, she understood with the strange double sight she had been developing all season, arranged. Underneath the arrangement he looked the way the archive had looked the week after Smaran died. A room with everything in its place and the person missing from it. And still, beneath all of it, he remained unfairly himself to look at, composed even in ruin, and for one unguarded breath her anger forgot its own argument. Then he spoke, and she remembered it.
 
 "You are angry," he said. "You have every right to be. I would like to say what I owe before you spend it, if you will allow me that."
 
-"You were gone eleven days." Her voice came out lower than she intended, which he had learned long ago meant she was angrier than shouting. "Eleven days, Sancharan. No word. No warning. I lied to Charudatta. I lied to my own mother, at her own table, and she knew, I am almost certain she knew, and she let me do it, which makes it a lot worse. I built you a road south and paved it fresh every single day, and the whole time I did not know," her breath caught, and she forced it level, "I did not know if I was maintaining an alibi or tending a memorial." Finally they rolled down. Those tears that did not roll for her childhood injuries, not even for Smaran's death. And he lost everything at it, but kept everything at it to control him moving towards her.
+"You were gone eleven days." Her voice came out lower than she intended, which she had learned long ago meant she was angrier than shouting. "Eleven days, Sancharan. No word. No warning. I lied to Charudatta. I lied to my own mother, at her own table, and she knew, I am almost certain she knew, and she let me do it, which somehow makes it worse. I built you a road south and paved it fresh every single day, and the whole time I did not know," her breath caught, and she forced it level, "I did not know if I was maintaining an alibi or tending a memorial."
 
-"I know.", he said softly.
+The tears came then, at last. Tears that had not come for childhood wounds, that had not come even for Smaran. She felt them and did not fight them. And she watched him take the sight of them like a blow, watched everything in him move toward her, and watched him hold himself, by some terrible discipline, exactly where he stood.
+
+"I know," he said softly.
 
 "You know." She stared at him. "That is what you have to say to me? *You know?*"
 
@@ -219,15 +221,15 @@ He rose when he saw her. The lamplight found him and her prepared sentences scat
 
 "You cannot tonight." She said it flatly. She had heard those words from him before, in a fortress under a wrong sky, and they had been a promise then, warm at the centre, a door closed gently with the light left burning behind it. These were not those words. These were a wall with the light gone out. "No. This is different. Do not think I cannot hear the difference, Sancharan, I have spent a season learning your silences like a script. Before, when you refused me, you refused me like a man protecting something. Tonight you are refusing me like a man who has lost something and will not say what."
 
-He said nothing. And the nothing confirmed it, and she felt the confirmation land somewhere it would bruise her the most and the deepest.
+He said nothing. And the nothing confirmed it, and she felt the confirmation land somewhere it would bruise deepest.
 
 She had come armed. Eight anchors with places, a ninth with none, a dead man's careful ink burning a hole in a threshold across the palace. She had rehearsed the question all afternoon, *where is yours*, just those three words, a key she had bled for. She looked at him now, hollowed and arranged and holding his wall, and understood, with a clarity that gave her no satisfaction at all, that this was not the night to spend it. Not because he did not deserve the asking. Because tonight the asking would win her nothing but the sight of him breaking, and she found, to her own fury, that she still could not want that.
 
 "I found something," she said instead, quietly. "While you were gone. While I was running out of doors to open. I am telling you that I found it, and I am telling you that I understand more than you think I do, and I am telling you nothing else. Do you hear me? That is what it feels like, Sancharan. From the other side. I have carried it for eleven days. You may carry it for a while now."
 
-"Vaanathi.", he tried to reach out to her inspite of his every part saying no to that.
+"Vaanathi." He reached for her then, one half-step, as though against every counsel he had left.
 
-"No." She stepped back from whatever he had begun to reach for, and the step cost her, and she paid it. "You came back alive. I am glad of it. I am more glad of it than I have been of anything in my life, and tomorrow I will probably forgive you, because I have apparently become the kind of fool who does. But tonight you have given me a wall, and I find I have one of my own, and mine has eleven days of masonry in it."
+"No." She stepped back from the reach, and the step cost her, and she paid it. "You came back alive. I am glad of it. I am more glad of it than I have been of anything in my life, and tomorrow I will probably forgive you, because I have apparently become the kind of fool who does. But tonight you have given me a wall, and I find I have one of my own, and mine has eleven days of masonry in it."
 
 She turned at the garden gate. He had not moved. The lamplight held him where she had left him, road-dusted, hollow, watching her go, and for one treacherous moment the sight of it nearly turned her around.
 
