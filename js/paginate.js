@@ -263,6 +263,12 @@ window.V2Paginate = (function () {
     let currentPage = 0;
     let totalPages = 1;
 
+    // Fonts and (especially) illustrations can take a visible moment to
+    // arrive, and build() below doesn't run until they do — without this,
+    // the track sits empty the whole time, which reads as the page having
+    // frozen rather than still loading.
+    track.innerHTML = '<div class="pager-page"><div class="skeleton-card pager-loading-skeleton"></div></div>';
+
     if (document.fonts && document.fonts.ready) {
       try { await document.fonts.ready; } catch (e) { /* ignore */ }
     }

@@ -306,7 +306,7 @@ Sancharan said nothing to that for a long moment, the old, uncomfortable truth o
 
 *Which is?*
 
-"A fear that the next one they let close might also, in some unguarded hour, be turned against me by someone patient enough to wait for the opening." His voice had gone very quiet. "Vaanathi is not the first mortal woman they have judged a threat. She is only the first I have loved enough, since Amudha, to make that old fear matter again."
+"A fear that the next one they let close might also, in some unguarded hour, be turned against me by someone patient enough to wait for the opening." His voice had gone very quiet. "Vaanathi is not the first mortal woman they have judged a threat. She is only the first I have cared enough, since Amudha, to make that old fear matter again."
 
 ![Iruli Counsel](12-11-iruli-counsel.jpg)
 

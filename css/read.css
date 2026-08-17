@@ -639,6 +639,11 @@ figure.illustration figcaption {
 }
 
 /* ---------- Loading skeleton ---------- */
+.pager-loading-skeleton {
+  width: 100%;
+  height: 100%;
+}
+
 .skeleton-card {
   border-radius: 14px;
   background: linear-gradient(
