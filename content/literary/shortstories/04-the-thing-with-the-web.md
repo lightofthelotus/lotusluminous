@@ -19,7 +19,7 @@ That was Suji's whole answer, delivered flat and immediate, before her father ha
 
 "You haven't even heard which one."
 
-"I know which one." Suji finally looked up, thirteen years old and entirely unimpressed. "It's the new Spider-Man movie. The one you keep talking about. The newest of the many movies you watched when you were a kid." She said the word *kid* the way other people said a foreign currency, something whose value she couldn't quite convert into anything she used. "That's so your generation. I'm not watching a movie in a theatre that's older than you."
+"I know which one." Suji finally looked up, thirteen years old and entirely unimpressed. "It's the new Spider-Man movie. The one you keep talking about. The newest of the many movies you watched when you were a kid." She said the word *kid* the way other people said a foreign currency, something whose value she couldn't quite convert into anything she used. "That's so your generation. I'm not watching a movie whose story is older than you."
 
 "The movie is not older than me. The name is. It is a fresh one in all gen Z friendly aspects."
 
