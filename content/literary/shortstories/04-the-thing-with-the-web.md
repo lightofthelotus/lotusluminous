@@ -59,7 +59,7 @@ Suji, midway through a mouthful, nodded like it was the most obvious thing in th
 
 Deepak said it. He was, of the two of them, always the one who said the right thing, the right way.
 
-"You know that's going to be you one day. Sitting exactly where I'm sitting. One kid of yours on the sofa, and you're going to come to them all excited, *there's a new movie running, let's go, Saturday evening, the big screen,* and she is going to look up from whatever they would be watching in their generation and go, 'that's so your generation, Amma, I'm not watching a movie in a theatre older than me.' And you're going to feel exactly what we felt for the spiderman movie. Exactly."
+"You know that's going to be you one day. Sitting exactly where I'm sitting. One kid of yours on the sofa, and you're going to go to her all excited, *there's a new movie running, let's go, Saturday evening, the big screen,* and she is going to look up from whatever they would be watching in their generation and go, 'that's so your generation, Amma, I'm not watching a movie that's older than you.' And you're going to feel exactly what we felt for the spiderman movie. Exactly."
 
 Suji didn't say anything.
 
