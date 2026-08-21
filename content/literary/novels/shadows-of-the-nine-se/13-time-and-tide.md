@@ -27,6 +27,8 @@ Even the crow was gone. That was the detail that unsettled her most, when she le
 
 "You are not sleeping," Nila observed, on the ninth evening. She said it the way she said most true things, mildly. She was working a comb through Vaanathi's hair as though the conversation were incidental to the task.
 
+![Nila combing](13-01-sleepless-comb.jpg)
+
 "I am sleeping enough."
 
 "You are sleeping the way a sentry sleeps." The comb moved, unhurried. "Waking at every sound in the corridor. Lying down dressed, or near enough to dressed that it amounts to the same intention." Nila set the neemwood comb aside and came around to look at her properly, and her face held the particular gentleness she saved for the questions she already knew the answers to. "He will come back, Vaanathi."
@@ -81,7 +83,9 @@ My door does not count as a door.
 
 She knelt. The threshold beam ran the width of the frame. She ran her hands along it, and almost smiled at her own reasoning as she did. *It is only the feet that must not touch the threshold. These are my hands, after all.* At each end of the beam, where it met the jambs, sat a wedge of the kind carpenters set to strengthen a threshold's hold. The left one did not budge. The right one seemed suspiciously flexible. She pressed it a little.
 
-Not freely. It gave with a small creak of protest, against some resistance that had waited years to be asked, and the vertical plank below shifted and swung open like the lid of a jewellery box. Inside, in a hollow bored the length of her forearm into honest teak, lay a bundle wrapped in oil-cloth, and the smell that rose from it when she drew it out into the lamplight nearly undid her on the spot. Neem oil. The same bitter, green, careful smell of every ledger he had ever taught her to wrap, the smell that kept silverfish at bay, the smell of an old man's hands. He had wrapped this the way he wrapped the things he meant to outlast him.
+Not freely. It gave with a small creak of protest, against some resistance that had waited years to be asked, and the vertical plank below seemed to show a gap resembling a tray which could be pulled out. She pulled it out. Inside, in a hollow bored the length of her forearm into honest teak, lay a bundle wrapped in oil-cloth, and the smell that rose from it when she drew it out into the lamplight nearly undid her on the spot. Neem oil. The same bitter, green, careful smell of every ledger he had ever taught her to wrap, the smell that kept silverfish at bay, the smell of an old man's hands. He had wrapped this the way he wrapped the things he meant to outlast him.
+
+![Threshold Secret](13-02-threshold-secret.jpg)
 
 She sat down on the floor of the dead man's chamber, rain working overhead, and unwrapped it where she was, because carrying it even as far as her own rooms felt suddenly like a risk the world could not be trusted with.
 
@@ -102,6 +106,8 @@ Not of anchors. He was too careful to claim that. A list of *places that behave 
 And a ninth entry that was not an entry at all.
 
 No district. No watershed. No question word, even. Even a *what* or a *where* would have promised more certainty than he owned. Only the mark, drawn once in careful ink, the narrow ring broken by its thin dark wedge, the same mark from the ledger, from the bell, from a stranger's unguarded recognition on an archive floor a lifetime ago. And beneath it, in the small fast hand, three lines that she read four times over before she allowed herself to believe she had read them correctly.
+
+![Dead Man's Floor](13-03-dead-mans-floor.jpg)
 
 *The ninth I cannot place. Every trail I follow toward it ends the same way, not hidden, ended. Ended as though the ground it stood on was taken up out of the world itself. Eight anchors cast shadows in the record. This one has none. A thing that holds must have a place to hold to, and the ninth has no place, and I do not know what that means, and I have begun to fear that finding out is precisely what someone in this palace intends.*
 
@@ -135,6 +141,8 @@ Sancharan stood very still in the wet lane and read it twice.
 
 And then there was the moon. The moon does not lie. It only hides, on cloud-heavy nights like this one, and Sancharan had always known how to look past clouds. Whatever else in creation bends, dissembles, forgets itself, the moon keeps its ledger to the earth in full view of anyone patient enough to read it. He read it now, the phase, the height, the company it kept, and the accounting came back the same both times. Eleven days. He had spent one day inside Anaadikottai and the world had aged eleven days without him.
 
+![Eleven Nights](13-04-eleven-nights.jpg)
+
 *That is not possible,* Iruli said, from his shoulder. Her voice had gone flat in the particular way it went when she was refusing, on principle, to be frightened. *Say it is not possible, so that I can argue with you about something.*
 
 "It is not possible," he said quietly. "Anaadi keeps time the way a miser keeps coin. It spends slowly and it never, in all the ages I have held it, spent faster than the world outside. Days within for hours outside. That is the shape of it. That has always been the shape of it."
@@ -160,6 +168,8 @@ Sancharan closed his eyes.
 "She lied for me."
 
 *She lied for you eleven days running, in a court that has spent a season sharpening itself on strangers. She is, by every servant's account, thinner, sleepless, and short with everyone except the people she is lying to.* Iruli let that sit precisely as long as it needed to. *You will also want to know that you cannot walk in through the front gate tonight looking rested and clean. You have been on southern roads for a fortnight. Arrive like it. You are wearing a story another person wrote for you, old friend. And the least of what you owe her is to wear it convincingly.*
+
+![Borrowed Road](13-05-borrowed-road.jpg)
 
 He looked down at his own hands, clean, unweathered, one day tired. Then he knelt, without a word, and pressed his palms into the lane's wet red mud, and began, with the methodical care of a man performing a penance he had assigned himself, to make his borrowed name look as though it had earned its journey.
 
@@ -189,6 +199,8 @@ Iruli was silent for a while. When she spoke again, the sarcasm had been set dow
 
 *Then give her the smallest true thing,* she said. *You have a habit, my old friend, of believing the only honest gift is the entire treasury. It is not. One coin, freely given, buys more than a locked vault ever has. I watched you learn that lesson once at a very high price. I would rather not watch the tuition paid twice.*
 
+![Unlit Lamp](13-06-unlit-lamp.jpg)
+
 He had no answer for that. She had not expected one. She tucked her head beneath her wing, formally ending the argument by declaring it beneath her further attention, and left him alone with a lamp he had still not lit and a dawn he was no longer certain how to meet.
 
 ## V
@@ -208,6 +220,8 @@ He rose when he saw her. The lamplight found him and her prepared sentences scat
 "You were gone eleven days." Her voice came out lower than she intended, which she had learned long ago meant she was angrier than shouting. "Eleven days, Sancharan. No word. No warning. I lied to Charudatta. I lied to my own mother, at her own table, and she knew, I am almost certain she knew, and she let me do it, which somehow makes it worse. I built you a road south and paved it fresh every single day, and the whole time I did not know," her breath caught, and she forced it level, "I did not know if I was maintaining an alibi or tending a memorial."
 
 The tears came then, at last. Tears that had not come for childhood wounds, that had not come even for Smaran. She felt them and did not fight them. And she watched him take the sight of them like a blow, watched everything in him move toward her, and watched him hold himself, by some terrible discipline, exactly where he stood.
+
+![Walled Garden](13-07-walled-garden.jpg)
 
 "I know," he said softly.
 
