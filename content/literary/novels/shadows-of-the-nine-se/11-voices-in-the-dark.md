@@ -21,7 +21,7 @@ Nila lifted a length of hair between the two curved prongs of the hair partition
 
 "You have that look again," Nila said, watching the smoke climb. "The one where you are thinking about something a hundred years older than whatever is actually troubling you."
 
-"I keep thinking of something Smaran told me once. About why this city is called Anantapura." Vaanathi's eyes stayed closed, following the thought rather than the smoke. "Most people assume it is only flattery. A dynasty naming itself grand things, the way dynasties do."
+"I keep thinking of something Smaran told me once. About why this city is called Anantapuram." Vaanathi's eyes stayed closed, following the thought rather than the smoke. "Most people assume it is only flattery. A dynasty naming itself grand things, the way dynasties do."
 
 "Is it not?"
 

@@ -97,7 +97,7 @@ Her mother crossed the room then and embraced her fiercely, briefly, in the part
 
 ## III
 
-They left before dawn on borrowed horses, Iruli a dark shape wheeling ahead against a sky still holding its last stars. They rode south through country that grew stranger the further they went. The gentle green of Anantapura's own province gave way, by the second hour, to something harder and redder underfoot, laterite stone breaking through the soil in long rust-coloured scars, as though the earth itself had been scraped raw and left to heal badly.
+They left before dawn on borrowed horses, Iruli a dark shape wheeling ahead against a sky still holding its last stars. They rode south through country that grew stranger the further they went. The gentle green of Anantapuram's own province gave way, by the second hour, to something harder and redder underfoot, laterite stone breaking through the soil in long rust-coloured scars, as though the earth itself had been scraped raw and left to heal badly.
 
 ![The Ride](08-02-ride-to-sevvar.jpg)
 
@@ -161,7 +161,7 @@ Something that might, in a kinder light, have been called a laugh escaped him, s
 
 ## V
 
-The stone, when Lohitan led them to it, was a slab of the same rust-red rock set into the gorge wall behind a curtain of hanging root. It was marked, unmistakably, with the same narrow ring and thin dark wedge Vaanathi had traced with her own fingers on a treasury bell, a sky-tower wall, a stepwell's threshold stone. It bore a fresh scar along one edge. Not old wear, not centuries of patient weather. A recent scrape, deliberate, careful, the work of something that had wanted to test the stone's give without cracking it outright.
+The stone, when Lohitan led them to it, was a slab of the same rust-red rock set into the gorge wall behind a curtain of hanging root. It was marked, unmistakably, with the same cosmic wheel and thin dark wedge Vaanathi had traced with her own fingers on a treasury bell, a sky-tower wall, a stepwell's threshold stone. It bore a fresh scar along one edge. Not old wear, not centuries of patient weather. A recent scrape, deliberate, careful, the work of something that had wanted to test the stone's give without cracking it outright.
 
 ![The Symbol Again](08-05-symbol-again.jpg)
 

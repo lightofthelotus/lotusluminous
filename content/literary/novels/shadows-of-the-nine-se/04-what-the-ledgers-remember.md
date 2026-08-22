@@ -56,7 +56,7 @@ Vaanathi said nothing. It was, she reflected, extraordinarily inconvenient to be
 
 "Then you will have spent a week cataloguing ledgers instead of arguing with Charudatta about embankments," her father said, "and I imagine you will survive the disappointment."
 
-It was, she would think later, the nearest her father had ever come to making a joke expressly for her benefit. Walking back into the palace's cool shadowed halls, she did not know whether to feel grateful for the assignment, or resentful of how neatly it delivered her straight into the company of the one man in Anantapura she had sworn, not two days prior, to keep at the length of a very long spear.
+It was, she would think later, the nearest her father had ever come to making a joke expressly for her benefit. Walking back into the palace's cool shadowed halls, she did not know whether to feel grateful for the assignment, or resentful of how neatly it delivered her straight into the company of the one man in Anantapuram she had sworn, not two days prior, to keep at the length of a very long spear.
 
 ***
 
@@ -126,7 +126,7 @@ Their hands did not touch. They came close enough that not touching required a s
 
 "Thank you," Vaanathi said, and heard her own voice do something similarly unhelpful. She took the volume down with considerably more concentration than the act deserved.
 
-She opened it to the torn page's absence, the smoothed seam she now knew as well as a scar on her own hand. It was only because she was looking so closely, in that particular light, at that particular angle, that she caught it: pressed faintly into the binding's inner edge, nearly invisible unless the page lay flat and the light fell just so, a small mark. Not ink. Pressed in, the way a seal presses wax, a narrow ring, broken at one point by a thin dark wedge.
+She opened it to the torn page's absence, the smoothed seam she now knew as well as a scar on her own hand. It was only because she was looking so closely, in that particular light, at that particular angle, that she caught it: pressed faintly into the binding's inner edge, nearly invisible unless the page lay flat and the light fell just so, a small mark. Not ink. Pressed in, the way a seal presses wax, looked more like a cosmic wheel, broken at one point by a thin dark wedge.
 
 The same mark. Smaller here, cruder, as if made in haste rather than with a wax-seal's careful craft. But unmistakably the same shape she had found pressed into the archive door three nights ago.
 
@@ -233,7 +233,7 @@ Nila crossed the room without being asked and sat beside her, saying nothing, of
 
 It was Iruli, three days later, who found the second mark. She would insist afterward, with some justice, that she had not been looking for it at all, that she had merely been investigating a promising kitchen scrap left unattended near the treasury stores, and had happened, in the course of that investigation, to notice something the treasury's own stewards had walked past a hundred times without seeing.
 
-The old bell that hung above the treasury's inner door was struck once a year, at the closing of the accounts, and otherwise left to gather dust and pigeon interest. At the base of its collar, beneath a rim of verdigris no one had scraped clean in decades, was a mark pressed into the bronze itself, old enough that its edges had softened with a century of weather. A narrow ring. Broken, at one point along its circumference, by a thin dark wedge.
+The old bell that hung above the treasury's inner door was struck once a year, at the closing of the accounts, and otherwise left to gather dust and pigeon interest. At the base of its collar, beneath a rim of verdigris no one had scraped clean in decades, was a mark pressed into the bronze itself, old enough that its edges had softened with a century of weather. A cosmic wheel.. again. Broken, at one point and a wedge cut out of it.
 
 The treasury stewards had gone for their evening meal by the time Vaanathi and Sancharan stood before it. The great vaulted room was lit only by the last grey light through its high, narrow windows, coin-sacks stacked in orderly rows along the walls like a congregation gone very still. Vaanathi held the lamp up until the mark caught the light properly, and felt the same cold settle along the back of her neck that had found her three nights ago in the archive corridor. This time it was not fresh shock. It was something worse, the particular dread of a fear confirming itself.
 

@@ -105,7 +105,7 @@ Not of anchors. He was too careful to claim that. A list of *places that behave 
 
 And a ninth entry that was not an entry at all.
 
-No district. No watershed. No question word, even. Even a *what* or a *where* would have promised more certainty than he owned. Only the mark, drawn once in careful ink, the narrow ring broken by its thin dark wedge, the same mark from the ledger, from the bell, from a stranger's unguarded recognition on an archive floor a lifetime ago. And beneath it, in the small fast hand, three lines that she read four times over before she allowed herself to believe she had read them correctly.
+No district. No watershed. No question word, even. Even a *what* or a *where* would have promised more certainty than he owned. Only the mark, drawn once in careful ink, the cosmic wheel broken by its thin dark wedge, the same mark from the ledger, from the bell, from a stranger's unguarded recognition on an archive floor a lifetime ago. And beneath it, in the small fast hand, three lines that she read four times over before she allowed herself to believe she had read them correctly.
 
 ![Dead Man's Floor](13-03-dead-mans-floor.jpg)
 
@@ -151,7 +151,7 @@ And then there was the moon. The moon does not lie. It only hides, on cloud-heav
 
 "And yet," he agreed.
 
-Neither of them said the next thing. Neither of them needed to. The bench aged two centuries in a breath. The fountain running backwards. The tea that forgot to stay warm. Small wrongnesses, he had called them, symptoms of a debt he did not fully understand, and he had treated them the way a strong man treats a cough, as a thing that would pass because things had always passed. Now the debt had stopped collecting in furniture. It had reached into the one bundle he had believed only he could open, and taken eleven days of the world out of it, and it had not asked.
+Neither of them said the next thing. Neither of them needed to. The bench aged two centuries in a breath. The fountain running backwards. The dry ginger decoction that forgot to stay warm. Small wrongnesses, he had called them, symptoms of a debt he did not fully understand, and he had treated them the way a strong man treats a cough, as a thing that would pass because things had always passed. Now the debt had stopped collecting in furniture. It had reached into the one bundle he had believed only he could open, and taken eleven days of the world out of it, and it had not asked.
 
 The rings sat quiet at his hands, dull as river stones. Spent, or sulking, or grieving. He no longer entirely trusted himself to tell the difference, which was itself a new and unwelcome piece of knowledge.
 

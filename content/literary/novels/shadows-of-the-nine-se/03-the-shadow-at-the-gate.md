@@ -5,7 +5,7 @@ eyebrow: Shadows of the Nine · Chapter One
 description: Chapter One of Shadows of the Nine, a mythological fantasy novel.
 ---
 
-![Anantapura Palace, seat of the throne](00_01_AnantapuraPalace.jpg)
+![Anantapuram Palace, seat of the throne](00_01_AnantapuramPalace.jpg)
 
 ## I
 
@@ -243,7 +243,7 @@ The reading chamber's door stood closed again, resealed by the palace's own stew
 
 This was not that.
 
-She held the lamp closer, close enough that the wax caught the light and threw its small shadow up the door's dark wood. The mark pressed into it was careful and precise, clearly made with real skill and no haste at all. It was not the sunburst-and-crown of the Anantha line. It was a narrow ring, broken at one point along its edge by a thin dark wedge, like a circle with a single bite taken cleanly out of it.
+She held the lamp closer, close enough that the wax caught the light and threw its small shadow up the door's dark wood. The mark pressed into it was careful and precise, clearly made with real skill and no haste at all. It was not the sunburst-and-crown of the Anantha line. It resembled a circle or a wheel, cut out from one point along its edge by a thin dark wedge, like a round dish with a single bite taken cleanly out of it.
 
 ![Vaanathi sees the symbol](01_06_Vaanathi_Sees_Seal.jpg)
 

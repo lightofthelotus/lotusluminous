@@ -35,7 +35,7 @@ Iruli went ahead of them down the first tier, wings folded tight against the nar
 
 ***
 
-They found the mark on the ninth tier down, a narrow ring broken by a thin dark wedge, cut into a single flat threshold stone set crosswise in the stair, worn nearly smooth by centuries of water that no longer reached this high.
+They found the mark on the ninth tier down, a cosmic wheel with a broken wedge, cut into a single flat threshold stone set crosswise in the stair, worn nearly smooth by centuries of water that no longer reached this high.
 
 Sancharan crouched over it, tracing the old carving with two fingers, his attention narrowed the way it narrowed whenever the marks demanded something of him that he was not yet ready to say aloud.
 
@@ -65,7 +65,7 @@ Her skin had gone cold in a way no living body cooled on its own. Her pulse, ben
 
 "I am thinking with perfect clarity," he said. The calm in his own voice frightened him rather more than the cold spreading through the girl in his arms. "There is no time left to be anything else."
 
-He had not opened that particular door in longer than he cared to remember. He had told himself, across the ordinary business of an ordinary week in an ordinary court, that he had no cause to. That the fortress beyond it, the one he still privately called Anaadi, in a tongue no court in this age still spoke, belonged to a version of himself that a scholar's borrowed name had no need to touch. He touched it now. His lips shaped words older than any language Anantapura's scribes had ever set to a leaf, low and unhurried. Two fingers traced a single mark into the air before him, a narrow ring, broken by a thin dark wedge, the same shape that had haunted a dead man's ledger and a dead bell's collar. Drawn now not as a warning left behind, but as a key turned forward. The air at the stepwell's floor tore itself open along the seam his fingers had traced, a seam that had no business existing in any mortal geometry. Beyond it there was no black water, and no ancient stone.
+He had not opened that particular door in longer than he cared to remember. He had told himself, across the ordinary business of an ordinary week in an ordinary court, that he had no cause to. That the fortress beyond it, the one he still privately called Anaadi, in a tongue no court in this age still spoke, belonged to a version of himself that a scholar's borrowed name had no need to touch. He touched it now. His lips shaped words older than any language Anantapuram's scribes had ever set to a leaf, low and unhurried. Two fingers traced a single mark into the air before him, a cosmic wheel, broken by a thin dark wedge, the same shape that had haunted a dead man's ledger and a dead bell's collar. Drawn now not as a warning left behind, but as a key turned forward. The air at the stepwell's floor tore itself open along the seam his fingers had traced, a seam that had no business existing in any mortal geometry. Beyond it there was no black water, and no ancient stone.
 
 There was only the vast, patient dark of a place that had never once, in all its existence, needed to hurry.
 
@@ -259,4 +259,4 @@ The passage back felt shorter than the passage in, though she could not have sai
 
 "I would expect nothing less of you," he said, and there was no fear in it, only something that looked, in the pale coming light, almost like relief. The particular relief of a man who had spent a very long time being feared for what he was, and had just been told, plainly, that he would instead simply be *pursued*.
 
-They began the long ride back to Anantapura as the sun cleared the scrubland's low rise. If neither of them spoke a great deal on the road home, the silence between them had changed its shape again, the way it kept changing, chapter upon chapter, into something that no longer resembled distance at all.
+They began the long ride back to Anantapuram as the sun cleared the scrubland's low rise. If neither of them spoke a great deal on the road home, the silence between them had changed its shape again, the way it kept changing, chapter upon chapter, into something that no longer resembled distance at all.
