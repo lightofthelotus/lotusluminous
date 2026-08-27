@@ -61,6 +61,17 @@
   ],
   "tech": [
     {
+      "slug": "nobody-wants-to-read-your-spec",
+      "title": "Nobody Wants to Read Your Spec (And That's the Real Bug)",
+      "tag": "Gen AI & SDLC",
+      "description": "Your engineers didn't get into this job to review documents. Here's why spec review fatigue is real, and what teams are actually doing about it.",
+      "date": "2026-08-27",
+      "readTime": "9 min read",
+      "linkText": "Read Article",
+      "href": "content/tech/05-nobody-wants-to-read-your-spec.html",
+      "md": "content/tech/05-nobody-wants-to-read-your-spec.md"
+    },
+    {
       "slug": "the-future-of-se",
       "title": "The Future of Software Engineering",
       "tag": "Software Engineering",
