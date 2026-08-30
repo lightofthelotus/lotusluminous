@@ -7,6 +7,8 @@ description: Chapter Thirteen of Shadows of the Nine, a mythological fantasy nov
 
 ## I
 
+![Sancharan's Gallantry](15-01-sancharans-gallantry.jpg)
+
 They did not stop being kind to each other. That was the maddening part, Vaanathi thought. No one warned you that a quarrel of this kind would leave that standing. Even after everything else in it had fallen, and even now, with the whole court still murmuring another man's name over its morning rice. Sancharan still rose when she entered a room. He still found the one cushion that did not leave a draught at her back, without being asked, and set it where she would sit before she had chosen where to sit. When the evenings turned close and the lamps drew moths in from the wet gardens, he still moved to stand between her and the worst of the flutter. He did it unhurried, unremarked, as though his own comfort had never once entered the accounting.
 
 It would have been so much simpler, she thought, if he had simply stopped caring for her. She would have known what to do with that. She had a lifetime of practice on treating indifference diplomatically. What she had no practice at all in was this. A man who tended her with both hands and told her nothing with his mouth. A man who could not stop being gentle and would not start being honest, as though gentleness were the coin he had decided to pay in place of the truth he owed.
@@ -34,6 +36,8 @@ He did not sleep well those nights either. No one but Iruli was awake to witness
 *You have heard, then,* she said, from the window ledge, in the flat, testing voice she used when she already knew the answer and wanted to see how long he would pretend otherwise.
 
 "I have heard."
+
+![Sancharan Iruli](15-02-sancharan-iruli.jpg)
 
 *The whole kitchen has heard. I imagine the flower market has heard by now, and is composing its own verse.* She turned one bright eye on him. *A prince who fought off his own assassin with his bare hands. Who sketched a guest house with his own charcoal and got every beam of it right. Who charmed a street full of merchants before he had even reached the gate. I have counted at least four separate servants who have already decided, on no authority whatsoever, that your princess has finally been offered a match worth the name.*
 
@@ -98,6 +102,8 @@ He rose too, then, and crossed the small distance between the two reading tables
 "Do not," she said, low, "tell me what I can bear."
 
 And she reached for his hand herself. Not to strike it away. Only to close the last small distance he had spent six days refusing to close on his own. Her fingers found his where the rings sat cool and quiet against his skin.
+
+![Rings Attack](15-03-rings-attack.jpg)
 
 The light that answered was not cool at all.
 
@@ -173,6 +179,8 @@ She told him of the threshold. The wedge, the hollow, the smell of neem oil that
 
 "I believe so. I do not yet know what it means that the debt is growing larger rather than settling, as I had always assumed such things eventually settled. I do not know what it will cost, the next time it decides to collect." He looked at her then, fully, the careful arrangement he had worn like a second set of robes for six days finally, entirely, gone from his face. "I am telling you this because I owe you the truth of what nearly happened to you tonight. And because Iruli has told me, more than once and more plainly than I deserved, that a wall built to spare someone grief is still, in the end, a wall. I am not telling you this because I believe myself safe to be close to. I would ask you to understand that distinction, Vaanathi, even as I break the very silence I built to protect it."
 
+![Sancharan Vaanathi](15-04-sancharan-vaanathi.jpg)
+
 "I understand it," she said. "I do not agree with it. But I understand it." She reached, slowly this time, deliberately, giving him every chance to stop her that he had not given himself the chance to take earlier. She closed her uninjured hand around his. The rings did not stir. They sat quiet, dull, exhausted, the way a guard dog sits quiet once it has finally, exhaustedly, recognised a face it ought to have known all along. "They are learning me," she said softly. "Perhaps that is worth something. Perhaps it is the only thing, tonight, that is worth anything at all."
 
 "Perhaps," he said. For the first time in six days, in eleven days before that, in a season longer than either of them had yet found the courage to name properly, he did not look away from her while he said it.
@@ -198,6 +206,9 @@ The stone woke under his hand without warning, a single low shudder that ran thr
 He did not yet know what had happened, or to whom, or why. He knew only that the pattern he had spent a lifetime waiting to be proven right about had just added its third point, and a pattern with three points was no longer a suspicion. It was a shape.
 
 He sat a long while with his palm still against the cooling stone, and did not reach for his ledger. Some entries, he had learned, were better made in daylight, once the hand had stopped wanting to shake.
+
+![viyamban-tower](15-05-viyamban-tower.jpg)
+
 
 ## VII
 
@@ -226,6 +237,8 @@ The masked man was silent long enough that the spy began, despite himself, to wo
 "Yes, master."
 
 The masked man rose, unhurried, and crossed to the hut's single unshuttered gap, where the night showed itself in a narrow strip of stars. He was quiet a while, looking out at them the way a man looks at something he has been patient with for a very long time and does not intend to remain patient with much longer.
+
+![Masked Monologue](15-07-masked-monologue.jpg)
 
 "You know only the shape of what we are building," he said, not quite to the spy anymore, "and that is by design, and it will remain so a while yet. But I will tell you this much, since you have served well enough tonight to have earned it. There are nine old debts owed to this world, nine places where something was bound down and told to stay. Bhumi has worn those nine bindings like a crown it never asked for, and called it balance, and called it peace, and it has never once asked whether the ones doing the binding had any right to ask it of us." His voice did not rise. It did not need to. "One of the nine has already gone missing from the record entirely. No site. No guardian anyone can name. A wound in the pattern that no one but I have thought to go looking for. When I find where it has hidden itself, I will begin with that one, because a debt no one can locate is a debt no one will think to defend." He turned back from the window, and the small lamp caught his eyes for a moment, dark and entirely without doubt. "And when that one is gone, we will not stop there. My clan has waited a very long time for a patient enough hour. We intend to spend the whole of it. Every last binding, until Bhumi answers to no one's hand but our own."
 
