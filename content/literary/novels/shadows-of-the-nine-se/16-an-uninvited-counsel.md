@@ -33,6 +33,8 @@ The stone was reset. Both fields would drink evenly again by the next season.
 
 The farmers left satisfied, which was rare enough on its own. And the court, watching, understood that the visiting prince had not merely observed a ruling. He had improved one.
 
+![Veeran offers counsel in the court](16-01-veeran-counsel.jpg)
+
 ## II
 
 It happened again the following week. And the week after that.
@@ -99,7 +101,9 @@ She found Charudatta in the archive two days later, of all places, examining a l
 
 "I would not call it united."
 
-"Call it what you like. I call it common ground, and I intend to make use of it while it lasts." He came around the table, unhurried. "He has not done a single improper thing, Vaanathi. That is what troubles me most. A man who overreaches carelessly can be caught and corrected. A man who overreaches this well leaves nothing to correct. Only a slow accumulation of trust that no single moment earned outright."
+![Vaanathi and Charudatta find common ground](16-02-vaanthi-charudataa.jpg)
+
+"Call it what you like. I call it common ground, and I intend to make use of it while it lasts." He rose and came around the low writing bench between them, unhurried. "He has not done a single improper thing, Vaanathi. That is what troubles me most. A man who overreaches carelessly can be caught and corrected. A man who overreaches this well leaves nothing to correct. Only a slow accumulation of trust that no single moment earned outright."
 
 "My father called it good instincts."
 
@@ -125,7 +129,7 @@ She had decided, within her first week at Anantapuram, that the southern scholar
 
 "I have found several things amusing," Sancharan said, not looking up from the leaf in front of him.
 
-"Found them amusing where. Inside your own head, where no one else is permitted to witness it?" She perched herself on the edge of his table, which he had asked her, twice now, not to do. "That does not count. Amusement that never reaches your face is just a very well-hidden headache."
+"Found them amusing where. Inside your own head, where no one else is permitted to witness it?" She perched herself on the edge of his writing bench, which he had asked her, twice now, not to do. "That does not count. Amusement that never reaches your face is just a very well-hidden headache."
 
 "I was not aware amusement required an audience."
 
@@ -133,13 +137,15 @@ She had decided, within her first week at Anantapuram, that the southern scholar
 
 "I wish you luck with the negotiation."
 
-"I do not need luck." She hopped down from the table, entirely unbothered by his lack of encouragement. "I have never once failed at anything I have formally decided to do."
+"I do not need luck." She hopped down from the bench, entirely unbothered by his lack of encouragement. "I have never once failed at anything I have formally decided to do."
 
 She left him with that, and returned the following day with a small carved puzzle box from her own kingdom, insisting he solve it in front of her, narrating his every failed attempt with such open delight that two passing clerks stopped to watch. She returned the day after that with a story about her brother's childhood that Sancharan suspected, correctly, was designed purely to embarrass Veeran rather than entertain anyone else. She returned a third time simply to sit across from him in silence for the better part of an hour, watching him work, until he finally asked, with the particular patience of a man who had lived several centuries longer than his current appearance suggested, whether she intended to make a habit of it.
 
 "Possibly," she said. "You are restful to be near. Most people talk too much. You do not talk at all, which leaves a great deal of room for me to talk instead."
 
 He found, somewhat to his own surprise, that he did not entirely mind it.
+
+![Kanaka and Sancharan in the archive](16-03-kanaka-sancharan.jpg)
 
 ## VII
 
@@ -152,6 +158,8 @@ Veeran found Vaanathi near the western pavilion, where she often retreated when 
 "You have found me regardless."
 
 "I am aware of the irony." He fell into step beside her, unhurried, the two of them moving along the gravel path without either quite deciding to walk together. "I wished to ask you something, and I did not think the council chamber the proper place for it."
+
+![Veeran and Vaanathi walk through the garden](16-04-garden-walk.jpg)
 
 "That sounds ominous."
 
@@ -184,6 +192,8 @@ He turned, mostly to satisfy her rather than himself, and misjudged, badly, exac
 She misjudged it too, laughing too hard by the second turn to properly finish the third, and the two of them collided in the particular graceless way of two people who had each been more confident than skilled, Kanaka's hand catching his sleeve instead of his hand, her own balance going first, his following a half-beat after in the doomed effort to catch her.
 
 They went down together in an undignified heap of silk and startled laughter, exactly as Vaanathi and Veeran rounded the hedge from the other side.
+
+![Kanaka and Sancharan collide in the garden](16-05-garden-collapse.jpg)
 
 For one long, suspended moment, no one moved. Kanaka lay half across Sancharan's chest, her hand still tangled in his sleeve, both of them breathless with laughter that had not yet noticed it had an audience. Sancharan looked up first, and found Vaanathi standing very still at the mouth of the path, her face arranged into something that was trying very hard, and not quite succeeding, to look like nothing at all.
 
@@ -255,7 +265,7 @@ He looked up when she entered, and something in his face settled, as though he h
 
 "You did not ask your question this afternoon," he said.
 
-"I could not ask my question this afternoon. There was an audience." She did not sit. She stood across the table from him, arms folded, and found, to her own irritation, that she had rehearsed nothing. "The rings did nothing to her, Sancharan. Nothing at all. She fell across your chest laughing, her hand in your garment, and your rings sat there as quiet as river stones. Mine tried to take my hand off for reaching for yours over a border ledger."
+"I could not ask my question this afternoon. There was an audience." She did not sit. She stood on the other side of his low writing bench, arms folded, and found, to her own irritation, that she had rehearsed nothing. "The rings did nothing to her, Sancharan. Nothing at all. She fell across your chest laughing, her hand in your garment, and your rings sat there as quiet as river stones. Mine tried to take my hand off for reaching for yours over a border ledger."
 
 "I know."
 
@@ -269,7 +279,9 @@ He looked up when she entered, and something in his face settled, as though he h
 
 She opened her mouth, and what came out was not, in the end, plain at all.
 
-"You collect them," she said. "Has anyone ever told you that. Amudha loved you enough to die for it. Kanaka cannot walk past you without inventing a reason to sit on your table. I have watched you be kind to precisely no one on purpose, and somehow every woman within reach of you ends up rearranging her whole afternoon around the privilege of your company. I do not know if you do it deliberately. I have decided, most days, that you do not. But I confess there are other days where I am considerably less certain, and I would like, for once, to hear you account for it instead of simply enduring it with that infuriating patience of yours."
+![Vaanathi confronts Sancharan in the archive](16-06-archival-confrontation.jpg)
+
+"You collect them," she said. "Has anyone ever told you that. Amudha loved you enough to die for it. Kanaka cannot walk past you without inventing a reason to sit beside your work. I have watched you be kind to precisely no one on purpose, and somehow every woman within reach of you ends up rearranging her whole afternoon around the privilege of your company. I do not know if you do it deliberately. I have decided, most days, that you do not. But I confess there are other days where I am considerably less certain, and I would like, for once, to hear you account for it instead of simply enduring it with that infuriating patience of yours."
 
 He was quiet a moment, and she watched him actually consider the accusation rather than simply wait for it to finish.
 
@@ -279,7 +291,7 @@ He was quiet a moment, and she watched him actually consider the accusation rath
 
 "It is the truest one I have."
 
-She sat, finally, across from him, some of the fight going out of her shoulders though none of it left her voice entirely. "I do not know what to do with how human this feels," she said, quieter now. "You keep telling me what you are. Older than the stars have names for. A guardian, passing through, on a scale I cannot properly picture. And then you notice when I have not eaten. You remember which cushion I prefer. You sit here being jealous of nothing and possessive of no one and somehow still manage to make me feel every single ordinary, undignified thing a woman is supposed to feel about a man who will not simply tell her where she stands."
+She sat, finally, across from him on the floor mat opposite his own, some of the fight going out of her shoulders though none of it left her voice entirely. "I do not know what to do with how human this feels," she said, quieter now. "You keep telling me what you are. Older than the stars have names for. A guardian, passing through, on a scale I cannot properly picture. And then you notice when I have not eaten. You remember which cushion I prefer. You sit here being jealous of nothing and possessive of no one and somehow still manage to make me feel every single ordinary, undignified thing a woman is supposed to feel about a man who will not simply tell her where she stands."
 
 "I am sorry for the undignified feeling," he said, and there was no mockery in it at all. "I have never once been sorry for the rest."
 
@@ -293,18 +305,16 @@ He did not answer quickly, and she was glad of that, because a quick answer woul
 
 "Why."
 
-"Because Kanaka would grieve me and go on to a full life, untouched by anything I carry, exactly as she should. You would not have that luxury even if I vanished from this palace tonight and never returned. You already know what I am. You have already been struck by what protects me. Whatever happens from here, you are bound to the weight of it whether I choose you or not, and I would rather stand beside the person already carrying that weight than leave her to carry it alone while I spared myself the discomfort of choosing." He said it plainly, the way he said most true things, without reaching for anything softer to wrap it in. "What I feel with you is not romance, Vaanathi. I would not insult you by dressing it as romance. It is simply arithmetic. You are already inside the cost. I will not pretend otherwise for either of our comfort."
+"Because Kanaka would grieve me and go on to a full life, untouched by anything I carry, exactly as she should. You would not have that luxury even if I vanished from this palace tonight and never returned. You already know what I am. You have already been struck by what protects me. Whatever happens from here, you are bound to the weight of it whether I choose you or not, and I would rather stand beside the person already carrying that weight than leave her to carry it alone while I spared myself the discomfort of choosing." He said it plainly, the way he said most true things, without reaching for anything softer to wrap it in. "What I feel with you is not romance, Vaanathi. I would not insult you by dressing it as romance. It is simple arithmetic. You are already inside the cost. I will not pretend otherwise for either of our comfort."
 
 She sat with that a while, turning it over, and found, to her own surprise, that she believed every word of it, and that the believing hurt rather less than she had expected it to.
 
-"I put together so many probable answers to my questions. And even my last probable guess was not even close to what you answered just now." she said finally.
+"I put together so many probable answers to my questions. And even my last probable guess was not even close to what you answered just now," she said finally.
 
 "I did warn you."
 
 "You did." She almost smiled, despite everything the afternoon had cost her. "In a year from now, I hope to be better at predicting your answers, Sancharan."
 
-"I will do what I can," he said, "to make your predicting easier."
+"I will do what I can," he said, "to earn your precision."
 
 She left the archive that evening lighter than she had arrived, though she could not, walking back through the darkened corridors, have said exactly why.
-
-To be continued...
