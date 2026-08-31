@@ -601,6 +601,16 @@ body.reader-page.font-size-large {
   font-size: 0.9em;
 }
 
+.pager-page .status-marker {
+  text-align: center;
+  color: var(--accent);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 2rem 0 0.5rem;
+  font-size: 0.85em;
+  font-style: italic;
+}
+
 .pager-page .poem-stanza {
   margin-bottom: 1rem;
   color: var(--text-light);

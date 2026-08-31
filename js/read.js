@@ -249,12 +249,17 @@
     const next = currentIndex < manifest.parts.length - 1 ? manifest.parts[currentIndex + 1] : null;
     const chapterHref = (file, extra) => `read.html?type=novel&slug=${encodeURIComponent(slug)}&chapter=${encodeURIComponent(file.replace(/\.md$/, ''))}${extra || ''}`;
 
+    const statusMarkerLabel = { ongoing: 'To be continued…', complete: 'The End' };
+    const statusMarker = !next && manifest.status && statusMarkerLabel[manifest.status]
+      ? `<p class="status-marker">${escapeHtml(statusMarkerLabel[manifest.status])}</p>`
+      : '';
+
     document.getElementById('readerHeader').innerHTML = `
       <p class="eyebrow">${escapeHtml(data.eyebrow || manifest.title)}</p>
       <h1>${escapeHtml(data.title)}</h1>
       <p class="reader-meta">By Lotus Luminous${data.date ? ` · ${escapeHtml(fullDateLabel(data.date))}` : ''}</p>
     `;
-    document.getElementById('pagerSource').innerHTML = bodyHtml;
+    document.getElementById('pagerSource').innerHTML = bodyHtml + statusMarker;
 
     wireChapterSelect(manifest.parts, chapterFile, (value) => {
       window.location.href = chapterHref(`${value}.md`);
