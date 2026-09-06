@@ -4,7 +4,7 @@
   "tag": "Novel · Ongoing",
   "status": "ongoing",
   "statusvalues": ["ongoing", "complete"],
-  "cardMedia": "Chapter Thirteen Now Live",
+  "cardMedia": "Chapter Fifteen Now Live",
   "description": "Nine seals hold a balance which ancient forces swore to protect. One has gone missing. One princess is about to find out why.",
   "linkText": "Start Reading →",
   "parts": [
@@ -87,6 +87,11 @@
       "file": "16-an-uninvited-counsel.md",
       "navLabel": "Ch. 14 · An Uninvited Counsel",
       "footerLabel": "Chapter Fourteen"
+    },
+    {
+      "file": "17-the-bell-that-would-not-ring.md",
+      "navLabel": "Ch. 15 · The Bell That Would Not Ring",
+      "footerLabel": "Chapter Fifteen"
     }
   ]
 }
