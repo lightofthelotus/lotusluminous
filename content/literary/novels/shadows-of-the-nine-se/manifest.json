@@ -3,8 +3,11 @@
   "book": "Book One",
   "tag": "Novel · Ongoing",
   "status": "ongoing",
-  "statusvalues": ["ongoing", "complete"],
-  "cardMedia": "Chapter Fifteen Now Live",
+  "statusvalues": [
+    "ongoing",
+    "complete"
+  ],
+  "cardMedia": "Chapter Twenty Now Live",
   "description": "Nine seals hold a balance which ancient forces swore to protect. One has gone missing. One princess is about to find out why.",
   "linkText": "Start Reading →",
   "parts": [
@@ -19,79 +22,109 @@
       "footerLabel": "Preamble"
     },
     {
-      "file": "03-the-shadow-at-the-gate.md",
-      "navLabel": "Ch. 1 · The Shadow at the Gate",
+      "file": "03-prologue-the-lamp.md",
+      "navLabel": "Prologue · The Lamp",
+      "footerLabel": "Prologue"
+    },
+    {
+      "file": "04-the-locked-room.md",
+      "navLabel": "Ch. 1 · The Locked Room",
       "footerLabel": "Chapter One"
     },
     {
-      "file": "04-what-the-ledgers-remember.md",
-      "navLabel": "Ch. 2 · What the Ledgers Remember",
+      "file": "05-ganda.md",
+      "navLabel": "Ch. 2 · Ganda",
       "footerLabel": "Chapter Two"
     },
     {
-      "file": "05-the-weight-of-a-name.md",
-      "navLabel": "Ch. 3 · The Weight of a Name",
+      "file": "06-watch-him.md",
+      "navLabel": "Ch. 3 · Watch Him",
       "footerLabel": "Chapter Three"
     },
     {
-      "file": "06-what-should-not-be-seen.md",
-      "navLabel": "Ch. 4 · What Should Not Be Seen",
+      "file": "07-the-bell-and-the-letters.md",
+      "navLabel": "Ch. 4 · The Bell and the Letters",
       "footerLabel": "Chapter Four"
     },
     {
-      "file": "07-fortress-of-anaadi.md",
-      "navLabel": "Ch. 5 · The Fortress of Anaadi",
+      "file": "08-the-sky-tower.md",
+      "navLabel": "Ch. 5 · The Sky-Tower",
       "footerLabel": "Chapter Five"
     },
     {
-      "file": "08-the-slow-arithmetic.md",
-      "navLabel": "Ch. 6 · The Slow Arithmetic",
+      "file": "09-the-old-friend.md",
+      "navLabel": "Ch. 6 · The Old Friend",
       "footerLabel": "Chapter Six"
     },
     {
-      "file": "09-a-name-older-than-fear.md",
-      "navLabel": "Ch. 7 · A Name Older Than Fear",
+      "file": "10-the-ninth-tier.md",
+      "navLabel": "Ch. 7 · The Ninth Tier",
       "footerLabel": "Chapter Seven"
     },
     {
-      "file": "10-where-the-river-runs-red.md",
-      "navLabel": "Ch. 8 · Where the River Runs Red",
-      "footerLabel": "Chapter Eight"  
+      "file": "11-beyond-the-sky.md",
+      "navLabel": "Ch. 8 · Beyond the Sky",
+      "footerLabel": "Chapter Eight"
     },
     {
-      "file": "11-voices-in-the-dark.md",
-      "navLabel": "Ch. 9 · Voices in the Dark",
+      "file": "12-a-letter-on-cloth.md",
+      "navLabel": "Ch. 9 · A Letter on Cloth",
       "footerLabel": "Chapter Nine"
     },
     {
-      "file": "12-what-the-rings-remember.md",
-      "navLabel": "Ch. 10 · What the Rings Remember",
+      "file": "13-shani.md",
+      "navLabel": "Ch. 10 · Shani",
       "footerLabel": "Chapter Ten"
     },
     {
-      "file": "13-time-and-tide.md",
-      "navLabel": "Ch. 11 · Time and Tide",
+      "file": "14-the-emperors-secret.md",
+      "navLabel": "Ch. 11 · The Emperor's Secret",
       "footerLabel": "Chapter Eleven"
     },
     {
-      "file": "14-a-guest-at-the-gate.md",
-      "navLabel": "Ch. 12 · A Guest at the Gate",
+      "file": "15-where-the-river-runs-red.md",
+      "navLabel": "Ch. 12 · Where the River Runs Red",
       "footerLabel": "Chapter Twelve"
     },
     {
-      "file": "15-when-loneliness-chases.md",
-      "navLabel": "Ch. 13 · When Loneliness Chases",
+      "file": "16-council-of-the-nine.md",
+      "navLabel": "Ch. 13 · Council of the Nine",
       "footerLabel": "Chapter Thirteen"
     },
     {
-      "file": "16-an-uninvited-counsel.md",
-      "navLabel": "Ch. 14 · An Uninvited Counsel",
+      "file": "17-a-ghost-in-the-garden.md",
+      "navLabel": "Ch. 14 · A Ghost in the Garden",
       "footerLabel": "Chapter Fourteen"
     },
     {
-      "file": "17-the-bell-that-would-not-ring.md",
-      "navLabel": "Ch. 15 · The Bell That Would Not Ring",
+      "file": "18-the-slip.md",
+      "navLabel": "Ch. 15 · The Slip",
       "footerLabel": "Chapter Fifteen"
+    },
+    {
+      "file": "19-a-laugh-in-the-market.md",
+      "navLabel": "Ch. 16 · A Laugh in the Market",
+      "footerLabel": "Chapter Sixteen"
+    },
+    {
+      "file": "20-the-door-someone-left-open.md",
+      "navLabel": "Ch. 17 · The Door Someone Left Open",
+      "footerLabel": "Chapter Seventeen"
+    },
+    {
+      "file": "21-the-shard-wakes.md",
+      "navLabel": "Ch. 18 · The Shard Wakes",
+      "footerLabel": "Chapter Eighteen"
+    },
+    {
+      "file": "22-eleven-days.md",
+      "navLabel": "Ch. 19 · Eleven Days",
+      "footerLabel": "Chapter Nineteen"
+    },
+    {
+      "file": "23-the-prince-who-caught-the-blade.md",
+      "navLabel": "Ch. 20 · The Prince Who Caught the Blade",
+      "footerLabel": "Chapter Twenty"
     }
   ]
 }

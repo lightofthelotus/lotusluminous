@@ -11,12 +11,24 @@ function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+// Hyperlink syntax: [text to show](https://where-to-go). Only http(s) and
+// mailto targets are linked, so a stray javascript: URL stays plain text.
+const LINK_RE = /\[([^\]]+)\]\(\s*((?:https?:\/\/|mailto:)[^\s)]+)\s*\)/g;
+
 function renderInline(text) {
   let out = escapeHtml(text);
+  // Links are lifted out into placeholders first so the emphasis rules
+  // below can't mangle underscores/asterisks inside a URL, then restored.
+  const links = [];
+  out = out.replace(LINK_RE, (_, label, url) => {
+    links.push(`<a class="text-link" href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`);
+    return `\u0000${links.length - 1}\u0000`;
+  });
   out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
   out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   out = out.replace(/\*([^*]+)\*/g, '<em>$1</em>');
   out = out.replace(/_([^_]+)_/g, '<em>$1</em>');
+  out = out.replace(/\u0000(\d+)\u0000/g, (_, i) => links[Number(i)]);
   return out;
 }
 

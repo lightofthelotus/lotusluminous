@@ -560,6 +560,25 @@ body.reader-page.font-size-large {
 .pager-page ol li { list-style: decimal; }
 .pager-page ul li { list-style: disc; }
 
+/* Inline hyperlinks: [text](url) in the markdown. Accent-coloured and
+   underlined so they read as links, with a hand cursor on hover. */
+.pager-page a.text-link {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  background: var(--accent-soft);
+  border-radius: 3px;
+  padding: 0 0.15em;
+  cursor: pointer;
+}
+
+.pager-page a.text-link:hover,
+.pager-page a.text-link:focus-visible {
+  text-decoration-thickness: 2px;
+  background: rgba(var(--accent-rgb), 0.25);
+}
+
 .pager-page blockquote {
   margin: 1rem 0;
   padding: 0.8rem 1.1rem;

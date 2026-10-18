@@ -61,6 +61,17 @@
   ],
   "tech": [
     {
+      "slug": "who-answers-when-ai-gets-it-wrong",
+      "title": "Who Answers When AI Gets It Wrong?",
+      "tag": "AI & Accountability",
+      "description": "The headlines swing between \"AI will save us\" and \"AI will kill us.\" The more useful question is quieter: when it goes wrong, who is responsible?",
+      "date": "2026-10-18",
+      "readTime": "8 min read",
+      "linkText": "Read Article",
+      "href": "content/tech/06-who-answers-when-ai-gets-it-wrong.html",
+      "md": "content/tech/06-who-answers-when-ai-gets-it-wrong.md"
+    },
+    {
       "slug": "nobody-wants-to-read-your-spec",
       "title": "Nobody Wants to Read Your Spec (And That's the Real Bug)",
       "tag": "Gen AI & SDLC",

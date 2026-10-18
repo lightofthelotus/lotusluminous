@@ -187,7 +187,7 @@ Vaanathi wrapped the bell once more in its soft, age-darkened cloth, and found, 
 
 ## VIII
 
-She found Nila still awake when she returned to her chambers, exactly as promised, seated by the low-burned lamp with a piece of half-finished embroidery she had plainly abandoned some while ago in favour of simply waiting.
+She found Nila still awake when she returned to her chambers. Just as she promised, she was seated by the low-burned lamp with a piece of half-finished embroidery she had plainly abandoned some while ago in favour of simply waiting.
 
 "You look," Nila observed, setting the embroidery aside, "like a woman who has just learned something she cannot yet decide whether to be grateful for."
 

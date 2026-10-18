@@ -77,14 +77,15 @@
   // ---------- Inline markdown (bold/italic/code) -> docx.TextRun[] ----------
   function parseInlineTokens(text) {
     const tokens = [];
-    const re = /`([^`]+)`|\*\*([^*]+)\*\*|\*([^*]+)\*|_([^_]+)_/g;
+    const re = /\[([^\]]+)\]\(\s*((?:https?:\/\/|mailto:)[^\s)]+)\s*\)|`([^`]+)`|\*\*([^*]+)\*\*|\*([^*]+)\*|_([^_]+)_/g;
     let lastIndex = 0;
     let m;
     while ((m = re.exec(text))) {
       if (m.index > lastIndex) tokens.push({ text: text.slice(lastIndex, m.index) });
-      if (m[1] !== undefined) tokens.push({ text: m[1], code: true });
-      else if (m[2] !== undefined) tokens.push({ text: m[2], bold: true });
-      else tokens.push({ text: m[3] !== undefined ? m[3] : m[4], italics: true });
+      if (m[1] !== undefined) tokens.push({ text: m[1], link: m[2] });
+      else if (m[3] !== undefined) tokens.push({ text: m[3], code: true });
+      else if (m[4] !== undefined) tokens.push({ text: m[4], bold: true });
+      else tokens.push({ text: m[5] !== undefined ? m[5] : m[6], italics: true });
       lastIndex = re.lastIndex;
     }
     if (lastIndex < text.length) tokens.push({ text: text.slice(lastIndex) });
@@ -93,16 +94,19 @@
 
   function textRunsFromInline(text, extra) {
     extra = extra || {};
-    return parseInlineTokens(text).map(
-      (t) =>
-        new window.docx.TextRun({
-          text: t.text,
-          bold: t.bold || extra.bold || undefined,
-          italics: t.italics || extra.italics || undefined,
-          color: extra.color,
-          font: t.code ? "Consolas" : undefined,
-        })
-    );
+    return parseInlineTokens(text).map((t) => {
+      const run = new window.docx.TextRun({
+        text: t.text,
+        bold: t.bold || extra.bold || undefined,
+        italics: t.italics || extra.italics || undefined,
+        color: t.link ? "0563C1" : extra.color,
+        underline: t.link ? {} : undefined,
+        font: t.code ? "Consolas" : undefined,
+      });
+      return t.link && window.docx.ExternalHyperlink
+        ? new window.docx.ExternalHyperlink({ children: [run], link: t.link })
+        : run;
+    });
   }
 
   // ---------- Images ----------
