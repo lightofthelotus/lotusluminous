@@ -69,17 +69,27 @@
     console.info(`[read-aloud] ${Object.keys(pronunciations).length} pronunciations loaded`);
 
     // ---------- Voice ----------
+    // Browsers don't expose gender, so it's recognised from the voice name.
+    // In the automatic pick, female outranks Indian accent: an Indian male
+    // voice (Rishi, Ravi) loses to any female English voice, and Indian +
+    // female wins overall.
+    const FEMALE = /neerja|heera|veena|aditi|raveena|priya|kalpana|samantha|karen|moira|tessa|ava|allison|susan|serena|fiona|victoria|kate|nicky|zira|hazel|libby|sonia|aria|jenny|emma|joanna|salli|kendra|kimberly|ivy|amy|female/i;
+    const MALE = /rishi|ravi|prabhat|hemant|daniel|alex|fred|arthur|aaron|gordon|guy|david|mark|george|james|thomas|oliver|ryan|eric|brian|matthew|joey|justin|male/i;
+    const isFemale = (v) => FEMALE.test(v.name) && !/male/i.test(v.name.replace(/female/i, ''));
+    const isMale = (v) => MALE.test(v.name) && !/female/i.test(v.name);
+    const genderOf = (v) => (isFemale(v) ? 'Female' : isMale(v) ? 'Male' : '');
+    const VOICE_KEY = 'v2:ttsVoice';
+
     function pickVoice() {
+      let saved = null; // the reader's own choice from the mic menu always wins
+      try { saved = localStorage.getItem(VOICE_KEY); } catch (e) { /* storage unavailable */ }
+      const mine = saved && synth.getVoices().find((v) => v.voiceURI === saved);
+      if (mine) return mine;
       const voices = synth.getVoices().filter((v) => /^en/i.test(v.lang));
       if (!voices.length) return null;
-      // Browsers don't expose gender, so it's recognised from the voice name.
-      // Female outranks Indian accent: an Indian male voice (Rishi, Ravi)
-      // loses to any female English voice, and Indian + female wins overall.
-      const FEMALE = /neerja|heera|veena|aditi|raveena|priya|kalpana|samantha|karen|moira|tessa|ava|allison|susan|serena|fiona|victoria|kate|nicky|zira|hazel|libby|sonia|aria|jenny|emma|joanna|salli|kendra|kimberly|ivy|amy|female/i;
-      const MALE = /rishi|ravi|prabhat|hemant|daniel|alex|fred|arthur|aaron|gordon|guy|david|mark|george|james|thomas|oliver|ryan|eric|brian|matthew|joey|justin|male/i;
       const score = (v) =>
-        (FEMALE.test(v.name) && !/male/i.test(v.name.replace(/female/i, '')) ? 30 : 0) -
-        (MALE.test(v.name) && !/female/i.test(v.name) ? 30 : 0) +
+        (isFemale(v) ? 30 : 0) -
+        (isMale(v) ? 30 : 0) +
         (/^en[-_]IN/i.test(v.lang) ? 20 : 0) +
         (/natural|neural|enhanced|premium/i.test(v.name) ? 5 : 0) +
         (v.localService ? 2 : 0) +
@@ -557,6 +567,94 @@
       clearTimeout(restartTimer);
       restartTimer = setTimeout(() => { if (on) start(); }, 120);
     });
+
+    // ---------- Voice menu (mic button in the left speed-dial) ----------
+    const voiceTab = document.getElementById('voiceMenu');
+    const voiceToggle = document.getElementById('voiceToggle');
+    const voicePanel = document.getElementById('voicePanel');
+
+    function langLabel(v) {
+      try { return new Intl.DisplayNames(['en'], { type: 'region' }).of(v.lang.split(/[-_]/)[1]) || v.lang; } catch (e) { return v.lang; }
+    }
+
+    function chooseVoice(v) {
+      voice = v;
+      try { localStorage.setItem(VOICE_KEY, v.voiceURI); } catch (e) { /* storage unavailable */ }
+      renderVoices();
+      if (on && cursor && !waiting) {
+        startAt(cursor.page, cursor.index); // carry on in the new voice from this sentence
+      } else {
+        synth.cancel();
+        const u = new SpeechSynthesisUtterance('Hello, this is how I will read your story.');
+        u.voice = v;
+        u.lang = v.lang;
+        activeUtterance = u;
+        synth.speak(u);
+      }
+    }
+
+    function renderVoices() {
+      const all = synth.getVoices();
+      const indian = all.filter((v) => /^en[-_]IN/i.test(v.lang));
+      const other = all.filter((v) => /^en/i.test(v.lang) && !/^en[-_]IN/i.test(v.lang));
+      const current = voice || pickVoice();
+      voicePanel.innerHTML = '';
+
+      const title = document.createElement('p');
+      title.className = 'voice-panel-title';
+      title.textContent = 'Reading voice';
+      voicePanel.appendChild(title);
+
+      function addGroup(label, list, emptyText) {
+        const head = document.createElement('p');
+        head.className = 'voice-group';
+        head.textContent = label;
+        voicePanel.appendChild(head);
+        if (!list.length) {
+          const empty = document.createElement('p');
+          empty.className = 'voice-empty';
+          empty.textContent = emptyText;
+          voicePanel.appendChild(empty);
+          return;
+        }
+        // Female first, then male, then unknown; by name within each.
+        const rank = (v) => (isFemale(v) ? 0 : isMale(v) ? 1 : 2);
+        list.slice().sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name)).forEach((v) => {
+          const selected = !!current && current.voiceURI === v.voiceURI;
+          const opt = document.createElement('button');
+          opt.type = 'button';
+          opt.className = 'voice-option' + (selected ? ' is-selected' : '');
+          opt.setAttribute('role', 'menuitemradio');
+          opt.setAttribute('aria-checked', String(selected));
+          const name = document.createElement('span');
+          name.textContent = v.name.replace(/^Microsoft\s+/, '').replace(/\s+Online \(Natural\)/, '').replace(/ - English.*$/, '');
+          const meta = document.createElement('small');
+          meta.textContent = [genderOf(v), langLabel(v)].filter(Boolean).join(' · ');
+          opt.append(name, meta);
+          opt.addEventListener('click', () => chooseVoice(v));
+          voicePanel.appendChild(opt);
+        });
+      }
+
+      addGroup('Indian English', indian, 'No Indian English voice is installed on this device.');
+      addGroup('Other English voices', other, 'No other English voices found.');
+    }
+
+    if (voiceTab && voiceToggle && voicePanel) {
+      const setVoiceOpen = (open) => {
+        voicePanel.hidden = !open;
+        voiceTab.classList.toggle('is-open', open);
+        voiceToggle.setAttribute('aria-expanded', String(open));
+        if (open) renderVoices();
+      };
+      voiceToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        setVoiceOpen(voicePanel.hidden);
+      });
+      document.addEventListener('click', (e) => { if (!voiceTab.contains(e.target)) setVoiceOpen(false); });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setVoiceOpen(false); });
+      synth.addEventListener && synth.addEventListener('voiceschanged', () => { if (!voicePanel.hidden) renderVoices(); });
+    }
 
     window.addEventListener('pagehide', () => synth.cancel());
 

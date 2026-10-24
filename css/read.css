@@ -127,7 +127,7 @@ body.reader-page.font-size-large {
 }
 
 .fab-nav.is-open .fab-actions {
-  max-width: 10rem;
+  max-width: 13rem;
   opacity: 1;
   padding: 0.35rem;
   border-color: var(--glass-border);
@@ -259,6 +259,61 @@ body.reader-page.font-size-large {
   cursor: default;
   pointer-events: none;
 }
+
+/* ---------- Voice picker (mic button in the left speed-dial) ---------- */
+.voice-tab { position: relative; }
+.voice-tab.is-open .float-btn { background: var(--glass-faint); }
+
+.voice-panel {
+  position: absolute;
+  top: calc(100% + 0.7rem);
+  left: 0;
+  width: 280px;
+  max-width: calc(100vw - 1.8rem);
+  max-height: min(60vh, 22rem);
+  overflow-y: auto;
+  background: rgba(var(--panel-rgb), 0.97);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+  box-shadow: 0 20px 50px rgba(var(--ink-rgb), 0.6);
+  padding: 0.6rem;
+  z-index: 110;
+  animation: bookmarkPanelIn 0.2s ease;
+}
+.voice-panel[hidden] { display: none; }
+
+.voice-panel-title,
+.voice-group {
+  margin: 0.2rem 0.4rem 0.35rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.voice-group { margin-top: 0.7rem; }
+
+.voice-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  border: none;
+  border-radius: 10px;
+  background: none;
+  color: var(--text-light);
+  font: inherit;
+  font-size: 0.85rem;
+  text-align: left;
+  cursor: pointer;
+}
+.voice-option:hover { background: var(--glass-faint); }
+.voice-option.is-selected { background: var(--accent-soft); color: var(--accent); }
+.voice-option small { color: var(--text-muted); font-size: 0.72rem; white-space: nowrap; }
+.voice-empty { margin: 0.4rem; font-size: 0.82rem; color: var(--text-muted); }
 
 /* ---------- Read aloud ---------- */
 .tts-btn.is-on {
@@ -763,8 +818,22 @@ figure.illustration figcaption {
   .float-btn { width: 2rem; height: 2rem; }
   .fab-nav { padding: 0; }
   .fab-main { width: 2.3rem; height: 2.3rem; }
-  .fab-actions { margin-right: 0.35rem; }
-  .fab-nav.is-open .fab-actions { max-width: 8rem; }
+  /* The speed-dial drops down as a column: a row of four buttons would not
+     fit in the space left of the menu button beside the toolbar. */
+  .fab-nav { position: relative; }
+  .fab-actions {
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    left: 0;
+    flex-direction: column;
+    max-width: none;
+    max-height: 0;
+    margin: 0;
+    transition: max-height 0.28s ease, opacity 0.2s ease, padding 0.28s ease,
+      border-color 0.28s ease, box-shadow 0.28s ease;
+  }
+  .fab-nav.is-open .fab-actions { max-width: none; max-height: 16rem; }
+  .voice-panel { width: 240px; }
   .chapter-select { width: 90px; font-size: 0.72rem; padding: 0.35rem 0.5rem; }
   .page-jump { font-size: 0.7rem; }
   .page-jump-input { width: 2.2rem; font-size: 0.75rem; }
