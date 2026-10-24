@@ -645,7 +645,15 @@
         voicePanel.hidden = !open;
         voiceTab.classList.toggle('is-open', open);
         voiceToggle.setAttribute('aria-expanded', String(open));
-        if (open) renderVoices();
+        if (open) {
+          renderVoices();
+          // Keep the panel on screen: the menu button can sit anywhere along the top.
+          voicePanel.style.left = '0px';
+          const r = voicePanel.getBoundingClientRect();
+          const margin = 8;
+          if (r.right > window.innerWidth - margin) voicePanel.style.left = (window.innerWidth - margin - r.right) + 'px';
+          else if (r.left < margin) voicePanel.style.left = (margin - r.left) + 'px';
+        }
       };
       voiceToggle.addEventListener('click', (e) => {
         e.stopPropagation();
