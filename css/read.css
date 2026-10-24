@@ -127,7 +127,7 @@ body.reader-page.font-size-large {
 }
 
 .fab-nav.is-open .fab-actions {
-  max-width: 8rem;
+  max-width: 10rem;
   opacity: 1;
   padding: 0.35rem;
   border-color: var(--glass-border);
@@ -329,7 +329,10 @@ body.tts-on .pager-page h3 { cursor: pointer; }
 .bookmark-panel {
   position: absolute;
   top: calc(100% + 0.7rem);
-  right: 0;
+  /* Anchored by its left edge: the bookmark button now lives in the left
+     speed-dial, so a right-anchored panel would run off the screen's left. */
+  left: 0;
+  right: auto;
   width: 260px;
   max-width: calc(100vw - 1.8rem);
   /* Floats directly over page text here (unlike the shelf's detail panel,
@@ -761,7 +764,7 @@ figure.illustration figcaption {
   .fab-nav { padding: 0; }
   .fab-main { width: 2.3rem; height: 2.3rem; }
   .fab-actions { margin-right: 0.35rem; }
-  .fab-nav.is-open .fab-actions { max-width: 6rem; }
+  .fab-nav.is-open .fab-actions { max-width: 8rem; }
   .chapter-select { width: 90px; font-size: 0.72rem; padding: 0.35rem 0.5rem; }
   .page-jump { font-size: 0.7rem; }
   .page-jump-input { width: 2.2rem; font-size: 0.75rem; }

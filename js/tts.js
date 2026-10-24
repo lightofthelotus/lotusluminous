@@ -72,20 +72,22 @@
     function pickVoice() {
       const voices = synth.getVoices().filter((v) => /^en/i.test(v.lang));
       if (!voices.length) return null;
-      // Browsers don't expose gender, so female Indian-English voices are
-      // recognised by locale plus known names (Windows: Neerja, Heera;
-      // macOS/iOS: Veena; Android/Chrome: "female" in the name).
-      const FEMALE_IN = /neerja|heera|veena|aditi|raveena|priya|kalpana|female/i;
-      const MALE = /ravi|prabhat|rishi|hemant|\bmale\b/i;
+      // Browsers don't expose gender, so it's recognised from the voice name.
+      // Female outranks Indian accent: an Indian male voice (Rishi, Ravi)
+      // loses to any female English voice, and Indian + female wins overall.
+      const FEMALE = /neerja|heera|veena|aditi|raveena|priya|kalpana|samantha|karen|moira|tessa|ava|allison|susan|serena|fiona|victoria|kate|nicky|zira|hazel|libby|sonia|aria|jenny|emma|joanna|salli|kendra|kimberly|ivy|amy|female/i;
+      const MALE = /rishi|ravi|prabhat|hemant|daniel|alex|fred|arthur|aaron|gordon|guy|david|mark|george|james|thomas|oliver|ryan|eric|brian|matthew|joey|justin|male/i;
       const score = (v) =>
+        (FEMALE.test(v.name) && !/male/i.test(v.name.replace(/female/i, '')) ? 30 : 0) -
+        (MALE.test(v.name) && !/female/i.test(v.name) ? 30 : 0) +
         (/^en[-_]IN/i.test(v.lang) ? 20 : 0) +
-        (FEMALE_IN.test(v.name) ? 10 : 0) -
-        (MALE.test(v.name) && !/female/i.test(v.name) ? 10 : 0) +
-        (/natural|neural/i.test(v.name) ? 5 : 0) +
+        (/natural|neural|enhanced|premium/i.test(v.name) ? 5 : 0) +
         (v.localService ? 2 : 0) +
         (/^en[-_]GB/i.test(v.lang) ? 1 : 0) -
         (/google/i.test(v.name) ? 1 : 0); // Google network voices never report word boundaries
-      return voices.sort((a, b) => score(b) - score(a))[0];
+      const chosen = voices.slice().sort((a, b) => score(b) - score(a))[0];
+      console.info('[read-aloud] voice:', chosen && chosen.name, chosen && chosen.lang);
+      return chosen;
     }
 
     // ---------- Text model ----------
