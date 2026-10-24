@@ -259,8 +259,14 @@
     }
 
     // ---------- Highlight ----------
+    // One Highlight object for the whole session, emptied and refilled — more
+    // reliable on touch browsers than swapping a new object into the registry,
+    // which could leave the previous word painted.
+    const wordHighlight = canHighlight ? new Highlight() : null;
+    if (canHighlight) CSS.highlights.set(HIGHLIGHT_NAME, wordHighlight);
+
     function clearHighlight() {
-      if (canHighlight) CSS.highlights.delete(HIGHLIGHT_NAME);
+      if (wordHighlight) wordHighlight.clear();
     }
 
     function highlightWord(item, wi) {
@@ -273,7 +279,8 @@
       const range = document.createRange();
       range.setStart(nodes[w.s], offs[w.s]);
       range.setEnd(nodes[w.e - 1], offs[w.e - 1] + 1);
-      CSS.highlights.set(HIGHLIGHT_NAME, new Highlight(range));
+      wordHighlight.clear();
+      wordHighlight.add(range);
     }
 
     function wordAtChar(item, charIndex) {
@@ -323,6 +330,7 @@
       if (!item) { stop(); return; }
 
       turnTo(item.pageIndex);
+      clearHighlight(); // nothing from the previous sentence may linger
 
       const u = new SpeechSynthesisUtterance(item.speak);
       if (voice) { u.voice = voice; u.lang = voice.lang; } else { u.lang = 'en-US'; }
