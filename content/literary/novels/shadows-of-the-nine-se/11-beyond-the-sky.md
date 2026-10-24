@@ -17,6 +17,8 @@ The sky was the same violet she had glimpsed from the well. It moved slowly, fol
 
 Beyond the courtyard rose walls. They were high and plain and the colour of old bone. They did not look built. They looked grown, as a cliff is grown. There were no windows. There were no flags. At the far end stood an arch as tall as a temple tower, and through it she could see another court, and another beyond that, receding into pale light.
 
+![Anaadikottai](05-05-AnaadiKottai.jpg)
+
 There was no sound at all. Not a wind. Not a footstep. Not her own heartbeat, though she could feel it knocking against her ribs.
 
 It was not a silence of emptiness. It was the silence of a very large room in which many people have just stopped talking. She felt it on her skin, a kind of attention. The walls seemed to lean, very slightly, to listen.

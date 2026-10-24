@@ -690,6 +690,28 @@ figure.illustration figcaption {
   100% { background-position: -200% 0; }
 }
 
+/* ---------- Desktop density ----------
+   Page box (width/height) stays the same; text is set smaller and tighter so
+   more lines fit per page, closer to how a page reads on mobile. Mobile
+   (<= 640px) is untouched. */
+@media (min-width: 641px) {
+  body.reader-page { --reader-font-size: 0.88rem; }
+  body.reader-page.font-size-large { --reader-font-size: 1.1rem; }
+
+  .pager-page { line-height: 1.38; }
+  .pager-page p { margin-bottom: 0.5rem; }
+  .pager-page p.lede { margin-bottom: 0.5rem; }
+  .pager-page ul,
+  .pager-page ol { margin-bottom: 0.5rem; }
+  .pager-page li { margin-bottom: 0.15rem; }
+  .pager-page h2 { margin: 0.6rem 0 0.3rem; }
+  .pager-page h3 { margin: 0.5rem 0 0.25rem; }
+  .pager-page blockquote { margin: 0.6rem 0; padding: 0.5rem 0.9rem; }
+  .pager-page .scene-break { margin: 0.7rem 0; }
+  .pager-page .poem-stanza { margin-bottom: 0.7rem; line-height: 1.55; }
+  figure.illustration { margin: 0.6rem 0; }
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 640px) {
   .reader-topbar { top: 0.6rem; right: 0.6rem; gap: 0.35rem; }

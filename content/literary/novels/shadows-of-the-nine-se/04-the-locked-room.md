@@ -5,6 +5,8 @@ eyebrow: Shadows of the Nine · Chapter One
 description: Chapter One of Shadows of the Nine, a mythological fantasy novel.
 ---
 
+![Anantapuram Palace, seat of the throne](00_01_AnantapuramPalace.jpg)
+
 ## I
 
 The petitioner had been talking for an hour.
@@ -31,17 +33,19 @@ It was a fair answer. It was not what Vaanathi had been about to say.
 
 She wanted to open the crown's grain stores that afternoon. She wanted to feed those families now. An officer would ride out, look at the water, and write a report. The report would go to a clerk. The clerk would send it to another clerk. By then the families would be eating roots.
 
-She drew a breath.
+She drew a breath. The court knew the princess was about to tell what she thought. Their eyes moved to her all at once. Yet, even before whe could open her lips to utter her thoughts as words, she was interrupted.
 
 "Your Grace need not trouble the princess with embankments," said Minister Charudatta.
 
-He said it gently, and he said it before she spoke. The whole hall looked at him. Then it looked away from her.
+He said it gently, and he said it before she spoke. The whole hall looked at him. This was only after it looked away from her.
 
 Vaanathi closed her mouth. She had learned years ago how much a closed mouth can say. She let this one say a great deal.
 
 Her father did not look at her. He never did in court. She knew why, though he had never explained it. If he looked at her, the hall would look too. People would start to wonder whether the throne's daughter thought she could advise the throne. So he acted as if she needed no protection. It was kind. It was also maddening. She had never decided which she minded more.
 
 Charudatta was already stepping back into his place. He was a lean man in forest green, with a trimmed moustache and a narrow, watchful face. His smile was very small. He had made it a hundred times in this hall, and it never reached his eyes.
+
+![Charudatta bows before the king as Vaanathi looks on](03_01_Charudata_Meets_King.jpg)
 
 "Next," the herald called.
 
@@ -56,6 +60,8 @@ Then the side doors opened, and Ratnan came in at a run.
 The under-steward of the royal archive ran across the emperor's hall faster than anyone was allowed to move in it. His face was the colour of old rice. He forgot to bow until he was three steps past the place where bowing mattered.
 
 "Your Grace." His voice cracked. "Smaran has not opened the archive since yesterday's evening bell. We broke down the door."
+
+![Ratnan bursts into the court hall with news of Smaran's death](01_01_CourtScene.jpg)
 
 Nobody in the hall moved.
 
@@ -95,7 +101,7 @@ He said it to the air in front of him. She suspected he had planned it that way.
 
 The reading chamber smelled of neem oil and old palm leaf. Underneath, there was something colder. She did not look at it too closely.
 
-Smaran lay beside his writing table as if he had lain down to rest. His brushes were set out in their usual order. He kept everything in order. It was most of who he was. The lamp had burned down to a hard black wick.
+Smaran lay beside his writing table as if he had lain down to rest. His writing styluses were set out in their usual order. He kept everything in order. It was most of who he was. The lamp had burned down to a hard black wick.
 
 She looked at the door first.
 
@@ -113,7 +119,7 @@ Ratnan hovered on the threshold, twisting his hands.
 
 She knew what he meant. She did not say so.
 
-She looked at the table instead. A palm leaf lay in front of the empty seat. A brush rested beside it, and the ink on the bristles was still dark. Smaran had been writing when he stopped. But the leaf in front of him was blank. There was only a faint stain on the wood beneath it, where the wet brush had touched.
+She looked at the table instead. A palm leaf lay in front of the empty seat. A stylus rested beside it, and the imprints on the leaf was still dark. Smaran had been writing when he stopped. But the leaf in front of him was blank. There was only a faint imprint on the wood beneath it, where the stylus had carved on the leaf.
 
 He had not been writing on that leaf. He had been writing on another one, and it was not here.
 
@@ -121,7 +127,7 @@ He had not been writing on that leaf. He had been writing on another one, and it
 
 "No, Highness. The guards would not let us. They only broke the door and looked."
 
-She bent over the old man's hands. They were stained to the second knuckle, as they had always been. Close to his fingers, the air had a faint bitter smell. It was not ink. It was not neem. She breathed it in once and stood up. Whatever it was, she did not want to know it was there.
+She bent over the old man's hands. They were stained to the second knuckle, as they had always been. Close to his fingers, the air had a faint bitter smell. It was not preservative fluid. It was not neem. She breathed it in once and stood up. Whatever it was, she did not want to know it was there.
 
 She had known Smaran all her life. When she was nine, he had shown her that the old ledgers were wrapped in cloth soaked in neem oil, to keep the silverfish away. He had let her sit on this floor for whole afternoons, reading old records the way other children listened to stories. She remembered the weight of the bundles in her lap. She remembered that he never once told her to be quiet.
 
@@ -142,6 +148,8 @@ She knew which leaf it had been. It was the one at the very top, before the name
 "Yes, Highness."
 
 She told the guards nothing about the leaf. She was not sure why.
+
+![Vaanathi visits Smaran's room](01_02_SmaranDeath.jpg)
 
 ## IV
 
@@ -233,6 +241,9 @@ Vaanathi ate. The curd was cool and sour. It was the first thing all day that ta
 
 "I am very good company at all times," said Nila. "Crises just make it easier to notice."
 
+![Vaanathi and Nila talk about the evening](01_03_Nila_Vaanathi.jpg)
+
+
 ## VI
 
 Vaanathi went back that night, alone, with a small oil lamp. She told nobody, not even Nila.
@@ -255,8 +266,10 @@ She stood in the empty corridor for a long time. The lamp shook in her hand. She
 
 The wax had been sealed at dusk. The guards had left at dusk. Nobody had come down this corridor since. Yet someone had stood here, in the dark, with a fine point and steady hands. They had left their mark beside the king's own.
 
+![Vaanathi sees the symbol](01_06_Vaanathi_Sees_Seal.jpg)
+
 Whatever the court had decided to call this, it was not finished.
 
 Far off, near the river gate, a bell began to ring. It was the signal for a visitor. The southern scholar had arrived.
 
-Vaanathi cupped her hand around the flame and went to meet him.
+Vaanathi cupped her hand around the flame and went to see the arrival or whatever it meant to be.

@@ -25,6 +25,6 @@ He thought of Vaanathi. She had been a girl who sat on this floor for whole afte
 
 There was a soft scrape from the wall behind the shelves. It was the old service door. Everyone believed it had been bricked shut.
 
-Smaran did not turn around. He was not a brave man. He picked up his brush and kept writing, slowly, in his best hand.
+Smaran did not turn around. He was not a brave man. He picked up his wooden stylus and kept writing, slowly, in his best hand.
 
 Behind the shelves, a hand rested on an iron ring. Whoever it belonged to was in no hurry at all.

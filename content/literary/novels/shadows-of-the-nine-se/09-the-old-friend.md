@@ -129,6 +129,8 @@ It was narrow and deep. A slim pillar stood at its mouth, grey with age, like a 
 
 She went in first. He followed. The alcove was no wider than a grain bin. When he stepped in behind her, his shoulder was a hand's breadth from hers, and the air between them seemed to thicken.
 
+![Vaanathi and Sancharan at the Alcove](04-02-vaanathi-alcove.jpg)
+
 It was almost midnight. She had a plan, and the plan was this. At the burning ground that morning she had noticed Ratnan standing apart from the crowd, white-faced, with a look she knew. It was the look of someone who has said something he regrets. Later, in the archive, when she spoke aloud of the sky-tower, he had gone very still.
 
 Then the minister had known about it, the next morning, before she told him.

@@ -254,6 +254,8 @@ Her mother caught her on the stairs.
 
 Empress Manasa had come down alone, without attendants, one hand pressed to the wall. She was not a woman who ran. She had never in her life been seen to hurry. But she reached the landing before Vaanathi could escape, and caught both her hands, and held them against her own chest as though she were warming them.
 
+![Vaanathi's Parents](06-01-vaanathi-parents.jpg)
+
 "Say you will stay in your rooms," she said.
 
 "Amma."

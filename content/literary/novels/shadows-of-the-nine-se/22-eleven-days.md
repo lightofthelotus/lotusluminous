@@ -205,6 +205,8 @@ She put her thumb on the dip, at the left. She pressed. For a moment, nothing.
 
 Then there was a small, dry click. The whole slab shifted, a bare finger's width, as though it had been waiting. It rocked. Underneath it, a narrow dark hollow opened in the floor.
 
+![The Threshold Secret](13-02-threshold-secret.jpg)
+
 Ratnan gave a faint cry.
 
 She slid the stone aside. It moved easily on a rail of brass. In the hollow beneath, wrapped in a square of oiled cloth, lay a small clay box.
@@ -230,6 +232,8 @@ She did not know that she was crying until Ratnan, standing quiet by the door, h
 She put the shell and the tamarind carefully into her sash. She untied the cord on the leaves.
 
 It was a long letter. It was in Smaran's own hand, small and neat. The ink was fresh. The last line had been written, she thought, on the last night of his life.
+
+![Smaran's Last Letter](13-03-dead-mans-floor.jpg)
 
 *My dear girl,*
 

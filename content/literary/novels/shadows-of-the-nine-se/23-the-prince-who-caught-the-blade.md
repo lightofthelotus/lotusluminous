@@ -213,6 +213,8 @@ It was not on the hilt. It was on the blade itself, the sharp part, the part tha
 
 The silence in the hall was total.
 
+![The Prince Catches the Blade](14-07-dinner-attack.jpg)
+
 Then Kanaka shrieked. A man fell backwards over his table. Guards poured down the aisle. The thin young servant did not move. He stood where he was, with his empty hand still half-raised, and the same quiet smile on his lips.
 
 "Take him," said Veeran. He had not raised his voice. He sounded merely a little tired. "Take him alive. I would like to know who sent him."

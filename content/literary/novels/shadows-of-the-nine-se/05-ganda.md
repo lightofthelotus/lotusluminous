@@ -31,6 +31,8 @@ It was a crow. It came down from the roof of the gate without a sound and landed
 
 The yard went silent. Then one of the younger guards made a noise that was nearly a laugh and turned it into a cough.
 
+![Sancharan arrives at the river gate and the drama follows](01_04_SancharanEntry.jpg)
+
 "That," said the officer, "is a bird."
 
 "She is called Iruli," said the tall man. "She does not take orders. I should say that I have also given up."
@@ -96,7 +98,11 @@ Iruli settled on his shoulder. Her claws were light. She had not sat on him for 
 
 Iruli clicked her beak. She had always been difficult to argue with.
 
+![Iruli and Sancharan talk](01_05_Sancharan_Iruli.jpg)
+
 The city lay around them in the dark. Anantapuram. When he had last come this way, it had been a hill with a well on top. Now it had walls and towers and a market that never slept. The people had built it themselves, one brick at a time, and they had done it in the full knowledge that every brick would fall. He had never understood why that made him tender. It did.
+
+![Anantapuram Palace, seen from the river gate](00_02_Palace_Front.jpg)
 
 He had not meant to come. Few of his kind went among mortals. It had been agreed long ago that they would not. But three nights ago, a name had been spoken in a sealed room. It was the name he had given to a king, in this very place, before the first stone of the palace was laid. *Sancharan. The one who walks.* It had been written in a founder's sealed instructions, to be used only if the line was in danger.
 

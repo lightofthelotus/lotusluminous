@@ -105,6 +105,8 @@ The great hall had no roof. It had never needed one. Overhead the violet sky sto
 
 Vaanathi had seen it once, in haste, in fear. She had not seen it filled.
 
+![Council of Nine](09-02-council-of-nine.jpg)
+
 Three were taken already. The first was a man in a saffron-gold cloth. He sat on the gold seat with one leg crossed over the other, and he did not look at any of them. His skin was warm gold-brown. His dark hair fell past his shoulders. A faint light seemed to rest on him, a soft warm glow, like the edge of a lamp. He was tapping one finger on the arm of his throne.
 
 The second was young and slight, in a pale tan wrap. He sat in the green seat with his feet drawn under him. His hands were moving in the air as he talked to nobody, shaping something quick and complicated. His eyes were as sharp as a bird's.

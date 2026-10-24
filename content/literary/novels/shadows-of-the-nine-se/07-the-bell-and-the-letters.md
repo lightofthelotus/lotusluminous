@@ -37,6 +37,8 @@ She lifted the lamp.
 
 The marks were the wheel. It was drawn again and again, nine times, all the way round. Every one of them had the wedge missing at the bottom.
 
+![The Symbol on the Treasury Bell](02_06_TreasuryBell_Symbol.jpg)
+
 "Nine," said Sancharan, very quietly.
 
 "Nine of what?"
@@ -106,6 +108,8 @@ When she was small, there had been a game. The two of them had a high shelf. It 
 *Above the lamp-beam,* he used to say. *Where nobody looks up.*
 
 She dressed in the dark and went out into the passage. Nila was sitting on the floor against the wall opposite her door, with her knees drawn up and her chin on her arms.
+
+![Vaanathi Meets Nila](03_02_Vanathi_Meets_Nila.jpg)
 
 "You do that too often," said Vaanathi, in a whisper.
 
@@ -188,6 +192,8 @@ The crow said nothing, in the way that crows do.
 ## III
 
 They read the letters in the scribes' hall, by the light of the great lamp. Sancharan lit it with a spark struck from a flint he had apparently been carrying all along. Vaanathi sat on the bottom rung of the ladder with the red cloth open on her knees.
+
+![Smaran's Letters](03_03_SecretRoom.jpg)
 
 There were three leaves.
 

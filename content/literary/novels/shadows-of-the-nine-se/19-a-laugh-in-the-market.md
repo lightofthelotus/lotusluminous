@@ -59,6 +59,8 @@ He had been called many things. A storm. A reckoning. The slow one. A shadow tha
 
 She was perhaps twenty-three. She was not tall and she was not thin. She had a round face, brown-gold in the sun, with a wide mouth and a dimple on one side. Her hair was long, dark and wavy, and it hung loose down her back, with a small white flower pinned behind one ear. She wore a mustard-gold band across her chest, tied with a twist at the front, and a deep red wrap about her waist. There were green glass bangles on her wrists. Her feet were bare. A pair of small gold hoops swung at her ears. She looked at him with bright, shameless, amused eyes, with one hand on her hip.
 
+![Market Encounter](12-02-market-encounter.jpg)
+
 "Have you eaten?" she said.
 
 "I do not eat."

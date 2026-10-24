@@ -79,6 +79,8 @@ She was angry for about as long as it takes to draw a breath. Then she gave the 
 
 They burned Smaran at noon, on the river bank below the city, where the ground was bare of grass and the wind came off the water.
 
+![Smaran's Memorial](02_01_SmaranMemorial.jpg)
+
 The pyre was made of sandalwood and mango. Kings were burned on sandalwood. A record-keeper was not, and Vaanathi knew who had paid for it. She saw her father at the front, in plain white, with his hands joined. He did not look at her. He looked at the wood.
 
 A boy of about ten stood beside the pyre with a torch. He was Smaran's sister's grandson, the only family the old man had left. He held the torch in both hands. The flame shook. When the priest nodded, he put it to the wood and then stepped backward, very fast, and bumped into the back of a courtier's knees.
@@ -130,6 +132,8 @@ She had no answer for that. It was, she realised, the first kind thing she had h
 ## III
 
 Her father's summons came before evening. He received her in the small garden behind the council hall, on a bench beneath a champak tree. He had sent his attendants away. That in itself was a warning.
+
+![Anantaraja and Vaanathi Meet](02_02_KingVaanathiMeet.jpg)
 
 "Sit," said Anantaraja.
 
@@ -245,6 +249,8 @@ She did not ask why. She was, she found, afraid of the answer.
 
 The archive had been put back in order by midafternoon. The guards had gone. Ratnan had swept the floors himself, with his sleeves rolled to the elbow, as though it were a pious duty.
 
+![Vaanathi Enters Archive Room](02_03_ArchiveRoom_Entry.jpg)
+
 "I did not know where else to put my hands," he said, when Vaanathi came in. "Highness. Sir."
 
 Sancharan inclined his head. Ratnan seemed unable to look at him. Iruli had settled on the top of the door frame, and each time the young man passed beneath her he ducked.
@@ -259,9 +265,13 @@ It took an hour to haul them out. They were wrapped in oiled cloth and tied with
 
 Vaanathi untied the first. Sancharan took the second. For a long while neither of them spoke. The leaves were cramped with columns of figures, in a script that grew steadily more formal the further back they went. Grain in. Grain out. Salaries. Tribute from the hill chiefs. A fee to a bridge builder. A fine on a drunk elephant keeper.
 
+![A Moment Shared in the Archive Room](02_04_Archiveroom_Accident.jpg)
+
 She saw it first.
 
 It was a tick mark. That was all. It sat in the margin beside a single line, and she nearly passed it over. But the tick was not a tick. It was a small round shape, drawn very neatly, with spokes inside it and a wedge cut out at the bottom.
+
+![The Symbol on the Manuscript](02_05_SymbolManuscript.jpg)
 
 "Here," she said.
 

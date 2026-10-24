@@ -29,6 +29,8 @@ Vaanathi looked up. The sun was low in the east, red and flat. The light on the 
 
 She crossed the court. At the far side, near the kitchens, stood a wooden bench where the water-carriers rested. It had been there for years. It was grey and splintered, and the carriers had worn a dip into the middle of the seat. This morning it was white with a fine soft mould. The legs had gone black. One had cracked through. It leaned like a drunk man against the wall.
 
+![The Aged Bench](07-01-third-bench.jpg)
+
 "It was new last month," said a girl behind her. "I helped to carry it."
 
 A little way off, in the herb garden, someone cried out. She ran. Kesavan was standing in the middle of his beds with his round face stricken. The row of ginger he had planted five days ago had come up, flowered, and gone to seed in the space of a night. A rank of tulsi plants, which should have been knee-high, stood as tall as her waist, black and dry. A snail, large and old, crawled slowly across the path. Its shell was cracked down the middle.

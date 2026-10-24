@@ -9,6 +9,8 @@ description: Chapter Five of Shadows of the Nine, a mythological fantasy novel.
 
 The sky-tower stood at the far end of the east wall, where the palace gave way to scrub and rubble. Nobody went there. A track ran up to it, but weeds had eaten the track. A hundred paces off, it looked like a broken tooth.
 
+![Walk By The Sky Tower](03_04_NortherWallWalk.jpg)
+
 Close up, it was larger than Vaanathi remembered. She had seen it from her window all her life. She had never stood at its foot. The base was a block of pale stone as wide as a house. Above that, the walls climbed straight up, cracked and grey, hung with creeper from top to bottom. The leaves were dark and glossy. They did not move in the morning wind.
 
 "The vines are too neat," said Sancharan.
@@ -165,6 +167,8 @@ Sancharan had not moved. He stood by the sighting-table, with the dawn behind hi
 
 "No." Sancharan looked at the wall for a moment more. Then he walked slowly across the room and stopped in front of the carving. He did not touch it. His hand rose. It hovered a finger's width from the stone and stayed there, and a muscle in his jaw moved.
 
+![The Symbol on the Sky Tower](03_05_SkyTower.jpg)
+
 "It is very old," he said.
 
 "The oldest thing in the palace, I think."
@@ -232,6 +236,8 @@ It was a reasonable answer. It was an entirely reasonable answer. She told herse
 She took the vial. It was cool and light. She slid it into the fold of her waist cloth with the three leaves.
 
 When they came to the trapdoor, she looked back. The old man stood in the middle of the round room in the full gold of the dawn. He had put one hand on the carved wall. His lips were moving. She could not hear what he said.
+
+![Viyamban at the Symbol on the Sky Tower](03_06_Viyamban_Skytower.jpg)
 
 "He prays," said Vaanathi.
 

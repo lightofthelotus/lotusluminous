@@ -299,6 +299,8 @@ She took it from him. Her fingers were stiff. She read the first line.
 
 The second line was the same. And the third. And the fourth. They ran down the cloth in rows. *My dear girl. My dear girl. My dear girl.* Each one was in Smaran's hand. Each was a little better than the one before. She followed them down. The slant grew surer. The loops grew rounder. The final lines were so perfect that she could have wept.
 
+![Viyamban's Forged Cloth](07-02-viyambans-scroll.jpg)
+
 Near the bottom there were two more words. They were written in a different hand, in a looser and a gentler script, as if the writer had set down his pen and spoken half aloud.
 
 *Forgive me.*

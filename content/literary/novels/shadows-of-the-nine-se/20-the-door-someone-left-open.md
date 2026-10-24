@@ -115,6 +115,8 @@ He took the anchor in both hands and drove it into the stone.
 
 It did not hurt. That was what he remembered. It was a vast, clean, silent thing. Nine rings of black iron slid down over his fingers. They were warm. They fitted exactly. They closed round the place where his anchor lay, as a hand closes round a flame, and held it down. A clean heavy silence fell. The grey fire stopped.
 
+![The Rings Turn](12-01-the-rings-turn.jpg)
+
 It did not fade. It stopped, like a river meeting a dam.
 
 And everywhere in the world, on every wall and gate and plate and leaf, the nine-spoked wheel cracked. A wedge broke clean out of every circle, at the sixth hour, all at the same instant. It fell away as a flake of dry clay falls from a wall. In the great court, on the inlaid floor, a wedge of dark stone dropped into nothing, and a thread of grey rose out of the gap. It was only a single thread. Nobody saw it but him.
@@ -280,6 +282,8 @@ It was cold. The iron was cold, dull and heavy and strange. She felt it hum, ver
 And nothing happened.
 
 Nothing at all. The rings did not flare. The note thinned and sank. Beneath her palm, the skin of his hand was warm. She could feel the long bones of it, the tension, the faint pulse. It was only a hand. It was a man's hand, that had shaken, and held a dying woman, and carried a splinter of the end of the world.
+
+![Sancharan and Vaanathi](15-04-sancharan-vaanathi.jpg)
 
 "Ten breaths," said Sancharan. His voice was barely a thread.
 

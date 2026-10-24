@@ -117,6 +117,8 @@ He was not tall. That was the first strange thing. He was shorter than Sancharan
 
 He did not turn when they came up. He was looking at the stone.
 
+![Lohitan's First Sight](08-04-Lohitan-first-sight.jpg)
+
 "You took your time," he said.
 
 His voice was deep and scratchy. It sounded like gravel sliding down a slope.

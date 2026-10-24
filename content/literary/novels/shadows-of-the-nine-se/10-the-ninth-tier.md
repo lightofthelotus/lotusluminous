@@ -99,6 +99,8 @@ The stepwell stood at the bottom of the slope. She had passed it on festival day
 
 The steps began at the south side. They went down in broad flights, nine levels in all, each ending in a stone landing with a pillared gallery on three sides. The pillars were thick and square, carved with the faded shapes of animals. On every landing, the air was a little colder.
 
+![Amuthakulam](05-01-stepwell-descent.jpg)
+
 She went down first. He followed one landing behind, as he had in the tower. Iruli rode on his shoulder, silent, and her yellow eye caught the light.
 
 At the second landing, the sounds of the night went out. There were no frogs. There were no insects. Only the soft scrape of sandals on stone.
