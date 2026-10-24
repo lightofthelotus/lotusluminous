@@ -31,9 +31,9 @@ When Maadan finished, the emperor tilted his head a little.
 
 It was a fair answer. It was not what Vaanathi had been about to say.
 
-She wanted to open the crown's grain stores that afternoon. She wanted to feed those families now. An officer would ride out, look at the water, and write a report. The report would go to a clerk. The clerk would send it to another clerk. By then the families would be eating roots.
+She wanted to open the crown's grain stores that afternoon. She wanted to feed those families now. An officer would ride out, look at the water, and write a report. The report would go to a clerk. The clerk would send it to another clerk. By then the families would have starved already for a week.
 
-She drew a breath. The court knew the princess was about to tell what she thought. Their eyes moved to her all at once. Yet, even before whe could open her lips to utter her thoughts as words, she was interrupted.
+She drew a breath. The court knew the princess was about to tell what she thought. Their eyes moved to her all at once. Yet, even before she could open her lips to utter her thoughts as words, she was interrupted.
 
 "Your Grace need not trouble the princess with embankments," said Minister Charudatta.
 

@@ -31,4 +31,28 @@
       if (e.key === "Escape") close();
     });
   });
+
+  // Drop-down for read aloud / zoom / bookmarks (see .tools-group in read.css).
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.getElementById("toolsToggle");
+    const group = document.getElementById("toolsGroup");
+    if (!toggle || !group) return;
+
+    function setOpen(open) {
+      group.classList.toggle("is-open", open);
+      toggle.classList.toggle("is-open", open);
+      toggle.setAttribute("aria-expanded", String(open));
+    }
+
+    toggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      setOpen(!group.classList.contains("is-open"));
+    });
+    document.addEventListener("click", (e) => {
+      if (!group.contains(e.target) && !toggle.contains(e.target)) setOpen(false);
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") setOpen(false);
+    });
+  });
 })();

@@ -222,9 +222,14 @@
         pageState = { currentPage: page, totalPages };
         pageJump.update(page, totalPages);
         if (onNavigate) onNavigate();
+        document.dispatchEvent(new CustomEvent('v2:pagechange', { detail: { page, totalPages } }));
       },
       isActive: () => true,
     });
+    // Handle for js/tts.js (read aloud), which drives page turns itself.
+    window.V2Pager = pagerController;
+    pagerController.hasNextChapter = !!onOverflowNext;
+    document.dispatchEvent(new CustomEvent('v2:pagerready'));
   }
 
   async function renderNovel(params, slug) {

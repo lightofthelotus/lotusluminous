@@ -64,6 +64,19 @@
         <span class="page-jump-total" id="pageJumpTotal">/ 1</span>
       </div>
 
+      <!-- Read aloud, zoom and bookmarks. Inline on desktop; on phones they
+           fold into a drop-down opened by the glowing #toolsToggle below. -->
+      <div class="tools-group" id="toolsGroup">
+      <button type="button" class="float-btn tts-btn" id="ttsToggle" aria-pressed="false" aria-label="Read aloud"
+        title="Read aloud">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5H4Z" />
+          <path d="M15.5 9a4 4 0 0 1 0 6" />
+          <path d="M18 6.5a7.5 7.5 0 0 1 0 11" />
+        </svg>
+      </button>
+
       <div class="zoom-controls" id="zoomControls">
         <button type="button" class="float-btn zoom-btn" id="zoomOutBtn" aria-label="Zoom out (smaller text)"
           title="Zoom out">
@@ -105,6 +118,20 @@
           <p class="bookmark-empty" id="bookmarkEmpty">No bookmarks yet — up to 5 per book.</p>
         </div>
       </div>
+      </div>
+
+      <button type="button" class="float-btn tools-toggle" id="toolsToggle" aria-haspopup="true"
+        aria-expanded="false" aria-controls="toolsGroup" aria-label="Reading tools" title="Reading tools">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <line x1="4" y1="7" x2="20" y2="7" />
+          <line x1="4" y1="12" x2="20" y2="12" />
+          <line x1="4" y1="17" x2="20" y2="17" />
+          <circle cx="9" cy="7" r="2" fill="currentColor" />
+          <circle cx="15" cy="12" r="2" fill="currentColor" />
+          <circle cx="8" cy="17" r="2" fill="currentColor" />
+        </svg>
+      </button>
     </nav>
   </div>
 
@@ -130,6 +157,8 @@
   <script src="js/markdown.js"></script>
   <script src="js/paginate.js"></script>
   <script src="js/read.js"></script>
+  <script src="js/pronunciations.js"></script>
+  <script src="js/tts.js"></script>
 </body>
 
 </html>
