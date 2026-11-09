@@ -7,15 +7,15 @@ description: Chapter Three of Shadows of the Nine, a mythological fantasy novel.
 
 ## I
 
-Vaanathi woke before dawn with brick dust in her mind. She dressed in five breaths and went straight back to the reading chamber.
+Vaanathi woke before dawn with stone dust in her mind. She dressed in five breaths and went straight back to the reading chamber.
 
 She was too late. Three masons were already at work.
 
-They had set up a plank frame in front of the shelves. A boy stirred a bucket of wet lime. One man laid a fresh course of brick across the old dry stack, tapping each one into place with the handle of his trowel. The wall behind the shelves was already two hands thicker than it had been the night before.
+They had set up a plank frame in front of the shelves. A boy stirred a bucket of sunnambu, the lime paste builders ground with jaggery and myrobalan until it set as hard as the rock. One man laid a fresh course of rough black stone across the old dry stack, wedging each piece into place and tapping it down with a wooden mallet. The wall behind the shelves was already two hands thicker than it had been the night before.
 
 "Stop," she said.
 
-The men looked round. The one with the trowel gave her a half bow and went on tapping.
+The men looked round. The one with the mallet touched his forehead and went on tapping.
 
 "I said stop."
 
@@ -29,11 +29,11 @@ The men looked round. The one with the trowel gave her a half bow and went on ta
 
 He had no answer. He looked at his boy, who looked at the bucket.
 
-Vaanathi walked up to the new brickwork and put her hand on it. The lime was wet and cold. It would harden by noon. After that, to reach what lay behind the wall, you would need a hammer and a day.
+Vaanathi walked up to the new stonework and put her hand on it. The paste was wet and cold. It would harden by noon. After that, to reach what lay behind the wall, you would need a hammer and a day.
 
-"Put down the trowel," she said. "Please do it now. If you want to argue with the minister, argue with him. I will argue with you if you lay one more brick."
+"Put down the mallet," she said. "If you want to argue with the minister, argue with him. I will argue with you if you lay one more stone."
 
-She did not raise her voice. She had learned long ago that a loud princess is only noisy. A quiet one is worth listening to. The mason put down the trowel.
+She did not raise her voice. She had learned long ago that a loud princess is only noisy. A quiet one is worth listening to. The mason put down the mallet.
 
 "Thank you. Now. Do you know what is behind this wall?"
 
@@ -45,7 +45,7 @@ She did not raise her voice. She had learned long ago that a loud princess is on
 
 "Show me."
 
-It took the three of them a quarter of an hour to lift out the new bricks and then the old. Vaanathi stood with her arms folded and watched her own hands shake. She told herself it was the early cold.
+It took the three of them a quarter of an hour to lift out the new stones and then the old. Vaanathi stood with her arms folded and watched her own hands shake. She told herself it was the early cold.
 
 When the hole was wide enough, she took a lamp and stepped through.
 
@@ -67,7 +67,7 @@ She climbed back up. Sancharan was standing in the chamber.
 
 "What do you mean?"
 
-"Nothing yet." He looked past her into the dark of the stair. Then he turned to the masons. "Please do not lay any more bricks. Leave the opening as it is. Post a guard from the princess's own household. Not the minister's."
+"Nothing yet." He looked past her into the dark of the stair. Then he turned to the masons. "Please do not lay any more stones. Leave the opening as it is. Post a guard from the princess's own household. Not the minister's."
 
 "That is not yours to order," said Vaanathi.
 
@@ -81,13 +81,15 @@ They burned Smaran at noon, on the river bank below the city, where the ground w
 
 ![Smaran's Memorial](02_01_SmaranMemorial.jpg)
 
+He had waited nearly two days for it. The priests would not light a fire while the ganda held, so Smaran had lain through the night in a stone trough in the cool storeroom beneath the archive, covered in a thick syrup of medicated oils, camphor and sandalwood. It kept away the smell, the flies and the rot. When the ganda cleared at dawn, the pyre was built.
+
 The pyre was made of sandalwood and mango. Kings were burned on sandalwood. A record-keeper was not, and Vaanathi knew who had paid for it. She saw her father at the front, in plain white, with his hands joined. He did not look at her. He looked at the wood.
 
 A boy of about ten stood beside the pyre with a torch. He was Smaran's sister's grandson, the only family the old man had left. He held the torch in both hands. The flame shook. When the priest nodded, he put it to the wood and then stepped backward, very fast, and bumped into the back of a courtier's knees.
 
 The courtier did not mind. Nobody did. Vaanathi felt her throat close.
 
-Her mother stood on the other side of her, a small woman in a plain white wrap with a coil of dark hair tied low at the neck. Empress Manasa had been crying quietly for some time. She was not a loud person. She cried the way she did everything, without fuss, and then she took Vaanathi's hand without looking and held it.
+Her mother stood on the other side of her, a small woman in a silk wrap of deep madder red, wearing her queen's jewels, with a coil of dark hair tied low at the neck. Empress Manasa had been crying quietly for some time. She was not a loud person. She cried the way she did everything, without fuss, and then she took Vaanathi's hand without looking and held it.
 
 "You went back last night," she said. It was barely a whisper.
 
@@ -97,23 +99,23 @@ Her mother stood on the other side of her, a small woman in a plain white wrap w
 
 "I went with a scholar."
 
-"That is worse." She squeezed Vaanathi's fingers. "Be careful, my dear. You were always the one who walked into rooms. Your father and I stood outside and held our breath."
+"That is worse." She squeezed Vaanathi's fingers. "Be careful, my dear. You were always the one who walked into rooms. Your father and I stood outside and waited."
 
 "I know, Amma."
 
 "I do not think you do." Her mother's eyes went to the pyre and stayed there. "Not yet."
 
-The flames climbed. The smoke went straight up and then bent east, towards the flooded fields.
+The flames climbed. The oils that had kept him whole now fed the fire, and it took him quickly. The smoke went straight up and then bent east, towards the flooded fields.
 
 She looked for Sancharan. He had stayed at the back of the crowd, by himself, on a patch of ground a little higher than the rest. He stood with his hands at his sides and his face turned to the fire. Iruli was on a thorn bush beside him, the one dark thing in a pale crowd.
 
 She saw him do something odd.
 
-It was nothing much. The fire had burned down enough that the wood began to settle. In that moment, when the logs shifted and sparks flew, the flames did not quite move as flames should. They hung in the air a heartbeat longer. The sparks rose, and rose, and fell very slowly.
+It was nothing much. The fire had burned down enough that the wood began to settle. In that moment, when the logs shifted and sparks flew, the flames did not move as flames should. They hung in the air a heartbeat longer. The sparks rose, and rose, and fell very slowly.
 
 Then a cough from the crowd broke the stillness, and the fire went back to its ordinary quick business.
 
-She told herself it was the smoke. She told herself that she had been up all night. She told herself a great many sensible things, and watched him all the while.
+She told herself it was the smoke. She told herself she had been up all night. She told herself a great many sensible things, and watched him all the while.
 
 When the pyre had burned to red ash, the priests carried water from the river to put it out. The crowd began to scatter. She turned, and found him standing close behind her.
 
@@ -143,13 +145,13 @@ She sat. The champak scent was heavy in the warm air. Somewhere a bird gave a si
 
 "Yes."
 
-"You broke the seal."
+"You broke the royal seal."
 
-"I had your leave."
+"You told me to go, Father."
 
-"You had my leave to see it. You did not have leave to break it." He said it mildly. "I have not decided how angry to be."
+"I told you to see the chamber. I did not tell you to open it." He said it mildly. "Be glad I am slow to anger."
 
-"You may decide when you like."
+"I am glad, Father. You may take your time."
 
 A very small crease appeared between his brows. In another man it might have been amusement.
 
@@ -161,9 +163,9 @@ She considered the question honestly.
 
 "Why not?"
 
-"He does not carry anything. A scholar carries a bag of leaves and an ink pot and a list of complaints."
+"He does not carry anything. A scholar carries a bundle of palm leaves, an iron stylus, a roll of silk and a list of complaints."
 
-"That is a very reasonable observation." Her father looked at the champak, not at her. "He is a guest of the throne. He will have the freedom of the palace. I wish him to see what he needs to see."
+"That is a sound observation." Her father looked at the champak, not at her. "He is a guest of the throne. He will have the freedom of the palace. I wish him to see what he needs to see."
 
 "Yes, Father."
 
@@ -207,15 +209,15 @@ The first thing Sancharan asked to see was the river.
 
 She took him to the embankment below the east wall, where a flight of broad steps went down to the water. The light was gold and low. Fishermen had pulled their boats high up the bank and sat mending nets in silence. Nobody sang.
 
-On the way they passed the water-clock in the lower court. It was a copper bowl with a hole in the bottom, floating in a larger jar, and it had been used to mark the hours since her great-grandfather's day. A boy sat beside it on a stool, ready to strike the gong when the bowl sank.
+On the way they passed the water-clock in the lower court. It was a copper bowl with a small hole in the bottom, floating in a larger jar of water. When the water crept in and the bowl sank, one nazhigai had passed, a sixtieth part of the day. A boy sat beside it on a stool. Each time the bowl went under he struck the gong, fished it out, emptied it, set it afloat again and dropped a pebble into the tray at his knee. The pebbles were counted from dawn, and at the next dawn the tray was emptied and the count began again. The clock had kept the day's hours since her great-grandfather's time.
 
 Sancharan stopped. He watched the bowl for a while.
 
 "It is slow," he said.
 
-"It was set at dawn."
+"The count began at dawn."
 
-"Then it was set well. But it is slow."
+"Then it was begun well. But it is slow."
 
 The boy stood up quickly. "It is not, sir. It is exactly right."
 
@@ -243,15 +245,15 @@ He went still. Then he took his arm away. He did it gently, but at once, as thou
 
 She stood on the step with her hands still half raised. She had touched a great many people in her life. Ministers, servants, her mother, Nila. Not one of them had ever made her feel that she had come too close to a fire.
 
-She did not ask why. She was, she found, afraid of the answer.
+She did not ask why. She was afraid of the answer.
 
 ## V
 
-The archive had been put back in order by midafternoon. The guards had gone. Ratnan had swept the floors himself, with his sleeves rolled to the elbow, as though it were a pious duty.
+The archive had been put back in order by midafternoon. The guards had gone. Ratnan had swept the floors himself, with his sleeves rolled to the elbow, as though sweeping were the only way left to mourn.
 
 ![Vaanathi Enters Archive Room](02_03_ArchiveRoom_Entry.jpg)
 
-"I did not know where else to put my hands," he said, when Vaanathi came in. "Highness. Sir."
+"I did not know where else to put my hands," he said, when Vaanathi came in. "Highness. Scholar."
 
 Sancharan inclined his head. Ratnan seemed unable to look at him. Iruli had settled on the top of the door frame, and each time the young man passed beneath her he ducked.
 
@@ -269,7 +271,7 @@ Vaanathi untied the first. Sancharan took the second. For a long while neither o
 
 She saw it first.
 
-It was a tick mark. That was all. It sat in the margin beside a single line, and she nearly passed it over. But the tick was not a tick. It was a small round shape, drawn very neatly, with spokes inside it and a wedge cut out at the bottom.
+It was a circle mark. That was all. It sat in the margin beside a single line, and she nearly passed it over. But it was no ordinary circle. It was a small round shape, drawn very neatly, with spokes inside it and a wedge cut out at the bottom.
 
 ![The Symbol on the Manuscript](02_05_SymbolManuscript.jpg)
 
@@ -287,7 +289,7 @@ She read it aloud. "Paid to the House of the Tower. Oil, nine measures. Rice, ni
 
 "And the latest?"
 
-She went to the newest bundle. It was in Smaran's own hand, the beautiful clear letters she had known all her life. She found the current year. She found the entry. It was there, with the mark beside it. *Paid to the House of the Tower.* And it had been paid, she saw, only three months ago.
+She went to the newest bundle. It was in Smaran's own hand, the beautiful clear letters she had known all her life. She found the current year. She found the entry. It was there, with the mark beside it. Paid to the House of the Tower. And it had been paid, she saw, only three months ago.
 
 The tower was not empty. Someone had been living there. Someone had been fed from the crown's own purse for as long as the palace had stood, under a mark that nobody remembered.
 
@@ -307,15 +309,17 @@ The tower was not empty. Someone had been living there. Someone had been fed fro
 
 She went on reading. Beside the latest entry, in the margin, in the same neat hand, there were three small words. They were not part of the account. They were squeezed into the corner, as though written in haste.
 
-*Ask the bell.*
+Ask the bell.
+
+The grooves were already dull and grey with handling. He had cut them days ago, long before that afternoon's leaf.
 
 Sancharan read them over her shoulder. For a moment he said nothing. When he spoke, it was so low that only she could hear.
 
-"There are two kinds of men who leave messages in margins, Princess. Men who wish to be understood. And men who wish only to be understood by one particular person."
+"Scholars read many manuscripts, and they write them too. There are two kinds who leave messages in margins, Princess. Those who wish to understand something and mark it for later. And those who wish only to be understood by one particular person. Either way, they leave a note only when they have found something worth returning to."
 
 "Which was he?"
 
-"I think," he said, "that he was writing to you."
+"I think," he said, "that Smaran was the second kind. And that the one person he meant to reach is standing beside me."
 
 She looked at the words until the letters ran together. Then she shut the ledger with great care and got to her feet.
 
