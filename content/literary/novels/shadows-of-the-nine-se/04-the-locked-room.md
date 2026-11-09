@@ -9,7 +9,7 @@ description: Chapter One of Shadows of the Nine, a mythological fantasy novel.
 
 ## I
 
-The petitioner had been talking for an hour.
+The petitioner had been talking for a long time now.
 
 Vaanathi stopped listening when he said his flooded fields felt like a man buried alive. She understood him perfectly well. She simply could not do anything about it.
 
@@ -71,7 +71,7 @@ For a moment there was no sound at all.
 
 Then the whispers started. They were too low to trace to any one mouth. Shadow. Bad hour. Old Bhargava the treasurer had feared the sky for years. Now he said it plainly, to nobody in particular. "The season has turned wrong."
 
-Vaanathi did not believe in seasons that turned wrong. She did not believe in shadows. But she watched grown men go grey. These men led armies and taxed whole provinces. An hour ago they had been arguing about embankments. Now they were afraid of a word.
+Vaanathi did not believe in seasons that turned wrong. She did not believe in shadows. But she watched grown men go grey. These men led armies and taxed whole provinces. Moments ago they had been arguing about embankments. Now they were afraid of a word.
 
 Fear does not need belief, she thought. It only needs a story old enough that nobody remembers who told it first.
 

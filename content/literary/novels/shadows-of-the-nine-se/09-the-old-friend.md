@@ -17,7 +17,7 @@ The palace physician kept his rooms behind the kitchens, where the smell of stea
 
 She took the vial from her waist and set it on his table. She had not meant to be so quick about it. Her hands wanted to be rid of the thing.
 
-Kesavan bent over it. He did not pick it up. He took out the stopper with two fingertips, wafted the smell towards his nose, and went still. Then he tipped one drop onto the back of his wrist and touched it with the tip of his tongue.
+Kesavan bent over it. He did not pick it up. He drew out the stopper with two fingertips, wafted the smell towards his nose, and went still. Then he tipped one drop onto the back of his wrist and touched it with the tip of his tongue.
 
 "Ah," he said.
 
@@ -45,7 +45,7 @@ Kesavan looked at her for a time. His round face was no longer comical.
 
 "So would I."
 
-"Then I will tell you something and I will deny it afterwards." He lowered his voice. "I saw the body before they covered it. His lips were not blue. His nails were not blue. A weak heart gives you that when it stops. His were pink, like a sleeper's."
+"Then I will tell you something, and I will deny it afterwards." He lowered his voice. "I saw the body before they covered it. His lips were not blue. His nails were not blue. A weak heart gives you that when it stops. His were pink, like a sleeper's."
 
 "What does that mean?"
 
@@ -67,7 +67,7 @@ Kesavan looked at her for a time. His round face was no longer comical.
 
 "You are agreeing in a way that means no."
 
-They were walking in the lower court. A thin warm rain had begun, and the paving stones had turned dark. Iruli was sitting on a gutter spout above them with her feathers puffed. She looked like a very old woman in a very bad mood.
+They were walking in the lower court. A thin warm rain had begun, and the paving stones had turned dark. Iruli sat on a gutter spout above them with her feathers puffed. She looked like an old woman in a bad mood.
 
 Sancharan walked at her left, a full pace away, with his hands behind his back. He had not touched her since the riverbank. She had begun to notice the exact width of the space he left between them.
 
@@ -87,7 +87,7 @@ Sancharan walked at her left, a full pace away, with his hands behind his back. 
 
 He did not answer.
 
-"You do not look thirty," she said. "You look very tired. And you stand as if you are holding up a wall. And that morning in the tower, when you looked at the carved wheel..." She stopped in the rain. Water ran off the edge of her cloth. "Who are you?"
+"You do not look thirty," she said. "You look tired. You carry yourself like a man who is afraid of spilling a full bowl. And that morning in the tower, when you looked at the carved wheel..." She stopped in the rain. Water ran off the edge of her cloth. "Who are you?"
 
 He stopped too. A drop of rain ran down the side of his face, and she saw that he did not blink it away.
 
@@ -111,11 +111,11 @@ She looked at him for a long moment. His face was calm. But there was something 
 
 "One day," said Sancharan, "you may wish I had not."
 
-Above them, Iruli shook out her wings with a rattle like dry leaves and sent a spray of rain down onto both their heads. It broke the moment very nicely. Vaanathi was almost grateful.
+Above them, Iruli shook out her wings with a rattle like dry leaves and sent a spray of rain down onto both their heads. It broke the moment neatly. Vaanathi was almost grateful.
 
 ## III
 
-The old colonnade ran along the north side of the inner court. At night it was a long dim tunnel of arches, each opening black and square, each pillar plain and square and weathered smooth. The right-hand wall was covered in carved panels, scenes of kings and elephants and harvests, so worn by hands and weather that they looked like melting wax.
+The old colonnade ran along the north side of the inner court. At night it was a long dim tunnel of arches, each opening black, each pillar plain and heavy and weathered smooth. The right-hand wall was covered in carved panels, scenes of kings and elephants and harvests, so worn by hands and weather that they looked like melting wax.
 
 About halfway down, between two panels, there was an alcove.
 
@@ -131,17 +131,15 @@ She went in first. He followed. The alcove was no wider than a grain bin. When h
 
 ![Vaanathi and Sancharan at the Alcove](04-02-vaanathi-alcove.jpg)
 
-It was almost midnight. She had a plan, and the plan was this. At the burning ground that morning she had noticed Ratnan standing apart from the crowd, white-faced, with a look she knew. It was the look of someone who has said something he regrets. Later, in the archive, when she spoke aloud of the sky-tower, he had gone very still.
+It was almost midnight. She had a plan, and the plan was this. At the burning ground the day before she had noticed Ratnan standing apart from the crowd, white-faced, with a look she knew. It was the look of someone who has said something he regrets. Later, in the archive, when she read out the stipend and spoke of the sky-tower, he had gone still. And by dawn the minister had known of the tower, before she told him.
 
-Then the minister had known about it, the next morning, before she told him.
-
-She had said nothing to Sancharan. She did not need to. He had simply said, in the dark of the afternoon, "Where does the under-steward go at night?" And she had said, "To the colonnade. He walks there when he cannot sleep." And he had said, "Then we will wait."
+She had said nothing of this to Sancharan. She did not need to. He had simply said, in the dim of the afternoon, "Where does the under-steward go at night?" And she had said, "To the colonnade. He walks there when he cannot sleep." And he had said, "Then we will wait."
 
 So they stood.
 
-The minutes went by. A lamp guttered in the court. Somewhere a watchman coughed. She became aware of small things. The roughness of the stone against her back. The slow pulse in her own throat. The smell of him, which was not any smell she knew. It was like rain on iron, like a deep cold cellar, like the quiet at the bottom of a well.
+The time went by. A lamp guttered in the court. Somewhere a watchman coughed. She became aware of small things. The roughness of the stone against her back. The slow pulse in her own throat. The smell of him, which was not any smell she knew. It was like rain on iron, like a deep cold cellar, like the quiet at the bottom of a well.
 
-She turned her head very slightly. He was standing with his back flat to the alcove wall and his arms crossed tight across his chest. His eyes were shut. His jaw was set. He looked like a man being very careful about something.
+She turned her head slightly. He was standing with his back flat to the alcove wall and his arms crossed tight across his chest. His eyes were shut. His jaw was set. He looked like a man being careful about something.
 
 She almost laughed.
 
@@ -149,9 +147,9 @@ She almost laughed.
 
 "Standing still."
 
-"You are pressing yourself into the wall."
+"You are pressing yourself into the stone."
 
-"There is very little wall."
+"There is little stone to press into."
 
 "Is it so terrible?" She meant to be light. It came out softer. "I do not bite."
 
@@ -161,11 +159,11 @@ His eyes opened. In the dark, they looked black.
 
 "I am not a leaf."
 
-"No." His voice dropped lower. "You are a good deal more breakable, and a good deal more bright. And I have been very careful not to ruin you."
+"No." His voice dropped lower. "You are a good deal more breakable, and a good deal more bright. And I have been careful not to ruin you."
 
-She stopped breathing.
+She went still.
 
-It was the closest he had ever come to saying it, and the farthest he had ever stood from it. The words hung in the narrow dark. Neither of them moved. Above her head, a very small sound came from the ledge, like the tick of a crow's claw on stone. It was the only thing that told her the world had not stopped.
+It was the closest he had ever come to saying it, and the farthest he had ever stood from it. The words hung in the narrow dark. Neither of them moved. Above her head, a small scrape came from the ledge, a crow's claw on stone. It was the only thing that told her the world had not stopped.
 
 "I do not think I am as fragile as you imagine," she said.
 
@@ -179,11 +177,11 @@ Footsteps sounded in the colonnade.
 
 ## IV
 
-Ratnan came along the arches like a man walking through a dream. He held a small oil lamp low, so it lit only his feet. His shoulders were hunched. He stopped by the third pillar from the end and stood there a long time, listening.
+Ratnan came along the arches like a man walking through a dream. He held a small oil lamp low, so that it lit only his feet. His shoulders were hunched. He stopped by the third pillar from the end and stood there a long time, listening.
 
-Vaanathi held her breath. Sancharan did not move at all.
+Vaanathi kept still. Sancharan did not move at all.
 
-A second figure came out of the dark. It was a short, soft-bodied man in a dull brown wrap. His face was round and forgettable. He carried a leather bag in one hand and he moved very quietly, with a small stoop.
+A second figure came out of the dark. It was a short, soft-bodied man in a dull brown wrap. His face was round and forgettable. He carried a leather bag in one hand and he moved quietly, with a small stoop.
 
 "Sundar," said Ratnan.
 
@@ -199,7 +197,7 @@ A second figure came out of the dark. It was a short, soft-bodied man in a dull 
 
 "A vial. A medicine. I do not know."
 
-"And she had the ledgers out. For an hour."
+"And she had the ledgers out. For a long while."
 
 "She did. She read the whole bundle." Ratnan's voice shook. "Please. I have told you what I know. You said it was only to protect her. You said the minister feared for her safety."
 
@@ -211,7 +209,7 @@ A second figure came out of the dark. It was a short, soft-bodied man in a dull 
 
 Ratnan's face worked. For a long moment he said nothing.
 
-"Thank you," he said, in a very small voice.
+"Thank you," he said, in a small voice.
 
 "Of course. And what did she say about the keeper's papers?"
 
@@ -223,7 +221,7 @@ It was a lie. Even Vaanathi could hear it. Sundar's smile did not change. He pic
 
 He drifted off into the dark, and the sound of his sandals faded.
 
-Ratnan stood where he was. He stayed there until the lamp flame had steadied. The lamp in his hand trembled and sent small shaking shadows up the carved wall. Then he lowered himself slowly onto the stone floor, put the leather bag beside him, and covered his face with both hands.
+Ratnan stayed where he was until the lamp flame had steadied. The lamp in his hand trembled and sent small shaking shadows up the carved wall. Then he lowered himself slowly onto the stone floor, put the leather bag beside him, and covered his face with both hands.
 
 His shoulders began to shake.
 
@@ -271,7 +269,7 @@ She believed him. It surprised her to find that she did.
 
 His mouth fell open. "You want me to... to lie to the minister?"
 
-"I want you to repeat what I say, and be afraid in the way you are naturally afraid. You do that very well." She heard the dry tone in her own voice and nearly smiled. "He will see nothing odd. He sees only what he expects."
+"I want you to repeat what I say, and be afraid in the way you are naturally afraid. You do that well." She heard the dry tone in her own voice and nearly smiled. "He will see nothing odd. He sees only what he expects."
 
 She thought quickly. "Next time, tell him this. Tell him I am grieving and cannot be reasoned with. Tell him I sit in my rooms with the shutters closed and talk to nobody but my maid. Tell him the scholar is a dull old man who bores me, and that I am sorry I agreed to guide him."
 
@@ -279,9 +277,7 @@ She thought quickly. "Next time, tell him this. Tell him I am grieving and canno
 
 "I am afraid I am," said Sancharan gravely. "You may tell him I snore."
 
-Ratnan made a small choked noise that was almost a laugh. It seemed to surprise him more than anyone.
-
-Ratnan stared at her. Slowly, a small crooked relief crept over his face.
+Ratnan made a small choked noise that was almost a laugh. It seemed to surprise him more than anyone. Slowly, a crooked relief crept over his face.
 
 "I can do that," he said. "I think I can do that."
 
@@ -291,7 +287,7 @@ Ratnan stared at her. Slowly, a small crooked relief crept over his face.
 
 "Tell me."
 
-"Smaran used to go out in the evenings. Alone. Through the west gate." He rubbed his face with a sleeve. "He said it was for his knees. He said the walk helped. But he came back with red mud on his sandals, thick red mud. I scrubbed them myself. Once a month, near the dark of the moon, for the last year."
+"Smaran used to go out in the evenings. Alone. Through the west gate." He rubbed his face with a sleeve. "He said it was for his knees. He said the walk helped. But he came back with red mud on his sandals, thick red mud. I scrubbed them myself. Once a month, near the dark of the moon, for the last three years."
 
 The words fell like a stone into still water.
 
@@ -317,6 +313,6 @@ Later, when Ratnan had gone to bed with his lamp and his leather bag, the two of
 
 "I know what you meant." He was looking at the dark arches, not at her. "It was the kindest thing anyone has said to me in some time. That is why I would rather not discuss it."
 
-She waited for him to say more. He did not. After a moment he turned and set off along the colonnade. She followed, a full pace behind, and saw that he kept his hands tightly clasped at his back the whole way.
+She waited for him to say more. He did not. After a moment he turned and set off along the colonnade. She followed, a full pace behind, and saw that he kept his hands clasped tightly at his back the whole way.
 
 Neither of them said the word aloud. But both of them were already thinking of the road that ran down past the west gate, and of a well with no fish in it, waiting in the dark.

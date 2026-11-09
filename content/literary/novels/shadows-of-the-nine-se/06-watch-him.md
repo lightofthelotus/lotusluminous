@@ -267,6 +267,8 @@ It took an hour to haul them out. They were wrapped in oiled cloth and tied with
 
 Vaanathi untied the first. Sancharan took the second. For a long while neither of them spoke. The leaves were cramped with columns of figures, in a script that grew steadily more formal the further back they went. Grain in. Grain out. Salaries. Tribute from the hill chiefs. A fee to a bridge builder. A fine on a drunk elephant keeper.
 
+On the shelf behind the table, two bundles of border treaties stood a hand's breadth apart. The space between them was clean of dust, as if something slim had lain there until lately. Ratnan saw her looking and found something to do with his hands.
+
 ![A Moment Shared in the Archive Room](02_04_Archiveroom_Accident.jpg)
 
 She saw it first.
@@ -311,7 +313,7 @@ She went on reading. Beside the latest entry, in the margin, in the same neat ha
 
 Ask the bell.
 
-The grooves were already dull and grey with handling. He had cut them days ago, long before that afternoon's leaf.
+The grooves were already dull and grey with handling. He had cut them days ago, long before tthe day he cut the genealogy leaf.
 
 Sancharan read them over her shoulder. For a moment he said nothing. When he spoke, it was so low that only she could hear.
 

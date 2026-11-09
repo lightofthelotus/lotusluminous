@@ -7,7 +7,7 @@ description: Chapter Seven of Shadows of the Nine, a mythological fantasy novel.
 
 ## I
 
-Her father received her at dusk, in his private room above the council hall. It was a small, bare room. It held a low bed, a table, a lamp, and a window that looked out over the river. He was standing at the window when she came in, with his back to her. He did not turn.
+Her father received her at dusk, in his private room above the council hall. It was a small, bare room with a low bed, a table, a lamp, and a window that looked out over the river. He was standing at the window when she came in, with his back to her. He did not turn.
 
 "Tell me," said Anantaraja.
 
@@ -29,7 +29,7 @@ His shoulders did not stir. But the silence in the room changed. It grew heavier
 
 "I did not ask. I only wondered."
 
-"You wondered very loudly." The corner of his mouth moved. It was not quite a smile. "I will tell you the reason one day. Not today. Today I will give you this."
+"You wondered loudly." The corner of his mouth moved. It was not quite a smile. "I will tell you the reason one day. Not today. Today I will give you this."
 
 He took something from the table and held it out. It was a small bronze disc, no wider than her palm, stamped with the sunburst and the crown. A cord ran through a hole at the top.
 
@@ -39,9 +39,9 @@ He took something from the table and held it out. It was a small bronze disc, no
 
 "I do not know. It was only advice."
 
-"It was very specific advice."
+"It was specific advice."
 
-"I am a very specific man." He released her hand and turned back to the window. "Go. Take the scholar. Come back."
+"I am a specific man." He released her hand and turned back to the window. "Go. Take the scholar. Come back."
 
 She stood a moment, with the disc cold in her fist. The lamp on the table threw her shadow long against the wall, and it looked, for a moment, like the shadow of someone much older. She wanted to ask what he knew. She wanted it so badly that her teeth ached. But his back was turned, and his shoulders were straight, and she understood that the door had been opened as far as it would go tonight.
 
@@ -49,11 +49,11 @@ She stood a moment, with the disc cold in her fist. The lamp on the table threw 
 
 ## II
 
-They left by the west gate an hour after midnight.
+They left by the west gate a little after midnight.
 
 The gate guard was a stout young man named Pazhani, who knew the princess by sight and the scholar by reputation. He raised his eyebrows when he saw them. He raised them higher when he saw the crow.
 
-"The emperor's leave," said Vaanathi, and held up the small bronze token her father had given her that afternoon.
+"The emperor's leave," said Vaanathi, and held up the small bronze token her father had given her that evening.
 
 "Highness, it is very late."
 
@@ -71,9 +71,9 @@ He looked at the token, and at her, and at the tall man standing behind her with
 
 "Come back," he said, rather helplessly. "That is all I ask."
 
-The road beyond the gate was dark. It ran downhill between hedges of thorn and a few stunted neem trees. The night was warm and very still. No wind moved. The stars were out, and there were many of them, but they were far apart and cold, as stars are when there is no moon.
+The road beyond the gate was dark. It ran downhill between hedges of thorn and a few stunted neem trees. The night was warm and still. No wind moved. The stars were out, many of them, far apart and cold.
 
-It was the dark of the moon in all but name. Eleven days off, by the old astronomer's count. But the sky was already thin.
+There should have been a moon. By the old astronomer's count the dark of the moon was eighteen days off, and tonight's moon should have stood nearly full over the hedges. There was none. The sky was already thin.
 
 They walked without talking. Sancharan carried the lantern. Iruli flew ahead and came back and flew ahead again, a small piece of night cut loose. Vaanathi counted the bends. At the third, she stepped over the ditch. The water in it was moving the wrong way, uphill, in a slow dark slide, and she decided not to look.
 
@@ -85,7 +85,7 @@ They walked without talking. Sancharan carried the lantern. Iruli flew ahead and
 
 "I make them when I can."
 
-The stepwell stood at the bottom of the slope. She had passed it on festival days, with crowds and drums and women selling jasmine. At night it was something else. It was a long square hole in the ground, lined with stone. Around its mouth ran a low wall, black and wet. Beyond the wall, there was nothing at all. The dark went straight down.
+The stepwell lay at the bottom of the slope. She had passed it on festival days, with crowds and drums and women selling jasmine. At night it was something else. It was a long hole in the ground, lined with stone. Around its mouth ran a low wall of black stone, wet and slick. Beyond the wall there was nothing at all. The dark went straight down.
 
 "It is deeper than I remembered," she said.
 
@@ -97,11 +97,11 @@ The stepwell stood at the bottom of the slope. She had passed it on festival day
 
 ## III
 
-The steps began at the south side. They went down in broad flights, nine levels in all, each ending in a stone landing with a pillared gallery on three sides. The pillars were thick and square, carved with the faded shapes of animals. On every landing, the air was a little colder.
+The steps began at the south side. They went down in broad flights, nine levels in all, each ending in a stone landing with a pillared gallery on three sides. The pillars were thick and carved with the faded forms of animals. On every landing, the air was a little colder.
 
 ![Amuthakulam](05-01-stepwell-descent.jpg)
 
-She went down first. He followed one landing behind, as he had in the tower. Iruli rode on his shoulder, silent, and her yellow eye caught the light.
+She went down first. He followed one landing behind, as he had in the tower. Iruli rode on his shoulder, silent, her yellow eye catching the light.
 
 At the second landing, the sounds of the night went out. There were no frogs. There were no insects. Only the soft scrape of sandals on stone.
 
@@ -123,7 +123,7 @@ Scratches. They were small and neat, in a column, cut into the stone at the heig
 
 "I think so. Not yet." He was standing on the step above, one hand on the wall, and his face had gone strangely stiff. He was breathing slowly and carefully, as someone does when carrying something fragile up a flight of stairs. "Go on. I will follow."
 
-At the sixth landing, the lantern would not stay lit. It guttered and shrank and went out. She stood in the dark. A moment later, a faint blue-grey glow rose from below, from the ninth tier far beneath her feet. It was just enough to show the shapes of the pillars.
+At the sixth landing, the lantern would not stay lit. It guttered and shrank and went out. She stood in the dark. A moment later, a faint blue-grey glow rose from the ninth tier far beneath her feet. It was just enough to show the pillars.
 
 She looked back.
 
@@ -135,7 +135,7 @@ Sancharan had stopped at the top of the sixth flight. He stood with one foot on 
 
 "What do you mean?"
 
-"There is a ward." His voice was level, but it cost him. "It is old. It was made by people like me, to keep out people like me. I can feel it, here." He pressed his palm against nothing. "It is very well made."
+"There is a ward." His voice was level, but it cost him. "It is old. It was made by people like me, to keep out people like me. I can feel it here." He pressed his palm against nothing. "It is well made."
 
 "Can you break it?"
 
@@ -145,7 +145,7 @@ Sancharan had stopped at the top of the sixth flight. He stood with one foot on 
 
 "By everyone it was made to keep out." He drew a breath. "Go back, Vaanathi."
 
-It was the first time he had said her name. It stopped her where she stood. She had been called Highness and Princess a thousand times. It had never sounded like that, quiet and plain, as if it were a stone he had carried a long way and was setting down.
+It was the first time he had said her name. It stopped her where she stood. She had been called Highness and Princess a thousand times. It had never sounded like that, quiet and plain, like a stone he had carried a long way and was setting down.
 
 "Why can I pass?" she asked.
 
@@ -203,11 +203,11 @@ The seventh landing was empty. The eighth was empty, too, except for a thin skin
 
 It was a blue-white light, cold and steady, and it came from the stone.
 
-The ninth landing was a square platform at the bottom of the well. On three sides, the walls rose straight and bare into the dark. On the fourth side lay a pool of black still water. It was perfectly flat. It reflected nothing.
+The ninth landing was a platform at the bottom of the well. On three sides, the walls rose straight and bare into the dark. On the fourth side lay a pool of black still water. It was perfectly flat. It reflected nothing.
 
 At the edge of the pool stood a stone.
 
-It was grey and rough, about as tall as her waist. It had been squared off by hand in some earlier age, and its top was worn smooth. In its face, cut deep, was the wheel. She knew it before she saw it. The circle, the hub, nine spokes, and a wedge gone at the bottom.
+It was grey and rough, about as tall as her waist. It had been shaped by hand in some earlier age, and its top was worn smooth. In its face, cut deep, was the wheel. She knew it before she saw it. The circle, the hub, nine spokes, and a wedge gone at the bottom.
 
 The light was coming out of the wedge.
 
@@ -215,7 +215,7 @@ She stood a long time looking at it. Iruli's claws tightened and eased on her sh
 
 The face of the stone was marked in other ways. Someone had scraped it. Long pale grooves ran across it, each one the width of a finger, some fresh and bright, some dull with age. A heap of grey grains lay at its foot, as fine as ground millet. She knelt and picked up a pinch. It was gritty, dry, and curiously cold. It did not feel like dust. It felt like something that had once been burning and had forgotten how.
 
-Beside the stone, on the floor, lay a small clay lamp. It was cold and dry and quite empty. It had been placed there neatly, in the exact centre of a square of cleaner stone. She knew at once whose it was. Smaran had never let a lamp run dry in his life. This one had been left behind on purpose, a signal that said, *I was here, and I meant to return.*
+Beside the stone, on the floor, lay a small clay lamp. It was cold and dry and empty. It had been placed there neatly, in the centre of a patch of cleaner stone. She knew at once whose it was. Smaran had never let a lamp run dry in his life. This one had been left behind on purpose, a signal that said, *I was here, and I meant to return.*
 
 She folded it into a corner of the red cloth that held Smaran's letters.
 
@@ -259,7 +259,7 @@ It was not like any sky she had known. It was deep and slow and full of colour. 
 
 A smell came through the door. It was clean and cold, like the air at the top of a mountain.
 
-Vaanathi stood very still.
+Vaanathi stood still.
 
 *I should go back,* she thought. It was a reasonable thought. She held it up and examined it. It was the thought of a sensible person, and she had been a sensible person all her life.
 
@@ -267,7 +267,7 @@ Above her, Sancharan's voice rose again. It was louder now. It had a new note in
 
 "Vaanathi. Do not go through."
 
-She looked up the shaft. She could not see him. She could only see the dark and the faint pale shape of the steps. A single thin shaft of grey light fell from far above, from the sky of the human world, and it lay across the water like a blade.
+She looked up the shaft. She could not see him. She could see only the dark and the faint pale line of the steps. A single thin shaft of grey light fell from far above, from the sky of the human world, and it lay across the water like a blade.
 
 "I will be back before you finish shouting," she called.
 
@@ -281,7 +281,7 @@ She turned and stepped through.
 
 The door shut behind her. It did not slam. It closed with a soft sound, like a long breath let go, and the cold blue light of the well went out as though it had never been.
 
-Far above, on the sixth landing, Sancharan stood with both hands flat against the air. It had begun to crack. It made a sound like ice on a river in spring, long and thin and rising. Fine lines ran out from under his palms in every direction, silver and glittering. Somewhere beyond the door a crow cried out once, thin and far away. It was the cry of a creature that had been told to keep one person safe and was doing the only thing left to her, which was to go with her.
+Far above, on the sixth landing, Sancharan stood with both hands flat against the air. It had begun to crack. It made a sound like a great clay jar splitting in the heat, long and thin and rising. Fine lines ran out from under his palms in every direction, silver and glittering. Somewhere beyond the door a crow cried out once, thin and far away. It was the cry of a creature that had been told to keep one person safe and was doing the only thing left to her, which was to go with her.
 
 He had not been forbidden a door in an age of the world.
 

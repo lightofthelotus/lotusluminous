@@ -77,7 +77,7 @@ He started up the stairs. She fell in beside him because she could not think how
 
 "Has something gone wrong on the road?"
 
-"Not on the road. Here." He nodded at the dark bulk of the palace above them. "You have a flood, a drowned ferryman and a fallen roof. You have a dead keeper. You have a minister who stands close to your father. And you have a princess who comes down forty wet steps at night to meet a stranger herself, instead of sending a servant."
+"Not on the road. Here." He nodded at the dark bulk of the palace above them. "You have a flood, a drowned ferryman and a fallen roof. You have a dead keeper. You have a minister who stands closer to your father than the guards do. I saw him on the terrace as I came in. And you have a princess who comes down forty wet steps at night to meet a stranger herself, instead of sending a servant."
 
 "I wanted to see you before anyone told you what to say."
 
@@ -103,7 +103,7 @@ The city lay around them in the dark. Anantapuram. When he had last come this wa
 
 ![Anantapuram Palace, seen from the river gate](00_02_Palace_Front.jpg)
 
-He had not meant to come. Few of his kind went among mortals. It had been agreed long ago that they would not. But three nights ago, a name had been spoken in a sealed room. It was the name he had given to a king, in this very place, before the first stone of the palace was laid. Sancharan. The one who walks. It had been written in the founder's sealed instructions, to be used only if the line was in danger.
+He had not meant to come. Few of his kind went among mortals. It had been agreed long ago that they would not. But some nights ago, a name had been spoken in a sealed room. It was the name he had given to a king, in this very place, before the first stone of the palace was laid. Sancharan. The one who walks. It had been written in the founder's sealed instructions, to be used only if the line was in danger.
 
 Someone in the Anantha house had broken that seal and said the name aloud. And so he had come.
 
